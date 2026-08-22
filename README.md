@@ -1,2 +1,76 @@
-# openstax-precalculus-2e-id
-OpenStax Precalculus 2e — edisi parsial Bahasa Indonesia dengan pembaca PDF dan backend modular
+# OpenStax Precalculus 2e — Bahasa Indonesia
+
+This is the separate working lane for an independent Bahasa Indonesia (`id-ID`)
+edition of **OpenStax Precalculus 2e**, curriculum resource R002 / course A30.
+It does not contain or represent the three earlier OpenStax foundation books or
+the other books stored in the upstream bundle repository.
+
+## Exact upstream authority
+
+- Repository: <https://github.com/openstax/osbooks-college-algebra-bundle>
+- Branch: `main`
+- Commit: `789b54099106b071d1d32bfcee454fed72eb4768`
+- Tree: `05b39123f698772482c0c33a43fa2d2d4ea562ae`
+- Selected collection: `collections/precalculus-2e.collection.xml`
+- Collection UUID: `f021395f-fd63-46cd-ab95-037c6f051730`
+
+The exact archive and API evidence are retained under `authority/`. The selected
+closure contains 87 modules and 1,873 explicitly referenced media files; shared
+bundle metadata, the trademark-controlled original cover, and all other works
+are excluded from the target/publication.
+
+## Current state
+
+The source closure and component-rights inventory are frozen, and an exact copy
+of the 1,961 selected files has been materialized under `repo/source/`. The prose
+rights gate passes for noncommercial translation under CC BY-NC-SA 4.0. Of the
+1,873 media assets, 1,835 are admitted and 38 remain quarantined until replaced,
+excluded, or independently cleared.
+
+The first 17 of 87 modules are translated contiguously and structurally verified,
+from the front matter (`m50919`) through Quadratic Functions (`m49337`).
+Seventy-two baked-English or source-defective assets have deterministic
+Indonesian SVG derivatives. The modular backend contains 50,259 records and 36
+deterministic exports; two consecutive builds were byte-identical. Power
+Functions and Polynomial Functions (`m49346`) is the active next module. No
+upstream author has been contacted. A 495-page A4 partial reader now presents
+this exact prefix with centered, page-filling layout, native mathematics, 393
+admitted media references, and explicit replacement panels for the ten active
+binaries that remain quarantined.
+
+## Preservation
+
+The current rights-gated reader checkpoint is preserved at Zenodo as version
+`0.1.0-alpha.17-reader.1`: <https://doi.org/10.5281/zenodo.22061096>. Its primary
+artifact is the 495-page PDF reader; compact resumable CNXML source and modular
+backend packages accompany it. The release is explicitly incomplete. Ten
+quarantined binaries referenced inside the translated prefix are omitted and
+identified by path and hash. Future snapshots and the final edition will stay
+on Zenodo concept DOI <https://doi.org/10.5281/zenodo.22059757>.
+
+Figshare contains a zero-file CC0 metadata/link record at
+<https://doi.org/10.6084/m9.figshare.33314805.v1> with a direct link to the
+current PDF. Free Figshare applies one article-level license and does not offer
+the work's exact CC BY-NC-SA 4.0/composite-rights choice, so no release bytes are
+mislicensed there. The record belongs to the requested public project and
+Indonesian collection.
+
+The corpus-specific public repository is
+<https://github.com/KokunoYumeto/openstax-precalculus-2e-id>. Reader checkpoints
+are published as clearly labeled prereleases while contiguous translation
+continues.
+
+## Structure
+
+- `00_control/`: durable goal, cursor, authority, decisions, terminology,
+  rights, backend version, and later release receipts.
+- `authority/`: immutable pinned repository evidence and selected source closure.
+- `repo/`: separate editable Indonesian source and reader project.
+- `backend/`: locale-neutral entities and deterministic JSON/JSONL/CSV exports.
+- `qa/`: structural, semantic, mathematical, language, rights, build, visual,
+  and artifact witnesses.
+- `scripts/`: bounded deterministic tooling for this corpus only.
+
+This is a noncommercial translation program. The selected collection declares
+CC BY-NC-SA 4.0, but every materially distinct component must still be recorded
+at the smallest useful rights boundary before publication.
