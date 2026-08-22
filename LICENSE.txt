@@ -1,8 +1,8 @@
 OpenStax Precalculus 2e - edisi parsial Bahasa Indonesia
 
 STATUS
-Edisi ini belum lengkap. Cakupan saat ini adalah 17 dari 87
-modul dalam urutan sumber, melalui m49337. Modul berikutnya adalah m49346.
+Edisi ini belum lengkap. Cakupan saat ini adalah 18 dari 87
+modul dalam urutan sumber, melalui m49346. Modul berikutnya adalah m49347.
 
 LISENSI KARYA DAN ADAPTASI
 Teks buku sumber dan adaptasi/terjemahan ini dilisensikan berdasarkan Creative
@@ -15,9 +15,12 @@ https://openstax.org/details/books/precalculus-2e
 
 Perubahan: terjemahan ke Bahasa Indonesia, pelokalan aksesibilitas dan gambar,
 penyusunan ulang teknis untuk pembaca parsial, serta koreksi terbatas yang
-dicatat. Adaptasi tidak resmi ini dibuat dengan bantuan AI oleh Codex atas
-permintaan Floris. OpenStax dan Rice University tidak berafiliasi dengan,
-mensponsori, mendukung, atau mengesahkan adaptasi ini.
+dicatat. Adaptasi tidak resmi ini dibuat dengan bantuan OpenAI Codex gpt-5.6-sol, Ultra,
+sebagai alat dalam proses atas permintaan pengguna. Ini adalah
+pengungkapan alat/proses, bukan kredit kepengarangan; kredit Jay Abramson,
+OpenStax, dan para kontributor manusia tetap berlaku. OpenStax dan Rice
+University tidak berafiliasi dengan, mensponsori, mendukung, atau mengesahkan
+adaptasi ini.
 
 HAK KOMPONEN
 Hak komponen bersifat komposit. Atribusi dan lisensi komponen yang lebih khusus
