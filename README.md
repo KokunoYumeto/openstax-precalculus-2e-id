@@ -27,23 +27,30 @@ rights gate passes for noncommercial translation under CC BY-NC-SA 4.0. Of the
 1,873 media assets, 1,835 are admitted and 38 remain quarantined until replaced,
 excluded, or independently cleared.
 
-The first 17 of 87 modules are translated contiguously and structurally verified,
-from the front matter (`m50919`) through Quadratic Functions (`m49337`).
-Seventy-two baked-English or source-defective assets have deterministic
-Indonesian SVG derivatives. The modular backend contains 50,259 records and 36
-deterministic exports; two consecutive builds were byte-identical. Power
-Functions and Polynomial Functions (`m49346`) is the active next module. No
-upstream author has been contacted. A 495-page A4 partial reader now presents
-this exact prefix with centered, page-filling layout, native mathematics, 393
-admitted media references, and explicit replacement panels for the ten active
-binaries that remain quarantined.
+The first 18 of 87 modules are translated contiguously and structurally verified,
+from the front matter (`m50919`) through Power Functions and Polynomial Functions
+(`m49346`). Seventy-eight baked-English or source-defective assets have
+deterministic Indonesian SVG derivatives. The modular backend contains 53,517
+records and 36 deterministic exports; two consecutive builds were
+byte-identical. Graphs of Polynomial Functions (`m49347`) is the active next
+module and remains outside the admitted prefix while its accessibility and
+localized-asset review is completed. No upstream author has been contacted. A
+534-page A4 partial reader now presents this exact prefix with centered,
+page-filling layout, native mathematics, 431 admitted media references, and
+explicit replacement panels for the eleven active binaries that remain
+quarantined.
+
+Translation and localization were produced with tool/process assistance from
+OpenAI Codex gpt-5.6-sol, Ultra, acting on the user's request. This is a process
+disclosure, not an authorship credit; Jay Abramson, OpenStax, and the source's
+human contributors retain their existing credits.
 
 ## Preservation
 
 The current rights-gated reader checkpoint is preserved at Zenodo as version
-`0.1.0-alpha.17-reader.1`: <https://doi.org/10.5281/zenodo.22061096>. Its primary
-artifact is the 495-page PDF reader; compact resumable CNXML source and modular
-backend packages accompany it. The release is explicitly incomplete. Ten
+`0.1.0-alpha.18-reader.1`: <https://doi.org/10.5281/zenodo.22062466>. Its primary
+artifact is the 534-page PDF reader; compact resumable CNXML source and modular
+backend packages accompany it. The release is explicitly incomplete. Eleven
 quarantined binaries referenced inside the translated prefix are omitted and
 identified by path and hash. Future snapshots and the final edition will stay
 on Zenodo concept DOI <https://doi.org/10.5281/zenodo.22059757>.
