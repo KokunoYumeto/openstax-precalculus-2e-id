@@ -27,15 +27,15 @@ rights gate passes for noncommercial translation under CC BY-NC-SA 4.0. Of the
 1,873 media assets, 1,835 are admitted and 38 remain quarantined until replaced,
 excluded, or independently cleared.
 
-The first 21 of 87 modules are translated contiguously and structurally verified,
-from the front matter (`m50919`) through Zeros of Polynomial Functions
-(`m49349`). Ninety-three baked-English or source-defective assets have
-deterministic Indonesian SVG derivatives. The modular backend contains 61,370
-records and 36 deterministic exports; two consecutive builds were
-byte-identical. `m49351` is the active next module and remains outside the
-admitted prefix. No upstream author has been contacted. The current public
-21-module reader is 607 A4 pages and passed two byte-identical builds, logical
-PDF checks, and independent visual review; it renders 507 admitted media
+The first 22 of 87 modules are translated contiguously and structurally verified,
+from the front matter (`m50919`) through Rational Functions (`m49351`). One
+hundred-one baked-English or source-defective assets have deterministic
+Indonesian SVG derivatives. The modular backend contains 65,133 records and 36
+deterministic exports; two consecutive builds were byte-identical. `m49352` is
+the active next module and remains outside the admitted prefix. No upstream
+author has been contacted. The current public 22-module reader is 653 A4 pages
+and passed three byte-identical builds, logical PDF checks, and independent
+visual review; it renders 550 admitted media
 references and explicit replacement panels for twelve quarantined binaries.
 
 Translation and localization were produced with tool/process assistance on the
@@ -46,19 +46,20 @@ source's human contributors retain their existing credits.
 ## Preservation
 
 The current rights-gated reader checkpoint is preserved at Zenodo as version
-`0.1.0-alpha.21-reader.1`: <https://doi.org/10.5281/zenodo.22063502>. Its primary
-artifact is the 607-page PDF reader; compact resumable CNXML source and modular
+`0.1.0-alpha.22-reader.1`: <https://doi.org/10.5281/zenodo.22070918>. Its primary
+artifact is the 653-page PDF reader; compact resumable CNXML source and modular
 backend packages accompany it. The release is explicitly incomplete. Twelve
 quarantined binaries referenced inside the translated prefix are omitted and
 identified by path and hash. Future snapshots and the final edition will stay
 on Zenodo concept DOI <https://doi.org/10.5281/zenodo.22059757>.
 
-Figshare contains a zero-file CC0 metadata/link record at
-<https://doi.org/10.6084/m9.figshare.33314805.v1> with a direct link to the
-current PDF. Free Figshare applies one article-level license and does not offer
-the work's exact CC BY-NC-SA 4.0/composite-rights choice, so no release bytes are
-mislicensed there. The record belongs to the requested public project and
-Indonesian collection.
+The intended Figshare metadata/link lineage is the requested public project
+<https://figshare.com/projects/Open_and_Share-Alike_Educational_Materials_Translations/280296>.
+At this checkpoint the prior article 33314805 is no longer present in the
+anonymous project/article inventory, and the supplied Figshare account returns
+`InactiveAccount`; no duplicate item or mislicensed release bytes were created.
+Retry the same article after account restoration. Zenodo remains the canonical
+public file host.
 
 The corpus-specific public repository is
 <https://github.com/KokunoYumeto/openstax-precalculus-2e-id>. Reader checkpoints
