@@ -27,16 +27,16 @@ rights gate passes for noncommercial translation under CC BY-NC-SA 4.0. Of the
 1,873 media assets, 1,835 are admitted and 38 remain quarantined until replaced,
 excluded, or independently cleared.
 
-The first 22 of 87 modules are translated contiguously and structurally verified,
-from the front matter (`m50919`) through Rational Functions (`m49351`). One
-hundred-one baked-English or source-defective assets have deterministic
-Indonesian SVG derivatives. The modular backend contains 65,133 records and 36
-deterministic exports; two consecutive builds were byte-identical. `m49352` is
-the active next module and remains outside the admitted prefix. No upstream
-author has been contacted. The current public 22-module reader is 653 A4 pages
-and passed three byte-identical builds, logical PDF checks, and independent
-visual review; it renders 550 admitted media
-references and explicit replacement panels for twelve quarantined binaries.
+The first 23 of 87 modules are translated contiguously and structurally verified,
+from the front matter (`m50919`) through Inverses and Radical Functions
+(`m49352`). One hundred-two baked-English or source-defective assets have
+deterministic Indonesian SVG derivatives. The modular backend contains 67,193
+records and 36 deterministic exports; two consecutive builds were byte-identical.
+`m49353` is the active next module and remains outside the admitted prefix. No
+upstream author has been contacted. The current public checkpoint reader is 685
+A4 pages and passed three byte-identical builds, logical PDF checks, and
+independent visual review; it renders 569 admitted media references and explicit
+replacement panels for twelve quarantined binaries.
 
 Translation and localization were produced with tool/process assistance on the
 user's request. Model identification: OpenAI Codex gpt-5.6-sol, Ultra. This is
@@ -45,13 +45,17 @@ source's human contributors retain their existing credits.
 
 ## Preservation
 
-The current rights-gated reader checkpoint is preserved at Zenodo as version
-`0.1.0-alpha.22-reader.1`: <https://doi.org/10.5281/zenodo.22070918>. Its primary
-artifact is the 653-page PDF reader; compact resumable CNXML source and modular
-backend packages accompany it. The release is explicitly incomplete. Twelve
-quarantined binaries referenced inside the translated prefix are omitted and
-identified by path and hash. Future snapshots and the final edition will stay
-on Zenodo concept DOI <https://doi.org/10.5281/zenodo.22059757>.
+The current rights-gated reader checkpoint is version
+`0.1.0-alpha.23-reader.1`, with the 685-page PDF as its primary artifact and
+compact resumable CNXML source and modular backend packages alongside it. The
+release is explicitly incomplete. Twelve quarantined binaries referenced inside
+the translated prefix are omitted and identified by path and hash. All reader
+versions remain on Zenodo concept DOI <https://doi.org/10.5281/zenodo.22059757>;
+the exact version DOI and anonymous byte-readback are recorded in the local
+publication receipt and the public release metadata. The alpha.23 write was
+attempted against that existing concept; during this checkpoint Zenodo's API
+returned transient 504 responses before a draft identifier, so no duplicate
+concept was created and the local receipt records the pending retry.
 
 The intended Figshare metadata/link lineage is the requested public project
 <https://figshare.com/projects/Open_and_Share-Alike_Educational_Materials_Translations/280296>.
