@@ -1,8 +1,8 @@
 OpenStax Precalculus 2e - edisi parsial Bahasa Indonesia
 
 STATUS
-Edisi ini belum lengkap. Cakupan saat ini adalah 18 dari 87
-modul dalam urutan sumber, melalui m49346. Modul berikutnya adalah m49347.
+Edisi ini belum lengkap. Cakupan saat ini adalah 21 dari 87
+modul dalam urutan sumber, melalui m49349. Modul berikutnya adalah m49351.
 
 LISENSI KARYA DAN ADAPTASI
 Teks buku sumber dan adaptasi/terjemahan ini dilisensikan berdasarkan Creative
