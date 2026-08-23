@@ -46,16 +46,17 @@ source's human contributors retain their existing credits.
 ## Preservation
 
 The current rights-gated reader checkpoint is version
-`0.1.0-alpha.23-reader.1`, with the 685-page PDF as its primary artifact and
+`0.1.0-alpha.23-reader.1`, preserved at <https://doi.org/10.5281/zenodo.22071329>.
+It has the 685-page PDF as its primary artifact and
 compact resumable CNXML source and modular backend packages alongside it. The
 release is explicitly incomplete. Twelve quarantined binaries referenced inside
 the translated prefix are omitted and identified by path and hash. All reader
 versions remain on Zenodo concept DOI <https://doi.org/10.5281/zenodo.22059757>;
-the exact version DOI and anonymous byte-readback are recorded in the local
-publication receipt and the public release metadata. The alpha.23 write was
-attempted against that existing concept; during this checkpoint Zenodo's API
-returned transient 504 responses before a draft identifier, so no duplicate
-concept was created and the local receipt records the pending retry.
+the exact version DOI and anonymous byte-readback are recorded in
+`qa/ZENODO_READER_0.1.0-alpha.23-reader.1_20260823T212500+0200.json` and the
+public release metadata. The first bounded attempts encountered transient 504
+responses; the recovered retry created this single new version on the existing
+concept, with no duplicate concept.
 
 The intended Figshare metadata/link lineage is the requested public project
 <https://figshare.com/projects/Open_and_Share-Alike_Educational_Materials_Translations/280296>.
