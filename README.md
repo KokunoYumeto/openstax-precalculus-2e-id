@@ -60,11 +60,12 @@ concept, with no duplicate concept.
 
 The intended Figshare metadata/link lineage is the requested public project
 <https://figshare.com/projects/Open_and_Share-Alike_Educational_Materials_Translations/280296>.
-At this checkpoint the prior article 33314805 is no longer present in the
-anonymous project/article inventory, and the supplied Figshare account returns
-`InactiveAccount`; no duplicate item or mislicensed release bytes were created.
-Retry the same article after account restoration. Zenodo remains the canonical
-public file host.
+At this checkpoint article 33314805 is still absent from the anonymous
+project/article inventory; the alpha.23 retry therefore made no mutation and no
+duplicate item or mislicensed release bytes were created. The bounded evidence
+is in `qa/FIGSHARE_READER_LINK_0.1.0-alpha.23-reader.1_20260823T214000+0200_BLOCKED.json`.
+Retry the same article after Figshare visibility/account restoration. Zenodo
+remains the canonical public file host.
 
 The corpus-specific public repository is
 <https://github.com/KokunoYumeto/openstax-precalculus-2e-id>. Reader checkpoints
