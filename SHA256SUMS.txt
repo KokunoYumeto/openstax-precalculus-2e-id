@@ -1,6 +1,6 @@
-7680bfbaf07061d2fd62b4d9a629c397cd8339df51da0408896bf97fff8d9a93  OpenStax-Precalculus-2e-id-ID-0.1.0-alpha.22-reader.pdf
-a997be1197f72cfaa9a74fa8f1bac9d647d2a908c5fe0a5f985c1566743a4847  precalculus-2e-id-ID-0.1.0-alpha.22-reader.1-source-core.zip
-0bb86b109adcbe125263f6638946719212eec934f57efc0b6960111b4c730b8c  precalculus-2e-id-ID-0.1.0-alpha.22-reader.1-backend-core.zip
-4829fc581241ddbb23d99709e41dc1dd6a9bff0ffae467372ad22a23e1e53b9e  LICENSE.txt
-ddd9ce68e8bfaf519917ffc551eb672a51ec587acfc2bf79f7ddbf1311c279d6  README.txt
-bfb8b9be502b547aaa8ff820ea10aea945a957644f65638efc99b48de98afd8a  precalculus-2e-id-ID-0.1.0-alpha.22-reader.1-manifest.json
+62d8cd9361a93f09a527b8979539c551587f29a969249849efb065045df24a8f  OpenStax-Precalculus-2e-id-ID-0.1.0-alpha.23-reader.pdf
+1b5417c97fa5bd434c0daac1ec3ffc90b61c7f0de6e14baa445662e7b5059656  precalculus-2e-id-ID-0.1.0-alpha.23-reader.1-source-core.zip
+de28f0a3d8848a8dfd181780ca9fc4472c6fd90953ed506170ae6597a3679095  precalculus-2e-id-ID-0.1.0-alpha.23-reader.1-backend-core.zip
+b46ffc6c316249a4fa99554345b699e97522b1fbfdf84c8bcc1a08426f837813  LICENSE.txt
+52119c42b766838a8e70d4a4b6eaedb12d75c0d4a32ccdf76676573e2b38151c  README.txt
+feee2fe5e7755a8214ea1d23bdcfdcc3bbcaeae86e66b5e9443b5564824fbc02  precalculus-2e-id-ID-0.1.0-alpha.23-reader.1-manifest.json
