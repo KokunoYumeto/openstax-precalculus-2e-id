@@ -1,21 +1,21 @@
 {
   "archives": [
     {
-      "bytes": 28999133,
-      "entry_count": 588,
-      "filename": "precalculus-2e-id-ID-0.1.0-alpha.22-reader.1-source-core.zip",
-      "member_inventory_sha256": "f1d0a8077de5ff070c001d054ec0360b5a2091ea0f42d30f4874b4add3ec8f7d",
-      "sha256": "a997be1197f72cfaa9a74fa8f1bac9d647d2a908c5fe0a5f985c1566743a4847",
-      "uncompressed_bytes": 49193975,
+      "bytes": 30040286,
+      "entry_count": 608,
+      "filename": "precalculus-2e-id-ID-0.1.0-alpha.23-reader.1-source-core.zip",
+      "member_inventory_sha256": "0d6825b55de3c594eb16a09fb00d84a5a33b681abadbb2eb3a148066f944b5bd",
+      "sha256": "1b5417c97fa5bd434c0daac1ec3ffc90b61c7f0de6e14baa445662e7b5059656",
+      "uncompressed_bytes": 50667352,
       "verification": "zip_open_crc_inventory_member_bytes_pass"
     },
     {
-      "bytes": 25603865,
+      "bytes": 26489609,
       "entry_count": 25,
-      "filename": "precalculus-2e-id-ID-0.1.0-alpha.22-reader.1-backend-core.zip",
-      "member_inventory_sha256": "5c5b2902816c4b43db13eaf7e0ff43d6d1dbc2b97ee085c22fea255315abe5a4",
-      "sha256": "0bb86b109adcbe125263f6638946719212eec934f57efc0b6960111b4c730b8c",
-      "uncompressed_bytes": 292416233,
+      "filename": "precalculus-2e-id-ID-0.1.0-alpha.23-reader.1-backend-core.zip",
+      "member_inventory_sha256": "27eddca52f01f285f8ad8edb56ee04911a5bac2da715357dd55955763c35bbda",
+      "sha256": "de28f0a3d8848a8dfd181780ca9fc4472c6fd90953ed506170ae6597a3679095",
+      "uncompressed_bytes": 301676946,
       "verification": "zip_open_crc_inventory_member_bytes_pass"
     }
   ],
@@ -32,29 +32,29 @@
   },
   "files": [
     {
-      "bytes": 77073264,
-      "filename": "OpenStax-Precalculus-2e-id-ID-0.1.0-alpha.22-reader.pdf",
-      "sha256": "7680bfbaf07061d2fd62b4d9a629c397cd8339df51da0408896bf97fff8d9a93"
+      "bytes": 79737078,
+      "filename": "OpenStax-Precalculus-2e-id-ID-0.1.0-alpha.23-reader.pdf",
+      "sha256": "62d8cd9361a93f09a527b8979539c551587f29a969249849efb065045df24a8f"
     },
     {
-      "bytes": 28999133,
-      "filename": "precalculus-2e-id-ID-0.1.0-alpha.22-reader.1-source-core.zip",
-      "sha256": "a997be1197f72cfaa9a74fa8f1bac9d647d2a908c5fe0a5f985c1566743a4847"
+      "bytes": 30040286,
+      "filename": "precalculus-2e-id-ID-0.1.0-alpha.23-reader.1-source-core.zip",
+      "sha256": "1b5417c97fa5bd434c0daac1ec3ffc90b61c7f0de6e14baa445662e7b5059656"
     },
     {
-      "bytes": 25603865,
-      "filename": "precalculus-2e-id-ID-0.1.0-alpha.22-reader.1-backend-core.zip",
-      "sha256": "0bb86b109adcbe125263f6638946719212eec934f57efc0b6960111b4c730b8c"
+      "bytes": 26489609,
+      "filename": "precalculus-2e-id-ID-0.1.0-alpha.23-reader.1-backend-core.zip",
+      "sha256": "de28f0a3d8848a8dfd181780ca9fc4472c6fd90953ed506170ae6597a3679095"
     },
     {
-      "bytes": 1570,
+      "bytes": 1602,
       "filename": "LICENSE.txt",
-      "sha256": "4829fc581241ddbb23d99709e41dc1dd6a9bff0ffae467372ad22a23e1e53b9e"
+      "sha256": "b46ffc6c316249a4fa99554345b699e97522b1fbfdf84c8bcc1a08426f837813"
     },
     {
-      "bytes": 1248,
+      "bytes": 1262,
       "filename": "README.txt",
-      "sha256": "ddd9ce68e8bfaf519917ffc551eb672a51ec587acfc2bf79f7ddbf1311c279d6"
+      "sha256": "52119c42b766838a8e70d4a4b6eaedb12d75c0d4a32ccdf76676573e2b38151c"
     }
   ],
   "license": {
@@ -62,12 +62,12 @@
     "quarantined_assets_omitted": 12,
     "work": "CC BY-NC-SA 4.0"
   },
-  "observed_at": "2026-08-23T19:35:00+02:00",
+  "observed_at": "2026-08-23T21:15:00+02:00",
   "progress": {
-    "contiguous_through": "m49351",
-    "next_module": "m49352",
+    "contiguous_through": "m49352",
+    "next_module": "m49353",
     "total_modules": 87,
-    "translated_modules": 22
+    "translated_modules": 23
   },
   "provenance": {
     "requested_by": "the user",
@@ -75,7 +75,7 @@
     "translation_localization_assistance": "OpenAI Codex gpt-5.6-sol, Ultra"
   },
   "reader": {
-    "filename": "OpenStax-Precalculus-2e-id-ID-0.1.0-alpha.22-reader.pdf",
+    "filename": "OpenStax-Precalculus-2e-id-ID-0.1.0-alpha.23-reader.pdf",
     "primary_visible_file": true,
     "quarantined_binary_treatment": "clear omission placeholders"
   },
@@ -87,5 +87,5 @@
     "crc_inventory_member_bytes": "pass",
     "task_payload_limit_bytes": 500000000
   },
-  "version": "0.1.0-alpha.22-reader.1"
+  "version": "0.1.0-alpha.23-reader.1"
 }
