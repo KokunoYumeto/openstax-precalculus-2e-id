@@ -1,21 +1,21 @@
 {
   "archives": [
     {
-      "bytes": 33631348,
-      "entry_count": 678,
-      "filename": "precalculus-2e-id-ID-0.1.0-alpha.27-reader.1-source-core.zip",
-      "member_inventory_sha256": "93930bbaa3676427aa43c801339e0430fae5cdefbb3764417f9c13ec1db196b5",
-      "sha256": "6fcb783df13741c2cb2341f50a156ac2be0d5b45e0a58bf0103c24ab4dd82582",
-      "uncompressed_bytes": 56127663,
+      "bytes": 36584687,
+      "entry_count": 729,
+      "filename": "precalculus-2e-id-ID-0.1.0-alpha.29-reader.1-source-core.zip",
+      "member_inventory_sha256": "af1b2a6169f9c495d55d15e56800eaae50028e5ea0f035f346f5f0af15925bb8",
+      "sha256": "f23ef913ee65757035194aff321751958b3528405e271f1ceffe0622c3e52e84",
+      "uncompressed_bytes": 61143410,
       "verification": "zip_open_crc_inventory_member_bytes_pass"
     },
     {
-      "bytes": 31262590,
+      "bytes": 34545369,
       "entry_count": 25,
-      "filename": "precalculus-2e-id-ID-0.1.0-alpha.27-reader.1-backend-core.zip",
-      "member_inventory_sha256": "021566fad2413b4b2cf0f5d9c17990ebf8023fd634aae5a599215c2f38ef90f5",
-      "sha256": "b9346cb0270dacb7466f1d6c0ffe06942b997cf1f949ddb3f052b340b2a3710e",
-      "uncompressed_bytes": 352249895,
+      "filename": "precalculus-2e-id-ID-0.1.0-alpha.29-reader.1-backend-core.zip",
+      "member_inventory_sha256": "017c68d7f0305c41976bce06a2c9af2d711d70aca413d42e81e5f8cc887d32c0",
+      "sha256": "7e87e33fcd56d8b285169fc1e8fe6b38d828bcea2e74d1305a638dfec256642e",
+      "uncompressed_bytes": 387271682,
       "verification": "zip_open_crc_inventory_member_bytes_pass"
     }
   ],
@@ -34,45 +34,45 @@
   },
   "files": [
     {
-      "bytes": 90695043,
-      "filename": "OpenStax-Precalculus-2e-id-ID-0.1.0-alpha.27-reader.pdf",
-      "sha256": "24161c30ed0f3bfcab6da9e76ad39bb923592a71b44ba0aa88d1bf075d6b9b24"
+      "bytes": 98651009,
+      "filename": "OpenStax-Precalculus-2e-id-ID-0.1.0-alpha.29-reader.pdf",
+      "sha256": "5ce44174b09ee9daaf487b1f2e27f05c675c72dccf73b0388825d4eda71a6e87"
     },
     {
-      "bytes": 33631348,
-      "filename": "precalculus-2e-id-ID-0.1.0-alpha.27-reader.1-source-core.zip",
-      "sha256": "6fcb783df13741c2cb2341f50a156ac2be0d5b45e0a58bf0103c24ab4dd82582"
+      "bytes": 36584687,
+      "filename": "precalculus-2e-id-ID-0.1.0-alpha.29-reader.1-source-core.zip",
+      "sha256": "f23ef913ee65757035194aff321751958b3528405e271f1ceffe0622c3e52e84"
     },
     {
-      "bytes": 31262590,
-      "filename": "precalculus-2e-id-ID-0.1.0-alpha.27-reader.1-backend-core.zip",
-      "sha256": "b9346cb0270dacb7466f1d6c0ffe06942b997cf1f949ddb3f052b340b2a3710e"
+      "bytes": 34545369,
+      "filename": "precalculus-2e-id-ID-0.1.0-alpha.29-reader.1-backend-core.zip",
+      "sha256": "7e87e33fcd56d8b285169fc1e8fe6b38d828bcea2e74d1305a638dfec256642e"
     },
     {
-      "bytes": 1683,
+      "bytes": 1686,
       "filename": "LICENSE.txt",
-      "sha256": "92a7af608b5852b9b862dbd43be72c9424694a0e48e014c80d0c6160036dab1c"
+      "sha256": "1062adecc708e81a9ac31364d2370a4d464d23189361239151ffc506b2daf67c"
     },
     {
-      "bytes": 1313,
+      "bytes": 1316,
       "filename": "README.txt",
-      "sha256": "0424e79a9c61f303667e4a2834442de0ae4420d945fae2af4e8acf9c51635a37"
+      "sha256": "8d7bc2bcb2e4ae03d042e3334c24caf5991a20e94402c174a75b47455e528208"
     }
   ],
   "license": {
     "component_rights": "composite; exact inventories included",
-    "quarantined_assets_omitted": 12,
+    "quarantined_assets_omitted": 13,
     "work": "CC BY-NC-SA 4.0"
   },
-  "observed_at": "2026-08-24T05:45:00+02:00",
+  "observed_at": "2026-08-24T10:15:00+02:00",
   "progress": {
-    "contiguous_through": "m49362",
-    "contiguous_title": "Grafik Fungsi Eksponensial",
-    "next_module": "m49363",
-    "next_source_title": "Logarithmic Functions",
-    "next_title": "Fungsi Logaritma",
+    "contiguous_through": "m49364",
+    "contiguous_title": "Grafik Fungsi Logaritma",
+    "next_module": "m49365",
+    "next_source_title": "Logarithmic Properties",
+    "next_title": "Sifat-sifat Logaritma",
     "total_modules": 87,
-    "translated_modules": 27
+    "translated_modules": 29
   },
   "provenance": {
     "requested_by": "the user",
@@ -80,8 +80,8 @@
     "translation_localization_assistance": "OpenAI Codex gpt-5.6-sol, Ultra"
   },
   "reader": {
-    "filename": "OpenStax-Precalculus-2e-id-ID-0.1.0-alpha.27-reader.pdf",
-    "pages": 781,
+    "filename": "OpenStax-Precalculus-2e-id-ID-0.1.0-alpha.29-reader.pdf",
+    "pages": 852,
     "primary_visible_file": true,
     "quarantined_binary_treatment": "clear omission placeholders"
   },
@@ -93,5 +93,5 @@
     "crc_inventory_member_bytes": "pass",
     "task_payload_limit_bytes": 500000000
   },
-  "version": "0.1.0-alpha.27-reader.1"
+  "version": "0.1.0-alpha.29-reader.1"
 }
