@@ -1,8 +1,8 @@
 OpenStax Precalculus 2e - edisi parsial Bahasa Indonesia
 
 STATUS
-Edisi ini belum lengkap. Cakupan saat ini adalah 23 dari 87
-modul dalam urutan sumber, melalui m49352 (Fungsi Invers dan Fungsi Akar). Modul berikutnya adalah m49353.
+Edisi ini belum lengkap. Cakupan saat ini adalah 26 dari 87
+modul dalam urutan sumber, melalui m49361 (Fungsi Eksponensial). Modul berikutnya adalah m49362.
 
 LISENSI KARYA DAN ADAPTASI
 Teks buku sumber dan adaptasi/terjemahan ini dilisensikan berdasarkan Creative
