@@ -27,21 +27,30 @@ rights gate passes for noncommercial translation under CC BY-NC-SA 4.0. Of the
 1,873 media assets, 1,835 are admitted and 38 remain quarantined until replaced,
 excluded, or independently cleared.
 
-The first 23 of 87 modules are translated contiguously and structurally verified,
-from the front matter (`m50919`) through Inverses and Radical Functions
-(`m49352`). One hundred-two baked-English or source-defective assets have
-deterministic Indonesian SVG derivatives. The modular backend contains 67,193
+The first 26 of 87 modules are translated contiguously and structurally verified,
+from the front matter (`m50919`) through Exponential Functions (`m49361`).
+One hundred-nine baked-English or source-defective assets have deterministic
+Indonesian SVG derivatives. The modular backend contains 74,454
 records and 36 deterministic exports; two consecutive builds were byte-identical.
-`m49353` is the active next module and remains outside the admitted prefix. No
-upstream author has been contacted. The current public checkpoint reader is 685
-A4 pages and passed three byte-identical builds, logical PDF checks, and
-independent visual review; it renders 569 admitted media references and explicit
-replacement panels for twelve quarantined binaries.
+`m49362` is the next source-order module and remains outside the admitted prefix. No
+upstream author has been contacted. The current public checkpoint reader still
+ends at `m49352`; it is 685 A4 pages and passed three byte-identical builds,
+logical PDF checks, and independent visual review. It renders 569 admitted media
+references and explicit replacement panels for twelve quarantined binaries.
 
 Translation and localization were produced with tool/process assistance on the
 user's request. Model identification: OpenAI Codex gpt-5.6-sol, Ultra. This is
 a process disclosure, not an authorship credit; Jay Abramson, OpenStax, and the
 source's human contributors retain their existing credits.
+
+Field-terminology QA through `m49361` inspected two downloaded arXiv source
+packages and rejected both because their actual TeX bodies are English. The
+edition therefore uses an Indonesian Universitas Jember calculus textbook and
+the official 2024 Kemdikbudristek advanced-mathematics textbook as its recorded
+fallback witnesses. Their evidence supports `fungsi logaritma`, `fungsi
+sesepenggal`, and `perilaku ujung`; the exact identities, hashes, comparison,
+and propagation receipt are under `evidence/terminology/m49361/` and
+`qa/TERMINOLOGY_QA_20260824.json`.
 
 ## Preservation
 
