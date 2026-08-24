@@ -1,8 +1,10 @@
 OpenStax Precalculus 2e - edisi parsial Bahasa Indonesia
 
 STATUS
-Edisi ini belum lengkap. Cakupan saat ini adalah 26 dari 87
-modul dalam urutan sumber, melalui m49361 (Fungsi Eksponensial). Modul berikutnya adalah m49362.
+Edisi ini belum lengkap. Cakupan saat ini adalah 27 dari 87
+modul dalam urutan sumber, melalui m49362 (Grafik Fungsi Eksponensial).
+Modul berikutnya adalah m49363 (Fungsi Logaritma; Logarithmic Functions). Pembaca PDF
+ini berjumlah 781 halaman A4.
 
 LISENSI KARYA DAN ADAPTASI
 Teks buku sumber dan adaptasi/terjemahan ini dilisensikan berdasarkan Creative
