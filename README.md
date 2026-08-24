@@ -64,9 +64,11 @@ the translated prefix are omitted and identified by path and hash. All reader
 versions remain on Zenodo concept DOI <https://doi.org/10.5281/zenodo.22059757>;
 the exact version DOI and anonymous byte-readback are recorded in
 `qa/ZENODO_READER_0.1.0-alpha.27-reader.1_20260824T054900+0200.json` and the
-public release metadata. The same release lineage is mirrored as clearly labeled
-GitHub prereleases at
-<https://github.com/KokunoYumeto/openstax-precalculus-2e-id/releases>.
+public release metadata. The identical seven-file payload is also preserved as
+GitHub prerelease
+<https://github.com/KokunoYumeto/openstax-precalculus-2e-id/releases/tag/v0.1.0-alpha.27-reader.1>;
+its anonymous byte-readback is recorded in
+`qa/GITHUB_READER_0.1.0-alpha.27-reader.1_20260824T055900+0200.json`.
 
 The intended Figshare metadata/link lineage is the requested public project
 <https://figshare.com/projects/Open_and_Share-Alike_Educational_Materials_Translations/280296>.
