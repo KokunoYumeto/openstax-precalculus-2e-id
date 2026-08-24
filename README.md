@@ -77,7 +77,7 @@ project has no exact-title replacement, and the collection is empty. The
 authenticated Figshare API returns `403 InactiveAccount`; both bounded attempts
 stopped before mutation, so no duplicate item or mislicensed release bytes were
 created. The evidence is in
-`qa/FIGSHARE_METADATA_0.1.0-alpha.26-reader.1_20260824T042300+0200_BLOCKED.json`.
+`qa/FIGSHARE_METADATA_0.1.0-alpha.27-reader.1_20260824T060200+0200_BLOCKED.json`.
 After account reactivation, the prepared publisher will create one file-free CC0
 metadata/link item and verify project and collection membership. Zenodo remains
 the canonical public file host.
