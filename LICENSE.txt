@@ -1,10 +1,10 @@
 OpenStax Precalculus 2e - edisi parsial Bahasa Indonesia
 
 STATUS
-Edisi ini belum lengkap. Cakupan saat ini adalah 30 dari 87
-modul dalam urutan sumber, melalui m49365 (Sifat-sifat Logaritma).
-Modul berikutnya adalah m49366 (Persamaan Eksponensial dan Logaritma; Exponential and Logarithmic Equations). Pembaca PDF
-ini berjumlah 879 halaman A4.
+Edisi ini belum lengkap. Cakupan saat ini adalah 31 dari 87
+modul dalam urutan sumber, melalui m49366 (Persamaan Eksponensial dan Logaritma).
+Modul berikutnya adalah m49367 (Model Eksponensial dan Logaritma; Exponential and Logarithmic Models). Pembaca PDF
+ini berjumlah 911 halaman A4.
 
 LISENSI KARYA DAN ADAPTASI
 Teks buku sumber dan adaptasi/terjemahan ini dilisensikan berdasarkan Creative
