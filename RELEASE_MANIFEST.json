@@ -1,21 +1,21 @@
 {
   "archives": [
     {
-      "bytes": 36648863,
-      "entry_count": 735,
-      "filename": "precalculus-2e-id-ID-0.1.0-alpha.30-reader.1-source-core.zip",
-      "member_inventory_sha256": "1c645b292ef6c06b9ac92fc6466425d593dba04c0fd2c4981a7789baeeb08fb3",
-      "sha256": "951da77d1576e5b8d0d84f61cd22b9d0b6fe35c17cd976c078315d7fd56ee0e0",
-      "uncompressed_bytes": 61432881,
+      "bytes": 37403914,
+      "entry_count": 785,
+      "filename": "precalculus-2e-id-ID-0.1.0-alpha.31-reader.1-source-core.zip",
+      "member_inventory_sha256": "9feab72c064dbb609589f0de4c23e228ba161db05a3f810d9cccfa795378827d",
+      "sha256": "7b9b6311848182b6ee873ab4373d7a015661a320d255a237845a446ba9a7edcd",
+      "uncompressed_bytes": 63223213,
       "verification": "zip_open_crc_inventory_member_bytes_pass"
     },
     {
-      "bytes": 35825745,
-      "entry_count": 25,
-      "filename": "precalculus-2e-id-ID-0.1.0-alpha.30-reader.1-backend-core.zip",
-      "member_inventory_sha256": "7398f0bebc46beaf4f336da6f728333ad02d2fc244b4119a1ffd04df7953bd1a",
-      "sha256": "c8e1f72935152bac1e6bcdb2a3d97866b208db15c6910b248299e3f9c5bd3bf9",
-      "uncompressed_bytes": 400548701,
+      "bytes": 37447396,
+      "entry_count": 31,
+      "filename": "precalculus-2e-id-ID-0.1.0-alpha.31-reader.1-backend-core.zip",
+      "member_inventory_sha256": "a0e18e0412ca19d35a755bde0d68c03509a8b6ac14218498004aa2f6dd0b15a1",
+      "sha256": "9a2f6c5dd5d32b6ea44582ff70cca11e4846f605765d2bf298cdd402630eccf5",
+      "uncompressed_bytes": 415462323,
       "verification": "zip_open_crc_inventory_member_bytes_pass"
     }
   ],
@@ -34,45 +34,45 @@
   },
   "files": [
     {
-      "bytes": 100588926,
-      "filename": "OpenStax-Precalculus-2e-id-ID-0.1.0-alpha.30-reader.pdf",
-      "sha256": "001feceb160a84f6b62c04c5356310306a59c48a4fb0c4592d89ad8481b2863b"
+      "bytes": 103633262,
+      "filename": "OpenStax-Precalculus-2e-id-ID-0.1.0-alpha.31-reader.pdf",
+      "sha256": "76bb82e70a9dc5c62e7dad45ad94956c4536bd9469e50b07269682554fc8bc28"
     },
     {
-      "bytes": 36648863,
-      "filename": "precalculus-2e-id-ID-0.1.0-alpha.30-reader.1-source-core.zip",
-      "sha256": "951da77d1576e5b8d0d84f61cd22b9d0b6fe35c17cd976c078315d7fd56ee0e0"
+      "bytes": 37403914,
+      "filename": "precalculus-2e-id-ID-0.1.0-alpha.31-reader.1-source-core.zip",
+      "sha256": "7b9b6311848182b6ee873ab4373d7a015661a320d255a237845a446ba9a7edcd"
     },
     {
-      "bytes": 35825745,
-      "filename": "precalculus-2e-id-ID-0.1.0-alpha.30-reader.1-backend-core.zip",
-      "sha256": "c8e1f72935152bac1e6bcdb2a3d97866b208db15c6910b248299e3f9c5bd3bf9"
+      "bytes": 37447396,
+      "filename": "precalculus-2e-id-ID-0.1.0-alpha.31-reader.1-backend-core.zip",
+      "sha256": "9a2f6c5dd5d32b6ea44582ff70cca11e4846f605765d2bf298cdd402630eccf5"
     },
     {
-      "bytes": 1714,
+      "bytes": 1722,
       "filename": "LICENSE.txt",
-      "sha256": "c4d539c41c04723f1c5cef8e019d872e7d9e3f3d5edc5efbc9605965178a2dee"
+      "sha256": "09d72f0428d49d640910c1d7bbcc21cf2d26f7856cc2cde613176f6761fbe35d"
     },
     {
-      "bytes": 1344,
+      "bytes": 1352,
       "filename": "README.txt",
-      "sha256": "e5421591b1599e200328ad61dd2cd441da34e918e1cd2b075814b5a4d9cb39f8"
+      "sha256": "41df8b608b4ceff610ca3691124a2ea901f2c825f7cfbe6f0d3f372b93e062a7"
     }
   ],
   "license": {
     "component_rights": "composite; exact inventories included",
-    "quarantined_assets_omitted": 14,
+    "quarantined_assets_omitted": 15,
     "work": "CC BY-NC-SA 4.0"
   },
-  "observed_at": "2026-08-25T02:16:30+02:00",
+  "observed_at": "2026-08-25T17:18:00+02:00",
   "progress": {
-    "contiguous_through": "m49365",
-    "contiguous_title": "Sifat-sifat Logaritma",
-    "next_module": "m49366",
-    "next_source_title": "Exponential and Logarithmic Equations",
-    "next_title": "Persamaan Eksponensial dan Logaritma",
+    "contiguous_through": "m49366",
+    "contiguous_title": "Persamaan Eksponensial dan Logaritma",
+    "next_module": "m49367",
+    "next_source_title": "Exponential and Logarithmic Models",
+    "next_title": "Model Eksponensial dan Logaritma",
     "total_modules": 87,
-    "translated_modules": 30
+    "translated_modules": 31
   },
   "provenance": {
     "requested_by": "the user",
@@ -80,8 +80,8 @@
     "translation_localization_assistance": "OpenAI Codex gpt-5.6-sol, Ultra"
   },
   "reader": {
-    "filename": "OpenStax-Precalculus-2e-id-ID-0.1.0-alpha.30-reader.pdf",
-    "pages": 879,
+    "filename": "OpenStax-Precalculus-2e-id-ID-0.1.0-alpha.31-reader.pdf",
+    "pages": 911,
     "primary_visible_file": true,
     "quarantined_binary_treatment": "clear omission placeholders"
   },
@@ -93,5 +93,5 @@
     "crc_inventory_member_bytes": "pass",
     "task_payload_limit_bytes": 500000000
   },
-  "version": "0.1.0-alpha.30-reader.1"
+  "version": "0.1.0-alpha.31-reader.1"
 }
