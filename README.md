@@ -27,25 +27,25 @@ rights gate passes for noncommercial translation under CC BY-NC-SA 4.0. Of the
 1,873 media assets, 1,835 are admitted and 38 remain quarantined until replaced,
 excluded, or independently cleared.
 
-The first 30 of 87 modules are translated contiguously and structurally verified,
-from the front matter (`m50919`) through Sifat-sifat Logaritma (`m49365`).
+The first 31 of 87 modules are translated contiguously and structurally verified,
+from the front matter (`m50919`) through Persamaan Eksponensial dan Logaritma (`m49366`).
 One hundred twenty-three baked-English or source-defective assets have deterministic
-Indonesian SVG derivatives. The modular backend contains 87,774
+Indonesian SVG derivatives. The modular backend contains 90,648
 records and 36 deterministic exports; two consecutive builds were byte-identical.
-`m49366` is the next source-order module and remains outside the admitted prefix. No
+`m49367` is the next source-order module and remains outside the admitted prefix. No
 upstream author has been contacted. The current public checkpoint reader ends at
-`m49365`; it is 879 A4 pages and passed two byte-identical builds, complete logical
-PDF checks, restoration checks for all 22 root glossaries and 111 definitions,
+`m49366`; it is 911 A4 pages and passed three byte-identical builds, complete logical
+PDF checks, restoration checks for all 23 root glossaries and 112 definitions,
 and independent Poppler review of the front matter and complete new module range.
-It renders 682 admitted media references and explicit replacement panels for
-fourteen quarantined binaries.
+It renders 693 admitted media references and explicit replacement panels for
+fifteen quarantined binaries.
 
 Translation and localization were produced with tool/process assistance on the
 user's request. Model identification: OpenAI Codex gpt-5.6-sol, Ultra. This is
 a process disclosure, not an authorship credit; Jay Abramson, OpenStax, and the
 source's human contributors retain their existing credits.
 
-The recorded field-terminology policy is applied through `m49365`. Its QA inspected two downloaded arXiv source
+The recorded field-terminology policy is applied through `m49366`. Its QA inspected two downloaded arXiv source
 packages and rejected both because their actual TeX bodies are English. The
 edition therefore uses an Indonesian Universitas Jember calculus textbook and
 the official 2024 Kemdikbudristek advanced-mathematics textbook as its recorded
@@ -58,19 +58,19 @@ and propagation receipt are under `evidence/terminology/m49361/` and
 ## Preservation
 
 The current rights-gated reader checkpoint is version
-`0.1.0-alpha.30-reader.1`, preserved at <https://doi.org/10.5281/zenodo.22088308>.
-It has the 879-page PDF as its primary artifact and
+`0.1.0-alpha.31-reader.1`, preserved at <https://doi.org/10.5281/zenodo.22098809>.
+It has the 911-page PDF as its primary artifact and
 compact resumable CNXML source and modular backend packages alongside it. The
-release is explicitly incomplete. Fourteen quarantined binaries referenced inside
+release is explicitly incomplete. Fifteen quarantined binaries referenced inside
 the translated prefix are omitted and identified by path and hash. All reader
 versions remain on Zenodo concept DOI <https://doi.org/10.5281/zenodo.22059757>;
 the exact version DOI and anonymous byte-readback are recorded in
-`qa/ZENODO_READER_0.1.0-alpha.30-reader.1_20260825T021830+0200.json` and the
+`qa/ZENODO_READER_0.1.0-alpha.31-reader.1_20260825T172100+0200.json` and the
 public release metadata. The identical seven-file payload is also preserved as
 GitHub prerelease
-<https://github.com/KokunoYumeto/openstax-precalculus-2e-id/releases/tag/v0.1.0-alpha.30-reader.1>;
+<https://github.com/KokunoYumeto/openstax-precalculus-2e-id/releases/tag/v0.1.0-alpha.31-reader.1>;
 its anonymous byte-readback is recorded in
-`qa/GITHUB_READER_0.1.0-alpha.30-reader.1_20260825T022200+0200.json`.
+`qa/GITHUB_READER_0.1.0-alpha.31-reader.1_20260825T172408+0200.json`.
 
 The intended Figshare metadata/link lineage is the requested public project
 <https://figshare.com/projects/Open_and_Share-Alike_Educational_Materials_Translations/280296>.
