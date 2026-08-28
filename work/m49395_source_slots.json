@@ -1,0 +1,2460 @@
+{
+  "module_id": "m49395",
+  "schema_id": "hp-a30-cnxml-source-reader-slots-v1",
+  "slot_count": 408,
+  "slots": [
+    {
+      "kind": "text",
+      "locator": "/document[1]/title[1]/text()",
+      "slot": 1,
+      "source": "Sum and Difference Identities"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/metadata[1]/title[1]/text()",
+      "slot": 2,
+      "source": "Sum and Difference Identities"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/metadata[1]/abstract[1]/para[1]/text()",
+      "slot": 3,
+      "source": "In this section, you will:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/metadata[1]/abstract[1]/list[1]/item[1]/text()",
+      "slot": 4,
+      "source": "Use sum and difference formulas for cosine."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/metadata[1]/abstract[1]/list[1]/item[2]/text()",
+      "slot": 5,
+      "source": "Use sum and difference formulas for sine."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/metadata[1]/abstract[1]/list[1]/item[3]/text()",
+      "slot": 6,
+      "source": "Use sum and difference formulas for tangent. "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/metadata[1]/abstract[1]/list[1]/item[4]/text()",
+      "slot": 7,
+      "source": "Use sum and difference formulas for cofunctions."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/metadata[1]/abstract[1]/list[1]/item[5]/text()",
+      "slot": 8,
+      "source": "Use sum and difference formulas to verify identities."
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/figure[1]/media[1]/@alt",
+      "slot": 9,
+      "source": "Photo of Mt. McKinley (formerly Denali)."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/figure[1]/caption[1]/text()",
+      "slot": 10,
+      "source": "Denali, federally designated as Mount McKinley, in Denali National Park, Alaska, rises 20,237 feet (6,168 m) above sea level. It is the highest peak in North America. (credit: Daniel A. Leifheit, Flickr)"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/para[1]/text()",
+      "slot": 11,
+      "source": "How can the height of a mountain be measured? What about the distance from Earth to the sun? Like many seemingly impossible problems, we rely on mathematical formulas to find the answers. The trigonometric identities, commonly used in mathematical proofs, have had real-world applications for centuries, including their use in calculating long distances."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/para[2]/text()",
+      "slot": 12,
+      "source": "The trigonometric identities we will examine in this section can be traced to a Persian astronomer who lived around 950 AD, but the ancient Greeks discovered these same formulas much earlier and stated them in terms of chords. These are special equations or postulates, true for all values input to the equations, and with innumerable applications."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/para[3]/text()",
+      "slot": 13,
+      "source": "In this section, we will learn techniques that will enable us to solve problems such as the ones presented above. The formulas that follow will simplify many trigonometric expressions and equations. Keep in mind that, throughout this section, the term "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/para[3]/emphasis[1]/text()",
+      "slot": 14,
+      "source": "formula"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/para[3]/emphasis[1]/tail()",
+      "slot": 15,
+      "source": " is used synonymously with the word "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/para[3]/emphasis[2]/text()",
+      "slot": 16,
+      "source": "identity"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/para[3]/emphasis[2]/tail()",
+      "slot": 17,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/title[1]/text()",
+      "slot": 18,
+      "source": "Using the Sum and Difference Formulas for Cosine"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[1]/text()",
+      "slot": 19,
+      "source": "Finding the exact value of the sine, cosine, or tangent of an angle is often easier if we can rewrite the given angle in terms of two angles that have known trigonometric values. We can use the "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[1]/term[1]/text()",
+      "slot": 20,
+      "source": "special angles"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[1]/term[1]/tail()",
+      "slot": 21,
+      "source": ", which we can review in the unit circle shown in "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[1]/link[1]/tail()",
+      "slot": 22,
+      "source": "."
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[1]/figure[1]/media[1]/@alt",
+      "slot": 23,
+      "source": "Diagram of the unit circle with points labeled on its edge. P point is at an angle a from the positive x axis with coordinates (cosa, sina). Point Q is at an angle of B from the positive x axis with coordinates (cosb, sinb). Angle POQ is a - B degrees. Point A is at an angle of (a-B) from the x axis with coordinates (cos(a-B), sin(a-B)). Point B is just at point (1,0). Angle AOB is also a - B degrees. Radii PO, AO, QO, and BO are all 1 unit long and are the legs of triangles POQ and AOB. Triangle POQ is a rotation of triangle AOB, so the distance from P to Q is the same as the distance from A to B. "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/figure[1]/caption[1]/text()",
+      "slot": 24,
+      "source": "The Unit Circle"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[2]/text()",
+      "slot": 25,
+      "source": "We will begin with the "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[2]/term[1]/text()",
+      "slot": 26,
+      "source": "sum and difference formulas for cosine"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[2]/term[1]/tail()",
+      "slot": 27,
+      "source": ", so that we can find the cosine of a given angle if we can break it up into the sum or difference of two of the special angles. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[2]/link[1]/tail()",
+      "slot": 28,
+      "source": "."
+    },
+    {
+      "kind": "attribute:summary",
+      "locator": "/document[1]/content[1]/section[1]/table[1]/@summary",
+      "slot": 29,
+      "source": "Two rows, two columns. The table has ordered pairs of these row values: (Sum formula for cosine, cos(a+B) = cos(a)cos(B) - sin(a)sin(B)) and (Difference formula for cosine, cos(a-B) = cos(a)cos(B) + sin(a)sin(B))."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/table[1]/tgroup[1]/tbody[1]/row[1]/entry[1]/emphasis[1]/text()",
+      "slot": 30,
+      "source": "Sum formula for cosine"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/table[1]/tgroup[1]/tbody[1]/row[2]/entry[1]/emphasis[1]/text()",
+      "slot": 31,
+      "source": "Difference formula for cosine"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[3]/text()",
+      "slot": 32,
+      "source": "First, we will prove the difference formula for cosines. Let’s consider two points on the unit circle. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[3]/link[1]/tail()",
+      "slot": 33,
+      "source": ". Point "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[3]/math[1]/tail()",
+      "slot": 34,
+      "source": " is at an angle "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[3]/math[2]/tail()",
+      "slot": 35,
+      "source": " from the positive "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[3]/emphasis[1]/text()",
+      "slot": 36,
+      "source": "x-"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[3]/emphasis[1]/tail()",
+      "slot": 37,
+      "source": "axis with coordinates "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[3]/math[3]/tail()",
+      "slot": 38,
+      "source": " and point "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[3]/math[4]/tail()",
+      "slot": 39,
+      "source": " is at an angle of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[3]/math[5]/tail()",
+      "slot": 40,
+      "source": " from the positive "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[3]/emphasis[2]/text()",
+      "slot": 41,
+      "source": "x-"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[3]/emphasis[2]/tail()",
+      "slot": 42,
+      "source": "axis with coordinates "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[3]/math[6]/tail()",
+      "slot": 43,
+      "source": " Note the measure of angle "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[3]/math[7]/tail()",
+      "slot": 44,
+      "source": " is "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[4]/text()",
+      "slot": 45,
+      "source": "Label two more points: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[4]/math[1]/tail()",
+      "slot": 46,
+      "source": " at an angle of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[4]/math[2]/tail()",
+      "slot": 47,
+      "source": " from the positive "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[4]/emphasis[1]/text()",
+      "slot": 48,
+      "source": "x-"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[4]/emphasis[1]/tail()",
+      "slot": 49,
+      "source": "axis with coordinates "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[4]/math[3]/tail()",
+      "slot": 50,
+      "source": " and point "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[4]/math[4]/tail()",
+      "slot": 51,
+      "source": " with coordinates "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[4]/math[5]/tail()",
+      "slot": 52,
+      "source": " Triangle "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[4]/math[6]/tail()",
+      "slot": 53,
+      "source": " is a rotation of triangle "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[4]/math[7]/tail()",
+      "slot": 54,
+      "source": " and thus the distance from "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[4]/math[8]/tail()",
+      "slot": 55,
+      "source": " to "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[4]/math[9]/tail()",
+      "slot": 56,
+      "source": " is the same as the distance from "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[4]/math[10]/tail()",
+      "slot": 57,
+      "source": " to "
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[1]/figure[2]/media[1]/@alt",
+      "slot": 58,
+      "source": "Diagram of the unit circle with points labeled on its edge. P point is at an angle a from the positive x axis with coordinates (cosa, sina). Point Q is at an angle of B from the positive x axis with coordinates (cosb, sinb). Angle POQ is a - B degrees. Point A is at an angle of (a-B) from the x axis with coordinates (cos(a-B), sin(a-B)). Point B is just at point (1,0). Angle AOB is also a - B degrees. Radii PO, AO, QO, and BO are all 1 unit long and are the legs of triangles POQ and AOB. Triangle POQ is a rotation of triangle AOB, so the distance from P to Q is the same as the distance from A to B."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[5]/text()",
+      "slot": 59,
+      "source": "We can find the distance from "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[5]/math[1]/tail()",
+      "slot": 60,
+      "source": " to "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[5]/math[2]/tail()",
+      "slot": 61,
+      "source": " using the "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[5]/term[1]/text()",
+      "slot": 62,
+      "source": "distance formula"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[5]/term[1]/tail()",
+      "slot": 63,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[6]/text()",
+      "slot": 64,
+      "source": "Then we apply the "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[6]/term[1]/text()",
+      "slot": 65,
+      "source": "Pythagorean Identity"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[6]/term[1]/tail()",
+      "slot": 66,
+      "source": " and simplify."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[7]/text()",
+      "slot": 67,
+      "source": "Similarly, using the distance formula we can find the distance from "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[7]/math[1]/tail()",
+      "slot": 68,
+      "source": " to "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[8]/text()",
+      "slot": 69,
+      "source": "Applying the Pythagorean Identity and simplifying we get:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[9]/text()",
+      "slot": 70,
+      "source": "Because the two distances are the same, we set them equal to each other and simplify."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[10]/text()",
+      "slot": 71,
+      "source": "Finally we subtract "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[10]/math[1]/tail()",
+      "slot": 72,
+      "source": " from both sides and divide both sides by "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[11]/text()",
+      "slot": 73,
+      "source": "Thus, we have the difference formula for cosine. We can use similar methods to derive the cosine of the sum of two angles."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[1]/title[1]/text()",
+      "slot": 74,
+      "source": "Sum and Difference Formulas for Cosine"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[1]/para[1]/text()",
+      "slot": 75,
+      "source": "These formulas can be used to calculate the cosine of sums and differences of angles."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[2]/label[1]/text()",
+      "slot": 76,
+      "source": "How To"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[2]/para[1]/emphasis[1]/text()",
+      "slot": 77,
+      "source": "Given two angles, find the cosine of the difference between the angles.\n      "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[2]/list[1]/item[1]/text()",
+      "slot": 78,
+      "source": "Write the difference formula for cosine."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[2]/list[1]/item[2]/text()",
+      "slot": 79,
+      "source": "Substitute the values of the given angles into the formula."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[2]/list[1]/item[3]/text()",
+      "slot": 80,
+      "source": "Simplify."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 81,
+      "source": "Finding the Exact Value Using the Formula for the Cosine of the Difference of Two Angles"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 82,
+      "source": "Using the formula for the cosine of the difference of two angles, find the exact value of "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 83,
+      "source": "Use the formula for the cosine of the difference of two angles. We have"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[3]/label[1]/text()",
+      "slot": 84,
+      "source": "Try It"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[3]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 85,
+      "source": "Find the exact value of "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[2]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 86,
+      "source": "Finding the Exact Value Using the Formula for the Sum of Two Angles for Cosine"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[2]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 87,
+      "source": "Find the exact value of "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[2]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 88,
+      "source": "As "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[2]/exercise[1]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 89,
+      "source": " we can evaluate "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[2]/exercise[1]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 90,
+      "source": " as "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[2]/exercise[1]/solution[1]/para[1]/math[3]/tail()",
+      "slot": 91,
+      "source": " Thus,"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[4]/label[1]/text()",
+      "slot": 92,
+      "source": "Try It"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[4]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 93,
+      "source": "Find the exact value of "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/title[1]/text()",
+      "slot": 94,
+      "source": "Using the Sum and Difference Formulas for Sine"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/para[1]/text()",
+      "slot": 95,
+      "source": "The "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/para[1]/term[1]/text()",
+      "slot": 96,
+      "source": "sum and difference formulas for sine"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/para[1]/term[1]/tail()",
+      "slot": 97,
+      "source": " can be derived in the same manner as those for cosine, and they resemble the cosine formulas."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[1]/title[1]/text()",
+      "slot": 98,
+      "source": "Sum and Difference Formulas for Sine"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[1]/para[1]/text()",
+      "slot": 99,
+      "source": "These formulas can be used to calculate the sines of sums and differences of angles."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[2]/label[1]/text()",
+      "slot": 100,
+      "source": "How To"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[2]/para[1]/emphasis[1]/text()",
+      "slot": 101,
+      "source": "Given two angles, find the sine of the difference between the angles.\n      "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[2]/list[1]/item[1]/text()",
+      "slot": 102,
+      "source": "Write the difference formula for sine."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[2]/list[1]/item[2]/text()",
+      "slot": 103,
+      "source": "Substitute the given angles into the formula."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[2]/list[1]/item[3]/text()",
+      "slot": 104,
+      "source": "Simplify."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 105,
+      "source": "Using Sum and Difference Identities to Evaluate the Difference of Angles"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 106,
+      "source": "Use the sum and difference identities to evaluate the difference of the angles and show that part "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/problem[1]/para[1]/emphasis[1]/text()",
+      "slot": 107,
+      "source": "a"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/problem[1]/para[1]/emphasis[1]/tail()",
+      "slot": 108,
+      "source": " equals part "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/problem[1]/para[1]/emphasis[2]/text()",
+      "slot": 109,
+      "source": "b."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/problem[1]/list[1]/item[1]/span[1]/text()",
+      "slot": 110,
+      "source": "ⓐ"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/problem[1]/list[1]/item[2]/span[1]/text()",
+      "slot": 111,
+      "source": "ⓑ"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[1]/span[1]/text()",
+      "slot": 112,
+      "source": "ⓐ"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[1]/span[1]/tail()",
+      "slot": 113,
+      "source": " Let’s begin by writing the formula and substitute the given angles.\n            "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[1]/para[1]/text()",
+      "slot": 114,
+      "source": "Next, we need to find the values of the trigonometric expressions."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[1]/para[2]/text()",
+      "slot": 115,
+      "source": "Now we can substitute these values into the equation and simplify."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[2]/span[1]/text()",
+      "slot": 116,
+      "source": "ⓑ"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[2]/span[1]/tail()",
+      "slot": 117,
+      "source": " Again, we write the formula and substitute the given angles.\n          "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[2]/para[1]/text()",
+      "slot": 118,
+      "source": "Next, we find the values of the trigonometric expressions."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[2]/para[2]/text()",
+      "slot": 119,
+      "source": "Now we can substitute these values into the equation and simplify."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 120,
+      "source": "Finding the Exact Value of an Expression Involving an Inverse Trigonometric Function"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 121,
+      "source": "Find the exact value of "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 122,
+      "source": "The pattern displayed in this problem is "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 123,
+      "source": " Let "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 124,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/solution[1]/para[1]/math[3]/tail()",
+      "slot": 125,
+      "source": " Then we can write"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/solution[1]/para[2]/text()",
+      "slot": 126,
+      "source": "We will use the Pythagorean Identities to find "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/solution[1]/para[2]/math[1]/tail()",
+      "slot": 127,
+      "source": " and "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/solution[1]/para[3]/text()",
+      "slot": 128,
+      "source": "Using the sum formula for sine,"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/title[1]/text()",
+      "slot": 129,
+      "source": "Using the Sum and Difference Formulas for Tangent"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/para[1]/text()",
+      "slot": 130,
+      "source": "Finding exact values for the tangent of the sum or difference of two angles is a little more complicated, but again, it is a matter of recognizing the pattern."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/para[2]/text()",
+      "slot": 131,
+      "source": "Finding the sum of two angles formula for tangent involves taking quotient of the sum formulas for sine and cosine and simplifying. Recall, "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/para[3]/text()",
+      "slot": 132,
+      "source": "Let’s derive the sum formula for tangent."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[3]/mtd[2]/mrow[1]/mtext[1]/text()",
+      "slot": 133,
+      "source": "Divide the numerator and denominator by cos"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[3]/mtd[2]/mrow[1]/mtext[2]/text()",
+      "slot": 134,
+      "source": "cos"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/para[4]/text()",
+      "slot": 135,
+      "source": "We can derive the difference formula for tangent in a similar way."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/note[1]/title[1]/text()",
+      "slot": 136,
+      "source": "Sum and Difference Formulas for Tangent"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/note[1]/para[1]/text()",
+      "slot": 137,
+      "source": "The "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/note[1]/para[1]/term[1]/text()",
+      "slot": 138,
+      "source": "sum and difference formulas for tangent"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/note[1]/para[1]/term[1]/tail()",
+      "slot": 139,
+      "source": " are:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/note[2]/label[1]/text()",
+      "slot": 140,
+      "source": "How To"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/note[2]/para[1]/emphasis[1]/text()",
+      "slot": 141,
+      "source": "Given two angles, find the tangent of the sum of the angles.\n      "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/note[2]/list[1]/item[1]/text()",
+      "slot": 142,
+      "source": "Write the sum formula for tangent."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/note[2]/list[1]/item[2]/text()",
+      "slot": 143,
+      "source": "Substitute the given angles into the formula."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/note[2]/list[1]/item[3]/text()",
+      "slot": 144,
+      "source": "Simplify."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[1]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 145,
+      "source": "Finding the Exact Value of an Expression Involving Tangent"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 146,
+      "source": "Find the exact value of "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[1]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 147,
+      "source": "Let’s first write the sum formula for tangent and substitute the given angles into the formula."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[1]/exercise[1]/solution[1]/para[2]/text()",
+      "slot": 148,
+      "source": "Next, we determine the individual tangents within the formula:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[1]/exercise[1]/solution[1]/para[3]/text()",
+      "slot": 149,
+      "source": "So we have"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/note[3]/label[1]/text()",
+      "slot": 150,
+      "source": "Try It"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/note[3]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 151,
+      "source": "Find the exact value of "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 152,
+      "source": "Finding Multiple Sums and Differences of Angles"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 153,
+      "source": "Given "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 154,
+      "source": " find"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/problem[1]/list[1]/item[1]/span[1]/text()",
+      "slot": 155,
+      "source": "ⓐ"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/problem[1]/list[1]/item[2]/span[1]/text()",
+      "slot": 156,
+      "source": "ⓑ"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/problem[1]/list[1]/item[3]/span[1]/text()",
+      "slot": 157,
+      "source": "ⓒ"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/problem[1]/list[1]/item[4]/span[1]/text()",
+      "slot": 158,
+      "source": "ⓓ"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 159,
+      "source": "We can use the sum and difference formulas to identify the sum or difference of angles when the ratio of sine, cosine, or tangent is provided for each of the individual angles. To do so, we construct what is called a reference triangle to help find each component of the sum and difference formulas."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/span[1]/text()",
+      "slot": 160,
+      "source": "ⓐ"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/span[1]/tail()",
+      "slot": 161,
+      "source": "\n            To find "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/math[1]/tail()",
+      "slot": 162,
+      "source": " we begin with "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/math[2]/tail()",
+      "slot": 163,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/math[3]/tail()",
+      "slot": 164,
+      "source": " The side opposite "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/math[4]/tail()",
+      "slot": 165,
+      "source": " has length 3, the hypotenuse has length 5, and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/math[5]/tail()",
+      "slot": 166,
+      "source": " is in the first quadrant. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/link[1]/tail()",
+      "slot": 167,
+      "source": ". Using the Pythagorean Theorem, we can find the length of side\n            "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/equation[1]/math[1]/mtable[1]/mtr[2]/mtd[1]/mrow[1]/mtext[1]/text()",
+      "slot": 168,
+      "source": "​"
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/figure[1]/media[1]/@alt",
+      "slot": 169,
+      "source": "Diagram of a triangle in the x,y plane. The vertices are at the origin, (4,0), and (4,3). The angle at the origin is alpha degrees, The angle formed by the x-axis and the side from (4,3) to (4,0) is a right angle. The side opposite the right angle has length 5."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/para[1]/text()",
+      "slot": 170,
+      "source": "Since "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/para[1]/math[1]/tail()",
+      "slot": 171,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/para[1]/math[2]/tail()",
+      "slot": 172,
+      "source": " the side adjacent to "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/para[1]/math[3]/tail()",
+      "slot": 173,
+      "source": " is "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/para[1]/math[4]/tail()",
+      "slot": 174,
+      "source": " the hypotenuse is 13, and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/para[1]/math[5]/tail()",
+      "slot": 175,
+      "source": " is in the third quadrant. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/para[1]/link[1]/tail()",
+      "slot": 176,
+      "source": ". Again, using the Pythagorean Theorem, we have"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/para[2]/text()",
+      "slot": 177,
+      "source": "Since "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/para[2]/math[1]/tail()",
+      "slot": 178,
+      "source": " is in the third quadrant, "
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/figure[2]/media[1]/@alt",
+      "slot": 179,
+      "source": "Diagram of a triangle in the x,y plane. The vertices are at the origin, (-5,0), and (-5, -12). The angle at the origin is Beta degrees. The angle formed by the x axis and the side from (-5, -12) to (-5,0) is a right angle. The side opposite the right angle has length 13."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/para[3]/text()",
+      "slot": 180,
+      "source": "The next step is finding the cosine of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/para[3]/math[1]/tail()",
+      "slot": 181,
+      "source": " and the sine of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/para[3]/math[2]/tail()",
+      "slot": 182,
+      "source": " The cosine of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/para[3]/math[3]/tail()",
+      "slot": 183,
+      "source": " is the adjacent side over the hypotenuse. We can find it from the triangle in "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/para[3]/link[1]/tail()",
+      "slot": 184,
+      "source": ": "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/para[3]/math[4]/tail()",
+      "slot": 185,
+      "source": " We can also find the sine of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/para[3]/math[5]/tail()",
+      "slot": 186,
+      "source": " from the triangle in "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/para[3]/link[2]/tail()",
+      "slot": 187,
+      "source": ", as opposite side over the hypotenuse: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/para[3]/math[6]/tail()",
+      "slot": 188,
+      "source": " Now we are ready to evaluate "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[2]/span[1]/text()",
+      "slot": 189,
+      "source": "ⓑ"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[2]/span[1]/tail()",
+      "slot": 190,
+      "source": " We can find "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[2]/math[1]/tail()",
+      "slot": 191,
+      "source": " in a similar manner. We substitute the values according to the formula.\n            "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[3]/span[1]/text()",
+      "slot": 192,
+      "source": "ⓒ"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[3]/span[1]/tail()",
+      "slot": 193,
+      "source": " For "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[3]/math[1]/tail()",
+      "slot": 194,
+      "source": " if "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[3]/math[2]/tail()",
+      "slot": 195,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[3]/math[3]/tail()",
+      "slot": 196,
+      "source": " then\n            "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[3]/para[1]/text()",
+      "slot": 197,
+      "source": "If "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[3]/para[1]/math[1]/tail()",
+      "slot": 198,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[3]/para[1]/math[2]/tail()",
+      "slot": 199,
+      "source": "\n              then"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[3]/para[2]/text()",
+      "slot": 200,
+      "source": "Then,"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[3]/equation[3]/math[1]/mrow[1]/mtable[1]/mtr[4]/mtd[1]/mrow[1]/mtext[1]/text()",
+      "slot": 201,
+      "source": "​"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[4]/span[1]/text()",
+      "slot": 202,
+      "source": "ⓓ"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[4]/span[1]/tail()",
+      "slot": 203,
+      "source": " To find "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/list[1]/item[4]/math[1]/tail()",
+      "slot": 204,
+      "source": " we have the values we need. We can substitute them in and evaluate.\n            "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/commentary[1]/title[1]/text()",
+      "slot": 205,
+      "source": "Analysis "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/commentary[1]/para[1]/text()",
+      "slot": 206,
+      "source": "A common mistake when addressing problems such as this one is that we may be tempted to think that "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/commentary[1]/para[1]/math[1]/tail()",
+      "slot": 207,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/commentary[1]/para[1]/math[2]/tail()",
+      "slot": 208,
+      "source": " are angles in the same triangle, which of course, they are not. Also note that"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/title[1]/text()",
+      "slot": 209,
+      "source": "Using Sum and Difference Formulas for Cofunctions"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/para[1]/text()",
+      "slot": 210,
+      "source": "Now that we can find the sine, cosine, and tangent functions for the sums and differences of angles, we can use them to do the same for their cofunctions. You may recall from "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/para[1]/link[1]/text()",
+      "slot": 211,
+      "source": "Right Triangle Trigonometry"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/para[1]/link[1]/tail()",
+      "slot": 212,
+      "source": " that, if the sum of two positive angles is "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/para[1]/math[1]/tail()",
+      "slot": 213,
+      "source": " those two angles are complements, and the sum of the two acute angles in a right triangle is "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/para[1]/math[2]/tail()",
+      "slot": 214,
+      "source": " so they are also complements. In "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/para[1]/link[2]/tail()",
+      "slot": 215,
+      "source": ", notice that if one of the acute angles is labeled as "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/para[1]/math[3]/tail()",
+      "slot": 216,
+      "source": " then the other acute angle must be labeled "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/para[2]/text()",
+      "slot": 217,
+      "source": "Notice also that "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/para[2]/math[1]/tail()",
+      "slot": 218,
+      "source": " opposite over hypotenuse. Thus, when two angles are complementary, we can say that the sine of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/para[2]/math[2]/tail()",
+      "slot": 219,
+      "source": " equals the "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/para[2]/term[1]/text()",
+      "slot": 220,
+      "source": "cofunction"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/para[2]/term[1]/tail()",
+      "slot": 221,
+      "source": " of the complement of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/para[2]/math[3]/tail()",
+      "slot": 222,
+      "source": " Similarly, tangent and cotangent are cofunctions, and secant and cosecant are cofunctions."
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[4]/figure[1]/media[1]/@alt",
+      "slot": 223,
+      "source": "Image of a right triangle. The remaining angles are labeled theta and pi/2 - theta."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/para[3]/text()",
+      "slot": 224,
+      "source": "From these relationships, the "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/para[3]/term[1]/text()",
+      "slot": 225,
+      "source": "cofunction identities"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/para[3]/term[1]/tail()",
+      "slot": 226,
+      "source": " are formed."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/note[1]/title[1]/text()",
+      "slot": 227,
+      "source": "Cofunction Identities"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/note[1]/para[1]/text()",
+      "slot": 228,
+      "source": "The cofunction identities are summarized in "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/note[1]/para[1]/link[1]/tail()",
+      "slot": 229,
+      "source": "."
+    },
+    {
+      "kind": "attribute:summary",
+      "locator": "/document[1]/content[1]/section[4]/note[1]/table[1]/@summary",
+      "slot": 230,
+      "source": "Three rows, two columns/ The table has ordered pairs of these row values: (sin(theta) = cos(pi/2 - theta), cos(theta) = sin(pi/2 - theta)), (tan(theta) = cot(pi/2 - theta), cot(theta) = tan(pi/2 - theta)), and (sec(theta) = csc(pi/2 - theta), csc(theta) = sec(pi/2 - theta))."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/para[4]/text()",
+      "slot": 231,
+      "source": "Notice that the formulas in the table may also be justified algebraically using the sum and difference formulas. For example, using"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/para[5]/text()",
+      "slot": 232,
+      "source": "we can write"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[1]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 233,
+      "source": "Finding a Cofunction with the Same Value as the Given Expression"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 234,
+      "source": "Write "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[1]/exercise[1]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 235,
+      "source": " in terms of its cofunction."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[1]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 236,
+      "source": "The cofunction of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[1]/exercise[1]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 237,
+      "source": " Thus,"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/note[2]/label[1]/text()",
+      "slot": 238,
+      "source": "Try It"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/note[2]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 239,
+      "source": "Write "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/note[2]/exercise[1]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 240,
+      "source": " in terms of its cofunction."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/title[1]/text()",
+      "slot": 241,
+      "source": "Using the Sum and Difference Formulas to Verify Identities"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/para[1]/text()",
+      "slot": 242,
+      "source": "Verifying an identity means demonstrating that the equation holds for all values of the variable. It helps to be very familiar with the identities or to have a list of them accessible while working the problems. Reviewing the general rules from "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/para[1]/link[1]/text()",
+      "slot": 243,
+      "source": "Simplifying and Verifying Trigonometric Identities"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/para[1]/link[1]/tail()",
+      "slot": 244,
+      "source": " may help simplify the process of verifying an identity."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/note[1]/label[1]/text()",
+      "slot": 245,
+      "source": "How To"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/note[1]/para[1]/emphasis[1]/text()",
+      "slot": 246,
+      "source": "Given an identity, verify using sum and difference formulas."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/note[1]/list[1]/item[1]/text()",
+      "slot": 247,
+      "source": "Begin with the expression on the side of the equal sign that appears most complex. Rewrite that expression until it matches the other side of the equal sign. Occasionally, we might have to alter both sides, but working on only one side is the most efficient."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/note[1]/list[1]/item[2]/text()",
+      "slot": 248,
+      "source": "Look for opportunities to use the sum and difference formulas."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/note[1]/list[1]/item[3]/text()",
+      "slot": 249,
+      "source": "Rewrite sums or differences of quotients as single quotients."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/note[1]/list[1]/item[4]/text()",
+      "slot": 250,
+      "source": "If the process becomes cumbersome, rewrite the expression in terms of sines and cosines."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[1]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 251,
+      "source": "Verifying an Identity Involving Sine"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 252,
+      "source": "Verify the identity "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[1]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 253,
+      "source": "We see that the left side of the equation includes the sines of the sum and the difference of angles."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[1]/exercise[1]/solution[1]/para[2]/text()",
+      "slot": 254,
+      "source": "We can rewrite each using the sum and difference formulas."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[1]/exercise[1]/solution[1]/para[3]/text()",
+      "slot": 255,
+      "source": "We see that the identity is verified."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[2]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 256,
+      "source": "Verifying an Identity Involving Tangent"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[2]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 257,
+      "source": "Verify the following identity."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[2]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 258,
+      "source": "We can begin by rewriting the numerator on the left side of the equation."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[2]/exercise[1]/solution[1]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[2]/mtd[2]/mrow[1]/mtext[1]/text()",
+      "slot": 259,
+      "source": "Rewrite using a common denominator"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[2]/exercise[1]/solution[1]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[3]/mtd[2]/mrow[1]/mtext[1]/text()",
+      "slot": 260,
+      "source": "Cancel"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[2]/exercise[1]/solution[1]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[4]/mtd[2]/mrow[1]/mtext[1]/text()",
+      "slot": 261,
+      "source": "Rewrite in terms of tangent"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[2]/exercise[1]/solution[1]/para[2]/text()",
+      "slot": 262,
+      "source": "We see that the identity is verified. In many cases, verifying tangent identities can successfully be accomplished by writing the tangent in terms of sine and cosine."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/note[2]/label[1]/text()",
+      "slot": 263,
+      "source": "Try It"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/note[2]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 264,
+      "source": "Verify the identity: "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[3]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 265,
+      "source": "Using Sum and Difference Formulas to Solve an Application Problem"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[3]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 266,
+      "source": "Let "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/example[3]/exercise[1]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 267,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/example[3]/exercise[1]/problem[1]/para[1]/math[2]/tail()",
+      "slot": 268,
+      "source": " denote two non-vertical intersecting lines, and let "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/example[3]/exercise[1]/problem[1]/para[1]/math[3]/tail()",
+      "slot": 269,
+      "source": " denote the acute angle between "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/example[3]/exercise[1]/problem[1]/para[1]/math[4]/tail()",
+      "slot": 270,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/example[3]/exercise[1]/problem[1]/para[1]/math[5]/tail()",
+      "slot": 271,
+      "source": " See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/example[3]/exercise[1]/problem[1]/para[1]/link[1]/tail()",
+      "slot": 272,
+      "source": ". Show that"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[3]/exercise[1]/problem[1]/para[2]/text()",
+      "slot": 273,
+      "source": "where "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/example[3]/exercise[1]/problem[1]/para[2]/math[1]/tail()",
+      "slot": 274,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/example[3]/exercise[1]/problem[1]/para[2]/math[2]/tail()",
+      "slot": 275,
+      "source": " are the slopes of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/example[3]/exercise[1]/problem[1]/para[2]/math[3]/tail()",
+      "slot": 276,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/example[3]/exercise[1]/problem[1]/para[2]/math[4]/tail()",
+      "slot": 277,
+      "source": " respectively. ("
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[3]/exercise[1]/problem[1]/para[2]/emphasis[1]/text()",
+      "slot": 278,
+      "source": "Hint:"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/example[3]/exercise[1]/problem[1]/para[2]/emphasis[1]/tail()",
+      "slot": 279,
+      "source": " Use the fact that "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/example[3]/exercise[1]/problem[1]/para[2]/math[5]/tail()",
+      "slot": 280,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/example[3]/exercise[1]/problem[1]/para[2]/math[6]/tail()",
+      "slot": 281,
+      "source": " )"
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[5]/example[3]/exercise[1]/problem[1]/figure[1]/media[1]/@alt",
+      "slot": 282,
+      "source": "Diagram of two non-vertical intersecting lines L1 and L2 also intersecting the x-axis. The acute angle formed by the intersection of L1 and L2 is theta. The acute angle formed by L2 and the x-axis is theta 1, and the acute angle formed by the x-axis and L1 is theta 2. "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[3]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 283,
+      "source": "Using the difference formula for tangent, this problem does not seem as daunting as it might."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[4]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 284,
+      "source": "Investigating a Guy-wire Problem"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[4]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 285,
+      "source": "For a climbing wall, a guy-wire "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/example[4]/exercise[1]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 286,
+      "source": " is attached 47 feet high on a vertical pole. Added support is provided by another guy-wire "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/example[4]/exercise[1]/problem[1]/para[1]/math[2]/tail()",
+      "slot": 287,
+      "source": " attached 40 feet above ground on the same pole. If the wires are attached to the ground 50 feet from the pole, find the angle "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/example[4]/exercise[1]/problem[1]/para[1]/math[3]/tail()",
+      "slot": 288,
+      "source": " between the wires. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/example[4]/exercise[1]/problem[1]/para[1]/link[1]/tail()",
+      "slot": 289,
+      "source": "."
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[5]/example[4]/exercise[1]/problem[1]/figure[1]/media[1]/@alt",
+      "slot": 290,
+      "source": "Two right triangles. Both share the same base, 50 feet. The first has a height of 40 ft and hypotenuse S. The second has height 47 ft and hypotenuse R. The height sides of the triangles are overlapping. There is a B degree angle between R and the base, and an a degree angle between the two hypotenuses within the B degree angle.  "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[4]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 291,
+      "source": "Let’s first summarize the information we can gather from the diagram. As only the sides adjacent to the right angle are known, we can use the tangent function. Notice that "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/example[4]/exercise[1]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 292,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/example[4]/exercise[1]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 293,
+      "source": " We can then use difference formula for tangent."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[4]/exercise[1]/solution[1]/para[2]/text()",
+      "slot": 294,
+      "source": "Now, substituting the values we know into the formula, we have"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[4]/exercise[1]/solution[1]/para[3]/text()",
+      "slot": 295,
+      "source": "Use the distributive property, and then simplify the functions."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[4]/exercise[1]/solution[1]/para[4]/text()",
+      "slot": 296,
+      "source": "Now we can calculate the angle in degrees."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[4]/exercise[1]/commentary[1]/title[1]/text()",
+      "slot": 297,
+      "source": "Analysis "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[4]/exercise[1]/commentary[1]/para[2]/text()",
+      "slot": 298,
+      "source": "Occasionally, when an application appears that includes a right triangle, we may think that solving is a matter of applying the Pythagorean Theorem. That may be partially true, but it depends on what the problem is asking and what information is given."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/note[3]/label[1]/text()",
+      "slot": 299,
+      "source": "Media"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/note[3]/para[1]/text()",
+      "slot": 300,
+      "source": "Access these online resources for additional instruction and practice with sum and difference identities. "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/note[3]/list[1]/item[1]/link[1]/text()",
+      "slot": 301,
+      "source": "Sum and Difference Identities for Cosine"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/note[3]/list[1]/item[2]/link[1]/text()",
+      "slot": 302,
+      "source": "Sum and Difference Identities for Sine"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/note[3]/list[1]/item[3]/link[1]/text()",
+      "slot": 303,
+      "source": "Sum and Difference Identities for Tangent"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/title[1]/text()",
+      "slot": 304,
+      "source": "Key Equations"
+    },
+    {
+      "kind": "attribute:summary",
+      "locator": "/document[1]/content[1]/section[6]/table[1]/@summary",
+      "slot": 305,
+      "source": ".."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/table[1]/tgroup[1]/tbody[1]/row[1]/entry[1]/text()",
+      "slot": 306,
+      "source": "Sum Formula for Cosine"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/table[1]/tgroup[1]/tbody[1]/row[2]/entry[1]/text()",
+      "slot": 307,
+      "source": "Difference Formula for Cosine"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/table[1]/tgroup[1]/tbody[1]/row[3]/entry[1]/text()",
+      "slot": 308,
+      "source": "Sum Formula for Sine"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/table[1]/tgroup[1]/tbody[1]/row[4]/entry[1]/text()",
+      "slot": 309,
+      "source": "Difference Formula for Sine"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/table[1]/tgroup[1]/tbody[1]/row[5]/entry[1]/text()",
+      "slot": 310,
+      "source": "Sum Formula for Tangent"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/table[1]/tgroup[1]/tbody[1]/row[6]/entry[1]/text()",
+      "slot": 311,
+      "source": "Difference Formula for Tangent"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/table[1]/tgroup[1]/tbody[1]/row[7]/entry[1]/text()",
+      "slot": 312,
+      "source": "Cofunction identities"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/title[1]/text()",
+      "slot": 313,
+      "source": "Key Concepts"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/list[1]/item[1]/text()",
+      "slot": 314,
+      "source": "The sum formula for cosines states that the cosine of the sum of two angles equals the product of the cosines of the angles minus the product of the sines of the angles. The difference formula for cosines states that the cosine of the difference of two angles equals the product of the cosines of the angles plus the product of the sines of the angles."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/list[1]/item[2]/text()",
+      "slot": 315,
+      "source": "The sum and difference formulas can be used to find the exact values of the sine, cosine, or tangent of an angle. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/list[1]/item[2]/link[1]/tail()",
+      "slot": 316,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/list[1]/item[2]/link[2]/tail()",
+      "slot": 317,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/list[1]/item[3]/text()",
+      "slot": 318,
+      "source": "The sum formula for sines states that the sine of the sum of two angles equals the product of the sine of the first angle and cosine of the second angle plus the product of the cosine of the first angle and the sine of the second angle. The difference formula for sines states that the sine of the difference of two angles equals the product of the sine of the first angle and cosine of the second angle minus the product of the cosine of the first angle and the sine of the second angle. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/list[1]/item[3]/link[1]/tail()",
+      "slot": 319,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/list[1]/item[4]/text()",
+      "slot": 320,
+      "source": "The sum and difference formulas for sine and cosine can also be used for inverse trigonometric functions. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/list[1]/item[4]/link[1]/tail()",
+      "slot": 321,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/list[1]/item[5]/text()",
+      "slot": 322,
+      "source": "The sum formula for tangent states that the tangent of the sum of two angles equals the sum of the tangents of the angles divided by 1 minus the product of the tangents of the angles. The difference formula for tangent states that the tangent of the difference of two angles equals the difference of the tangents of the angles divided by 1 plus the product of the tangents of the angles. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/list[1]/item[5]/link[1]/tail()",
+      "slot": 323,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/list[1]/item[6]/text()",
+      "slot": 324,
+      "source": "The Pythagorean Theorem along with the sum and difference formulas can be used to find multiple sums and differences of angles. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/list[1]/item[6]/link[1]/tail()",
+      "slot": 325,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/list[1]/item[7]/text()",
+      "slot": 326,
+      "source": "The cofunction identities apply to complementary angles and pairs of reciprocal functions. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/list[1]/item[7]/link[1]/tail()",
+      "slot": 327,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/list[1]/item[8]/text()",
+      "slot": 328,
+      "source": "Sum and difference formulas are useful in verifying identities. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/list[1]/item[8]/link[1]/tail()",
+      "slot": 329,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/list[1]/item[8]/link[2]/tail()",
+      "slot": 330,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/list[1]/item[9]/text()",
+      "slot": 331,
+      "source": "Application problems are often easier to solve by using sum and difference formulas. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/list[1]/item[9]/link[1]/tail()",
+      "slot": 332,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/list[1]/item[9]/link[2]/tail()",
+      "slot": 333,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/title[1]/text()",
+      "slot": 334,
+      "source": "Section Exercises"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/section[1]/title[1]/text()",
+      "slot": 335,
+      "source": "Verbal"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/section[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 336,
+      "source": "Explain the basis for the cofunction identities and when they apply."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/section[1]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 337,
+      "source": "The cofunction identities apply to complementary angles. Viewing the two acute angles of a right triangle, if one of those angles measures "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/section[1]/exercise[1]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 338,
+      "source": " the second angle measures "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/section[1]/exercise[1]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 339,
+      "source": " Then "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/section[1]/exercise[1]/solution[1]/para[1]/math[3]/tail()",
+      "slot": 340,
+      "source": " The same holds for the other cofunction identities. The key is that the angles are complementary."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/section[1]/exercise[2]/problem[1]/para[1]/text()",
+      "slot": 341,
+      "source": "Is there only one way to evaluate "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/section[1]/exercise[2]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 342,
+      "source": " Explain how to set up the solution in two different ways, and then compute to make sure they give the same answer."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/section[1]/exercise[3]/problem[1]/para[1]/text()",
+      "slot": 343,
+      "source": "Explain to someone who has forgotten the even-odd properties of sinusoidal functions how the addition and subtraction formulas can determine this characteristic for "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/section[1]/exercise[3]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 344,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/section[1]/exercise[3]/problem[1]/para[1]/math[2]/tail()",
+      "slot": 345,
+      "source": " (Hint: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/section[1]/exercise[3]/problem[1]/para[1]/math[3]/tail()",
+      "slot": 346,
+      "source": " )"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/section[1]/exercise[3]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 347,
+      "source": " so "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/section[1]/exercise[3]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 348,
+      "source": " is odd. "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/section[1]/exercise[3]/solution[1]/para[1]/math[3]/tail()",
+      "slot": 349,
+      "source": " so "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/section[1]/exercise[3]/solution[1]/para[1]/math[4]/tail()",
+      "slot": 350,
+      "source": " is even. "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/section[2]/title[1]/text()",
+      "slot": 351,
+      "source": "Algebraic"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/section[2]/para[1]/text()",
+      "slot": 352,
+      "source": "For the following exercises, find the exact value."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/section[2]/para[2]/text()",
+      "slot": 353,
+      "source": "For the following exercises, rewrite in terms of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/section[2]/para[2]/math[1]/tail()",
+      "slot": 354,
+      "source": " and "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/section[2]/para[3]/text()",
+      "slot": 355,
+      "source": "For the following exercises, simplify the given expression."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/section[2]/para[4]/text()",
+      "slot": 356,
+      "source": "For the following exercises, find the requested information."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/section[2]/exercise[17]/problem[1]/para[1]/text()",
+      "slot": 357,
+      "source": "Given that "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/section[2]/exercise[17]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 358,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/section[2]/exercise[17]/problem[1]/para[1]/math[2]/tail()",
+      "slot": 359,
+      "source": " with "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/section[2]/exercise[17]/problem[1]/para[1]/math[3]/tail()",
+      "slot": 360,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/section[2]/exercise[17]/problem[1]/para[1]/math[4]/tail()",
+      "slot": 361,
+      "source": " both in the interval "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/section[2]/exercise[17]/problem[1]/para[1]/math[5]/tail()",
+      "slot": 362,
+      "source": " find "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/section[2]/exercise[17]/problem[1]/para[1]/math[6]/tail()",
+      "slot": 363,
+      "source": " and "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/section[2]/exercise[18]/problem[1]/para[1]/text()",
+      "slot": 364,
+      "source": "Given that "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/section[2]/exercise[18]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 365,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/section[2]/exercise[18]/problem[1]/para[1]/math[2]/tail()",
+      "slot": 366,
+      "source": " with "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/section[2]/exercise[18]/problem[1]/para[1]/math[3]/tail()",
+      "slot": 367,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/section[2]/exercise[18]/problem[1]/para[1]/math[4]/tail()",
+      "slot": 368,
+      "source": " both in the interval "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/section[2]/exercise[18]/problem[1]/para[1]/math[5]/tail()",
+      "slot": 369,
+      "source": " find "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/section[2]/exercise[18]/problem[1]/para[1]/math[6]/tail()",
+      "slot": 370,
+      "source": " and "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/section[2]/para[5]/text()",
+      "slot": 371,
+      "source": "For the following exercises, find the exact value of each expression."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/section[3]/title[1]/text()",
+      "slot": 372,
+      "source": "Graphical"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/section[3]/para[1]/text()",
+      "slot": 373,
+      "source": "For the following exercises, simplify the expression, and then graph both expressions as functions to verify the graphs are identical."
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[8]/section[3]/exercise[1]/solution[1]/media[1]/@alt",
+      "slot": 374,
+      "source": "Graph of y=sin(x) from -2pi to 2pi."
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[8]/section[3]/exercise[3]/solution[1]/media[1]/@alt",
+      "slot": 375,
+      "source": "Graph of y=cot(pi/6 - x) from -2pi to pi - in comparison to the usual y=cot(x) graph, this one is reflected across the x-axis and shifted by pi/6."
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[8]/section[3]/exercise[5]/solution[1]/media[1]/@alt",
+      "slot": 376,
+      "source": "Graph of y=cot(pi/4 + x) - in comparison to the usual y=cot(x) graph, this one is shifted by pi/4. "
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[8]/section[3]/exercise[7]/solution[1]/media[1]/@alt",
+      "slot": 377,
+      "source": "Graph of y = sin(x) / rad2 + cos(x) / rad2 - it looks like the sin curve shifted by pi/4."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/section[3]/para[2]/text()",
+      "slot": 378,
+      "source": "For the following exercises, use a graph to determine whether the functions are the same or different. If they are the same, show why. If they are different, replace the second function with one that is identical to the first. (Hint: think "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/section[3]/para[2]/math[1]/tail()",
+      "slot": 379,
+      "source": "\n        )"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/section[3]/exercise[9]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 380,
+      "source": ", "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/section[3]/exercise[9]/solution[1]/para[1]/text()",
+      "slot": 381,
+      "source": "They are the same. "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/section[3]/exercise[11]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 382,
+      "source": ", "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/section[3]/exercise[11]/solution[1]/para[1]/text()",
+      "slot": 383,
+      "source": "They are the different, try "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/section[3]/exercise[12]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 384,
+      "source": ", "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/section[3]/exercise[13]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 385,
+      "source": ", "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/section[3]/exercise[13]/solution[1]/para[1]/text()",
+      "slot": 386,
+      "source": "They are the same. "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/section[3]/exercise[14]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 387,
+      "source": ", "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/section[3]/exercise[15]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 388,
+      "source": ", "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/section[3]/exercise[15]/solution[1]/para[1]/text()",
+      "slot": 389,
+      "source": "They are the different, try "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/section[3]/exercise[16]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 390,
+      "source": ", "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/section[3]/exercise[17]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 391,
+      "source": ", "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/section[3]/exercise[17]/solution[1]/para[1]/text()",
+      "slot": 392,
+      "source": "They are different, try "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/section[4]/title[1]/text()",
+      "slot": 393,
+      "source": "Technology"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/section[4]/para[1]/text()",
+      "slot": 394,
+      "source": "For the following exercises, find the exact value algebraically, and then confirm the answer with a calculator to the fourth decimal point."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/section[4]/exercise[2]/solution[1]/para[1]/math[1]/mrow[1]/mtext[1]/text()",
+      "slot": 395,
+      "source": " or "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/section[4]/exercise[4]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 396,
+      "source": " or 0.9659"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/section[5]/title[1]/text()",
+      "slot": 397,
+      "source": "Extensions"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/section[5]/para[1]/text()",
+      "slot": 398,
+      "source": "For the following exercises, prove the identities provided."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/section[5]/para[2]/text()",
+      "slot": 399,
+      "source": "For the following exercises, prove or disprove the statements."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/section[5]/exercise[7]/solution[1]/para[1]/text()",
+      "slot": 400,
+      "source": "True"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/section[5]/exercise[9]/problem[1]/para[1]/text()",
+      "slot": 401,
+      "source": "If "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/section[5]/exercise[9]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 402,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/section[5]/exercise[9]/problem[1]/para[1]/math[2]/tail()",
+      "slot": 403,
+      "source": " are angles in the same triangle, then prove or disprove "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/section[5]/exercise[9]/solution[1]/para[1]/text()",
+      "slot": 404,
+      "source": "True. Note that "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/section[5]/exercise[9]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 405,
+      "source": " and expand the right hand side. "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/section[5]/exercise[10]/problem[1]/para[1]/text()",
+      "slot": 406,
+      "source": "If "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/section[5]/exercise[10]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 407,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/section[5]/exercise[10]/problem[1]/para[1]/math[2]/tail()",
+      "slot": 408,
+      "source": " are angles in the same triangle, then prove or disprove "
+    }
+  ],
+  "source": {
+    "bytes": 242661,
+    "path": "source/modules/m49395/index.cnxml",
+    "sha256": "b1d667f198a070590ded5a2a4ffdbb32c5c86d9b4cad8f3e3b0b1922fb19c64e"
+  }
+}

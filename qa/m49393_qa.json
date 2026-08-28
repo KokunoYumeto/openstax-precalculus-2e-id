@@ -1,0 +1,91 @@
+{
+  "accessibility": {
+    "result": "PASS",
+    "translated_alt_and_summary_count": 9
+  },
+  "assets": {
+    "byte_identical_to_source": true,
+    "records": [
+      {
+        "bytes": 224064,
+        "reference": "../../media/CNX_Precalc_Figure_07_01_006.jpg",
+        "sha256": "ba68d35177b9f84d57579bd2913b99d3c85c8c03db38bd6ec740c29aa0d9999a"
+      },
+      {
+        "bytes": 68887,
+        "reference": "../../media/CNX_Precalc_Figure_07_01_002-a36c.jpg",
+        "sha256": "dea93d9d647a8604997119854be0ef267e68198f2f53860ddd13116445bd9e8e"
+      },
+      {
+        "bytes": 70859,
+        "reference": "../../media/CNX_Precalc_Figure_07_01_003.jpg",
+        "sha256": "6483469656dcc3d59205ec861e13c35a8381be5e348ad3701e2d27a1c4e56f54"
+      },
+      {
+        "bytes": 94978,
+        "reference": "../../media/CNX_Precalc_Figure_07_01_007.jpg",
+        "sha256": "04bebfb7630ac29c2ed9573e25f37671b9d2d231cbfd6d8c5b63fb31e4d0b0eb"
+      }
+    ],
+    "reference_count": 4,
+    "result": "PASS"
+  },
+  "coverage": {
+    "result": "PASS",
+    "source_slots": 305,
+    "translated_slots": 305
+  },
+  "language": {
+    "forbidden_id_id_count": 0,
+    "high_confidence_english_residue_count": 0,
+    "result": "PASS"
+  },
+  "math_and_numeric": {
+    "authorized_numeric_localization_slots": [
+      71
+    ],
+    "non_mtext_mathml_byte_semantics": "PASS",
+    "reader_numeric_mismatch_count": 0,
+    "result": "PASS"
+  },
+  "module_id": "m49393",
+  "overlay": {
+    "bytes": 21033,
+    "path": "tools/agent_c_m49393_final.json",
+    "sha256": "2b3886ab88a10312be1e3ae5698b505eb9d1bfa6baf829c4c083e06a2b97aa3a"
+  },
+  "preservation": {
+    "comments": 0,
+    "elements": 5875,
+    "ids": 399,
+    "images": 4,
+    "mathml_elements": 5270,
+    "result": "PASS",
+    "xrefs": 19
+  },
+  "repeat_build": {
+    "byte_identical": true,
+    "result": "PASS",
+    "runs": 2,
+    "sha256": "fd07ee885692d4fd53d2fd37e51bd69a68373e05c6370eb242aea4d9261e2f15"
+  },
+  "schema_id": "hp-a30-003-current-byte-module-qa-v1",
+  "semantic_structures": {
+    "examples": 10,
+    "exercises": 57,
+    "figures": 4,
+    "solutions": 36,
+    "tables": 5
+  },
+  "source": {
+    "bytes": 141573,
+    "path": "source/modules/m49393/index.cnxml",
+    "sha256": "127998ee2cb1b1aa44beb4df1bee6aab9b593dddaf3e7e919e1e047d2ef59747"
+  },
+  "status": "PASS",
+  "target": {
+    "bytes": 143092,
+    "path": "translated/modules/m49393/index.cnxml",
+    "sha256": "fd07ee885692d4fd53d2fd37e51bd69a68373e05c6370eb242aea4d9261e2f15"
+  }
+}

@@ -1,0 +1,20 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml" class="introduction">
+
+<title>Pengantar Identitas dan Persamaan Trigonometri</title>
+<metadata>
+  <md:content-id>m49392</md:content-id>
+  <md:title>Pengantar Identitas dan Persamaan Trigonometri</md:title>
+  <md:abstract />
+  <md:uuid>5f5ffc7e-004f-46fd-8fe6-f36153d49675</md:uuid>
+</metadata>
+
+<content>
+  <figure id="Figure_07_00_001" class="splash unnumbered"><label />
+<media id="fs-id1506750" alt="Foto jarak dekat layar osiloskop yang menampilkan bentuk gelombang biru neon cerah. Bentuk gelombang tersebut kompleks: sebuah kurva utama yang bergelombang disertai riak atau gerigi kecil yang seragam di sepanjang kurva. Tampak pula bentuk gelombang kedua yang lebih redup, dengan pola serupa, sedikit bergeser dan saling menumpuk sehingga menghasilkan efek visual rumit yang menyerupai anyaman. Latar belakangnya berupa kisi-kisi biru tua khas tampilan osiloskop. Garis kisi yang lebih terang terlihat menembus bentuk gelombang bercahaya dan menunjukkan pengukuran yang presisi.">
+      <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_07_00_001.jpg" />
+    </media>
+  <caption>Gelombang sinus memodelkan gangguan. (kredit: modifikasi karya Mikael Altemark, Flickr).</caption>
+</figure>
+<para id="fs-id2436739">Matematika ada di mana-mana, bahkan di tempat yang mungkin tidak langsung kita kenali. Misalnya, hubungan matematis menggambarkan transmisi gambar, cahaya, dan suara. Grafik sinusoidal pada gambar di atas memodelkan musik yang diputar melalui telepon, radio, atau komputer. Grafik seperti itu dideskripsikan menggunakan persamaan dan fungsi trigonometri. Dalam bab ini, kita membahas cara memanipulasi persamaan trigonometri secara aljabar dengan menerapkan berbagai rumus dan identitas trigonometri. Kita juga akan menyelidiki beberapa cara penggunaan persamaan trigonometri untuk memodelkan fenomena kehidupan nyata.</para>
+</content>
+</document>

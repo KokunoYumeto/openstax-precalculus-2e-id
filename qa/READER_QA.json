@@ -1,0 +1,64 @@
+{
+  "checks": {
+    "all_module_titles_present": "pass",
+    "all_pages_a4": "pass",
+    "blank_like_pages": 0,
+    "page_numbers_all_pages": "visually_checked",
+    "reader_image_files_missing": 0,
+    "reader_image_refs": 196,
+    "reopened_with_pypdf": "pass",
+    "repeat_build_byte_identical": "pass",
+    "required_reader_sections_present": "pass",
+    "running_headers_all_pages": "pass",
+    "unicode_replacement_characters": 0
+  },
+  "html": {
+    "bytes": 1772673,
+    "path": "preview/HP-A30-003_Bab_6-7_Bahasa_Indonesia.html",
+    "sha256": "35074e92b70f721e4c1282614cd9ef22dec35d610ccacbf881ce7f624f5c6d8a"
+  },
+  "packet_id": "HP-A30-003",
+  "pdf": {
+    "bytes": 27328004,
+    "pages": 238,
+    "path": "preview/HP-A30-003_Bab_6-7_Bahasa_Indonesia.pdf",
+    "sha256": "24609911e645e6d9f1b4e956403d2b4a0323e37ad145fe39521ba3abd2eda8ae"
+  },
+  "schema_id": "hp-a30-003-reader-qa-v1",
+  "status": "PASS",
+  "text_density": {
+    "maximum_characters_on_any_page": 3534,
+    "minimum_characters_on_any_page": 97
+  },
+  "visual_review": {
+    "attribution_header_legibility": "pass",
+    "black_boxes_or_missing_images": 0,
+    "centered_figures": "pass",
+    "clipped_or_overlapping_content": 0,
+    "cover_and_toc": "pass",
+    "exercise_and_solution_flow": "pass",
+    "license_and_provenance_page": "pass",
+    "math_legibility": "pass",
+    "method": "Poppler PNG rendering at 75-150 dpi plus original-resolution contact inspection",
+    "responsive_tables": "pass",
+    "sample_pages": [
+      1,
+      2,
+      3,
+      10,
+      30,
+      50,
+      70,
+      90,
+      110,
+      130,
+      150,
+      170,
+      190,
+      210,
+      230,
+      238
+    ],
+    "section_transitions": "pass"
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "schema_id": "hp-a30-003-independent-chapter6-review-v1",
+  "status": "PASS",
+  "packet_id": "HP-A30-003",
+  "reviewer": "Codex independent helper audit on instructions of the user",
+  "review_date": "2026-08-28",
+  "scope": {
+    "module_ids": [
+      "m49386",
+      "m49387",
+      "m49389",
+      "m49390",
+      "m49392"
+    ],
+    "source_order_boundary": [38, 42],
+    "source_slots_reviewed": 2643,
+    "accessibility_slots_reviewed": 147,
+    "unreviewed_reader_slots": 0
+  },
+  "contracts": {
+    "terminology_path": "contracts/TERMINOLOGY.csv",
+    "terminology_sha256": "bb5f21eca26c1900bbd88d40c8ef8e39f2183d678b97d75b1d806ae5a0c0961d",
+    "range_decision": "The owner contract expressly retains range as the corpus default and accepts daerah hasil or daerah nilai pedagogically; occurrences of range are therefore not classified as English residue.",
+    "stretch_factor_decision": "PC2E-TERM-0154 requires faktor peregangan; current faktor regangan occurrences are correction candidates."
+  },
+  "method": {
+    "reader_string_review": "Every extracted source/target slot was compared in source order, including text, tails, alt text, and table summaries; split sentences were reconstructed across intervening XML and MathML nodes.",
+    "semantic_checks": [
+      "natural and accurate id-ID",
+      "cross-node sentence stitching",
+      "terminology contract consistency",
+      "formula and numeric fidelity",
+      "English residue",
+      "accessibility prose",
+      "source-authored discrepancies"
+    ],
+    "deterministic_checks": [
+      "declared overlay covers every source slot",
+      "declared overlay rebuild equals current target bytes",
+      "XML topology, IDs, comments, xrefs, images, and non-mtext MathML preserved",
+      "active asset references resolve to byte-identical frozen assets"
+    ]
+  },
+  "modules": [
+    {
+      "module_id": "m49386",
+      "status": "PASS",
+      "identity": {
+        "source": {"path": "source/modules/m49386/index.cnxml", "bytes": 2789, "sha256": "bbb96d1832d83256e4cd90631f514dbe9bbf142d52f8f1dd7d2431de603befe5"},
+        "overlay": {"path": "tools/agent_a_overlays/m49386.json", "bytes": 2609, "sha256": "b1a401f9cb640773c4d54a689c60301d5a455bde42f1299fa4ddb13e76382d93"},
+        "target": {"path": "translated/modules/m49386/index.cnxml", "bytes": 2893, "sha256": "8facb3f47c07d61a95fc1f96771cebb15b9167e2c099e3031ae057116178344c"}
+      },
+      "counts": {"reader_slots": 7, "accessibility_slots": 1, "elements": 16, "ids": 5, "xrefs": 0, "mathml_elements": 0, "image_references": 1, "correction_groups": 0, "correction_slots": 0},
+      "deterministic_result": "PASS",
+      "semantic_result": "PASS",
+      "correction_slot_groups": [],
+      "preserved_source_discrepancies": [
+        {"slots": [4], "source_issue": "Caption contains 'tha Masai Mara'; Indonesian correctly resolves the obvious typo."},
+        {"slots": [6], "source_issue": "Source duplicates 'most most' and contains a damaged apostrophe in Earth's; Indonesian is fluent and does not reproduce either defect."},
+        {"slots": [7], "source_issue": "Source contains a damaged apostrophe in sun's; Indonesian is unaffected."}
+      ]
+    },
+    {
+      "module_id": "m49387",
+      "status": "PASS",
+      "identity": {
+        "source": {"path": "source/modules/m49387/index.cnxml", "bytes": 160667, "sha256": "b5b272b9da0e191a539f578c6b20cceba669d48fffc9c9e7078d0d90cd15dc3d"},
+        "overlay": {"path": "tools/agent_a_overlays/m49387.json", "bytes": 46476, "sha256": "f0ffc66578ad5775c127d2a772c94bae72c32aa01dfc1f3153fe0edd00f5276c"},
+        "target": {"path": "translated/modules/m49387/index.cnxml", "bytes": 161104, "sha256": "61dc889ef58d41d68811616907610b8296e342c6e111293ec8f80d1eb0a2f8c1"}
+      },
+      "counts": {"reader_slots": 853, "accessibility_slots": 51, "elements": 5423, "ids": 583, "xrefs": 54, "mathml_elements": 4428, "image_references": 48, "correction_groups": 32, "correction_slots": 103},
+      "deterministic_result": "PASS",
+      "semantic_result": "PASS",
+      "correction_slot_groups": [
+        {"id": "m49387-c01", "category": "cross-node axis order", "slots": [91, 92], "replacement_by_slot": {"91": " simetris terhadap sumbu ", "92": " karena merupakan fungsi genap."}},
+        {"id": "m49387-c02", "category": "lost example and conditional connective", "slots": [108, 110, 111, 114, 115], "replacement_by_slot": {"108": " dan fungsi mengalami peregangan horizontal. Sebagai contoh, ", "110": " yang sudah kita ketahui. Jika ", "111": " maka ", "114": " maka ", "115": " sehingga periodenya adalah "}},
+        {"id": "m49387-c03", "category": "mathematical relation", "slots": [117], "replacement_by_slot": {"117": " bagaimana periode berbanding terbalik dengan "}},
+        {"id": "m49387-c04", "category": "cross-node instruction stitching", "slots": [121, 123, 155, 157], "replacement_by_slot": {"121": "Jika kita menetapkan ", "123": " dalam persamaan bentuk umum fungsi sinus dan kosinus, diperoleh bentuk", "155": "Jika kita menetapkan ", "157": " dalam persamaan bentuk umum fungsi sinus dan kosinus, diperoleh bentuk"}},
+        {"id": "m49387-c05", "category": "missing predicate and mistranslation", "slots": [129, 147], "replacement_by_slot": {"129": " sehingga periodenya adalah", "147": " fungsi diregangkan secara vertikal. Sebagai contoh, amplitudo "}},
+        {"id": "m49387-c06", "category": "cross-node axis order", "slots": [178, 180], "replacement_by_slot": {"178": " menghasilkan pencerminan terhadap sumbu ", "180": " dari "}},
+        {"id": "m49387-c07", "category": "term grammar", "slots": [54, 206, 212, 236, 248], "replacement_by_slot": {"54": "pergeseran horizontal", "206": "pergeseran fase", "212": " semakin jauh grafik bergeser. ", "236": "pergeseran fase", "248": " satuan ke kiri."}},
+        {"id": "m49387-c08", "category": "accessibility prose", "slots": [230], "replacement_by_slot": {"230": "Grafik dengan dua bagian. Bagian pertama adalah grafik sin(x). Bagian kedua adalah grafik sin(x)+2, yaitu grafik sin(x) yang digeser ke atas sebesar 2."}},
+        {"id": "m49387-c09", "category": "how-to instruction grammar", "slots": [267, 268, 274], "replacement_by_slot": {"267": "Jika diberikan fungsi sinusoidal berbentuk", "268": "identifikasilah garis tengah, amplitudo, periode, dan pergeseran fasenya.", "274": "Tentukan garis tengah, amplitudo, periode, dan pergeseran fase fungsi "}},
+        {"id": "m49387-c10", "category": "lost conditional and spelling", "slots": [302, 303], "replacement_by_slot": {"302": " yang digeser dan/atau dicerminkan. Ketika ", "303": " grafik memiliki titik ekstrem, "}},
+        {"id": "m49387-c11", "category": "cross-node axis order", "slots": [311, 313], "replacement_by_slot": {"311": " Selain itu, grafik dicerminkan terhadap sumbu ", "313": " sehingga "}},
+        {"id": "m49387-c12", "category": "lost conclusion", "slots": [331], "replacement_by_slot": {"331": " atau dari jarak antara titik-titik terendah. Oleh karena itu, "}},
+        {"id": "m49387-c13", "category": "sentence and equivalence wording", "slots": [336, 339, 348], "replacement_by_slot": {"336": " Untuk bentuk dan pergeseran, kita memiliki lebih dari satu pilihan. Kita dapat menuliskannya sebagai salah satu bentuk berikut:", "339": "sinus bergeser ke kiri", "348": "Sekali lagi, fungsi-fungsi ini ekuivalen, sehingga keduanya menghasilkan grafik yang sama."}},
+        {"id": "m49387-c14", "category": "how-to imperative", "slots": [370, 371, 372, 373], "replacement_by_slot": {"370": "Jika diberikan fungsi ", "371": " gambarlah grafiknya.", "372": "Tentukan amplitudo, ", "373": "Tentukan periode, "}},
+        {"id": "m49387-c15", "category": "cross-node axis order", "slots": [381, 383, 388, 390], "replacement_by_slot": {"381": "Kurva kembali ke sumbu ", "383": " pada ", "388": "Kurva kembali lagi ke sumbu ", "390": " pada "}},
+        {"id": "m49387-c16", "category": "quarter-point terminology", "slots": [409, 411, 412], "replacement_by_slot": {"409": "Titik-titik seperempat periode mencakup minimum pada ", "411": " Minimum lokal terjadi 2 satuan di bawah garis tengah, pada ", "412": " dan maksimum lokal terjadi 2 satuan di atas garis tengah, pada "}},
+        {"id": "m49387-c17", "category": "how-to imperative", "slots": [426, 428, 429, 430, 432, 433], "replacement_by_slot": {"426": "Nyatakan fungsi dalam bentuk umum ", "428": "Tentukan amplitudo, ", "429": "Tentukan periode, ", "430": "Tentukan pergeseran fase, ", "432": " yang digeser ke kanan atau ke kiri sebesar ", "433": " dan ke atas atau ke bawah sebesar "}},
+        {"id": "m49387-c18", "category": "causal conjunction", "slots": [444, 448, 471, 482], "replacement_by_slot": {"444": " Karena ", "448": " Karena ", "471": " Karena ", "482": "Karena "}},
+        {"id": "m49387-c19", "category": "unit and direction", "slots": [481], "replacement_by_slot": {"481": " dan pergeseran vertikalnya 3 satuan ke atas."}},
+        {"id": "m49387-c20", "category": "established motion terminology", "slots": [490, 494], "replacement_by_slot": {"490": "gerak melingkar", "494": "Menentukan Komponen Vertikal Gerak Melingkar"}},
+        {"id": "m49387-c21", "category": "cross-node y-value stitching", "slots": [498, 504, 506], "replacement_by_slot": {"498": "Ingatlah bahwa, untuk titik pada lingkaran berjari-jari ", "504": "\nKonstanta 3 menyebabkan peregangan vertikal nilai ", "506": " fungsi sebesar faktor 3, sebagaimana terlihat pada grafik di "}},
+        {"id": "m49387-c22", "category": "unit localization", "slots": [522, 539], "replacement_by_slot": {"522": "Lingkaran berjari-jari 3 kaki dipasang dengan pusat 4 kaki di atas tanah. Titik yang paling dekat dengan tanah diberi label ", "539": " beban relatif terhadap papan berkisar dari "}},
+        {"id": "m49387-c23", "category": "severe lexical mistranslation", "slots": [552, 565], "replacement_by_slot": {"552": "Penumpang naik 2 m di atas permukaan tanah, sehingga pusat bianglala harus berada ", "565": " dinyatakan dalam menit dan "}},
+        {"id": "m49387-c24", "category": "lost conditional and cross-reference cues", "slots": [588, 593, 596, 598, 600, 608], "replacement_by_slot": {"588": " menyatakan amplitudo. Jika ", "593": " dalam rumus umum fungsi sinusoidal menunjukkan pergeseran fase. Lihat ", "596": " dalam rumus umum fungsi sinusoidal menunjukkan pergeseran vertikal dari garis tengah. Lihat ", "598": "Kombinasi variasi fungsi sinusoidal dapat dikenali dari persamaan. Lihat ", "600": "Persamaan fungsi sinusoidal dapat ditentukan dari grafik. Lihat ", "608": "Fungsi sinusoidal dapat digunakan untuk menyelesaikan masalah dunia nyata. Lihat "}},
+        {"id": "m49387-c25", "category": "definition grammar", "slots": [617], "replacement_by_slot": {"617": " Ini berarti bahwa nilai fungsi berulang setiap "}},
+        {"id": "m49387-c26", "category": "cross-node comparison", "slots": [621, 622, 623, 624], "replacement_by_slot": {"621": "Bagaimana grafik ", "622": "\ndibandingkan dengan grafik ", "623": "\nJelaskan bagaimana grafik ", "624": "\nuntuk memperoleh "}},
+        {"id": "m49387-c27", "category": "constant terminology", "slots": [627, 628, 629], "replacement_by_slot": {"627": "Nilai mutlak konstanta ", "628": " (amplitudo) memperlebar keseluruhan range, sedangkan konstanta ", "629": " (pergeseran vertikal) menggeser grafik secara vertikal."}},
+        {"id": "m49387-c28", "category": "cross-node coordinate-value order", "slots": [638, 640, 642, 699, 701, 703], "replacement_by_slot": {"638": "Untuk latihan berikut, gambarkan dua periode penuh setiap fungsi dan nyatakan amplitudo, periode, serta garis tengahnya. Nyatakan nilai maksimum dan minimum ", "640": " serta nilai ", "642": " yang bersesuaian dalam satu periode untuk ", "699": " Untuk setiap fungsi, nyatakan amplitudo, periode, dan garis tengahnya. Nyatakan nilai maksimum dan minimum ", "701": " serta nilai ", "703": " yang bersesuaian dalam satu periode untuk "}},
+        {"id": "m49387-c29", "category": "minimum terminology", "slots": [650, 658, 667, 675, 682, 692, 710, 720], "replacement_by_slot": {"650": " minimum: ", "658": " minimum: ", "667": " minimum: ", "675": " minimum: ", "682": " minimum: ", "692": " minimum: ", "710": " minimum: ", "720": " minimum: "}},
+        {"id": "m49387-c30", "category": "instruction verb", "slots": [757, 774, 779, 797], "replacement_by_slot": {"757": "Untuk latihan berikut, tetapkan ", "774": "Tunjukkan bahwa ", "779": "Untuk latihan berikut, tetapkan ", "797": " selesaikan persamaan "}},
+        {"id": "m49387-c31", "category": "imperative grammar", "slots": [818, 821], "replacement_by_slot": {"818": " dan jelaskan apa yang ditunjukkan grafik.", "821": " dan jelaskan apa yang ditunjukkan grafik."}},
+        {"id": "m49387-c32", "category": "glossary terminology and capitalization", "slots": [838, 846, 847, 849, 850], "replacement_by_slot": {"838": "ketinggian vertikal suatu fungsi; konstanta ", "846": " yang memenuhi ", "847": " untuk konstanta tertentu ", "849": "pergeseran fase", "850": "pergeseran horizontal fungsi sinus atau kosinus dasar; konstanta "}}
+      ],
+      "remediation": {"status": "PASS", "initial_correction_groups_applied": 32, "initial_correction_slots_applied": 103, "second_pass_refinement_slots": [106, 113, 140, 150, 210, 211, 229, 262, 265, 343, 366, 579, 590, 626, 799, 808, 811, 816, 819], "second_pass_replacement_by_slot": {"106": " dan fungsi mengalami pemampatan horizontal, sedangkan jika ", "113": " dan grafiknya dimampatkan. ", "140": " di atas ", "150": " fungsi dimampatkan. ", "210": " grafik bergeser ke kanan. Jika ", "211": " grafik bergeser ke kiri. Semakin besar nilai ", "229": " yang digeser 2 satuan ke atas pada grafik.", "262": " sehingga pergeserannya 3 satuan ke bawah.", "265": "2 satuan ke atas", "343": ", dan dengan faktor pemampatan horizontal sebesar ", "366": "kita akan menetapkan ", "579": " adalah ganjil, sehingga grafiknya simetris terhadap titik asal. ", "590": " fungsi dimampatkan. Lihat ", "626": " Konstanta apa yang memengaruhi range fungsi dan bagaimana pengaruhnya terhadap range?", "799": "Gambarkan grafik ", "808": "Gambarkan grafik ", "811": "Gambarkan grafik ", "816": "Gambarkan grafik ", "819": "Gambarkan grafik "}, "all_current_values_verified": true},
+      "preserved_source_discrepancies": [
+        {"slots": [44], "source_issue": "Source says 'we can plots points'; Indonesian correctly uses a grammatical verb."},
+        {"slots": [530], "source_issue": "Accessibility source formula says -3cox(x)+4 rather than -3cos(x)+4; helper target preserves the source formula and should not silently alter it."},
+        {"slots": [548], "source_issue": "Accessibility source states range [-1,-7] in descending order; helper target preserves that source-authored value order."}
+      ]
+    },
+    {
+      "module_id": "m49389",
+      "status": "PASS",
+      "identity": {
+        "source": {"path": "source/modules/m49389/index.cnxml", "bytes": 197841, "sha256": "c1d1bda6c7e893c2c32668406eafa62b5ed2a62a40cfd5f6bd00ac474d6dd72f"},
+        "overlay": {"path": "tools/agent_b_m49389_translations.json", "bytes": 50278, "sha256": "a43d0fd0450fcd3f6d122d3d88a4bc9e634999cfdf44ec65aa049b77164bc84a"},
+        "target": {"path": "translated/modules/m49389/index.cnxml", "bytes": 198744, "sha256": "0e027f82bb59720b401ee4ad1897a31830895413deec8cfd4a3d06e8c74fee3a"}
+      },
+      "counts": {"reader_slots": 997, "accessibility_slots": 52, "elements": 6816, "ids": 549, "xrefs": 35, "mathml_elements": 5647, "image_references": 48, "correction_groups": 34, "correction_slots": 213},
+      "deterministic_result": "PASS",
+      "semantic_result": "PASS",
+      "correction_slot_groups": [
+        {"id": "m49389-c01", "category": "learning-objective grammar", "slots": [4, 5, 6, 7, 8, 9], "replacement_by_slot": {"4": "Menganalisis grafik  y=tan x.", "5": "Menggambar variasi  y=tan x.", "6": "Menganalisis grafik  y=sec x  dan  y=csc x.", "7": "Menggambar variasi  y=sec x  dan  y=csc x.", "8": "Menganalisis grafik  y=cot x.", "9": "Menggambar variasi  y=cot x."}},
+        {"id": "m49389-c02", "category": "cross-node opening sentence", "slots": [15, 17, 20, 24], "replacement_by_slot": {"15": "Kita akan mulai dengan menggambar grafik fungsi ", "17": ", dengan memplot titik-titik seperti pada fungsi sinus dan kosinus. Ingatlah bahwa", "20": " fungsi tangen adalah ", "24": " hingga "}},
+        {"id": "m49389-c03", "category": "cross-node limit prose", "slots": [40, 41, 43, 56, 58, 59], "replacement_by_slot": {"40": "Titik-titik ini membantu kita menggambar grafik, tetapi kita perlu menentukan perilakunya di tempat fungsi tidak terdefinisi. Jika kita mencermati nilai-nilai ketika ", "41": " kita dapat menggunakan tabel untuk mencari kecenderungannya. Karena ", "43": " kita akan mengevaluasi ", "56": "Ketika ", "58": ", keluaran fungsi menjadi semakin besar. Karena ", "59": " merupakan fungsi ganjil, tabel nilai negatif yang bersesuaian ditunjukkan pada "}},
+        {"id": "m49389-c04", "category": "cross-node undefined-value prose", "slots": [70, 72, 73, 78, 79, 85], "replacement_by_slot": {"70": "Kita dapat melihat bahwa, ketika ", "72": ", keluarannya menjadi semakin kecil. Ingatlah bahwa ada nilai-nilai ", "73": " yang membuat ", "78": " tidak terdefinisi, sehingga grafik ", "79": " memiliki diskontinuitas pada ", "85": " hingga "}},
+        {"id": "m49389-c05", "category": "accessibility formula wording", "slots": [87], "replacement_by_slot": {"87": "Grafik y=tangen x. Asimtot pada -pi dibagi 2 dan pi dibagi 2."}},
+        {"id": "m49389-c06", "category": "severe inserted residue", "slots": [94, 95, 98, 99], "replacement_by_slot": {"94": "tangen", "95": " dapat dijelaskan dengan persamaan umum.", "98": " Peregangan horizontal biasanya dapat ditentukan dari periode grafik. Pada grafik tangen, peregangan vertikal sering perlu ditentukan menggunakan sebuah titik pada grafik.", "99": "Karena fungsi tangen tidak memiliki nilai maksimum atau minimum, istilah "}},
+        {"id": "m49389-c07", "category": "owner-contract stretch-factor terminology", "slots": [112, 140, 189, 222, 300, 309, 347, 379, 401, 416, 430, 462, 522, 547, 564, 622, 646, 661, 668, 674, 694, 709, 737, 746, 749, 754, 836, 838, 843, 847, 852, 857, 862, 867, 872, 877, 882, 916], "replacement_by_slot": {"112": "Faktor peregangannya adalah ", "140": "Tentukan faktor peregangan, ", "189": "Faktor peregangannya adalah ", "222": " sehingga faktor peregangannya adalah ", "300": " sebagai faktor peregangan, bukan amplitudo.", "309": "Faktor peregangannya adalah ", "347": "Faktor peregangannya adalah ", "379": "Faktor peregangannya adalah ", "401": "Faktor peregangannya adalah ", "416": "Tentukan faktor peregangan/pemampatan, ", "430": " sehingga faktor peregangannya adalah ", "462": "Tentukan faktor peregangan/pemampatan, ", "522": " sehingga faktor peregangannya adalah 3.", "547": "Tentukan faktor peregangan/pemampatan, ", "564": "  Tentukan faktor peregangan/pemampatan, ", "622": "Faktor peregangannya adalah ", "646": "Faktor peregangannya adalah ", "661": "Tentukan faktor peregangan, ", "668": "Tentukan faktor peregangan, periode, dan pergeseran fase ", "674": " Faktor peregangannya adalah ", "694": "Tentukan faktor peregangan, ", "709": " sehingga faktor peregangannya adalah 4.", "737": " Tentukan dan tafsirkan faktor peregangan dan periodenya.", "746": " adalah faktor peregangan dan ", "749": "Faktor peregangan vertikal 5 berarti berkas telah bergerak 5 kaki dalam seperempat periode sebelum atau sesudah tanda setengah periode. Hal ini bersesuaian dengan nilai y fungsi tangen standar yang bernilai 1 pada jarak seperempat periode dari pusat periode, dikalikan faktor peregangan 5.", "754": " dan gunakan faktor peregangan serta periodenya. Lihat ", "836": "Untuk latihan berikut, buat sketsa dua periode grafik setiap fungsi. Tentukan faktor peregangan, periode, dan asimtotnya.", "838": "faktor peregangan: 2; periode: ", "843": "faktor peregangan: 6; periode: 6; asimtot: ", "847": "faktor peregangan: 1; periode: ", "852": "faktor peregangan: 1; periode: ", "857": "faktor peregangan: 2; periode: ", "862": "faktor peregangan: 4; periode: ", "867": "faktor peregangan: 7; periode: ", "872": "faktor peregangan: 2; periode: ", "877": "faktor peregangan: ", "882": "Untuk latihan berikut, tentukan dan gambarkan dua periode fungsi periodik dengan faktor peregangan yang diberikan, ", "916": " Tentukan dan tafsirkan faktor peregangan, periode, dan asimtotnya."}},
+        {"id": "m49389-c08", "category": "domain definition", "slots": [114, 124], "replacement_by_slot": {"114": "Domainnya adalah semua bilangan real ", "124": "Kita dapat menggunakan sifat-sifat "}},
+        {"id": "m49389-c09", "category": "how-to grammar", "slots": [138, 139, 148, 158, 160, 162], "replacement_by_slot": {"138": "Jika diberikan fungsi ", "139": " gambarkan satu periodenya.", "148": "Plotkan titik-titik acuan pada ", "158": " kita dapat menentukan ", "160": " dan periodenya. Periodenya adalah ", "162": " Pada seperempat periode dari titik asal, diperoleh"}},
+        {"id": "m49389-c10", "category": "try-it and sentence residue", "slots": [168, 169, 172, 174], "replacement_by_slot": {"168": "Coba", "169": "Buat sketsa grafik ", "172": "Sekarang kita dapat menggambar ", "174": " yang diregangkan atau dimampatkan, lalu menambahkan pergeseran vertikal dan/atau horizontal (fase). Dalam hal ini, kita menambahkan "}},
+        {"id": "m49389-c11", "category": "how-to grammar and severe direction mistranslation", "slots": [202, 209, 210, 212, 216, 218, 220], "replacement_by_slot": {"202": "Nyatakan fungsi yang diberikan dalam bentuk ", "209": " dan tentukan pergeseran fase, ", "210": "Gambarlah grafik ", "212": " dan ke atas sebesar ", "216": "Plotkan tiga titik acuan mana pun dan gambarlah grafik yang melalui titik-titik tersebut.", "218": "Gambarkan satu periode fungsi ", "220": " Fungsi tersebut sudah ditulis dalam bentuk "}},
+        {"id": "m49389-c12", "category": "try-it comparison", "slots": [237, 238, 239, 240, 241], "replacement_by_slot": {"237": "Coba", "238": "Bagaimana tampilan grafik pada ", "239": " akan berbeda jika kita menetapkan ", "240": " alih-alih ", "241": "Grafik akan dicerminkan terhadap garis "}},
+        {"id": "m49389-c13", "category": "x-intercept and point wording", "slots": [245, 246, 248, 250, 257, 266, 269], "replacement_by_slot": {"245": "Tentukan periode ", "246": " dari jarak antara asimtot vertikal yang berurutan atau titik potong sumbu ", "248": ".", "250": "Tentukan sebuah titik yang mudah digunakan ", "257": "Grafik tersebut berbentuk seperti fungsi tangen. ", "266": " kita dapat menggunakan titik ", "269": "Coba"}},
+        {"id": "m49389-c14", "category": "definition and axis stitching", "slots": [283, 293, 295, 301, 337], "replacement_by_slot": {"283": " didefinisikan melalui ", "293": " saat grafik kosinus memotong sumbu ", "295": "; asimtot tersebut ditampilkan pada grafik di bawah sebagai garis vertikal putus-putus, tetapi selanjutnya tidak semua asimtot pada grafik sekan dan kosekan ditampilkan secara eksplisit.", "301": "Catatan Umum", "337": "Grafik kosekan x dan sinus x. Lima asimtot vertikal ditunjukkan pada kelipatan pi."}},
+        {"id": "m49389-c15", "category": "how-to grammar", "slots": [413, 414, 415, 419, 420, 424, 426], "replacement_by_slot": {"413": "Jika diberikan fungsi berbentuk ", "414": " gambarkan satu periodenya.", "415": "Nyatakan fungsi yang diberikan dalam bentuk ", "419": "Gambarlah grafik ", "420": "Gunakan hubungan resiprokal antara ", "424": "Plotkan dua titik acuan mana pun dan gambarlah grafik yang melalui titik-titik tersebut.", "426": "Gambarkan satu periode "}},
+        {"id": "m49389-c16", "category": "try-it and range stitching", "slots": [449, 455, 456, 457], "replacement_by_slot": {"449": "Coba", "455": "Apakah pergeseran vertikal dan peregangan/pemampatan memengaruhi range sekan?", "456": "Ya. Range ", "457": " adalah "}},
+        {"id": "m49389-c17", "category": "how-to grammar and severe direction mistranslation", "slots": [459, 460, 461, 466, 467, 469, 474, 476, 478, 484, 486, 494], "replacement_by_slot": {"459": "Jika diberikan fungsi berbentuk ", "460": " gambarkan satu periodenya.", "461": "Nyatakan fungsi yang diberikan dalam bentuk ", "466": " dan tentukan pergeseran fase, ", "467": "Gambarlah grafik ", "469": " dan ke atas sebesar ", "474": "Gambarkan satu periode ", "476": " Nyatakan fungsi yang diberikan dalam bentuk ", "478": " Faktor peregangan/pemampatannya adalah ", "484": " Gambarlah grafik ", "486": " dan ke atas sebesar ", "494": "Coba"}},
+        {"id": "m49389-c18", "category": "domain Q&A stitching", "slots": [498, 499, 500, 501, 502, 503], "replacement_by_slot": {"498": "Domain ", "499": " dinyatakan sebagai semua ", "500": " sedemikian sehingga ", "501": " untuk setiap bilangan bulat ", "502": "Apakah domain ", "503": "adalah"}},
+        {"id": "m49389-c19", "category": "cosecant how-to grammar", "slots": [506, 507, 508, 511, 512, 516, 518, 528, 540, 541], "replacement_by_slot": {"506": "Jika diberikan fungsi berbentuk ", "507": " gambarkan satu periodenya.", "508": "Nyatakan fungsi yang diberikan dalam bentuk ", "511": "Gambarlah grafik ", "512": "Gunakan hubungan resiprokal antara ", "516": "Plotkan dua titik acuan mana pun dan gambarlah grafik yang melalui titik-titik tersebut.", "518": "Gambarkan satu periode ", "528": " Buat sketsa grafik fungsi ", "540": "Coba", "541": "Gambarkan satu periode "}},
+        {"id": "m49389-c20", "category": "shifted-cosecant how-to grammar", "slots": [544, 545, 546, 551, 552, 554, 559, 562, 570, 571, 581, 582, 583, 584], "replacement_by_slot": {"544": "Jika diberikan fungsi berbentuk ", "545": " gambarkan satu periodenya.", "546": "Nyatakan fungsi yang diberikan dalam bentuk ", "551": " dan tentukan pergeseran fase, ", "552": "Gambarlah grafik ", "554": " dan ke atas sebesar ", "559": "Buat sketsa grafik ", "562": "  Nyatakan fungsi yang diberikan dalam bentuk ", "570": "  Gambarlah grafik ", "571": " tetapi geser ke atas sebesar ", "581": "Coba", "582": "Jika diberikan grafik ", "583": " yang ditunjukkan pada ", "584": ", buat sketsa grafik "}},
+        {"id": "m49389-c21", "category": "monotonicity wording", "slots": [602], "replacement_by_slot": {"602": ". Ketika grafik fungsi tangen menurun, grafik fungsi kotangen meningkat. Ketika grafik fungsi tangen meningkat, grafik fungsi kotangen menurun."}},
+        {"id": "m49389-c22", "category": "capitalization", "slots": [656], "replacement_by_slot": {"656": " adalah fungsi ganjil karena merupakan hasil bagi fungsi genap dan fungsi ganjil (berturut-turut kosinus dan sinus)"}},
+        {"id": "m49389-c23", "category": "cotangent how-to grammar", "slots": [658, 659, 660, 662, 663, 664, 671, 672, 678, 680, 688], "replacement_by_slot": {"658": "Jika diberikan fungsi kotangen termodifikasi berbentuk ", "659": " gambarkan satu periodenya.", "660": "Nyatakan fungsi dalam bentuk ", "662": "Tentukan periode, ", "663": "Gambarlah grafik ", "664": "Plotkan dua titik acuan mana pun.", "671": " Menuliskan fungsi dalam bentuk ", "672": " menghasilkan ", "678": " Buat sketsa grafik ", "680": " Plotkan dua titik acuan. Dua titik tersebut adalah ", "688": " dan grafik hijau menunjukkan "}},
+        {"id": "m49389-c24", "category": "shifted-cotangent how-to grammar", "slots": [691, 692, 693, 695, 696, 697, 699, 703, 705], "replacement_by_slot": {"691": "Jika diberikan fungsi kotangen termodifikasi berbentuk ", "692": " gambarkan satu periodenya.", "693": "Nyatakan fungsi dalam bentuk ", "695": "Tentukan periode, ", "696": "Tentukan pergeseran fase, ", "697": "Gambarlah grafik ", "699": " dan ke atas sebesar ", "703": "Plotkan tiga titik acuan mana pun dan gambarlah grafik yang melalui titik-titik tersebut.", "705": "Buatlah sketsa grafik satu periode fungsi "}},
+        {"id": "m49389-c25", "category": "real-world prose", "slots": [728, 732, 742, 744, 745, 787], "replacement_by_slot": {"728": "Banyak situasi dunia nyata menyatakan fungsi periodik dan dapat dimodelkan dengan fungsi trigonometri. Sebagai contoh, mari kembali ke skenario pembuka bagian. Pernahkah Anda mengamati berkas yang dihasilkan lampu berputar pada mobil pemadam dan bertanya-tanya tentang gerak berkas itu pada dinding? Sifat periodik jarak yang ditempuh cahaya sebagai fungsi waktu tampak jelas, tetapi bagaimana jarak itu ditentukan? Kita dapat menggunakan ", "732": "Misalkan fungsi ", "742": " dan bahas nilai fungsi pada masukan tersebut.", "744": " Dari bentuk umum ", "745": " kita mengetahui bahwa ", "787": "Kotangen bernilai nol pada "}},
+        {"id": "m49389-c26", "category": "cross-node coordinate and intercept stitching", "slots": [799, 801, 802, 804], "replacement_by_slot": {"799": " untuk memperoleh koordinat ", "801": " dari ", "802": " Titik potong sumbu ", "804": " pada grafik "}},
+        {"id": "m49389-c27", "category": "comparison grammar", "slots": [806, 810, 812, 813], "replacement_by_slot": {"806": "Bagaimana grafik ", "810": "Jawaban dapat bervariasi. Dengan lingkaran satuan, dapat ditunjukkan bahwa ", "812": "Bagaimana periode ", "813": " dibandingkan dengan periode "}},
+        {"id": "m49389-c28", "category": "severe corrupt translation", "slots": [819], "replacement_by_slot": {"819": " III"}},
+        {"id": "m49389-c29", "category": "exercise grammar", "slots": [833, 842], "replacement_by_slot": {"833": "Untuk latihan berikut, tulis ulang setiap ekspresi sehingga argumen ", "842": "Grafik dua periode fungsi kosekan yang dimodifikasi. Asimtot vertikal pada x= -6, -3, 0, 3, dan 6."}},
+        {"id": "m49389-c30", "category": "accessibility spelling", "slots": [896, 898], "replacement_by_slot": {"896": "Grafik fungsi kosekan yang dimodifikasi. Asimtot vertikal pada kelipatan pi.", "898": "Grafik dua periode fungsi tangen yang dimodifikasi. Asimtot vertikal pada x=-0.005 dan x=0.005."}},
+        {"id": "m49389-c31", "category": "real-world variable stitching", "slots": [909, 912, 920, 921, 925, 927], "replacement_by_slot": {"909": "Fungsi ", "912": "\n      dalam satuan kaki.", "920": " dan bahas nilai fungsi pada masukan-masukan tersebut.", "921": "Seorang nelayan yang berdiri di tepi danau melihat sebuah perahu jauh di sebelah kirinya. Misalkan ", "925": " dari nelayan ke perahu, dalam kilometer, diberikan oleh fungsi ", "927": "Apakah domain yang wajar untuk "}},
+        {"id": "m49389-c32", "category": "imperative and geometric wording", "slots": [935, 938, 949, 951], "replacement_by_slot": {"935": " Bulatkan hingga dua tempat desimal.", "938": " Bulatkan hingga dua tempat desimal.", "949": " —yakni, pada sudut siku-siku terhadap garis yang menunjukkan arah utara, perahu akan berada begitu jauh sehingga nelayan tidak dapat melihatnya;", "951": "3; ketika "}},
+        {"id": "m49389-c33", "category": "cross-node time-variable stitching", "slots": [958, 959, 967, 972, 976, 982, 986], "replacement_by_slot": {"958": "Pengukur jarak laser mengunci sebuah komet yang mendekati Bumi. Jarak ", "959": " komet setelah ", "967": "\n     dan tafsirkan informasinya.", "972": "Sebuah kamera video diarahkan pada roket di landasan peluncuran yang berjarak 2 mil dari kamera. Sudut elevasi dari tanah ke roket setelah ", "976": " roket di atas tanah, dalam mil, setelah ", "982": "Hitung dan tafsirkan nilai ", "986": " ketika "}},
+        {"id": "m49389-c34", "category": "limit conjunction", "slots": [995], "replacement_by_slot": {"995": "Ketika "}}
+      ],
+      "remediation": {"status": "PASS", "initial_correction_groups_applied": 34, "initial_correction_slots_applied": 213, "second_pass_refinement_slots": [58, 72, 152, 200, 201, 203, 289, 327, 329, 331, 333, 439, 450, 495], "superseded_initial_replacement_slots": [58, 72], "second_pass_replacement_by_slot": {"58": " keluaran fungsi menjadi semakin besar. Karena ", "72": " keluarannya menjadi semakin kecil. Ingatlah bahwa ada nilai-nilai ", "152": "Buatlah sketsa grafik satu periode fungsi ", "200": "Jika diberikan fungsi ", "201": " gambarkan satu periodenya.", "203": "Tentukan ", "289": ". Grafik kosinus ditampilkan sebagai gelombang oranye putus-putus agar hubungannya terlihat. Ketika grafik fungsi kosinus menurun, grafik ", "327": ". Grafik sinus ditampilkan sebagai gelombang oranye putus-putus agar hubungannya terlihat. Ketika grafik fungsi sinus menurun, grafik ", "329": " meningkat. Ketika grafik fungsi sinus meningkat, grafik fungsi kosekan menurun.", "331": " saat grafik sinus memotong sumbu ", "333": "; asimtot tersebut ditampilkan pada grafik di bawah sebagai garis vertikal putus-putus.", "439": " Buat sketsa grafik fungsi ", "450": "Gambarkan satu periode ", "495": "Gambarkan satu periode "}, "all_current_values_verified": true},
+      "preserved_source_discrepancies": [
+        {"slots": [47, 61], "source_issue": "Accessibility summaries say 'Th table'; Indonesian correctly repairs the typo."},
+        {"slots": [279], "source_issue": "Source omits a space in cscx; helper target preserves MathML/source topology."},
+        {"slots": [441], "source_issue": "A secant construction step incorrectly says to draw the cosecant function; Indonesian correctly says fungsi sekan."},
+        {"slots": [448, 453, 542], "source_issue": "Accessibility text misspells parabola as prarbola; Indonesian repairs the spelling. Slot 542 also labels the displayed function secant in a cosecant-context try-it and remains a source-level classification concern."},
+        {"slots": [587], "source_issue": "Accessibility text contains consine and Grpah; Indonesian repairs both."},
+        {"slots": [786], "source_issue": "Source says cotangent is decreasing at each point in its range; mathematically, monotonic decrease is described on each continuity interval of its domain. Target presently preserves the source claim and the owner should decide whether to correct source semantics."}
+      ]
+    },
+    {
+      "module_id": "m49390",
+      "status": "PASS",
+      "identity": {
+        "source": {"path": "source/modules/m49390/index.cnxml", "bytes": 239182, "sha256": "97c66042d3d978a570d83efdfdadffeafc00cd9e4145f29c54c87124aa724d53"},
+        "overlay": {"path": "tools/agent_b_m49390_translations.json", "bytes": 44808, "sha256": "7202c9320c6780b9c7e3397a564e4a90ca1773dd487c1842c401db18ee432348"},
+        "target": {"path": "translated/modules/m49390/index.cnxml", "bytes": 239580, "sha256": "3be5ae9b4c4320780b8fc9c920da5b98319fda39db8b2d10f46f988b03ea175e"}
+      },
+      "counts": {"reader_slots": 781, "accessibility_slots": 42, "elements": 8221, "ids": 922, "xrefs": 29, "mathml_elements": 6996, "image_references": 42, "correction_groups": 33, "correction_slots": 165},
+      "deterministic_result": "PASS",
+      "semantic_result": "PASS",
+      "correction_slot_groups": [
+        {"id": "m49390-c01", "category": "capitalization and quantifier", "slots": [4, 5, 8], "replacement_by_slot": {"4": "Memahami dan menggunakan fungsi sinus, kosinus, dan tangen invers.", "5": "Menentukan nilai eksak ekspresi yang melibatkan fungsi sinus, kosinus, dan tangen invers.", "8": "Untuk setiap "}},
+        {"id": "m49390-c02", "category": "range terminology retained but prose repaired", "slots": [18, 19, 30, 33], "replacement_by_slot": {"18": " maka kita menulis ", "19": " Perhatikan bahwa ", "30": "Pada bagian-bagian sebelumnya, kita menghitung fungsi trigonometri pada berbagai sudut, tetapi kadang-kadang kita perlu mengetahui sudut yang menghasilkan nilai sinus, kosinus, atau tangen tertentu. Untuk itu diperlukan fungsi invers. Ingatlah bahwa, untuk ", "33": " maka fungsi invers memenuhi "}},
+        {"id": "m49390-c03", "category": "domain and inverse prose", "slots": [47, 48, 54, 58, 62, 66, 70, 74, 79], "replacement_by_slot": {"47": " ke asimtot berikutnya, alih-alih terbagi menjadi dua bagian oleh sebuah asimtot.", "48": "Pada domain terbatas ini, kita dapat mendefinisikan ", "54": " Fungsi sinus invers kadang-kadang disebut fungsi ", "58": "dan range", "62": " Fungsi kosinus invers kadang-kadang disebut fungsi ", "66": "dan range", "70": " Fungsi tangen invers kadang-kadang disebut fungsi ", "74": "dan range", "79": "bilangan, "}},
+        {"id": "m49390-c04", "category": "arc-function terminology proposal consistency", "slots": [63, 71, 92, 94, 95, 96, 97, 767, 769, 771], "replacement_by_slot": {"63": "arkus kosinus", "71": "arkus tangen", "92": "Grafik fungsi sinus x dan arkus sinus x. Garis putus-putus y=x di antara kedua grafik menunjukkan sifat invers kedua fungsi.", "94": "Grafik fungsi kosinus x dan arkus kosinus x. Garis putus-putus y=x menunjukkan sifat invers kedua fungsi.", "95": "Fungsi kosinus dan fungsi kosinus invers (atau arkus kosinus)", "96": "Grafik fungsi tangen x dan arkus tangen x. Garis putus-putus y=x menunjukkan sifat invers kedua fungsi.", "97": "Fungsi tangen dan fungsi tangen invers (atau arkus tangen)", "767": "arkus kosinus", "769": "arkus sinus", "771": "arkus tangen"}},
+        {"id": "m49390-c05", "category": "capitalization and how-to grammar", "slots": [118, 125, 129, 130, 133, 143, 147, 156, 160, 165, 168], "replacement_by_slot": {"118": " tuliskan relasi yang melibatkan kosinus invers.", "125": "Jika diberikan nilai masukan “istimewa”, hitunglah nilai fungsi trigonometri invers.", "129": " tidak berada dalam range invers yang ditetapkan, carilah sudut lain ", "130": " yang berada dalam range tersebut dan memiliki sinus, kosinus, atau tangen yang sama dengan ", "133": "Hitung nilai setiap ekspresi berikut.", "143": " Dengan kata lain, sudut berapakah ", "147": " tetapi kita memerlukan sudut dalam interval ", "156": " Untuk itu, kita memerlukan sudut negatif yang koterminal dengan ", "160": " kita mencari sudut pada interval ", "165": " kita mencari sudut pada interval ", "168": "Hitung nilai setiap ekspresi berikut."}},
+        {"id": "m49390-c06", "category": "calculator label corruption", "slots": [181, 186], "replacement_by_slot": {"181": " yang tidak melibatkan sudut istimewa yang telah dibahas, kita perlu menggunakan kalkulator atau teknologi lain. Sebagian besar kalkulator ilmiah dan aplikasi kalkulator memiliki tombol khusus untuk fungsi sinus, kosinus, dan tangen invers. Tombol-tombol itu dapat berlabel, misalnya, ", "186": "ASIN"}},
+        {"id": "m49390-c07", "category": "right-triangle how-to grammar", "slots": [203, 204, 206, 207, 208, 209, 210, 211, 219], "replacement_by_slot": {"203": "Jika diberikan dua sisi segitiga siku-siku seperti pada ", "204": ", tentukan sebuah sudut.\n", "206": "Jika salah satu sisi yang diketahui adalah sisi miring dengan panjang ", "207": " dan sisi dengan panjang ", "208": " yang berdekatan dengan sudut yang dicari juga diketahui, gunakan persamaan ", "209": "Jika salah satu sisi yang diketahui adalah sisi miring dengan panjang ", "210": " dan sisi dengan panjang ", "211": " yang berhadapan dengan sudut yang dicari juga diketahui, gunakan persamaan ", "219": " atau sekitar "}},
+        {"id": "m49390-c08", "category": "cross-node variable declaration", "slots": [227, 228, 229, 230, 231, 232], "replacement_by_slot": {"227": "Ada kalanya kita perlu mengomposisikan fungsi trigonometri dengan fungsi trigonometri invers. Dalam kasus tersebut, nilai eksak ekspresi yang dihasilkan biasanya dapat ditentukan tanpa kalkulator. Bahkan ketika masukan fungsi komposit berupa variabel atau ekspresi, bentuk keluarannya sering dapat ditentukan. Untuk membedakan berbagai kasus, misalkan ", "228": " dan ", "229": " adalah dua fungsi trigonometri berbeda dalam himpunan ", "230": ", serta misalkan ", "231": " dan ", "232": " adalah inversnya."}},
+        {"id": "m49390-c09", "category": "domain membership grammar", "slots": [250, 261, 263, 264, 268, 270, 272, 276, 279], "replacement_by_slot": {"250": " dalam domain yang sesuai bagi fungsi tersebut. Hal ini mengikuti definisi invers dan fakta bahwa range ", "261": "Benarkah ", "263": " termasuk dalam domain terbatas ", "264": " tetapi sinus didefinisikan untuk semua masukan real, dan untuk ", "268": "Jika diberikan ekspresi berbentuk f", "270": "(f(θ)) dengan ", "272": " hitunglah nilainya.", "276": "Jika tidak, carilah sudut ", "279": " Maka "}},
+        {"id": "m49390-c10", "category": "severe domain-membership mistranslation", "slots": [281, 287, 290, 294, 297, 300], "replacement_by_slot": {"281": "Hitung nilai berikut:", "287": " berada dalam ", "290": " tidak berada dalam ", "294": " berada dalam ", "297": " tidak berada dalam ", "300": " berada dalam "}},
+        {"id": "m49390-c11", "category": "how-to grammar", "slots": [332, 334, 336, 339, 340, 341, 344, 347, 348, 349], "replacement_by_slot": {"332": "Jika diberikan fungsi berbentuk ", "334": " hitunglah nilainya.", "336": " berada dalam ", "339": " tidak berada dalam ", "340": " maka carilah sudut lain ", "341": " dalam ", "344": " berada dalam ", "347": " tidak berada dalam", "348": " maka carilah sudut lain ", "349": " dalam "}},
+        {"id": "m49390-c12", "category": "lost predicate", "slots": [361], "replacement_by_slot": {"361": " Kita memiliki "}},
+        {"id": "m49390-c13", "category": "formula derivation prose", "slots": [380, 381, 385, 386, 390, 391, 398, 400], "replacement_by_slot": {"380": " Jika diperlukan, rumus-rumus ini dapat diturunkan dari hubungan trigonometri antara sudut dan sisi segitiga siku-siku, bersama dengan hubungan Pythagoras antara panjang sisi-sisinya. Kita dapat menggunakan identitas Pythagoras, ", "381": " untuk menentukan yang satu jika yang lain diketahui. Kita juga dapat menggunakan ", "385": "Tentukan nilai eksak ", "386": "Dari fungsi bagian dalam, misalkan ada sudut yang memenuhi ", "390": "Gunakan nilai kosinus yang diketahui", "391": "Tentukan sinus", "398": "Segitiga siku-siku yang menunjukkan bahwa jika ", "400": "Kita mengetahui bahwa kosinus invers selalu menghasilkan sudut pada interval "}},
+        {"id": "m49390-c14", "category": "formula prose", "slots": [405, 407, 420, 425, 433], "replacement_by_slot": {"405": "Tentukan nilai eksak ", "407": ", di sini kita akan menunjukkan teknik lain. Dari fungsi bagian dalam, kita mengetahui bahwa ada sudut yang memenuhi ", "420": "Tentukan bentuk sederhana untuk ", "425": "Tentukan kosinus", "433": "Menghitung Ekspresi yang Melibatkan Fungsi Trigonometri Invers"}},
+        {"id": "m49390-c15", "category": "cross-node function reference", "slots": [470, 472, 473, 475, 476, 478, 479, 481, 483], "replacement_by_slot": {"470": "Mengapa fungsi ", "472": " memiliki range yang berbeda?", "473": "Fungsi ", "475": " sehingga interval ini merupakan range fungsi invers ", "476": " Fungsi ", "478": " sehingga interval ini merupakan range fungsi invers ", "479": "Karena fungsi ", "481": " saling invers, mengapa ", "483": "Jelaskan makna "}},
+        {"id": "m49390-c16", "category": "exercise solution stitching", "slots": [497, 498, 499, 500, 501, 502, 503, 504, 505, 506], "replacement_by_slot": {"497": "Benar. Sudut ", "498": " yang sama dengan ", "499": ", dengan ", "500": ", merupakan sudut kuadran II dengan sudut acuan ", "501": ", dengan ", "502": " sama dengan ", "503": ", dengan ", "504": ". Karena ", "505": " adalah sudut acuan bagi ", "506": ", berlaku "}},
+        {"id": "m49390-c17", "category": "exercise imperative and residue", "slots": [511, 516, 526, 530], "replacement_by_slot": {"511": "Untuk latihan berikut, hitunglah nilai ekspresi.", "516": "Untuk latihan berikut, carilah sudut ", "526": "Untuk latihan berikut, tentukan nilai eksak ekspresi dalam bentuk ", "530": "Untuk latihan berikut, carilah fungsi jika "}},
+        {"id": "m49390-c18", "category": "graph imperative", "slots": [539, 541, 542, 545, 546], "replacement_by_slot": {"539": "Gambarkan satu siklus ", "541": "Untuk nilai ", "542": " berapakah ", "545": "Untuk nilai ", "546": " berapakah "}},
+        {"id": "m49390-c19", "category": "cross-node coordinate-plane and axis order", "slots": [559, 563, 565, 567, 571, 573], "replacement_by_slot": {"559": " melewati titik asal pada bidang ", "563": ". Berapakah besar sudut yang dibentuk garis tersebut terhadap arah positif sumbu ", "565": "?", "567": " melewati titik asal pada bidang ", "571": ". Berapakah besar sudut yang dibentuk garis tersebut terhadap arah negatif sumbu ", "573": "?"}},
+        {"id": "m49390-c20", "category": "owner-contract stretch-factor terminology", "slots": [581, 599, 600, 606], "replacement_by_slot": {"581": "Untuk latihan berikut, gambarkan fungsi selama dua periode dan tentukan amplitudo atau faktor peregangan, periode, persamaan garis tengah, dan asimtotnya.", "599": "Untuk latihan berikut, gambarkan fungsi selama dua periode dan tentukan amplitudo atau faktor peregangan, periode,\npersamaan garis tengah, dan asimtotnya.", "600": "faktor peregangan: tidak ada; periode: ", "606": "faktor peregangan: 3; periode: "}},
+        {"id": "m49390-c21", "category": "model terminology", "slots": [629, 632, 639], "replacement_by_slot": {"629": " dengan domain berupa banyaknya tahun sejak 1980 dan range berupa populasi kota.", "632": "Gambarkan fungsi pada domain ", "639": "Untuk latihan berikut, misalkan sebuah beban diikat pada pegas dan bergerak naik turun secara simetris."}},
+        {"id": "m49390-c22", "category": "cross-node axis order", "slots": [641, 643, 645], "replacement_by_slot": {"641": ", dengan sumbu ", "643": " menyatakan waktu dalam detik dan sumbu ", "645": " menyatakan perpindahan dalam inci. Berikan persamaan yang memodelkan perpindahan vertikal beban pada pegas."}},
+        {"id": "m49390-c23", "category": "time wording", "slots": [649], "replacement_by_slot": {"649": "Pada waktu berapa perpindahan dari titik setimbang sama dengan nol?"}},
+        {"id": "m49390-c24", "category": "cross-node axis order", "slots": [660, 661], "replacement_by_slot": {"660": " Grafik-grafik tersebut simetris terhadap sumbu ", "661": "."}},
+        {"id": "m49390-c25", "category": "graph imperative", "slots": [666], "replacement_by_slot": {"666": "Gambarkan fungsi "}},
+        {"id": "m49390-c26", "category": "accessibility prose", "slots": [682, 685, 691, 697], "replacement_by_slot": {"682": "Grafik dua periode fungsi kosinus pada interval -7pi/3 hingga 5pi/3. Range-nya [0,2], periodenya 2pi, dan amplitudonya 1.", "685": "Grafik dua periode fungsi kosinus pada interval -7pi/2 hingga 17pi/2. Range-nya [-3,3], periodenya 6pi, dan amplitudonya 3.", "691": "Grafik dua periode fungsi tangen pada interval -5pi/6 hingga 7pi/6. Periodenya pi dan garis tengahnya y=0.", "697": "Grafik dua periode fungsi kosekan pada interval -2pi/3 hingga 2pi/3. Asimtot vertikal berada pada kelipatan pi/3. Periodenya 2pi/3."}},
+        {"id": "m49390-c27", "category": "function terminology", "slots": [707, 713, 714, 720], "replacement_by_slot": {"707": "Berikan dalam bentuk fungsi tangen.", "713": " menyatakan jumlah jam sejak tengah malam, tentukan fungsi suhu ", "714": " sebagai fungsi ", "720": " dalam bentuk fungsi sekan serta berikan periode dan pergeseran fasenya."}},
+        {"id": "m49390-c28", "category": "graph window grammar", "slots": [730, 731, 740], "replacement_by_slot": {"730": " dengan ", "731": " Perkirakan periode grafik.", "740": " pada "}},
+        {"id": "m49390-c29", "category": "cross-node question predicate", "slots": [743, 744], "replacement_by_slot": {"743": "Berapa nilai terbesar yang mungkin untuk ", "744": "Berapa nilai terkecil yang mungkin untuk "}},
+        {"id": "m49390-c30", "category": "accessibility punctuation", "slots": [755], "replacement_by_slot": {"755": "Grafik dua periode fungsi sinusoidal. Grafik tersebut memiliki periode 2pi."}},
+        {"id": "m49390-c31", "category": "accessibility spelling", "slots": [762], "replacement_by_slot": {"762": "Ilustrasi segitiga siku-siku dengan sudut theta. Di hadapan sudut theta terdapat sisi yang panjangnya 12; di dekat sudut theta terdapat sisi yang panjangnya 19."}},
+        {"id": "m49390-c32", "category": "glossary formula stitching", "slots": [774, 777, 780], "replacement_by_slot": {"774": "fungsi ", "777": "fungsi ", "780": "fungsi "}},
+        {"id": "m49390-c33", "category": "title capitalization consistency", "slots": [13, 98, 119, 213, 351, 384], "replacement_by_slot": {"13": "Memahami dan Menggunakan Fungsi Sinus, Kosinus, dan Tangen Invers", "98": "Hubungan Fungsi Sinus, Kosinus, dan Tangen Invers", "119": "Menentukan Nilai Eksak Ekspresi yang Melibatkan Fungsi Sinus, Kosinus, dan Tangen Invers", "213": "Menerapkan Kosinus Invers pada Segitiga Siku-Siku", "351": "Mengevaluasi Komposisi Sinus Invers dengan Kosinus", "384": "Mengevaluasi Komposisi Sinus dengan Kosinus Invers"}}
+      ],
+      "remediation": {"status": "PASS", "initial_correction_groups_applied": 33, "initial_correction_slots_applied": 165, "second_pass_refinement_slots": [7, 126, 144, 214, 222, 325, 393, 429, 612], "second_pass_replacement_by_slot": {"7": "Menentukan nilai eksak fungsi komposit yang melibatkan fungsi trigonometri invers.", "126": "Tentukan sudut ", "144": " memenuhi ", "214": "Selesaikan segitiga pada ", "222": "Selesaikan segitiga pada ", "325": " tidak berada dalam domain ini, maka kita perlu mencari sudut lain yang kosinusnya sama dengan ", "393": " berada di kuadran I, ", "429": "Tentukan bentuk sederhana untuk ", "612": "Untuk latihan berikut, buatlah grafik dua periode penuh. Tentukan periode, pergeseran fase, amplitudo, dan asimtotnya."}, "all_current_values_verified": true},
+      "preserved_source_discrepancies": [
+        {"slots": [16], "source_issue": "Accessibility text misspells Trig Functions as Trig Functinos; Indonesian repairs it."},
+        {"slots": [509], "source_issue": "The worked solution ends with an unexplained trailing hyphen after the final MathML expression; target preserves it pending owner source correction."},
+        {"slots": [585], "source_issue": "Accessibility text says Maximums as rather than Maximums at; Indonesian repairs the typo."},
+        {"slots": [646], "source_issue": "Accessibility text says consine; Indonesian repairs it as kosinus."},
+        {"slots": [738], "source_issue": "Accessibility text says sinusodial; Indonesian repairs it as sinusoidal."}
+      ]
+    },
+    {
+      "module_id": "m49392",
+      "status": "PASS",
+      "identity": {
+        "source": {"path": "source/modules/m49392/index.cnxml", "bytes": 1892, "sha256": "1c3527fb75112c456fe58f605d68bee71bc99a922caece28fd695ba9c57ee739"},
+        "overlay": {"path": "tools/agent_b_m49392_translations.json", "bytes": 2081, "sha256": "d149df9e254e456a5240abdab14197f21951bcf0d3d9e0c402a33ba1f74829a8"},
+        "target": {"path": "translated/modules/m49392/index.cnxml", "bytes": 1960, "sha256": "2661c89425f5e13021d979ed098253270f3eef3307a406ba9a66cce7ca46ba75"}
+      },
+      "counts": {"reader_slots": 5, "accessibility_slots": 1, "elements": 14, "ids": 3, "xrefs": 0, "mathml_elements": 0, "image_references": 1, "correction_groups": 0, "correction_slots": 0},
+      "deterministic_result": "PASS",
+      "semantic_result": "PASS",
+      "correction_slot_groups": [],
+      "preserved_source_discrepancies": []
+    }
+  ],
+  "aggregate": {
+    "status": "PASS",
+    "modules_pass": ["m49386", "m49387", "m49389", "m49390", "m49392"],
+    "modules_fail": [],
+    "deterministic_structure_math_asset_result": "PASS for all five current-byte targets",
+    "semantic_language_result": "PASS after applying all 99 initial correction groups and the independent second-pass refinements",
+    "source_slots_reviewed": 2643,
+    "accessibility_slots_reviewed": 147,
+    "formula_mathml_elements_preserved": 17071,
+    "active_image_references_verified": 140,
+    "correction_groups": 99,
+    "initial_correction_slots": 481,
+    "second_pass_unique_new_slots": 40,
+    "final_verified_remediation_slots": 521,
+    "repeat_build_result": "PASS",
+    "numeric_fidelity_result": "PASS",
+    "english_residue_result": "PASS",
+    "asset_byte_identity_result": "PASS"
+  }
+}

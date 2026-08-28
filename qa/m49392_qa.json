@@ -1,0 +1,74 @@
+{
+  "accessibility": {
+    "result": "PASS",
+    "translated_alt_and_summary_count": 1
+  },
+  "assets": {
+    "byte_identical_to_source": true,
+    "records": [
+      {
+        "bytes": 225208,
+        "reference": "../../media/CNX_Precalc_Figure_07_00_001.jpg",
+        "sha256": "394c2a4e3de49edd6971f9b0782ded7cdff14b45331e7c279d0e62ca0b9d5c38"
+      }
+    ],
+    "reference_count": 1,
+    "result": "PASS"
+  },
+  "coverage": {
+    "result": "PASS",
+    "source_slots": 5,
+    "translated_slots": 5
+  },
+  "language": {
+    "forbidden_id_id_count": 0,
+    "high_confidence_english_residue_count": 0,
+    "result": "PASS"
+  },
+  "math_and_numeric": {
+    "authorized_numeric_localization_slots": [],
+    "non_mtext_mathml_byte_semantics": "PASS",
+    "reader_numeric_mismatch_count": 0,
+    "result": "PASS"
+  },
+  "module_id": "m49392",
+  "overlay": {
+    "bytes": 2081,
+    "path": "tools/agent_b_m49392_translations.json",
+    "sha256": "d149df9e254e456a5240abdab14197f21951bcf0d3d9e0c402a33ba1f74829a8"
+  },
+  "preservation": {
+    "comments": 0,
+    "elements": 14,
+    "ids": 3,
+    "images": 1,
+    "mathml_elements": 0,
+    "result": "PASS",
+    "xrefs": 0
+  },
+  "repeat_build": {
+    "byte_identical": true,
+    "result": "PASS",
+    "runs": 2,
+    "sha256": "2661c89425f5e13021d979ed098253270f3eef3307a406ba9a66cce7ca46ba75"
+  },
+  "schema_id": "hp-a30-003-current-byte-module-qa-v1",
+  "semantic_structures": {
+    "examples": 0,
+    "exercises": 0,
+    "figures": 1,
+    "solutions": 0,
+    "tables": 0
+  },
+  "source": {
+    "bytes": 1892,
+    "path": "source/modules/m49392/index.cnxml",
+    "sha256": "1c3527fb75112c456fe58f605d68bee71bc99a922caece28fd695ba9c57ee739"
+  },
+  "status": "PASS",
+  "target": {
+    "bytes": 1960,
+    "path": "translated/modules/m49392/index.cnxml",
+    "sha256": "2661c89425f5e13021d979ed098253270f3eef3307a406ba9a66cce7ca46ba75"
+  }
+}

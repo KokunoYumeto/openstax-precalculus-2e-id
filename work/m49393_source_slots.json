@@ -1,0 +1,1842 @@
+{
+  "module_id": "m49393",
+  "schema_id": "hp-a30-cnxml-source-reader-slots-v1",
+  "slot_count": 305,
+  "slots": [
+    {
+      "kind": "text",
+      "locator": "/document[1]/title[1]/text()",
+      "slot": 1,
+      "source": "Simplifying and Verifying Trigonometric Identities"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/metadata[1]/title[1]/text()",
+      "slot": 2,
+      "source": "Simplifying and Verifying Trigonometric Identities"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/metadata[1]/abstract[1]/para[1]/text()",
+      "slot": 3,
+      "source": "In this section, you will:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/metadata[1]/abstract[1]/list[1]/item[1]/text()",
+      "slot": 4,
+      "source": "Verify the fundamental trigonometric identities."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/metadata[1]/abstract[1]/list[1]/item[2]/text()",
+      "slot": 5,
+      "source": "Simplify trigonometric expressions using algebra and the identities."
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/figure[1]/media[1]/@alt",
+      "slot": 6,
+      "source": "Photo of international passports."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/figure[1]/caption[1]/text()",
+      "slot": 7,
+      "source": "International passports and travel documents"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/para[1]/text()",
+      "slot": 8,
+      "source": "In espionage movies, we see international spies with multiple passports, each claiming a different identity. However, we know that each of those passports represents the same person. The trigonometric identities act in a similar manner to multiple passports—there are many ways to represent the same trigonometric expression. Just as a spy will choose an Italian passport when traveling to Italy, we choose the identity that applies to the given scenario when solving a trigonometric equation."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/para[2]/text()",
+      "slot": 9,
+      "source": "In this section, we will begin an examination of the fundamental trigonometric identities, including how we can verify them and how we can use them to simplify trigonometric expressions."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/title[1]/text()",
+      "slot": 10,
+      "source": "Verifying the Fundamental Trigonometric Identities "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[1]/text()",
+      "slot": 11,
+      "source": "Identities enable us to simplify complicated expressions. They are the basic tools of trigonometry used in solving trigonometric equations, just as factoring, finding common denominators, and using special formulas are the basic tools of solving algebraic equations. In fact, we use algebraic techniques constantly to simplify trigonometric expressions. Basic properties and formulas of algebra, such as the difference of squares formula and the perfect squares formula, will simplify the work involved with trigonometric expressions and equations. We already know that all of the trigonometric functions are related because they all are defined in terms of the unit circle. Consequently, any trigonometric identity can be written in many ways."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[2]/text()",
+      "slot": 12,
+      "source": "To verify the trigonometric identities, we usually start with the more complicated side of the equation and essentially rewrite the expression until it has been transformed into the same expression as the other side of the equation. Sometimes we have to factor expressions, expand expressions, find common denominators, or use other algebraic strategies to obtain the desired result. In this first section, we will work with the fundamental identities: the "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[2]/term[1]/text()",
+      "slot": 13,
+      "source": "Pythagorean Identities"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[2]/term[1]/tail()",
+      "slot": 14,
+      "source": ", the even-odd identities, the reciprocal identities, and the quotient identities."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[3]/text()",
+      "slot": 15,
+      "source": "We will begin with the "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[3]/emphasis[1]/text()",
+      "slot": 16,
+      "source": "Pythagorean Identities "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[3]/emphasis[1]/tail()",
+      "slot": 17,
+      "source": "(see "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[3]/link[1]/tail()",
+      "slot": 18,
+      "source": "), which are equations involving trigonometric functions based on the properties of a right triangle. We have already seen and used the first of these identifies, but now we will also use additional identities."
+    },
+    {
+      "kind": "attribute:summary",
+      "locator": "/document[1]/content[1]/section[1]/table[1]/@summary",
+      "slot": 19,
+      "source": "\"Pythagorean Identities\" with three cells. First: sin(theta)^2 + cos(theta)^2 = 1. Second: 1 + cot(theta)^2 = csc(theta)^2. Third: 1 + tan(theta)^2 = sec(theta)^2."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/table[1]/tgroup[1]/thead[1]/row[1]/entry[1]/text()",
+      "slot": 20,
+      "source": "Pythagorean Identities\n"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[4]/text()",
+      "slot": 21,
+      "source": "The second and third identities can be obtained by manipulating the first. The identity "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[4]/math[1]/tail()",
+      "slot": 22,
+      "source": " is found by rewriting the left side of the equation in terms of sine and cosine."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[5]/text()",
+      "slot": 23,
+      "source": " Prove: "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[1]/mtd[5]/mrow[1]/mtext[1]/text()",
+      "slot": 24,
+      "source": "Rewrite the left side"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[2]/mtd[5]/mrow[1]/mtext[1]/text()",
+      "slot": 25,
+      "source": "Write both terms with the common denominator"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[6]/text()",
+      "slot": 26,
+      "source": "Similarly, "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[6]/math[1]/tail()",
+      "slot": 27,
+      "source": " can be obtained by rewriting the left side of this identity in terms of sine and cosine. This gives"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/equation[2]/math[1]/mrow[1]/mtable[1]/mtr[1]/mtd[4]/mrow[1]/mtext[1]/text()",
+      "slot": 28,
+      "source": "Rewrite left side"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/equation[2]/math[1]/mrow[1]/mtable[1]/mtr[2]/mtd[4]/mrow[1]/mtext[1]/text()",
+      "slot": 29,
+      "source": "Write both terms with the common denominator"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[7]/text()",
+      "slot": 30,
+      "source": "The next set of fundamental identities is the set of "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[7]/emphasis[1]/text()",
+      "slot": 31,
+      "source": "even-odd identities. "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[7]/emphasis[1]/tail()",
+      "slot": 32,
+      "source": "The "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[7]/term[1]/text()",
+      "slot": 33,
+      "source": "even-odd identities"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[7]/term[1]/tail()",
+      "slot": 34,
+      "source": " relate the value of a trigonometric function at a given angle to the value of the function at the opposite angle and determine whether the identity is odd or even. (See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[7]/link[1]/tail()",
+      "slot": 35,
+      "source": ")."
+    },
+    {
+      "kind": "attribute:summary",
+      "locator": "/document[1]/content[1]/section[1]/table[2]/@summary",
+      "slot": 36,
+      "source": "\"Even-Odd Identities\" with three cells. First: tan(-theta) = -tan(theta) and cot(-theta) = -cot(theta). Second: sin(-theta) = -sin(theta) and csc(-theta) = -csc(theta). Third: cos(-theta) = cos(theta) and sec(-theta) = sec(theta)."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/table[2]/tgroup[1]/thead[1]/row[1]/entry[1]/text()",
+      "slot": 37,
+      "source": "Even-Odd Identities"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[8]/text()",
+      "slot": 38,
+      "source": "Recall that an "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[8]/term[1]/text()",
+      "slot": 39,
+      "source": "odd function"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[8]/term[1]/tail()",
+      "slot": 40,
+      "source": " is one in which "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[8]/math[1]/tail()",
+      "slot": 41,
+      "source": " for all "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[8]/math[2]/tail()",
+      "slot": 42,
+      "source": " in the domain of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[8]/math[3]/tail()",
+      "slot": 43,
+      "source": " The "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[8]/term[2]/text()",
+      "slot": 44,
+      "source": "sine"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[8]/term[2]/tail()",
+      "slot": 45,
+      "source": " function is an odd function because "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[8]/math[4]/tail()",
+      "slot": 46,
+      "source": " The graph of an odd function is symmetric about the origin. For example, consider corresponding inputs of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[8]/math[5]/tail()",
+      "slot": 47,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[8]/math[6]/tail()",
+      "slot": 48,
+      "source": " The output of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[8]/math[7]/tail()",
+      "slot": 49,
+      "source": " is opposite the output of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[8]/math[8]/tail()",
+      "slot": 50,
+      "source": " Thus,"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/equation[3]/math[1]/mrow[1]/mtable[1]/mtr[2]/mtd[1]/mrow[1]/mtext[1]/text()",
+      "slot": 51,
+      "source": "and"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[9]/text()",
+      "slot": 52,
+      "source": "This is shown in "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[9]/link[1]/tail()",
+      "slot": 53,
+      "source": "."
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[1]/figure[1]/media[1]/@alt",
+      "slot": 54,
+      "source": "Graph of y=sin(theta) from -2pi to 2pi, showing in particular that it is symmetric about the origin. Points given are (pi/2, 1) and (-pi/2, -1)."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/figure[1]/caption[1]/text()",
+      "slot": 55,
+      "source": "Graph of "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[10]/text()",
+      "slot": 56,
+      "source": "Recall that an "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[10]/term[1]/text()",
+      "slot": 57,
+      "source": "even function"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[10]/term[1]/tail()",
+      "slot": 58,
+      "source": " is one in which"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/equation[4]/math[1]/mrow[1]/mtext[1]/text()",
+      "slot": 59,
+      "source": " for all "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/equation[4]/math[1]/mrow[1]/mtext[2]/text()",
+      "slot": 60,
+      "source": " in the domain of "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[11]/text()",
+      "slot": 61,
+      "source": "The graph of an even function is symmetric about the "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[11]/emphasis[1]/text()",
+      "slot": 62,
+      "source": "y-"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[11]/emphasis[1]/tail()",
+      "slot": 63,
+      "source": "axis. The cosine function is an even function because "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[11]/math[1]/tail()",
+      "slot": 64,
+      "source": "\nFor example, consider corresponding inputs "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[11]/math[2]/tail()",
+      "slot": 65,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[11]/math[3]/tail()",
+      "slot": 66,
+      "source": " The output of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[11]/math[4]/tail()",
+      "slot": 67,
+      "source": " is the same as the output of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[11]/math[5]/tail()",
+      "slot": 68,
+      "source": " Thus,"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[12]/text()",
+      "slot": 69,
+      "source": "See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[12]/link[1]/tail()",
+      "slot": 70,
+      "source": "."
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[1]/figure[2]/media[1]/@alt",
+      "slot": 71,
+      "source": "Graph of y=cos(theta) from -2pi to 2pi, showing in particular that it is symmetric about the y-axis. Points given are (-pi/4, .707) and (pi/4, .707). "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/figure[2]/caption[1]/text()",
+      "slot": 72,
+      "source": "Graph of "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[13]/text()",
+      "slot": 73,
+      "source": "For all "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[13]/math[1]/tail()",
+      "slot": 74,
+      "source": " in the domain of the sine and cosine functions, respectively, we can state the following:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/list[1]/item[1]/text()",
+      "slot": 75,
+      "source": "Since "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/list[1]/item[1]/math[1]/tail()",
+      "slot": 76,
+      "source": " sine is an odd function."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/list[1]/item[2]/text()",
+      "slot": 77,
+      "source": "Since, "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/list[1]/item[2]/math[1]/tail()",
+      "slot": 78,
+      "source": " cosine is an even function."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[14]/text()",
+      "slot": 79,
+      "source": "The other even-odd identities follow from the even and odd nature of the sine and cosine functions. For example, consider the tangent identity, "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[14]/math[1]/tail()",
+      "slot": 80,
+      "source": " We can interpret the tangent of a negative angle as "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[14]/math[2]/tail()",
+      "slot": 81,
+      "source": " Tangent is therefore an odd function, which means that "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[14]/math[3]/tail()",
+      "slot": 82,
+      "source": " for all "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[14]/math[4]/tail()",
+      "slot": 83,
+      "source": " in the domain of the "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[14]/term[1]/text()",
+      "slot": 84,
+      "source": "tangent function"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[14]/term[1]/tail()",
+      "slot": 85,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[15]/text()",
+      "slot": 86,
+      "source": "The cotangent identity, "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[15]/math[1]/tail()",
+      "slot": 87,
+      "source": " also follows from the sine and cosine identities. We can interpret the cotangent of a negative angle as "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[15]/math[2]/tail()",
+      "slot": 88,
+      "source": " Cotangent is therefore an odd function, which means that "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[15]/math[3]/tail()",
+      "slot": 89,
+      "source": " for all "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[15]/math[4]/tail()",
+      "slot": 90,
+      "source": " in the domain of the "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[15]/term[1]/text()",
+      "slot": 91,
+      "source": "cotangent function"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[15]/term[1]/tail()",
+      "slot": 92,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[16]/text()",
+      "slot": 93,
+      "source": "The "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[16]/term[1]/text()",
+      "slot": 94,
+      "source": "cosecant function"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[16]/term[1]/tail()",
+      "slot": 95,
+      "source": " is the reciprocal of the sine function, which means that the cosecant of a negative angle will be interpreted as "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[16]/math[1]/tail()",
+      "slot": 96,
+      "source": " The cosecant function is therefore odd."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[17]/text()",
+      "slot": 97,
+      "source": "Finally, the secant function is the reciprocal of the cosine function, and the secant of a negative angle is interpreted as "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[17]/math[1]/tail()",
+      "slot": 98,
+      "source": " The secant function is therefore even. "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[18]/text()",
+      "slot": 99,
+      "source": "To sum up, only two of the trigonometric functions, cosine and secant, are even. The other four functions are odd, verifying the even-odd identities."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[19]/text()",
+      "slot": 100,
+      "source": "The next set of fundamental identities is the set of "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[19]/term[1]/text()",
+      "slot": 101,
+      "source": "reciprocal identities"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[19]/term[1]/tail()",
+      "slot": 102,
+      "source": ", which, as their name implies, relate trigonometric functions that are reciprocals of each other. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[19]/link[1]/tail()",
+      "slot": 103,
+      "source": "."
+    },
+    {
+      "kind": "attribute:summary",
+      "locator": "/document[1]/content[1]/section[1]/table[3]/@summary",
+      "slot": 104,
+      "source": "Table labeled \"Reciprocal Identities.\" Three rows, two columns. The table has ordered pairs of these row values: (sin(theta) = 1/csc(theta), csc(theta) = 1/sin(theta)), (cos(theta) = 1/sec(theta), sec(theta) = 1/cos(theta)), (tan(theta) = 1/cot(theta), cot(theta) = 1/tan(theta))."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/table[3]/tgroup[1]/thead[1]/row[1]/entry[1]/text()",
+      "slot": 105,
+      "source": "Reciprocal Identities"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[20]/text()",
+      "slot": 106,
+      "source": "The final set of identities is the set of "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[20]/term[1]/text()",
+      "slot": 107,
+      "source": "quotient identities"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[20]/term[1]/tail()",
+      "slot": 108,
+      "source": ", which define relationships among certain trigonometric functions and can be very helpful in verifying other identities. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[20]/link[1]/tail()",
+      "slot": 109,
+      "source": "."
+    },
+    {
+      "kind": "attribute:summary",
+      "locator": "/document[1]/content[1]/section[1]/table[4]/@summary",
+      "slot": 110,
+      "source": "Table labeled \"Quotient Identities.\" First cell: tan(theta) = sin(theta) / cos(theta). Second cell: cot(theta) = cos(theta) / sin(theta)."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/table[4]/tgroup[1]/thead[1]/row[1]/entry[1]/text()",
+      "slot": 111,
+      "source": "Quotient Identities\n"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[21]/text()",
+      "slot": 112,
+      "source": "The reciprocal and quotient identities are derived from the definitions of the basic trigonometric functions."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[1]/title[1]/text()",
+      "slot": 113,
+      "source": "Summarizing Trigonometric Identities"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[1]/para[1]/text()",
+      "slot": 114,
+      "source": "The "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[1]/para[1]/term[1]/text()",
+      "slot": 115,
+      "source": "Pythagorean Identities"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/note[1]/para[1]/term[1]/tail()",
+      "slot": 116,
+      "source": " are based on the properties of a right triangle."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[1]/para[2]/text()",
+      "slot": 117,
+      "source": "The "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[1]/para[2]/term[1]/text()",
+      "slot": 118,
+      "source": "even-odd identities"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/note[1]/para[2]/term[1]/tail()",
+      "slot": 119,
+      "source": " relate the value of a trigonometric function at a given angle to the value of the function at the opposite angle."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[1]/para[3]/text()",
+      "slot": 120,
+      "source": "The "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[1]/para[3]/term[1]/text()",
+      "slot": 121,
+      "source": "reciprocal identities"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/note[1]/para[3]/term[1]/tail()",
+      "slot": 122,
+      "source": " define reciprocals of the trigonometric functions."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[1]/para[4]/text()",
+      "slot": 123,
+      "source": "The "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[1]/para[4]/term[1]/text()",
+      "slot": 124,
+      "source": "quotient identities"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/note[1]/para[4]/term[1]/tail()",
+      "slot": 125,
+      "source": " define the relationship among the trigonometric functions."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 126,
+      "source": "Graphing the Expressions of an Identity"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 127,
+      "source": "Graph both sides of the identity "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 128,
+      "source": " In other words, on the graphing calculator, graph "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/problem[1]/para[1]/math[2]/tail()",
+      "slot": 129,
+      "source": " and "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 130,
+      "source": "See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/para[1]/link[1]/tail()",
+      "slot": 131,
+      "source": "."
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/figure[1]/media[1]/@alt",
+      "slot": 132,
+      "source": "Graph of y = cot(theta) and y=1/tan(theta) from -2pi to 2pi. They are the same!"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/commentary[1]/title[1]/text()",
+      "slot": 133,
+      "source": "Analysis "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/commentary[1]/para[1]/text()",
+      "slot": 134,
+      "source": "We see only one graph because both expressions generate the same image. One is on top of the other. This is a good way to confirm an identity verified with analytical means. If both expressions give the same graph, then they are most likely identities."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[2]/label[1]/text()",
+      "slot": 135,
+      "source": "How To"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[2]/para[1]/emphasis[1]/text()",
+      "slot": 136,
+      "source": "Given a trigonometric identity, verify that it is true.\n"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[2]/list[1]/item[1]/text()",
+      "slot": 137,
+      "source": "Work on one side of the equation. It is usually better to start with the more complex side, as it is easier to simplify than to build."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[2]/list[1]/item[2]/text()",
+      "slot": 138,
+      "source": "Look for opportunities to factor expressions, square a binomial, or add fractions."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[2]/list[1]/item[3]/text()",
+      "slot": 139,
+      "source": "Noting which functions are in the final expression, look for opportunities to use the identities and make the proper substitutions."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[2]/list[1]/item[4]/text()",
+      "slot": 140,
+      "source": "If these steps do not yield the desired result, try converting all terms to sines and cosines."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[2]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 141,
+      "source": "Verifying a Trigonometric Identity"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[2]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 142,
+      "source": "Verify "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[2]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 143,
+      "source": "We will start on the left side, as it is the more complicated side:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[2]/exercise[1]/commentary[1]/title[1]/text()",
+      "slot": 144,
+      "source": "Analysis "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[2]/exercise[1]/commentary[1]/para[1]/text()",
+      "slot": 145,
+      "source": "This identity was fairly simple to verify, as it only required writing "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[2]/exercise[1]/commentary[1]/para[1]/math[1]/tail()",
+      "slot": 146,
+      "source": " in terms of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[2]/exercise[1]/commentary[1]/para[1]/math[2]/tail()",
+      "slot": 147,
+      "source": " and "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[3]/label[1]/text()",
+      "slot": 148,
+      "source": "Try It"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[3]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 149,
+      "source": "Verify the identity "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[3]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 150,
+      "source": "Verifying the Equivalency Using the Even-Odd Identities"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[3]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 151,
+      "source": "Verify the following equivalency using the even-odd identities:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[3]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 152,
+      "source": "Working on the left side of the equation, we have "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[3]/exercise[1]/solution[1]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[1]/mtd[4]/mrow[1]/mtext[1]/text()",
+      "slot": 153,
+      "source": "Since sin(−"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[3]/exercise[1]/solution[1]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[1]/mtd[4]/mrow[1]/mtext[2]/text()",
+      "slot": 154,
+      "source": ")="
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[3]/exercise[1]/solution[1]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[2]/mtd[4]/mrow[1]/mtext[1]/text()",
+      "slot": 155,
+      "source": "Difference of squares"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[3]/exercise[1]/solution[1]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[3]/mtd[4]/mrow[1]/msup[1]/mrow[1]/mtext[1]/text()",
+      "slot": 156,
+      "source": "cos"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[4]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 157,
+      "source": "Verifying a Trigonometric Identity Involving "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[4]/exercise[1]/problem[1]/title[1]/emphasis[1]/text()",
+      "slot": 158,
+      "source": "sec"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[4]/exercise[1]/problem[1]/title[1]/emphasis[1]/sup[1]/text()",
+      "slot": 159,
+      "source": "2"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[4]/exercise[1]/problem[1]/title[1]/emphasis[1]/sup[1]/tail()",
+      "slot": 160,
+      "source": "θ"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[4]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 161,
+      "source": "Verify the identity "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[4]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 162,
+      "source": "As the left side is more complicated, let’s begin there."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[4]/exercise[1]/solution[1]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[1]/mtd[4]/mrow[1]/msup[1]/mrow[1]/mtext[1]/text()",
+      "slot": 163,
+      "source": "sec"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[4]/exercise[1]/solution[1]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[5]/mtd[4]/mrow[1]/msup[1]/mrow[1]/mtext[1]/text()",
+      "slot": 164,
+      "source": "tan"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[4]/exercise[1]/solution[1]/para[2]/text()",
+      "slot": 165,
+      "source": "There is more than one way to verify an identity. Here is another possibility. Again, we can start with the left side."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[4]/exercise[1]/commentary[1]/title[1]/text()",
+      "slot": 166,
+      "source": "Analysis "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[4]/exercise[1]/commentary[1]/para[1]/text()",
+      "slot": 167,
+      "source": "In the first method, we used the identity "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[4]/exercise[1]/commentary[1]/para[1]/math[1]/tail()",
+      "slot": 168,
+      "source": " and continued to simplify. In the second method, we split the fraction, putting both terms in the numerator over the common denominator. This problem illustrates that there are multiple ways we can verify an identity. Employing some creativity can sometimes simplify a procedure. As long as the substitutions are correct, the answer will be the same."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[4]/label[1]/text()",
+      "slot": 169,
+      "source": "Try It"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[4]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 170,
+      "source": "Show that "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[5]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 171,
+      "source": "Creating and Verifying an Identity"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[5]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 172,
+      "source": "Create an identity for the expression "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[5]/exercise[1]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 173,
+      "source": " by rewriting strictly in terms of sine."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[5]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 174,
+      "source": "There are a number of ways to begin, but here we will use the quotient and reciprocal identities to rewrite the expression:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[5]/exercise[1]/solution[1]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[3]/mtd[2]/mrow[1]/mtext[1]/text()",
+      "slot": 175,
+      "source": "Substitute "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[5]/exercise[1]/solution[1]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[3]/mtd[2]/mrow[1]/mtext[2]/text()",
+      "slot": 176,
+      "source": " for "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[5]/exercise[1]/solution[1]/para[2]/text()",
+      "slot": 177,
+      "source": "Thus,"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[6]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 178,
+      "source": "Verifying an Identity Using Algebra and Even/Odd Identities"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[6]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 179,
+      "source": "Verify the identity:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[6]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 180,
+      "source": "Let’s start with the left side and simplify:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[6]/exercise[1]/solution[1]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[2]/mtd[4]/mrow[1]/mtext[1]/text()",
+      "slot": 181,
+      "source": "and"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[6]/exercise[1]/solution[1]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[3]/mtd[4]/mrow[1]/mtext[1]/text()",
+      "slot": 182,
+      "source": "Difference of squares"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[5]/label[1]/text()",
+      "slot": 183,
+      "source": "Try It"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[5]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 184,
+      "source": "Verify the identity "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[7]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 185,
+      "source": "Verifying an Identity Involving Cosines and Cotangents "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[7]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 186,
+      "source": "Verify the identity: "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[7]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 187,
+      "source": "We will work on the left side of the equation."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[7]/exercise[1]/solution[1]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[2]/mtd[2]/mrow[1]/mtext[1]/text()",
+      "slot": 188,
+      "source": "Find the common denominator"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/title[1]/text()",
+      "slot": 189,
+      "source": "Using Algebra to Simplify Trigonometric Expressions"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/para[1]/text()",
+      "slot": 190,
+      "source": "We have seen that algebra is very important in verifying trigonometric identities, but it is just as critical in simplifying trigonometric expressions before solving. Being familiar with the basic properties and formulas of algebra, such as the difference of squares formula, the perfect square formula, or substitution, will simplify the work involved with trigonometric expressions and equations."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/para[2]/text()",
+      "slot": 191,
+      "source": "For example, the equation "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/para[2]/math[1]/tail()",
+      "slot": 192,
+      "source": " resembles the equation "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/para[2]/math[2]/tail()",
+      "slot": 193,
+      "source": " which uses the factored form of the difference of squares. Using algebra makes finding a solution straightforward and familiar. We can set each factor equal to zero and solve. This is one example of recognizing algebraic patterns in trigonometric expressions or equations."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/para[3]/text()",
+      "slot": 194,
+      "source": "Another example is the difference of squares formula, "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/para[3]/math[1]/tail()",
+      "slot": 195,
+      "source": " which is widely used in many areas other than mathematics, such as engineering, architecture, and physics. We can also create our own identities by continually expanding an expression and making the appropriate substitutions. Using algebraic properties and formulas makes many trigonometric equations easier to understand and solve."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 196,
+      "source": "Writing the Trigonometric Expression as an Algebraic Expression"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 197,
+      "source": "Write the following trigonometric expression as an algebraic expression: "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 198,
+      "source": "Notice that the pattern displayed has the same form as a standard quadratic expression, "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 199,
+      "source": " Letting "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 200,
+      "source": " we can rewrite the expression as follows:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/para[2]/text()",
+      "slot": 201,
+      "source": "This expression can be factored as "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/para[2]/math[1]/tail()",
+      "slot": 202,
+      "source": " If it were set equal to zero and we wanted to solve the equation, we would use the zero factor property and solve each factor for "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/para[2]/math[2]/tail()",
+      "slot": 203,
+      "source": " At this point, we would replace "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/para[2]/math[3]/tail()",
+      "slot": 204,
+      "source": " with "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/para[2]/math[4]/tail()",
+      "slot": 205,
+      "source": " and solve for "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 206,
+      "source": "Rewriting a Trigonometric Expression Using the Difference of Squares "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 207,
+      "source": "Rewrite the trigonometric expression: "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 208,
+      "source": "Notice that both the coefficient and the trigonometric expression in the first term are squared, and the square of the number 1 is 1. This is the difference of squares. Thus,"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/commentary[1]/title[1]/text()",
+      "slot": 209,
+      "source": "Analysis "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/commentary[1]/para[1]/text()",
+      "slot": 210,
+      "source": "If this expression were written in the form of an equation set equal to zero, we could solve each factor using the zero factor property. We could also use substitution like we did in the previous problem and let "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/commentary[1]/para[1]/math[1]/tail()",
+      "slot": 211,
+      "source": " rewrite the expression as "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/commentary[1]/para[1]/math[2]/tail()",
+      "slot": 212,
+      "source": " and factor "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/commentary[1]/para[1]/math[3]/tail()",
+      "slot": 213,
+      "source": " Then replace "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/commentary[1]/para[1]/math[4]/tail()",
+      "slot": 214,
+      "source": " with "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/commentary[1]/para[1]/math[5]/tail()",
+      "slot": 215,
+      "source": " and solve for the angle."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[1]/label[1]/text()",
+      "slot": 216,
+      "source": "Try It"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 217,
+      "source": "Rewrite the trigonometric expression: "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[1]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 218,
+      "source": "This is a difference of squares formula: "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[3]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 219,
+      "source": "Simplify by Rewriting and Using Substitution"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[3]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 220,
+      "source": "Simplify the expression by rewriting and using identities:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[3]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 221,
+      "source": "We can start with the Pythagorean identity."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[3]/exercise[1]/solution[1]/para[2]/text()",
+      "slot": 222,
+      "source": "Now we can simplify by substituting "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[3]/exercise[1]/solution[1]/para[2]/math[1]/tail()",
+      "slot": 223,
+      "source": " for "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[3]/exercise[1]/solution[1]/para[2]/math[2]/tail()",
+      "slot": 224,
+      "source": " We have"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[2]/label[1]/text()",
+      "slot": 225,
+      "source": "Try It"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[2]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 226,
+      "source": "Use algebraic techniques to verify the identity: "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[2]/exercise[1]/problem[1]/para[2]/text()",
+      "slot": 227,
+      "source": "(Hint: Multiply the numerator and denominator on the left side by "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[3]/label[1]/text()",
+      "slot": 228,
+      "source": "Media"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[3]/para[1]/text()",
+      "slot": 229,
+      "source": "Access these online resources for additional instruction and practice with the fundamental trigonometric identities."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[3]/list[1]/item[1]/link[1]/text()",
+      "slot": 230,
+      "source": "Fundamental Trigonometric Identities"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[3]/list[1]/item[2]/link[1]/text()",
+      "slot": 231,
+      "source": "Verifying Trigonometric Identities"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/title[1]/text()",
+      "slot": 232,
+      "source": "Key Equations"
+    },
+    {
+      "kind": "attribute:summary",
+      "locator": "/document[1]/content[1]/section[3]/table[1]/@summary",
+      "slot": 233,
+      "source": ".."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/table[1]/tgroup[1]/tbody[1]/row[1]/entry[1]/text()",
+      "slot": 234,
+      "source": "Pythagorean Identities"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/table[1]/tgroup[1]/tbody[1]/row[2]/entry[1]/text()",
+      "slot": 235,
+      "source": "Even-odd identities"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/table[1]/tgroup[1]/tbody[1]/row[3]/entry[1]/text()",
+      "slot": 236,
+      "source": "Reciprocal identities"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/table[1]/tgroup[1]/tbody[1]/row[4]/entry[1]/text()",
+      "slot": 237,
+      "source": "Quotient identities"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/title[1]/text()",
+      "slot": 238,
+      "source": "Key Concepts"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/list[1]/item[1]/text()",
+      "slot": 239,
+      "source": "There are multiple ways to represent a trigonometric expression. Verifying the identities illustrates how expressions can be rewritten to simplify a problem."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/list[1]/item[2]/text()",
+      "slot": 240,
+      "source": "Graphing both sides of an identity will verify it. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/list[1]/item[2]/link[1]/tail()",
+      "slot": 241,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/list[1]/item[3]/text()",
+      "slot": 242,
+      "source": "Simplifying one side of the equation to equal the other side is another method for verifying an identity. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/list[1]/item[3]/link[1]/tail()",
+      "slot": 243,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/list[1]/item[3]/link[2]/tail()",
+      "slot": 244,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/list[1]/item[4]/text()",
+      "slot": 245,
+      "source": "The approach to verifying an identity depends on the nature of the identity. It is often useful to begin on the more complex side of the equation. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/list[1]/item[4]/link[1]/tail()",
+      "slot": 246,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/list[1]/item[5]/text()",
+      "slot": 247,
+      "source": "We can create an identity by simplifying an expression and then verifying it. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/list[1]/item[5]/link[1]/tail()",
+      "slot": 248,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/list[1]/item[6]/text()",
+      "slot": 249,
+      "source": "Verifying an identity may involve algebra with the fundamental identities. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/list[1]/item[6]/link[1]/tail()",
+      "slot": 250,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/list[1]/item[6]/link[2]/tail()",
+      "slot": 251,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/list[1]/item[7]/text()",
+      "slot": 252,
+      "source": "Algebraic techniques can be used to simplify trigonometric expressions. We use algebraic techniques throughout this text, as they consist of the fundamental rules of mathematics. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/list[1]/item[7]/link[1]/tail()",
+      "slot": 253,
+      "source": ", "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/list[1]/item[7]/link[2]/tail()",
+      "slot": 254,
+      "source": ", and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/list[1]/item[7]/link[3]/tail()",
+      "slot": 255,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/title[1]/text()",
+      "slot": 256,
+      "source": "Section Exercises"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[1]/title[1]/text()",
+      "slot": 257,
+      "source": "Verbal"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 258,
+      "source": "We know "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/section[1]/exercise[1]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 259,
+      "source": " is an even function, and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/section[1]/exercise[1]/problem[1]/para[1]/math[2]/tail()",
+      "slot": 260,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/section[1]/exercise[1]/problem[1]/para[1]/math[3]/tail()",
+      "slot": 261,
+      "source": " are odd functions. What about "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/section[1]/exercise[1]/problem[1]/para[1]/math[4]/tail()",
+      "slot": 262,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/section[1]/exercise[1]/problem[1]/para[1]/math[5]/tail()",
+      "slot": 263,
+      "source": " Are they even, odd, or neither? Why?"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[1]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 264,
+      "source": "All three functions, "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/section[1]/exercise[1]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 265,
+      "source": ", "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/section[1]/exercise[1]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 266,
+      "source": ", and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/section[1]/exercise[1]/solution[1]/para[1]/math[3]/tail()",
+      "slot": 267,
+      "source": " are even."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[1]/exercise[1]/solution[1]/para[2]/text()",
+      "slot": 268,
+      "source": "This is because "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/section[1]/exercise[1]/solution[1]/para[2]/math[1]/tail()",
+      "slot": 269,
+      "source": " and "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[1]/exercise[2]/problem[1]/para[1]/text()",
+      "slot": 270,
+      "source": "Examine the graph of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/section[1]/exercise[2]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 271,
+      "source": " on the interval "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/section[1]/exercise[2]/problem[1]/para[1]/math[2]/tail()",
+      "slot": 272,
+      "source": " How can we tell whether the function is even or odd by only observing the graph of "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[1]/exercise[3]/problem[1]/para[1]/text()",
+      "slot": 273,
+      "source": "After examining the reciprocal identity for "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/section[1]/exercise[3]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 274,
+      "source": " explain why the function is undefined at certain points."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[1]/exercise[3]/solution[1]/para[1]/text()",
+      "slot": 275,
+      "source": "When "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/section[1]/exercise[3]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 276,
+      "source": " then "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/section[1]/exercise[3]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 277,
+      "source": " which is undefined. "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[1]/exercise[4]/problem[1]/para[1]/text()",
+      "slot": 278,
+      "source": "All of the Pythagorean Identities are related. Describe how to manipulate the equations to get from "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/section[1]/exercise[4]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 279,
+      "source": " to the other forms."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[2]/title[1]/text()",
+      "slot": 280,
+      "source": "Algebraic"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[2]/para[1]/text()",
+      "slot": 281,
+      "source": "For the following exercises, use the fundamental identities to fully simplify the expression."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[2]/para[2]/text()",
+      "slot": 282,
+      "source": "For the following exercises, simplify the first trigonometric expression by writing the simplified form in terms of the second expression."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[2]/exercise[18]/problem[1]/para[1]/math[1]/mrow[1]/mtext[1]/text()",
+      "slot": 283,
+      "source": " and "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[2]/exercise[19]/problem[1]/para[1]/math[1]/mrow[1]/mtext[1]/text()",
+      "slot": 284,
+      "source": " and "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[2]/para[3]/text()",
+      "slot": 285,
+      "source": "For the following exercises, verify the identity."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[2]/exercise[25]/solution[1]/para[1]/text()",
+      "slot": 286,
+      "source": "Answers will vary. Sample proof:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[2]/exercise[27]/solution[1]/para[1]/text()",
+      "slot": 287,
+      "source": " Answers will vary. Sample proof:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[2]/exercise[29]/solution[1]/para[1]/text()",
+      "slot": 288,
+      "source": " Answers will vary. Sample proof:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[3]/title[1]/text()",
+      "slot": 289,
+      "source": "Extensions"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[3]/para[1]/text()",
+      "slot": 290,
+      "source": "For the following exercises, prove or disprove the identity."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[3]/exercise[2]/solution[1]/para[1]/text()",
+      "slot": 291,
+      "source": "False"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[3]/exercise[4]/solution[1]/para[1]/text()",
+      "slot": 292,
+      "source": "False"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[3]/exercise[6]/solution[1]/para[1]/text()",
+      "slot": 293,
+      "source": "Proved with negative and Pythagorean Identities"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[3]/para[2]/text()",
+      "slot": 294,
+      "source": "For the following exercises, determine whether the identity is true or false. If false, find an appropriate equivalent expression."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[3]/exercise[8]/solution[1]/para[1]/text()",
+      "slot": 295,
+      "source": "True "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/glossary[1]/definition[1]/term[1]/text()",
+      "slot": 296,
+      "source": "even-odd identities"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/glossary[1]/definition[1]/meaning[1]/text()",
+      "slot": 297,
+      "source": "set of equations involving trigonometric functions such that if "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/glossary[1]/definition[1]/meaning[1]/math[1]/tail()",
+      "slot": 298,
+      "source": " the identity is odd, and if "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/glossary[1]/definition[1]/meaning[1]/math[2]/tail()",
+      "slot": 299,
+      "source": " the identity is even"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/glossary[1]/definition[2]/term[1]/text()",
+      "slot": 300,
+      "source": "Pythagorean identities"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/glossary[1]/definition[2]/meaning[1]/text()",
+      "slot": 301,
+      "source": "set of equations involving trigonometric functions based on the right triangle properties"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/glossary[1]/definition[3]/term[1]/text()",
+      "slot": 302,
+      "source": "quotient identities"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/glossary[1]/definition[3]/meaning[1]/text()",
+      "slot": 303,
+      "source": "pair of identities based on the fact that tangent is the ratio of sine and cosine, and cotangent is the ratio of cosine and sine"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/glossary[1]/definition[4]/term[1]/text()",
+      "slot": 304,
+      "source": "reciprocal identities"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/glossary[1]/definition[4]/meaning[1]/text()",
+      "slot": 305,
+      "source": "set of equations involving the reciprocals of basic trigonometric definitions"
+    }
+  ],
+  "source": {
+    "bytes": 141573,
+    "path": "source/modules/m49393/index.cnxml",
+    "sha256": "127998ee2cb1b1aa44beb4df1bee6aab9b593dddaf3e7e919e1e047d2ef59747"
+  }
+}

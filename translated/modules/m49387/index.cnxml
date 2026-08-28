@@ -1,0 +1,4359 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+
+<title>Grafik Fungsi Sinus dan Kosinus</title>
+<metadata>
+  <md:content-id>m49387</md:content-id>
+  <md:title>Grafik Fungsi Sinus dan Kosinus</md:title>
+  <md:abstract><para id="para-00001">Di bagian ini, Anda akan:</para>
+    <list id="list-00001"><item>Variasi grafik dari   <m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mtext>sin</m:mtext><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:math>  dan <m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mtext>cos</m:mtext><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo></m:math>  .</item>
+    <item>Gunakan pergeseran fase kurva sinus dan kosinus.</item></list></md:abstract>
+  <md:uuid>ec87ee19-d627-4c06-89a0-2bd96aa3f402</md:uuid>
+</metadata>
+
+<content>
+<figure id="Figure_06_01_001" class="small"><media id="fs-id1165135160648" alt="Foto sinar cahaya berwarna pelangi yang membentang di lantai.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_001.jpg" />
+</media>
+<caption>Cahaya dapat diuraikan menjadi warna-warna karena sifat gelombangnya. (Kredit: "wonderferret"/Flickr)</caption></figure><para id="fs-id1165135329803">Cahaya putih, seperti cahaya dari matahari, sebenarnya sama sekali tidak putih. Sebaliknya, itu adalah komposisi dari semua warna pelangi dalam bentuk gelombang. Warna-warna individu hanya dapat dilihat ketika cahaya putih melewati prisma optik yang memisahkan gelombang sesuai panjang gelombang mereka untuk membentuk pelangi.</para>
+<para id="fs-id1165134544966">Gelombang cahaya dapat digambarkan secara grafis oleh fungsi sinus. <link document="m49369">Fungsi trigonometri</link>, kita telah mempelajari fungsi trigonometri seperti fungsi sinus. Dalam bagian ini, kita akan menafsirkan dan membuat grafik fungsi sinus dan kosinus.</para><section id="fs-id1165135169322">
+<title>Grafik Fungsi Sinus dan Kosinus</title>
+<para id="fs-id1165135241395">Ingatlah bahwa fungsi sinus dan kosinus mengaitkan nilai bilangan real dengan koordinat <emphasis effect="italics">x</emphasis> dan <emphasis effect="italics">y</emphasis> dari suatu titik pada lingkaran satuan. Jadi, seperti apa bentuk kedua fungsi tersebut pada grafik di bidang koordinat? Mari kita mulai dengan <term class="no-emphasis" id="term-00001">fungsi sinus</term>. Kita dapat membuat tabel nilai dan menggunakannya untuk membuat sketsa grafik. <link target-id="Table_06_01_01" /> memuat beberapa nilai fungsi sinus pada lingkaran satuan.</para><table id="Table_06_01_01" summary="..">
+<tgroup cols="10"><colspec colnum="1" colname="c1" />
+<colspec colnum="2" colname="c2" />
+<colspec colnum="3" colname="c3" />
+<colspec colnum="4" colname="c4" />
+<colspec colnum="5" colname="c5" />
+<colspec colnum="6" colname="c6" />
+<colspec colnum="7" colname="c7" />
+<colspec colnum="8" colname="c8" />
+<colspec colnum="9" colname="c9" />
+<colspec colnum="10" colname="c10" />
+
+<tbody>
+<row>
+<entry align="center"><emphasis> <m:math>
+ <m:mi>x</m:mi>
+</m:math> </emphasis></entry>
+<entry align="center"> <m:math>
+ <m:mn>0</m:mn>
+</m:math> </entry>
+<entry align="center"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </entry>
+<entry align="center"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>4</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </entry>
+<entry align="center"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </entry>
+<entry align="center"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </entry>
+<entry align="center"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </entry>
+<entry align="center"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>3</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>4</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </entry>
+<entry align="center"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>5</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </entry>
+<entry align="center"> <m:math>
+ <m:mi>π</m:mi>
+</m:math> </entry>
+</row>
+<row>
+<entry align="center"><emphasis> <m:math>
+ <m:mrow>
+  <m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> </emphasis></entry>
+<entry align="center"> <m:math>
+ <m:mn>0</m:mn>
+</m:math> </entry>
+<entry align="center"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </entry>
+<entry align="center"> <m:math display="block">
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:msqrt>
+     <m:mn>2</m:mn>
+    </m:msqrt>
+
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </entry>
+<entry align="center"> <m:math display="block">
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:msqrt>
+     <m:mn>3</m:mn>
+    </m:msqrt>
+
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </entry>
+<entry align="center"> <m:math>
+ <m:mn>1</m:mn>
+</m:math> </entry>
+<entry align="center"> <m:math display="block">
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:msqrt>
+     <m:mn>3</m:mn>
+    </m:msqrt>
+
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </entry>
+<entry align="center"> <m:math display="block">
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:msqrt>
+     <m:mn>2</m:mn>
+    </m:msqrt>
+
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </entry>
+<entry align="center"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </entry>
+<entry align="center"> <m:math>
+ <m:mn>0</m:mn>
+</m:math> </entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table><para id="fs-id1165137694159">Memplot titik-titik dari tabel dan meneruskannya sepanjang sumbu <emphasis effect="italics">x</emphasis> menghasilkan bentuk grafik fungsi sinus. Lihat <link target-id="Figure_06_01_002" />.</para><figure id="Figure_06_01_002" class="small"><media id="fs-id1165135385050" alt="Grafik sin(x). Maksimum lokal di (pi/2, 1). Minimum lokal di (3pi/2, -1). Periodenya 2pi.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_002.jpg" />
+</media>
+<caption>Fungsi sinus</caption></figure><para id="fs-id1165137410832">Perhatikan bagaimana nilai sinus positif antara 0 dan <m:math>
+ <m:mrow>
+  <m:mi>π</m:mi><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> yang sesuai dengan nilai fungsi sinus dalam kuadran I dan II pada lingkaran satuan, dan nilai sinus adalah negatif antara <m:math>
+ <m:mrow>
+  <m:mi>π</m:mi>
+ </m:mrow>
+</m:math> dan <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>π</m:mi><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> yang sesuai dengan nilai fungsi sinus dalam kuadran III dan IV pada lingkaran satuan. Lihat <link target-id="Figure_06_01_003" />.</para>
+
+<figure id="Figure_06_01_003" class="small"><media id="fs-id1165134360899" alt="Grafik lingkaran satuan dan grafik sin(x) yang ditampilkan berdampingan. Kedua grafik menunjukkan kesetaraan koordinat.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_003.jpg" />
+</media>
+<caption>Memplot nilai-nilai fungsi sinus</caption></figure><para id="fs-id1165137849285">Sekarang mari kita lihat yang serupa pada <term class="no-emphasis" id="term-00002">fungsi kosinus</term>. Sekali lagi, kita dapat membuat tabel nilai dan menggunakannya untuk membuat sketsa grafik. <link target-id="Table_06_01_02" /> memuat beberapa nilai fungsi kosinus pada lingkaran satuan.</para>
+
+
+<table id="Table_06_01_02" summary="..">
+<tgroup cols="10"><colspec colnum="1" colname="c1" />
+<colspec colnum="2" colname="c2" />
+<colspec colnum="3" colname="c3" />
+<colspec colnum="4" colname="c4" />
+<colspec colnum="5" colname="c5" />
+<colspec colnum="6" colname="c6" />
+<colspec colnum="7" colname="c7" />
+<colspec colnum="8" colname="c8" />
+<colspec colnum="9" colname="c9" />
+<colspec colnum="10" colname="c10" />
+
+<tbody>
+<row>
+<entry align="center"> <m:math>
+ <m:mi mathvariant="bold">x</m:mi>
+</m:math> </entry>
+<entry align="center"> <m:math>
+ <m:mn>0</m:mn>
+</m:math> </entry>
+<entry align="center"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </entry>
+<entry align="center"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>4</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </entry>
+<entry align="center"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </entry>
+<entry align="center"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </entry>
+<entry align="center"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </entry>
+<entry align="center"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>3</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>4</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </entry>
+<entry align="center"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>5</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </entry>
+<entry align="center"> <m:math>
+ <m:mi>π</m:mi>
+</m:math> </entry>
+</row>
+<row>
+<entry align="center"> <m:math>
+ <m:mrow>
+  <m:mi mathvariant="bold">cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi mathvariant="bold">x</m:mi>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> </entry>
+<entry align="center"> <m:math>
+ <m:mn>1</m:mn>
+</m:math> </entry>
+<entry align="center"> <m:math display="block">
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:msqrt>
+     <m:mn>3</m:mn>
+    </m:msqrt>
+
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </entry>
+<entry align="center"> <m:math display="block">
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:msqrt>
+     <m:mn>2</m:mn>
+    </m:msqrt>
+
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </entry>
+<entry align="center"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </entry>
+<entry align="center"> <m:math display="block">
+ <m:mn>0</m:mn>
+</m:math> </entry>
+<entry align="center"> <m:math display="block">
+ <m:mrow>
+  <m:mo>−</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </entry>
+<entry align="center"> <m:math display="block">
+ <m:mrow>
+  <m:mo>−</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msqrt>
+     <m:mn>2</m:mn>
+    </m:msqrt>
+
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </entry>
+<entry align="center"> <m:math display="block">
+ <m:mrow>
+  <m:mo>−</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msqrt>
+     <m:mn>3</m:mn>
+    </m:msqrt>
+
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </entry>
+<entry align="center"> <m:math>
+ <m:mrow>
+  <m:mo>−</m:mo><m:mn>1</m:mn>
+ </m:mrow>
+</m:math> </entry>
+</row>
+</tbody>
+
+
+
+</tgroup>
+</table><para id="fs-id1165135531416">Seperti pada fungsi sinus, kita dapat memplot titik-titik untuk membuat grafik fungsi kosinus seperti pada <link target-id="Figure_06_01_004" />.</para>
+
+<figure id="Figure_06_01_004" class="medium"><media id="fs-id1165135536490" alt="Grafik cos(x). Maksimum lokal di (0,1) dan (2pi, 1). Minimum lokal di (pi, -1). Periodenya 2pi.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_004.jpg" />
+</media>
+<caption>Fungsi kosinus</caption></figure><para id="fs-id1165135628668">Karena kita dapat mengevaluasi sinus dan kosinus dari setiap bilangan real, kedua fungsi ini didefinisikan untuk semua bilangan real. Dengan berpikir nilai sinus dan kosinus sebagai koordinat titik pada lingkaran satuan, menjadi jelas bahwa range kedua fungsi harus interval <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>[</m:mo> <m:mrow>
+   <m:mo>−</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn>
+  </m:mrow> <m:mo>]</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </para>
+<para id="fs-id1165137727184">Pada kedua grafik, bentuk grafik berulang setelah <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>π</m:mi><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> yang berarti fungsi adalah periodik dengan periode <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>π</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Sebuah <term id="term-00003">fungsi periodik</term> adalah fungsi yang jika mengalami suatu <term class="no-emphasis" id="term-00004">pergeseran horizontal</term>, <emphasis effect="italics">P</emphasis>, menghasilkan fungsi yang sama dengan fungsi asli: <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>x</m:mi><m:mo>+</m:mo><m:mi>P</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> untuk semua nilai <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi>
+ </m:mrow>
+</m:math> dalam domain <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Jika hal ini terjadi, pergeseran horizontal positif terkecil dengan <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math> disebut sebagai <term class="no-emphasis" id="term-00005">periode</term> fungsi. <link target-id="Figure_06_01_005" /> menunjukkan beberapa periode fungsi sinus dan kosinus.</para>
+
+<figure id="Figure_06_01_005" class="small">
+<media id="fs-id1165137627720" alt="Grafik sin(x) dan cos(x) yang ditampilkan berdampingan. Grafik menunjukkan bahwa periode kedua fungsi adalah 2pi.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_005.jpg" />
+</media>
+</figure>
+
+<para id="fs-id1165137447360">Melihat kembali fungsi sinus dan kosinus pada domain yang berpusat pada sumbu <emphasis effect="italics">y</emphasis> membantu memperlihatkan simetrinya. Seperti terlihat pada <link target-id="Figure_06_01_006" />, <term class="no-emphasis" id="term-00006">fungsi sinus</term> simetris terhadap titik asal. Ingat dari <link document="m49387">Fungsi Trigonometri Lain</link> bahwa kita menentukan dari lingkaran satuan bahwa fungsi sinus adalah fungsi ganjil karena <m:math>
+ <m:mrow>
+  <m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>−</m:mi><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>−</m:mi><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+Sekarang sifat ini tampak jelas pada grafik.</para><figure id="Figure_06_01_006" class="small"><media id="fs-id1165137588091" alt="Grafik dari sin(x) yang menunjukkan bahwa sin(x) adalah fungsi ganjil karena simetri ganjil dari grafik.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_006.jpg" />
+</media>
+<caption>Simetri ganjil fungsi sinus</caption></figure><para id="fs-id1165135484164"><link target-id="Figure_06_01_007" /> menunjukkan bahwa fungsi kosinus simetris terhadap sumbu <emphasis effect="italics">y</emphasis>. Sebelumnya kita telah menentukan bahwa fungsi kosinus adalah fungsi genap. Sekarang grafik memperlihatkan bahwa <m:math>
+ <m:mrow>
+  <m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mi>−</m:mi><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para><figure id="Figure_06_01_007" class="small"><media id="fs-id1165131958299" alt="Grafik dari cos(x) yang menunjukkan bahwa cos(x) adalah fungsi genap karena simetri genap dari grafik.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_007.jpg" />
+</media>
+<caption>Simetri genap fungsi kosinus</caption></figure><note id="fs-id1165135187674">
+<label>Catatan Umum</label>
+<title>Karakteristik Fungsi Sinus dan Kosinus</title>
+<para id="fs-id1165137628764">Fungsi sinus dan kosinus memiliki beberapa karakteristik yang berbeda:</para>
+<list id="fs-id1165137662423" list-type="bulleted"><item>Mereka adalah fungsi periodik dengan periode <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>π</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </item>
+<item>Domain dari setiap fungsi adalah <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mi>∞</m:mi><m:mo>,</m:mo><m:mi>∞</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> dan range adalah <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>[</m:mo> <m:mrow>
+   <m:mo>−</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn>
+  </m:mrow> <m:mo>]</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </item>
+<item>Grafik dari <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi>
+ </m:mrow>
+</m:math> simetris terhadap titik asal karena merupakan fungsi ganjil.</item>
+<item>Grafik dari <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi>
+ </m:mrow>
+</m:math> simetris terhadap sumbu <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi>
+ </m:mrow>
+</m:math> karena merupakan fungsi genap.</item>
+</list></note>
+</section>
+
+<section id="fs-id1165134032223">
+<title>Mengkaji Fungsi Sinusoidal</title>
+<para id="fs-id1165137410921">Seperti yang kita lihat, fungsi sinus dan kosinus memiliki periode dan range yang teratur. Jika kita melihat gelombang laut atau gelombang di kolam, kita akan melihat bahwa mereka menyerupai fungsi sinus atau kosinus. Namun, mereka tidak selalu identik. Beberapa lebih tinggi atau lebih panjang dari yang lain. Fungsi yang memiliki bentuk umum yang sama dengan sinus atau <term class="no-emphasis" id="term-00007">fungsi kosinus</term> dikenal sebagai <term id="term-00008">fungsi sinusoidal</term>. Bentuk umum fungsi sinusoidal adalah</para>
+<equation id="fs-id1165135512530" class="unnumbered"><label /> <m:math>
+ <m:mrow>
+  <m:mtable columnalign="left">
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mi>B</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>C</m:mi>
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>D</m:mi>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>dan</m:mtext>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mi>B</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>C</m:mi>
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>D</m:mi>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math> </equation>
+
+<section id="fs-id1165135458566">
+<title>Menentukan Periode Fungsi sinusoidal</title>
+<para id="fs-id1165135708019">Dari bentuk fungsi sinusoidal, kita melihat bahwa fungsi-fungsi tersebut merupakan transformasi fungsi sinus dan kosinus. Pengetahuan tentang transformasi dapat digunakan untuk menentukan periodenya.</para>
+<para id="fs-id1165137639577">Dalam rumus umum, <m:math>
+ <m:mrow>
+  <m:mi>B</m:mi>
+ </m:mrow>
+</m:math> berhubungan dengan periode <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mrow><m:mo>|</m:mo> <m:mi>B</m:mi> <m:mo>|</m:mo></m:mrow>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Jika <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>|</m:mo> <m:mi>B</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> maka periode kurang dari <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>π</m:mi>
+ </m:mrow>
+</m:math> dan fungsi mengalami pemampatan horizontal, sedangkan jika <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>|</m:mo> <m:mi>B</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>&lt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> maka periode tersebut lebih besar dari <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>π</m:mi>
+ </m:mrow>
+</m:math> dan fungsi mengalami peregangan horizontal. Sebagai contoh, <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>),</m:mo></m:mrow>
+ </m:mrow>
+</m:math> <m:math>
+ <m:mrow>
+  <m:mi>B</m:mi><m:mo>=</m:mo><m:mn>1,</m:mn>
+ </m:mrow>
+</m:math> Jadi periode adalah <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>π</m:mi><m:mi>,</m:mi><m:mtext />
+ </m:mrow>
+</m:math> yang sudah kita ketahui. Jika <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>x</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> maka <m:math>
+ <m:mrow>
+  <m:mi>B</m:mi><m:mo>=</m:mo><m:mn>2,</m:mn>
+ </m:mrow>
+</m:math> Jadi periode adalah <m:math>
+ <m:mrow>
+  <m:mi>π</m:mi>
+ </m:mrow>
+</m:math> dan grafiknya dimampatkan. <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mi>x</m:mi>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> maka <m:math>
+ <m:mrow>
+  <m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo>
+ </m:mrow>
+</m:math> sehingga periodenya adalah <m:math>
+ <m:mrow>
+  <m:mn>4</m:mn><m:mi>π</m:mi>
+ </m:mrow>
+</m:math> dan grafik mengalami peregangan horizontal. Perhatikan pada <link target-id="Figure_06_01_008" /> bagaimana periode berbanding terbalik dengan <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>|</m:mo> <m:mi>B</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para><figure id="Figure_06_01_008" class="small">
+<media id="fs-id1165137583924" alt="Grafik dengan tiga bagian. Sumbu x membentang dari 0 hingga 2pi dan sumbu y dari -1 hingga 1. Bagian pertama adalah grafik sin(x) selama satu periode penuh. Bagian kedua adalah grafik sin(2x) selama dua periode. Bagian ketiga adalah grafik sin(x/2) selama setengah periode.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_008.jpg" />
+</media>
+</figure>
+
+<note id="fs-id1165137697004"><label>Catatan Umum</label><title>Periode Fungsi sinusoidal</title>
+
+<para id="fs-id1165137766762">Jika kita menetapkan <m:math>
+ <m:mrow>
+  <m:mi>C</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math> dan <m:math>
+ <m:mrow>
+  <m:mi>D</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math> dalam persamaan bentuk umum fungsi sinus dan kosinus, diperoleh bentuk</para>
+<equation id="fs-id1165137855068" class="unnumbered"><label /> <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>B</m:mi><m:mi>x</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> </equation>
+<equation id="fs-id1165134371173" class="unnumbered"><label /> <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>B</m:mi><m:mi>x</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1165137413926">Periode adalah <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mrow><m:mo>|</m:mo> <m:mi>B</m:mi> <m:mo>|</m:mo></m:mrow>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para></note><example id="Example_06_01_01">
+<exercise id="fs-id1165137772370"><problem id="fs-id1165137772372">
+<title>Mengidentifikasi Periode Fungsi Sinus atau Kosinus</title>
+<para id="fs-id1165137389619">Menentukan periode fungsi <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mi>π</m:mi>
+     <m:mn>6</m:mn>
+    </m:mfrac>
+    <m:mi>x</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </para>
+</problem>
+<solution id="fs-id1165137434852">
+<para id="fs-id1165135188750">Mari kita mulai dengan membandingkan persamaan dengan bentuk umum <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>B</m:mi><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para><para id="fs-id1165134482743">Dalam persamaan yang diberikan, <m:math>
+ <m:mrow>
+  <m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo>
+ </m:mrow>
+</m:math> sehingga periodenya adalah</para>
+<equation id="fs-id1165137646911" class="unnumbered"><label /> <m:math display="block">
+ <m:mrow>
+  <m:mtable columnalign="left">
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mtable columnalign="left">
+      <m:mtr>
+       <m:mtd>
+        <m:mrow />
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd>
+        <m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
+         <m:mrow>
+          <m:mn>2</m:mn><m:mi>π</m:mi>
+         </m:mrow>
+         <m:mrow>
+          <m:mo>|</m:mo><m:mi>B</m:mi><m:mo>|</m:mo>
+         </m:mrow>
+        </m:mfrac>
+
+       </m:mtd>
+      </m:mtr>
+     </m:mtable>
+
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+ <m:mo>=</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mn>2</m:mn><m:mi>π</m:mi>
+       </m:mrow>
+       <m:mrow>
+        <m:mfrac>
+         <m:mi>π</m:mi>
+         <m:mn>6</m:mn>
+        </m:mfrac>
+
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+ <m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo>⋅</m:mo><m:mfrac>
+       <m:mn>6</m:mn>
+       <m:mi>π</m:mi>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+ <m:mo>=</m:mo><m:mn>12</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math> </equation></solution>
+</exercise></example>
+
+<note id="fs-id1165137465427" class="precalculus try">
+<label>Coba</label>
+<exercise id="ti_06_01_01"><problem id="fs-id1165135187453"><para id="fs-id1165135208858">Menentukan periode fungsi <m:math>
+ <m:mrow>
+  <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mi>x</m:mi>
+     <m:mn>3</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </para></problem>
+<solution id="fs-id1165137507692"><para id="fs-id1165137675634"> <m:math>
+ <m:mrow>
+  <m:mn>6</m:mn><m:mi>π</m:mi>
+ </m:mrow>
+</m:math> </para></solution>
+</exercise></note>
+</section>
+
+<section id="fs-id1165135699141"><title>Menentukan amplitudo</title><para id="fs-id1165135207425">Kembali ke rumus umum untuk fungsi sinusoidal, kita telah menganalisis bagaimana variabel <m:math>
+ <m:mrow>
+  <m:mi>B</m:mi>
+ </m:mrow>
+</m:math> Sekarang mari kita beralih ke variabel <m:math>
+ <m:mrow>
+  <m:mi>A</m:mi>
+ </m:mrow>
+</m:math> sehingga kita dapat menganalisis bagaimana hal itu terkait dengan <emphasis>amplitudo</emphasis>, yaitu jarak terbesar dari posisi setimbang. <m:math>
+ <m:mrow>
+  <m:mi>A</m:mi>
+ </m:mrow>
+</m:math> mewakili faktor peregangan vertikal, dan nilai mutlaknya <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>|</m:mo> <m:mi>A</m:mi> <m:mo>|</m:mo></m:mrow>
+ </m:mrow>
+</m:math> adalah amplitudonya. Maksimum lokal berjarak <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>|</m:mo> <m:mi>A</m:mi> <m:mo>|</m:mo></m:mrow>
+ </m:mrow>
+</m:math> di atas <emphasis>garis tengah</emphasis> dari grafik, yang merupakan garis <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>D</m:mi><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> karena <m:math>
+ <m:mrow>
+  <m:mi>D</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math> dalam hal ini, garis tengah adalah <emphasis effect="italics">x</emphasis>. Minimum lokal berjarak sama di bawah garis tengah. Jika <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>|</m:mo> <m:mi>A</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> fungsi diregangkan secara vertikal. Sebagai contoh, amplitudo <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>4</m:mn><m:mspace width="0.3em" /><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi>
+ </m:mrow>
+</m:math> adalah dua kali amplitudo dari <m:math display="block">
+ <m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.3em" /><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Jika <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>|</m:mo> <m:mi>A</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>&lt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> fungsi dimampatkan. <link target-id="Figure_06_01_009" /> membandingkan beberapa fungsi sinus dengan amplitudo yang berbeda.</para><figure id="Figure_06_01_009">
+<media id="fs-id1165137482990" alt="Grafik dengan empat bagian. Sumbu x membentang dari -6pi hingga 6pi dan sumbu y dari -4 hingga 4. Bagian pertama adalah grafik sin(x), dengan amplitudo 1. Bagian kedua adalah grafik 2sin(x), dengan amplitudo 2. Bagian ketiga adalah grafik 3sin(x), dengan amplitudo 3. Bagian keempat adalah grafik 4sin(x), dengan amplitudo 4.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_009.jpg" />
+</media>
+</figure>
+
+<note id="fs-id1165134284498"><label>Catatan Umum</label><title>Amplitudo Fungsi Sinusoidal</title>
+
+<para id="fs-id1165134497141">Jika kita menetapkan <m:math>
+ <m:mrow>
+  <m:mi>C</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math> dan <m:math>
+ <m:mrow>
+  <m:mi>D</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math> dalam persamaan bentuk umum fungsi sinus dan kosinus, diperoleh bentuk</para><equation id="fs-id1165135177658" class="unnumbered"><label /> <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>B</m:mi><m:mi>x</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mtext> dan </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>B</m:mi><m:mi>x</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> </equation><para id="fs-id1165137464064">Besarnya <term id="term-00009">amplitudo</term> adalah <m:math>
+ <m:mrow>
+  <m:mo>|</m:mo><m:mi>A</m:mi><m:mtext>|</m:mtext><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> yang merupakan ketinggian vertikal dari <term id="term-00010">garis tengah</term> <m:math>
+ <m:mrow>
+<m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Selain itu, perhatikan dalam contoh bahwa</para><equation id="fs-id1165135460914" class="unnumbered"><label /> <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>|</m:mo> <m:mi>A</m:mi> <m:mo>|</m:mo></m:mrow><m:mtext> = amplitudo = </m:mtext><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mrow><m:mo>|</m:mo> <m:mrow>
+   <m:mtext>maksimum </m:mtext><m:mo>−</m:mo><m:mtext> minimum</m:mtext>
+  </m:mrow> <m:mo>|</m:mo></m:mrow>
+ </m:mrow>
+</m:math>
+</equation></note><example id="Example_06_01_02">
+<exercise id="fs-id1165137653911">
+<problem id="fs-id1165134377968">
+<title>Mengidentifikasi Amplitudo Fungsi Sinus atau Kosinus</title>
+<para id="fs-id1165137932594">Berapa amplitudo fungsi sinusoidal <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>−4</m:mn><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>?</m:mo>
+ </m:mrow>
+</m:math> Apakah fungsi tersebut diregangkan atau dimampatkan secara vertikal?</para></problem>
+<solution id="fs-id1165135195832">
+<para id="fs-id1165135195834">Mari kita mulai dengan membandingkan fungsi dengan bentuk yang disederhanakan <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>B</m:mi><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para><para id="fs-id1165137930335">Dalam fungsi yang diberikan, <m:math>
+ <m:mrow>
+  <m:mi>A</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> Jadi amplitudo adalah <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>|</m:mo> <m:mi>A</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo> <m:mrow>
+<m:mn>−4</m:mn>
+  </m:mrow> <m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4.</m:mn>
+ </m:mrow>
+</m:math> Fungsi tersebut diregangkan.</para></solution>
+<commentary id="fs-id1165134226786">
+<title>Analisis</title>
+<para id="fs-id1165137410615">Nilai negatif dari <m:math>
+ <m:mrow>
+  <m:mi>A</m:mi>
+ </m:mrow>
+</m:math> menghasilkan pencerminan terhadap sumbu <emphasis effect="italics">x</emphasis> dari <term class="no-emphasis" id="term-00011">fungsi sinus</term>, seperti yang ditunjukkan dalam <link target-id="Figure_06_01_010" />.</para><figure id="Figure_06_01_010" class="small">
+<media id="fs-id1165137425512" alt="Grafik -4sin(x). Fungsi ini memiliki amplitudo 4. Minimum lokal berada di (-3pi/2, -4) dan (pi/2, -4). Maksimum lokal berada di (-pi/2, 4) dan (3pi/2, 4). Periodenya 2pi.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_010.jpg" />
+</media>
+</figure>
+
+</commentary>
+</exercise>
+</example>
+
+<note id="fs-id1165135471236" class="precalculus try">
+<label>Coba</label>
+<exercise id="ti_06_01_02">
+<problem id="fs-id1165137771980"><para id="fs-id1165137771982">Berapa amplitudo fungsi sinusoidal <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>?</m:mo>
+ </m:mrow>
+</m:math> Apakah fungsi tersebut diregangkan atau dimampatkan secara vertikal?</para></problem>
+<solution id="fs-id1165137531120"><para id="fs-id1165137531121"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> dimampatkan</para>
+</solution>
+</exercise>
+</note>
+</section></section>
+
+<section id="fs-id1165137834807"><title>Menganalisis Grafik Variasi dari <emphasis effect="italics">y</emphasis> = sin<emphasis effect="italics"> x</emphasis> dan <emphasis effect="italics">y</emphasis> = cos <emphasis effect="italics">x</emphasis></title><para id="fs-id1165135193998">Sekarang kita mengerti bagaimana <m:math>
+ <m:mrow>
+  <m:mi>A</m:mi>
+ </m:mrow>
+</m:math> dan <m:math>
+ <m:mrow>
+  <m:mi>B</m:mi>
+ </m:mrow>
+</m:math> berhubungan dengan persamaan bentuk umum untuk fungsi sinus dan kosinus, kita akan mengeksplorasi variabel <m:math>
+ <m:mrow>
+  <m:mi>C</m:mi>
+ </m:mrow>
+</m:math> dan <m:math>
+ <m:mrow>
+  <m:mi>D</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Ingatlah bentuk umum:</para>
+<equation id="fs-id1165134122886" class="unnumbered"><label /> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr>
+    <m:mtd>
+     <m:mrow>
+      <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mi>B</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>C</m:mi>
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>D</m:mi><m:mtext> dan </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mi>B</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>C</m:mi>
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>D</m:mi>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd>
+     <m:mrow>
+      <m:mi>o</m:mi><m:mi>r</m:mi>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd>
+     <m:mrow>
+      <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mi>B</m:mi><m:mrow><m:mo>(</m:mo>
+         <m:mrow>
+          <m:mi>x</m:mi><m:mo>−</m:mo><m:mfrac>
+           <m:mi>C</m:mi>
+           <m:mi>B</m:mi>
+          </m:mfrac>
+
+         </m:mrow>
+        <m:mo>)</m:mo></m:mrow>
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>D</m:mi><m:mtext> dan </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mi>B</m:mi><m:mrow><m:mo>(</m:mo>
+         <m:mrow>
+          <m:mi>x</m:mi><m:mo>−</m:mo><m:mfrac>
+           <m:mi>C</m:mi>
+           <m:mi>B</m:mi>
+          </m:mfrac>
+
+         </m:mrow>
+        <m:mo>)</m:mo></m:mrow>
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>D</m:mi>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1165134187254">Nilai <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>C</m:mi>
+   <m:mi>B</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> untuk suatu fungsi sinusoidal disebut <emphasis>pergeseran fase</emphasis>, atau pergeseran horizontal sinus dasar atau <term class="no-emphasis" id="term-00012">fungsi kosinus</term>. Jika <m:math>
+ <m:mrow>
+  <m:mi>C</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> grafik bergeser ke kanan. Jika <m:math>
+ <m:mrow>
+  <m:mi>C</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> grafik bergeser ke kiri. Semakin besar nilai <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>|</m:mo> <m:mi>C</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> semakin jauh grafik bergeser. <link target-id="Figure_06_01_011" /> menunjukkan bahwa grafik dari <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>x</m:mi><m:mo>−</m:mo><m:mi>π</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> bergeser ke kanan dengan <m:math>
+ <m:mrow>
+  <m:mi>π</m:mi>
+ </m:mrow>
+</m:math> satuan, lebih besar daripada pergeseran pada grafik <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>x</m:mi><m:mo>−</m:mo><m:mfrac>
+     <m:mi>π</m:mi>
+     <m:mn>4</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> yang bergeser ke kanan dengan <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>4</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> satuan.</para><figure id="Figure_06_01_011" class="small">
+<media id="fs-id1165137425737" alt="Grafik dengan tiga bagian. Bagian pertama adalah grafik sin(x). Bagian kedua adalah grafik sin(x-pi/4), yaitu grafik sin(x) yang digeser ke kanan sebesar pi/4. Bagian ketiga adalah grafik sin(x-pi), yaitu grafik sin(x) yang digeser ke kanan sebesar pi.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_011.jpg" />
+</media>
+</figure>
+
+  <para id="fs-id1165137663752">Sementara <m:math>
+ <m:mrow>
+  <m:mi>C</m:mi>
+ </m:mrow>
+</m:math> berhubungan dengan pergeseran horizontal, <m:math>
+ <m:mrow>
+  <m:mi>D</m:mi>
+ </m:mrow>
+</m:math> menunjukkan pergeseran vertikal dari garis tengah dalam rumus umum untuk fungsi sinusoidal. Lihat <link target-id="Figure_06_01_012" />. Fungsi <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>D</m:mi>
+ </m:mrow>
+</m:math> memiliki garis tengahnya di <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>D</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </para>
+
+<figure id="Figure_06_01_012" class="small">
+<media id="fs-id1165135353057" alt="Grafik dari y=Asin(x)+D. Grafik menunjukkan garis tengah fungsi pada y=D.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_012.jpg" />
+</media>
+</figure>
+
+<para id="fs-id1165135242867">Setiap nilai dari <m:math>
+ <m:mrow>
+  <m:mi>D</m:mi>
+ </m:mrow>
+</m:math> selain nol menggeser grafik ke atas atau ke bawah. <link target-id="Figure_06_01_013" /> membandingkan <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo>
+ </m:mrow>
+</m:math> dengan <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> yang digeser 2 satuan ke atas pada grafik.</para><figure id="Figure_06_01_013" class="small">
+<media id="fs-id1165135536497" alt="Grafik dengan dua bagian. Bagian pertama adalah grafik sin(x). Bagian kedua adalah grafik sin(x)+2, yaitu grafik sin(x) yang digeser ke atas sebesar 2.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_013.jpg" />
+</media>
+</figure>
+
+<note id="fs-id1165135571809">
+<label>Catatan Umum</label>
+<title>Variasi Fungsi Sinus dan Kosinus</title>
+<para id="fs-id1165133201875">Diberi persamaan dalam bentuk <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>B</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>C</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>D</m:mi>
+ </m:mrow>
+</m:math> atau <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>B</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>C</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>D</m:mi><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>C</m:mi>
+   <m:mi>B</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> adalah <term id="term-00013">pergeseran fase</term> dan <m:math>
+ <m:mrow>
+  <m:mi>D</m:mi>
+ </m:mrow>
+</m:math> adalah <term class="no-emphasis" id="term-00014">pergeseran vertikal</term>.</para>
+</note>
+
+<example id="Example_06_01_03">
+<exercise id="fs-id1165137696922"><problem id="fs-id1165137696924">
+<title>Mengidentifikasi Pergeseran Fase Fungsi</title>
+<para id="fs-id1165137804482">Tentukan arah dan ukuran pergeseran fase untuk <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac>
+     <m:mi>π</m:mi>
+     <m:mn>6</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>2.</m:mn>
+ </m:mrow>
+</m:math> </para>
+</problem>
+<solution id="fs-id1165134483435">
+<para id="fs-id1165134483437">Mari kita mulai dengan membandingkan persamaan dengan bentuk umum <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>B</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>C</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>D</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para><para id="fs-id1165137461008">Dalam persamaan yang diberikan, perhatikan bahwa <m:math>
+ <m:mrow>
+  <m:mi>B</m:mi><m:mo>=</m:mo><m:mn>1</m:mn>
+ </m:mrow>
+</m:math> dan <m:math>
+ <m:mrow>
+  <m:mi>C</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Jadi pergeseran fase adalah</para>
+<equation id="fs-id1165137693976" class="unnumbered"><label /> <m:math display="block">
+ <m:mrow>
+  <m:mtable columnalign="right">
+   <m:mtr columnalign="right">
+    <m:mtd columnalign="right">
+     <m:mrow />
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="right">
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:mfrac>
+       <m:mi>C</m:mi>
+       <m:mi>B</m:mi>
+      </m:mfrac>
+      <m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mfrac>
+         <m:mi>π</m:mi>
+         <m:mn>6</m:mn>
+        </m:mfrac>
+
+       </m:mrow>
+       <m:mn>1</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="right">
+    <m:mtd columnalign="right">
+     <m:mrow><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+       <m:mi>π</m:mi>
+       <m:mn>6</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation><para id="fs-id1165135696189">atau <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> satuan ke kiri.</para>
+</solution>
+<commentary id="fs-id1165134156073">
+<title>Analisis</title>
+<para id="fs-id1165137664617">Kita harus memperhatikan tanda pada persamaan bentuk umum fungsi sinusoidal. Persamaan tersebut memuat tanda minus sebelum <m:math>
+ <m:mrow>
+  <m:mi>C</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Oleh karena itu <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac>
+     <m:mi>π</m:mi>
+     <m:mn>6</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>2</m:mn>
+ </m:mrow>
+</m:math> dapat ditulis ulang sebagai <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>x</m:mi><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mo>−</m:mo><m:mfrac>
+       <m:mi>π</m:mi>
+       <m:mn>6</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>2.</m:mn>
+ </m:mrow>
+</m:math> Jika nilai dari <m:math>
+ <m:mrow>
+  <m:mi>C</m:mi>
+ </m:mrow>
+</m:math> adalah negatif, pergeseran ke kiri.</para>
+</commentary>
+ </exercise></example>
+
+<note id="fs-id1165137806038" class="precalculus try">
+<label>Coba</label>
+<exercise id="ti_06_01_03">
+<problem id="fs-id1165137461117"><para id="fs-id1165137461118">Tentukan arah dan ukuran pergeseran fase untuk <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>x</m:mi><m:mo>−</m:mo><m:mfrac>
+     <m:mi>π</m:mi>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </para></problem>
+<solution id="fs-id1165131959464"><para id="fs-id1165131959465"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>;</m:mo>
+ </m:mrow>
+</m:math> ke kanan</para></solution>
+</exercise>
+</note>
+
+<example id="Example_06_01_04">
+<exercise id="fs-id1165137410966">
+<problem id="fs-id1165137410968">
+<title>Mengidentifikasi Pergeseran Vertikal Fungsi</title>
+<para id="fs-id1165135186656">Tentukan arah dan magnitudo pergeseran vertikal untuk <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>3.</m:mn>
+ </m:mrow>
+</m:math> </para>
+</problem>
+<solution id="fs-id1165137427502">
+<para id="fs-id1165137427504">Mari kita mulai dengan membandingkan persamaan dengan bentuk umum <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mi>B</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>C</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>D</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para><para id="fs-id1165135503692">Dalam persamaan yang diberikan, <m:math>
+ <m:mrow>
+  <m:mi>D</m:mi><m:mo>=</m:mo><m:mn>−3</m:mn>
+ </m:mrow>
+</m:math> sehingga pergeserannya 3 satuan ke bawah.</para></solution>
+</exercise>
+</example>
+
+<note id="fs-id1165137742086" class="precalculus try">
+<label>Coba</label>
+<exercise id="ti_06_01_04">
+<problem id="fs-id1165137410879"><para id="fs-id1165137410880">Tentukan arah dan magnitudo pergeseran vertikal untuk <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>2.</m:mn>
+ </m:mrow>
+</m:math> </para></problem>
+<solution id="fs-id1165137432579"><para id="fs-id1165137432580">2 satuan ke atas</para></solution>
+</exercise>
+
+</note>
+
+<note id="fs-id1165137824883" class="how-to-notitle">
+<label>Cara</label>
+<para id="fs-id1165135417813"><emphasis>Jika diberikan fungsi sinusoidal berbentuk</emphasis> <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>B</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>C</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>D</m:mi><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> <emphasis>identifikasilah garis tengah, amplitudo, periode, dan pergeseran fasenya.</emphasis></para>
+<list id="fs-id1165137805755" list-type="enumerated" number-style="arabic">
+<item>Tentukan amplitudo sebagai <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>|</m:mo> <m:mi>A</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </item>
+<item>Tentukan periode sebagai <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mrow><m:mo>|</m:mo> <m:mi>B</m:mi> <m:mo>|</m:mo></m:mrow>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </item>
+<item>Tentukan pergeseran fase sebagai <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>C</m:mi>
+   <m:mi>B</m:mi>
+  </m:mfrac>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </item>
+<item>Tentukan garis tengah sebagai <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>D</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </item>
+</list>
+</note>
+
+<example id="Example_06_01_05">
+<exercise id="fs-id1165137457010">
+<problem id="fs-id1165137457013">
+<title>Mengidentifikasi Variasi Fungsi Sinusoidal dari Persamaan</title>
+<para id="fs-id1165137416718">Tentukan garis tengah, amplitudo, periode, dan pergeseran fase fungsi <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>1.</m:mn>
+ </m:mrow>
+</m:math> </para>
+</problem>
+<solution id="fs-id1165137454382">
+<para id="fs-id1165137454384">Mari kita mulai dengan membandingkan persamaan dengan bentuk umum <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>B</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>C</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>D</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para><para id="fs-id1165137408417"> <m:math>
+ <m:mrow>
+  <m:mi>A</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> Jadi amplitudo adalah <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>|</m:mo> <m:mi>A</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3.</m:mn>
+ </m:mrow>
+</m:math>
+</para><para id="fs-id1165137438431">Selanjutnya, <m:math>
+ <m:mrow>
+  <m:mi>B</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> Jadi periode adalah <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mrow><m:mo>|</m:mo> <m:mi>B</m:mi> <m:mo>|</m:mo></m:mrow>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mi>π</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para><para id="fs-id1165137637576">Tidak ada konstanta tambahan di dalam tanda kurung, sehingga <m:math>
+ <m:mrow>
+  <m:mi>C</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math> dan pergeseran fase adalah <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>C</m:mi>
+   <m:mi>B</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mn>0</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>0.</m:mn>
+ </m:mrow>
+</m:math> </para>
+<para id="fs-id1165137697063">Akhirnya, <m:math>
+ <m:mrow>
+  <m:mi>D</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> Jadi garis tengah adalah <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1.</m:mn>
+ </m:mrow>
+</m:math> </para></solution>
+<commentary id="fs-id1165137701755">
+<title>Analisis</title>
+<para id="fs-id1165135414237">Dengan memeriksa grafik, kita dapat menentukan bahwa periode adalah <m:math>
+ <m:mrow>
+  <m:mi>π</m:mi><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> garis tengah adalah <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> dan amplitudonya 3. Lihat <link target-id="Figure_06_01_014" />.</para><figure id="Figure_06_01_014" class="small">
+<media id="fs-id1165135185294" alt="Grafik y=3sin(2x)+1. Grafik memiliki amplitudo 3, garis tengah y=1, dan periode pi. Maksimum lokal berada di (pi/4, 4), sedangkan minimum lokal berada di (3pi/4, -2).">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_014.jpg" />
+</media>
+</figure>
+</commentary>
+</exercise>
+</example>
+
+<note id="fs-id1165137447405" class="precalculus try">
+<label>Coba</label>
+<exercise id="ti_06_01_05">
+<problem id="fs-id1165137447552"><para id="fs-id1165137447553">Menentukan garis tengah, amplitudo, periode, dan pergeseran fase fungsi <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mi>x</m:mi>
+     <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>−</m:mo><m:mfrac>
+     <m:mi>π</m:mi>
+     <m:mn>3</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </para></problem>
+<solution id="fs-id1165134042357"><para id="fs-id1165134042358">garis tengah: <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> amplitudo: <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>|</m:mo> <m:mi>A</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>;</m:mo>
+ </m:mrow>
+</m:math> Periode: <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mrow><m:mo>|</m:mo> <m:mi>B</m:mi> <m:mo>|</m:mo></m:mrow>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>6</m:mn><m:mi>π</m:mi><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> Pergeseran fase: <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>C</m:mi>
+   <m:mi>B</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mi>π</m:mi>
+ </m:mrow>
+</m:math> </para></solution>
+</exercise>
+</note>
+
+<example id="Example_06_01_06"><exercise id="fs-id1165137659478"><problem id="fs-id1165134040573">
+<title>Mengidentifikasi persamaan untuk fungsi sinusoidal dari grafik</title>
+<para id="fs-id1165137871008">Tentukan rumus fungsi kosinus dalam <link target-id="Figure_06_01_015" />.</para>
+
+<figure id="Figure_06_01_015" class="small">
+<media id="fs-id1165137772064" alt="Grafik -0.5cos(x)+0.5. Grafik memiliki amplitudo 0.5, periode 2pi, dan range [0, 1]. Grafik juga merupakan pencerminan fungsi induk cos(x) terhadap sumbu x.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_015.jpg" />
+</media>
+</figure>
+</problem>
+<solution id="fs-id1165135329784">
+<para id="fs-id1165137726017">Untuk menentukan persamaan, kita perlu mengidentifikasi setiap nilai dalam bentuk umum fungsi sinusoidal.</para>
+<equation id="fs-id1165137726021" class="unnumbered"><label /> <m:math>
+ <m:mrow>
+  <m:mtable columnalign="left">
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>B</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>C</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>D</m:mi>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mi>B</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>C</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>D</m:mi>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation><para id="fs-id1165137704661">Grafik dapat mewakili fungsi sinus atau <term class="no-emphasis" id="term-00015">fungsi kosinus</term> yang digeser dan/atau dicerminkan. Ketika <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> grafik memiliki titik ekstrem, <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Karena fungsi kosinus memiliki titik ekstrim untuk <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> Mari kita menulis persamaan kita dalam bentuk fungsi kosinus.</para><para id="fs-id1165135536557">Mari kita mulai dengan garis tengah. Kita bisa melihat bahwa grafik naik dan turun jarak yang sama di atas dan di bawah <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0.5.</m:mn>
+ </m:mrow>
+</m:math> Nilai ini, yang merupakan garis tengah, adalah <m:math>
+ <m:mrow>
+  <m:mi>D</m:mi>
+ </m:mrow>
+</m:math> di persamaan, jadi <m:math>
+ <m:mrow>
+  <m:mi>D</m:mi><m:mo>=</m:mo><m:mn>0.5.</m:mn>
+ </m:mrow>
+</m:math> </para><para id="fs-id1165137938642">Jarak terbesar di atas atau di bawah garis tengah adalah amplitudo. Maksimum berada 0.5 satuan di atas garis tengah dan minimum berada 0.5 satuan di bawahnya. Jadi, <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>|</m:mo> <m:mi>A</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0.5.</m:mn>
+ </m:mrow>
+</m:math> Cara lain untuk menentukan amplitudo adalah dengan memperhatikan bahwa selisih tinggi maksimum lokal dan minimum lokal adalah 1, sehingga <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>|</m:mo> <m:mi>A</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>0.5.</m:mn>
+ </m:mrow>
+</m:math> Selain itu, grafik dicerminkan terhadap sumbu <emphasis effect="italics">x</emphasis> sehingga <m:math>
+ <m:mrow>
+  <m:mi>A</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>0.5.</m:mn>
+ </m:mrow>
+</m:math> </para><para id="fs-id1165134204425">Grafik tidak diregangkan maupun dimampatkan secara horizontal, sehingga <m:math>
+ <m:mrow>
+  <m:mi>B</m:mi><m:mo>=</m:mo><m:mn>1;</m:mn>
+ </m:mrow>
+</m:math> dan grafik tidak bergeser secara horizontal, jadi <m:math>
+ <m:mrow>
+  <m:mi>C</m:mi><m:mo>=</m:mo><m:mn>0.</m:mn>
+ </m:mrow>
+</m:math> </para><para id="fs-id1165135347312">Menggabungkan semua ini,</para><equation id="fs-id1165137401884" class="unnumbered"><label /> <m:math>
+ <m:mrow>
+  <m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>0.5</m:mn><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>0.5</m:mn>
+ </m:mrow>
+</m:math> </equation></solution>
+</exercise>
+</example><note id="fs-id1165137702221" class="precalculus try">
+<label>Coba</label>
+<exercise id="ti_06_01_06">
+<problem id="fs-id1165135582221"><para id="fs-id1165135582222">Tentukan rumus fungsi sinus dalam <link target-id="Figure_06_01_016" />.</para>
+
+<figure id="Figure_06_01_016" class="small">
+<media id="fs-id1165134224521" alt="Grafik sin(x)+2. Periodenya 2pi, amplitudonya 1, dan range-nya [1, 3].">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_016.jpg" />
+</media>
+</figure></problem>
+ <solution id="fs-id1165137526465"><para id="fs-id1165137526466"> <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>2</m:mn>
+ </m:mrow>
+</m:math> </para></solution>
+</exercise>
+</note>
+
+<example id="Example_06_01_07"><exercise id="fs-id1165134164950"><problem id="fs-id1165134058400">
+<title>Mengidentifikasi persamaan untuk fungsi sinusoidal dari grafik</title>
+<para id="fs-id1165134059763">Tentukan persamaan untuk fungsi sinusoidal pada <link target-id="Figure_06_01_017" />.</para><figure id="Figure_06_01_017" class="medium">
+<media id="fs-id1165135253132" alt="Grafik 3cos(pi/3x-pi/3)-2. Grafik memiliki amplitudo 3, periode 6, dan range [-5,1].">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_017.jpg" />
+</media>
+</figure>
+
+</problem>
+<solution id="fs-id1165137598813">
+<para id="fs-id1165137598815">Dengan nilai tertinggi pada 1 dan nilai terendah pada <m:math>
+ <m:mrow>
+  <m:mn>−5</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> garis tengah berada tepat di pertengahan kedua nilai tersebut, yaitu <m:math>
+ <m:mrow>
+  <m:mn>−2.</m:mn>
+ </m:mrow>
+</m:math> Jadi, <m:math>
+ <m:mrow>
+  <m:mi>D</m:mi><m:mo>=</m:mo><m:mn>−2.</m:mn>
+ </m:mrow>
+</m:math> </para><para id="fs-id1165133281392">Jarak dari garis tengah ke nilai tertinggi atau terendah memberikan amplitudo <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>|</m:mo> <m:mi>A</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3.</m:mn>
+ </m:mrow>
+</m:math> </para>
+<para id="fs-id1165137824298">Periode grafik adalah 6, yang dapat diukur dari puncak pada <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn>
+ </m:mrow>
+</m:math> ke puncak berikutnya di <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>7</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> atau dari jarak antara titik-titik terendah. Oleh karena itu, <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mrow><m:mo>|</m:mo> <m:mi>B</m:mi> <m:mo>|</m:mo></m:mrow>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>6.</m:mn>
+ </m:mrow>
+</m:math> Menggunakan nilai positif untuk <m:math>
+ <m:mrow>
+  <m:mi>B</m:mi><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> kita menemukan bahwa</para>
+<equation id="fs-id1165135196958" class="unnumbered"><label /> <m:math>
+ <m:mrow>
+  <m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mi>P</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+ </m:mrow>
+</m:math> </equation><para id="fs-id1165137611526">Sejauh ini, persamaan kita dapat berupa <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mi>π</m:mi>
+     <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mi>x</m:mi><m:mo>−</m:mo><m:mi>C</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>2</m:mn>
+ </m:mrow>
+</m:math> atau <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mi>π</m:mi>
+     <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mi>x</m:mi><m:mo>−</m:mo><m:mi>C</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>2.</m:mn>
+ </m:mrow>
+</m:math> Untuk bentuk dan pergeseran, kita memiliki lebih dari satu pilihan. Kita dapat menuliskannya sebagai salah satu bentuk berikut:</para><list id="fs-id1165137466148" list-type="bulleted"><item>kosinus bergeser ke kanan</item>
+<item>kosinus negatif bergeser ke kiri</item>
+<item>sinus bergeser ke kiri</item>
+<item>sinus negatif bergeser ke kanan</item>
+</list>
+<para id="para-00002">Memilih untuk menggunakan fungsi kosinus, kita mengamati bahwa puncak, yang biasanya akan berada di <m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:math>, adalah pada <m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:math>, dan dengan faktor pemampatan horizontal sebesar <m:math><m:mfrac><m:mi>π</m:mi><m:mn>3</m:mn></m:mfrac></m:math>, kita mendapatkan <m:math><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>·</m:mo><m:mfrac><m:mi>π</m:mi><m:mn>3</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mi>π</m:mi><m:mn>3</m:mn></m:mfrac></m:math>.</para>
+<para id="fs-id1165137619397">Semua bentuk ini benar, tetapi dalam kasus ini pergeseran kosinus lebih mudah digunakan daripada pergeseran sinus karena melibatkan nilai bilangan bulat. Jadi, fungsi kita menjadi</para><equation id="fs-id1165137619402" class="unnumbered"><label /> <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mi>π</m:mi>
+     <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mi>x</m:mi><m:mo>−</m:mo><m:mfrac>
+     <m:mi>π</m:mi>
+     <m:mn>3</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>2</m:mn><m:mtext> atau </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mi>π</m:mi>
+     <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac>
+     <m:mrow>
+      <m:mn>2</m:mn><m:mi>π</m:mi>
+     </m:mrow>
+     <m:mn>3</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>2</m:mn>
+ </m:mrow>
+</m:math>
+</equation><para id="fs-id1165135704043">Sekali lagi, fungsi-fungsi ini ekuivalen, sehingga keduanya menghasilkan grafik yang sama.</para>
+</solution>
+</exercise></example><note id="fs-id1165137805588" class="precalculus try"><label>Coba</label>
+<exercise id="ti_06_01_07"><problem id="fs-id1165137436869"><para id="fs-id1165137436870">Tuliskan rumus untuk fungsi yang digambarkan di <link target-id="Figure_06_01_018" />.</para>
+
+<figure id="Figure_06_01_018" class="medium"><media id="fs-id1165137647462" alt="Grafik 4sin((pi/5)x-pi/5)+4. Grafik memiliki periode 10, amplitudo 4, dan range [0,8].">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_018n-0a72.jpg" />
+</media>
+</figure></problem>
+
+<solution id="fs-id1165135173772"><para id="fs-id1165135173773">dua kemungkinan: <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mi>π</m:mi>
+     <m:mn>5</m:mn>
+    </m:mfrac>
+    <m:mi>x</m:mi><m:mo>−</m:mo><m:mfrac>
+     <m:mi>π</m:mi>
+     <m:mn>5</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>4</m:mn>
+ </m:mrow>
+</m:math> atau <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mi>π</m:mi>
+     <m:mn>5</m:mn>
+    </m:mfrac>
+    <m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac>
+     <m:mrow>
+      <m:mn>4</m:mn><m:mi>π</m:mi>
+     </m:mrow>
+     <m:mn>5</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>4</m:mn>
+ </m:mrow>
+</m:math> </para></solution>
+</exercise></note></section><section id="fs-id1165137735424"><title>Grafik Variasi dari <emphasis effect="italics">y</emphasis> = sin <emphasis effect="italics">x</emphasis> dan <emphasis effect="italics">y</emphasis> = cos <emphasis effect="italics">x</emphasis></title><para id="fs-id1165134148513">Sepanjang bagian ini, kita telah belajar tentang jenis variasi fungsi sinus dan kosinus dan menggunakan informasi itu untuk menulis persamaan dari grafik. Sekarang kita bisa menggunakan informasi yang sama untuk membuat grafik dari persamaan.</para>
+<para id="fs-id1165137456137">Alih-alih berfokus pada persamaan bentuk umum</para>
+<equation id="fs-id1165137456140" class="unnumbered"><label /> <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>B</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>C</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>D</m:mi><m:mtext> dan </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>B</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>C</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>D</m:mi><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1165137807234">kita akan menetapkan <m:math>
+ <m:mrow>
+  <m:mi>C</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math> dan <m:math>
+ <m:mrow>
+  <m:mi>D</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math> dan bekerja dengan bentuk disederhanakan dari persamaan dalam contoh berikut.</para><note id="fs-id1165135380117" class="how-to-notitle">
+<label>Cara</label>
+<para id="fs-id1165135329942"><emphasis>Jika diberikan fungsi <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>B</m:mi><m:mi>x</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> gambarlah grafiknya.</emphasis></para><list id="fs-id1165137542466" list-type="enumerated" number-style="arabic"><item>Tentukan amplitudo, <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>|</m:mo> <m:mi>A</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </item>
+<item>Tentukan periode, <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mrow><m:mo>|</m:mo> <m:mi>B</m:mi> <m:mo>|</m:mo></m:mrow>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </item>
+<item>Mulai dari asal, dengan fungsi meningkat ke kanan jika <m:math>
+ <m:mrow>
+  <m:mi>A</m:mi>
+ </m:mrow>
+</m:math> positif atau menurun jika <m:math>
+ <m:mrow>
+  <m:mi>A</m:mi>
+ </m:mrow>
+</m:math> adalah negatif.</item>
+<item>Pada <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mrow><m:mo>|</m:mo> <m:mi>B</m:mi> <m:mo>|</m:mo></m:mrow>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> ada maksimum lokal untuk <m:math>
+ <m:mrow>
+  <m:mi>A</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math> atau minimum untuk <m:math>
+ <m:mrow>
+  <m:mi>A</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> dengan <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </item>
+<item>Kurva kembali ke sumbu <emphasis effect="italics">x</emphasis> pada <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mrow>
+    <m:mrow><m:mo>|</m:mo> <m:mi>B</m:mi> <m:mo>|</m:mo></m:mrow>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </item>
+<item>Ada minimum lokal untuk <m:math>
+ <m:mrow>
+  <m:mi>A</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math> (maksimum untuk <m:math>
+ <m:mrow>
+  <m:mi>A</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math> ) pada <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>3</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mrow><m:mo>|</m:mo> <m:mi>B</m:mi> <m:mo>|</m:mo></m:mrow>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> dengan <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mo>–</m:mo><m:mi>A</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </item>
+<item>Kurva kembali lagi ke sumbu <emphasis effect="italics">x</emphasis> pada <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow>
+   <m:mrow>
+    <m:mrow><m:mo>|</m:mo> <m:mi>B</m:mi> <m:mo>|</m:mo></m:mrow>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </item>
+</list></note>
+<!--CONTINUE HERE-->
+<example id="Example_06_01_08"><exercise id="fs-id1165134156046"><problem id="fs-id1165137565145">
+<title>Menggambar Fungsi serta Mengidentifikasi Amplitudo dan Periodenya</title>
+<para id="fs-id1165137565150">Lukiskan grafik dari <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mi>π</m:mi><m:mi>x</m:mi>
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </para>
+</problem>
+<solution id="fs-id1165134190732">
+<para id="fs-id1165134190734">Mari kita mulai dengan membandingkan persamaan dengan bentuk <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>B</m:mi><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para>
+<list id="eip-id1165135169452" mark-suffix="" list-type="labeled-item"><item><emphasis effect="italics">Langkah 1.</emphasis> Kita bisa melihat dari persamaan bahwa <m:math>
+ <m:mrow>
+  <m:mi>A</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>,</m:mi>
+ </m:mrow>
+</m:math> sehingga amplitudonya 2.
+<equation id="fs-id1165135400292" class="unnumbered"><label /> <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>|</m:mo> <m:mi>A</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn>
+ </m:mrow>
+</m:math> </equation></item>
+<item><emphasis effect="italics">Langkah 2.</emphasis> Persamaan menunjukkan bahwa <m:math>
+ <m:mrow>
+  <m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo>
+ </m:mrow>
+</m:math> Jadi periode adalah
+<equation id="fs-id1165134178538" class="unnumbered"><label /> <m:math display="block">
+ <m:mrow>
+  <m:mtable columnalign="left">
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mn>2</m:mn><m:mi>π</m:mi>
+       </m:mrow>
+       <m:mrow>
+        <m:mfrac>
+         <m:mi>π</m:mi>
+         <m:mn>2</m:mn>
+        </m:mfrac>
+
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+ <m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo>⋅</m:mo><m:mfrac>
+       <m:mn>2</m:mn>
+       <m:mi>π</m:mi>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+ <m:mo>=</m:mo><m:mn>4</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math> </equation>
+</item>
+<item><emphasis effect="italics">Langkah 3.</emphasis> Karena <m:math>
+ <m:mrow>
+  <m:mi>A</m:mi>
+ </m:mrow>
+</m:math> bernilai negatif, grafik menurun ketika kita bergerak ke kanan dari titik asal.</item>
+<item><emphasis effect="italics">Langkah 4–7.</emphasis> Titik potong sumbu <emphasis effect="italics">x</emphasis> berada pada awal satu periode, <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> titik tengah horizontal berada di <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn>
+ </m:mrow>
+</m:math> dan pada akhir satu periode pada <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4.</m:mn>
+ </m:mrow>
+</m:math> </item>
+</list><para id="fs-id1165137786248">Titik-titik seperempat periode mencakup minimum pada <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn>
+ </m:mrow>
+</m:math> dan maksimum pada <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3.</m:mn>
+ </m:mrow>
+</m:math> Minimum lokal terjadi 2 satuan di bawah garis tengah, pada <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> dan maksimum lokal terjadi 2 satuan di atas garis tengah, pada <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3.</m:mn>
+ </m:mrow>
+</m:math> <link target-id="Figure_06_01_019" /> menunjukkan grafik fungsi.</para><figure id="Figure_06_01_019" class="small">
+<media id="fs-id1165137414262" alt="Grafik -2sin((pi/2)x). Grafik memiliki range [-2,2], periode 4, dan amplitudo 2.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_019.jpg" />
+</media>
+</figure>
+</solution>
+</exercise></example><note id="fs-id1165137539724" class="precalculus try">
+<label>Coba</label>
+<exercise id="ti_06_01_08"><problem id="fs-id1165137409841"><para id="fs-id1165137628752">Lukiskan grafik dari <m:math>
+ <m:mrow>
+  <m:mi>g</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>0.8</m:mn><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>x</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Tentukan garis tengah, amplitudo, periode, dan pergeseran fase. </para></problem>
+<solution id="fs-id1165135342790"><media id="fs-id1165135397949" alt="Grafik -0.8cos(2x). Grafik memiliki range [-0.8, 0.8], periode pi, dan amplitudo 0.8. Grafik merupakan pencerminan fungsi induk cos(x) terhadap sumbu x.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_020.jpg" />
+</media>
+<para id="eip-id1165137938401">garis tengah: <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> amplitudo: <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>|</m:mo> <m:mi>A</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0.8</m:mn><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> Periode: <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mrow><m:mo>|</m:mo> <m:mi>B</m:mi> <m:mo>|</m:mo></m:mrow>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mi>π</m:mi><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> Pergeseran fase: <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>C</m:mi>
+   <m:mi>B</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>  atau tidak ada</para></solution>
+</exercise></note>
+
+
+<note id="fs-id1165137425929" class="how-to-notitle"><label>Cara</label>
+<para id="fs-id1165137661914"><emphasis>Jika diberikan fungsi sinusoidal dengan pergeseran fase dan pergeseran vertikal, gambarkan grafiknya.</emphasis></para>
+<list id="fs-id1165135503706" list-type="enumerated" number-style="arabic"><item>Nyatakan fungsi dalam bentuk umum <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>B</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>C</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>D</m:mi><m:mtext> atau </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mi>B</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>C</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>D</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</item>
+<item>Tentukan amplitudo, <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>|</m:mo> <m:mi>A</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </item>
+<item>Tentukan periode, <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mrow><m:mo>|</m:mo> <m:mi>B</m:mi> <m:mo>|</m:mo></m:mrow>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </item>
+<item>Tentukan pergeseran fase, <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>C</m:mi>
+   <m:mi>B</m:mi>
+  </m:mfrac>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </item>
+<item>Gambar grafik dari <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>B</m:mi><m:mi>x</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> yang digeser ke kanan atau ke kiri sebesar <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>C</m:mi>
+   <m:mi>B</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> dan ke atas atau ke bawah sebesar <m:math>
+ <m:mrow>
+  <m:mi>D</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </item>
+</list></note><example id="Example_06_01_09"><exercise id="fs-id1165134116767">
+    <problem id="fs-id1165134116769">
+        <title>Menggambar Grafik Sinusoidal yang Ditransformasi</title>
+        <para id="fs-id1165137723733">Lukiskan grafik dari <m:math>
+            <m:mrow><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+                        <m:mrow>
+                            <m:mfrac>
+                                <m:mi>π</m:mi>
+                                <m:mn>4</m:mn>
+                            </m:mfrac>
+                            <m:mi>x</m:mi><m:mo>−</m:mo><m:mfrac>
+                                <m:mi>π</m:mi>
+                                <m:mn>4</m:mn>
+                            </m:mfrac>
+
+                        </m:mrow>
+                        <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+            </m:mrow>
+        </m:math> </para>
+    </problem>
+    <solution id="fs-id1165135209894">
+
+        <list id="eip-id1165137474346" list-type="labeled-item"><item><emphasis effect="italics">Langkah 1.</emphasis> Fungsi sudah ditulis dalam bentuk umum: <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mi>π</m:mi>
+     <m:mn>4</m:mn>
+    </m:mfrac>
+    <m:mi>x</m:mi><m:mo>−</m:mo><m:mfrac>
+     <m:mi>π</m:mi>
+     <m:mn>4</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Grafik ini akan memiliki bentuk <term class="no-emphasis" id="term-00016">fungsi sinus</term>, mulai dari garis tengah dan naik ke kanan.</item>
+            <item><emphasis effect="italics">Langkah 2.</emphasis> <m:math>
+                <m:mrow>
+<m:mrow><m:mo>|</m:mo> <m:mi>A</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo> <m:mn>3</m:mn> <m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3.</m:mn>
+                </m:mrow>
+            </m:math> Amplitudonya 3.</item>
+            <item><emphasis effect="italics">Langkah 3.</emphasis> Karena <m:math>
+                <m:mrow>
+<m:mrow><m:mo>|</m:mo> <m:mi>B</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>|</m:mo> <m:mrow>
+                        <m:mfrac>
+                            <m:mi>π</m:mi>
+                            <m:mn>4</m:mn>
+                        </m:mfrac>
+
+                    </m:mrow> <m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
+                        <m:mi>π</m:mi>
+                        <m:mn>4</m:mn>
+                    </m:mfrac>
+                    <m:mo>,</m:mo>
+                </m:mrow>
+            </m:math> kita menentukan periode sebagai berikut.
+                <equation id="fs-id1165137572143" class="unnumbered"><label /> <m:math>
+                    <m:mrow>
+                        <m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
+                            <m:mrow>
+                                <m:mn>2</m:mn><m:mi>π</m:mi>
+                            </m:mrow>
+                            <m:mrow>
+                                <m:mrow><m:mo>|</m:mo> <m:mi>B</m:mi> <m:mo>|</m:mo></m:mrow>
+                            </m:mrow>
+                        </m:mfrac>
+                        <m:mo>=</m:mo><m:mfrac>
+                            <m:mrow>
+                                <m:mn>2</m:mn><m:mi>π</m:mi>
+                            </m:mrow>
+                            <m:mrow>
+                                <m:mfrac>
+                                    <m:mi>π</m:mi>
+                                    <m:mn>4</m:mn>
+                                </m:mfrac>
+
+                            </m:mrow>
+                        </m:mfrac>
+                        <m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo>⋅</m:mo><m:mfrac>
+                            <m:mn>4</m:mn>
+                            <m:mi>π</m:mi>
+                        </m:mfrac>
+                        <m:mo>=</m:mo><m:mn>8</m:mn>
+                    </m:mrow>
+                </m:math>
+                </equation>
+                <para id="fs-id1165137757960">Periode adalah 8.</para>
+            </item>
+            <item><emphasis effect="italics">Langkah 4.</emphasis> Karena <m:math>
+                <m:mrow>
+<m:mi>C</m:mi><m:mo>=</m:mo><m:mfrac>
+                        <m:mi>π</m:mi>
+                        <m:mn>4</m:mn>
+                    </m:mfrac>
+                    <m:mo>,</m:mo>
+                </m:mrow>
+            </m:math> pergeseran fase adalah
+                <equation id="fs-id1165135684362" class="unnumbered"><label /> <m:math>
+                    <m:mrow>
+                        <m:mfrac>
+                            <m:mi>C</m:mi>
+                            <m:mi>B</m:mi>
+                        </m:mfrac>
+                        <m:mo>=</m:mo><m:mfrac>
+                            <m:mrow>
+                                <m:mfrac>
+                                    <m:mi>π</m:mi>
+                                    <m:mn>4</m:mn>
+                                </m:mfrac>
+
+                            </m:mrow>
+                            <m:mrow>
+                                <m:mfrac>
+                                    <m:mi>π</m:mi>
+                                    <m:mn>4</m:mn>
+                                </m:mfrac>
+
+                            </m:mrow>
+                        </m:mfrac>
+                        <m:mo>=</m:mo><m:mn>1.</m:mn>
+                    </m:mrow>
+                </m:math>
+                </equation>
+                <para id="fs-id1165137634941">Pergeseran fasenya 1 satuan.</para>
+            </item>
+            <item><emphasis effect="italics">Langkah 5.</emphasis> <link target-id="Figure_06_01_021" /> menunjukkan grafik fungsi.
+                <figure id="Figure_06_01_021" class="small">
+                    <media id="fs-id1165137693945" alt="Grafik 3sin(*(pi/4)x-pi/4). Grafik memiliki amplitudo 3, periode 8, dan pergeseran fase 1 ke kanan.">
+                        <image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_021.jpg" />
+                    </media>
+                    <caption>Grafik sinusoidal yang dimampatkan secara horizontal, diregangkan secara vertikal, dan digeser secara horizontal</caption>
+                </figure>
+            </item>
+        </list></solution>
+</exercise>
+</example><note id="fs-id1165135181399" class="precalculus try">
+<label>Coba</label>
+<exercise id="ti_06_01_09"><problem id="fs-id1165137638347"><para id="fs-id1165137638348">Lukiskan grafik dari <m:math>
+ <m:mrow>
+  <m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mi>π</m:mi>
+     <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac>
+     <m:mi>π</m:mi>
+     <m:mn>6</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Tentukan garis tengah, amplitudo, periode, dan pergeseran fase.</para></problem>
+<solution id="fs-id1165137480594">
+<media id="fs-id1165137442771" alt="Grafik -2cos((pi/3)x+(pi/6)). Grafik memiliki amplitudo 2, periode 6, dan pergeseran fase 0.5 ke kiri.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_022.jpg" />
+</media>
+<para id="fs-id1165137627836">garis tengah: <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> amplitudo: <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>|</m:mo> <m:mi>A</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> Periode: <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mrow><m:mo>|</m:mo> <m:mi>B</m:mi> <m:mo>|</m:mo></m:mrow>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>6</m:mn><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> Pergeseran fase: <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>C</m:mi>
+   <m:mi>B</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </para>
+</solution>
+</exercise></note>
+
+
+<example id="Example_06_01_10"><exercise id="fs-id1165137749524"><problem id="fs-id1165137749526">
+<title>Mengidentifikasi Sifat-Sifat Fungsi sinusoidal</title>
+<para id="fs-id1165137406791">Diberi <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mi>π</m:mi>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>x</m:mi><m:mo>+</m:mo><m:mi>π</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> tentukan amplitudo, periode, pergeseran fase, dan pergeseran vertikalnya. Kemudian gambarkan fungsi tersebut.</para>
+</problem>
+<solution id="fs-id1165135487183">
+<para id="fs-id1165137431258">Mulailah dengan membandingkan persamaan dengan bentuk umum dan gunakan langkah-langkah yang diuraikan di <link target-id="Example_06_01_09" />.</para>
+<equation id="fs-id1165134225658" class="unnumbered"><label /> <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>B</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>C</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>D</m:mi>
+ </m:mrow>
+</m:math> </equation>
+<list id="eip-id1165134311998" list-type="labeled-item"><item><emphasis effect="italics">Langkah 1.</emphasis> Fungsi sudah ditulis dalam bentuk umum.</item>
+<item><emphasis effect="italics">Langkah 2.</emphasis> Karena <m:math>
+ <m:mrow>
+  <m:mi>A</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> amplitudonya adalah <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>|</m:mo> <m:mi>A</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2.</m:mn>
+ </m:mrow>
+</m:math> </item>
+<item><emphasis effect="italics">Langkah 3.</emphasis> <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>|</m:mo> <m:mi>B</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo>
+ </m:mrow>
+</m:math> Jadi periode adalah <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mrow><m:mo>|</m:mo> <m:mi>B</m:mi> <m:mo>|</m:mo></m:mrow>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mfrac>
+     <m:mi>π</m:mi>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo>⋅</m:mo><m:mfrac>
+   <m:mn>2</m:mn>
+   <m:mi>π</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>4.</m:mn>
+ </m:mrow>
+</m:math> Periode adalah 4.</item>
+<item><emphasis effect="italics">Langkah 4.</emphasis> <m:math>
+ <m:mrow>
+  <m:mi>C</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>π</m:mi><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> Jadi kita menghitung pergeseran fase sebagai <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>C</m:mi>
+   <m:mi>B</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mi>π</m:mi><m:mo>,</m:mo>
+   </m:mrow>
+   <m:mrow>
+    <m:mfrac>
+     <m:mi>π</m:mi>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mo>−</m:mo><m:mi>π</m:mi><m:mo>⋅</m:mo><m:mfrac>
+   <m:mn>2</m:mn>
+   <m:mi>π</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2.</m:mn>
+ </m:mrow>
+</m:math> Pergeseran fasenya adalah <m:math>
+ <m:mrow>
+  <m:mo>−</m:mo><m:mn>2.</m:mn>
+ </m:mrow>
+</m:math> </item>
+<item><emphasis effect="italics">Langkah 5.</emphasis> <m:math>
+ <m:mrow>
+  <m:mi>D</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> Jadi garis tengah adalah <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>, </m:mo>
+ </m:mrow>
+</m:math> dan pergeseran vertikalnya 3 satuan ke atas.</item>
+</list><para id="fs-id1165137936633">Karena <m:math>
+ <m:mrow>
+  <m:mi>A</m:mi>
+ </m:mrow>
+</m:math> bernilai negatif, grafik fungsi kosinus telah dicerminkan terhadap sumbu <emphasis effect="italics">x</emphasis>.</para><para id="fs-id1165137761033"><link target-id="Figure_06_01_028" /> menunjukkan satu siklus dari grafik fungsi.</para>
+
+<figure id="Figure_06_01_028" class="small">
+<media id="fs-id1165137794283" alt="Grafik -2cos((pi/2)x+pi)+3. Grafik menunjukkan amplitudo 2, garis tengah y=3, dan periode 4.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_028.jpg" />
+</media>
+</figure>
+</solution>
+</exercise></example></section><section id="fs-id1165137939840">
+<title>Menggunakan Transformasi Fungsi Sinus dan Kosinus</title>
+<para id="fs-id1165137891269">Transformasi fungsi sinus dan kosinus dapat digunakan dalam banyak penerapan. Sebagaimana disebutkan pada awal bab, <term class="no-emphasis" id="term-00017">gerak melingkar</term> dapat dimodelkan menggunakan sinus atau <term class="no-emphasis" id="term-00018">fungsi kosinus</term>.</para><example id="Example_06_01_11">
+<exercise id="fs-id1165137612101">
+<problem id="fs-id1165137612103">
+<title>Menentukan Komponen Vertikal Gerak Melingkar</title>
+<para id="fs-id1165137731540">Sebuah titik berputar mengelilingi lingkaran berjari-jari 3 yang berpusat di titik asal. Gambarkan grafik koordinat <emphasis effect="italics">y</emphasis> titik tersebut sebagai fungsi sudut rotasi.</para></problem>
+<solution id="fs-id1165137552985">
+<para id="fs-id1165137552987">Ingatlah bahwa, untuk titik pada lingkaran berjari-jari <emphasis effect="italics">r</emphasis>, koordinat <emphasis effect="italics">y</emphasis> titik tersebut adalah <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>r</m:mi><m:mspace width="0.3em" /><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo>
+ </m:mrow>
+</m:math>
+Jadi dalam hal ini, kita mendapatkan persamaan <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn><m:mspace width="0.3em" /><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+Konstanta 3 menyebabkan peregangan vertikal nilai <emphasis effect="italics">y</emphasis> fungsi sebesar faktor 3, sebagaimana terlihat pada grafik di <link target-id="Figure_06_01_023" />.</para><figure id="Figure_06_01_023" class="small">
+<media id="fs-id1165137603461" alt="Grafik 3sin(x). Grafik memiliki periode 2pi, amplitudo 3, dan range [-3,3].">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_023.jpg" />
+</media>
+</figure>
+</solution>
+
+<commentary id="fs-id1165137556901">
+<title>Analisis</title>
+<para id="fs-id1165137400109">Perhatikan bahwa periode fungsi masih <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>π</m:mi><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> Saat kita mengelilingi lingkaran, kita kembali ke titik <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>3</m:mn><m:mo>,</m:mo><m:mn>0</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> untuk <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo>,</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:mo>,</m:mo><m:mn>6</m:mn><m:mi>π</m:mi><m:mo>,</m:mo><m:mn>...</m:mn><m:mo />
+ </m:mrow>
+</m:math> Karena keluaran grafik kini akan berosilasi di antara <m:math>
+ <m:mrow>
+  <m:mo>–</m:mo><m:mn>3</m:mn>
+ </m:mrow>
+</m:math> dan <m:math>
+ <m:mrow>
+  <m:mn>3</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> amplitudo gelombang sinus adalah <m:math>
+ <m:mrow>
+  <m:mn>3.</m:mn>
+ </m:mrow>
+</m:math> </para></commentary>
+</exercise>
+</example>
+
+<note id="fs-id1165135319496" class="precalculus try">
+<label>Coba</label>
+<exercise id="ti_06_01_10"><problem id="fs-id1165135403587"><para id="fs-id1165135403588">Berapa amplitudo fungsi <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>7</m:mn><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>?</m:mo>
+ </m:mrow>
+</m:math> Lukiskan grafik fungsi ini.</para></problem>
+<solution id="fs-id1165137534006"><para id="fs-id1165137534008">7</para>
+
+<media id="fs-id1165134187242" alt="Grafik 7cos(x). Grafik memiliki amplitudo 7, periode 2pi, dan range [-7,7].">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_024.jpg" />
+</media>
+</solution>
+</exercise></note>
+
+<example id="Example_06_01_12">
+<exercise id="fs-id1165135190936"><problem id="fs-id1165135190938">
+<title>Menemukan Komponen Vertikal Gerakan Sirkular</title>
+<para id="fs-id1165135210138">Lingkaran berjari-jari 3 kaki dipasang dengan pusat 4 kaki di atas tanah. Titik yang paling dekat dengan tanah diberi label <emphasis effect="italics">P</emphasis>, seperti yang ditunjukkan dalam <link target-id="Figure_06_01_025" />. Gambarkan grafik ketinggian titik <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi>
+ </m:mrow>
+</m:math> ketika lingkaran berputar; kemudian cari fungsi yang memberikan ketinggian dalam hal sudut putaran.</para>
+
+<figure id="Figure_06_01_025" class="small">
+<media id="fs-id1165137597150" alt="Ilustrasi sebuah lingkaran yang pusatnya berada 4 kaki di atas tanah. Lingkaran memiliki jari-jari 3 kaki. Titik P diberi label pada keliling lingkaran.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_025.jpg" />
+</media>
+</figure>
+
+</problem>
+<solution id="fs-id1165137863854">
+<para id="fs-id1165137863856">Ketika menggambarkan ketinggiannya, kita perhatikan bahwa titik bermula 1 kaki di atas tanah, naik hingga 7 kaki di atas tanah, lalu terus berosilasi 3 kaki di atas dan di bawah nilai tengah 4 kaki, seperti ditunjukkan pada <link target-id="Figure_06_01_026" />.</para>
+
+
+<figure id="Figure_06_01_026" class="small">
+<media id="fs-id1165137618998" alt="Grafik -3cox(x)+4. Grafik memiliki garis tengah y=4, amplitudo 3, dan periode 2pi.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_026.jpg" />
+</media>
+</figure>
+
+<para id="fs-id1165137601519">Walaupun kita dapat menggunakan transformasi fungsi sinus maupun kosinus, mula-mula kita mencari ciri yang membuat salah satunya lebih mudah digunakan. Kita gunakan fungsi kosinus karena fungsi ini bermula pada nilai tertinggi atau terendah, sedangkan <term class="no-emphasis" id="term-00019">fungsi sinus</term> bermula pada nilai tengah. Fungsi kosinus standar bermula pada nilai tertinggi, sedangkan grafik ini bermula pada nilai terendah; karena itu kita perlu menyertakan pencerminan vertikal.</para><para id="fs-id1165137601522">Kedua, grafik berosilasi 3 satuan di atas dan di bawah pusat, sedangkan kosinus dasar beramplitudo 1. Jadi, seperti pada contoh sebelumnya, grafik ini diregangkan secara vertikal dengan faktor 3.</para><para id="fs-id1165134401716">Terakhir, agar pusat lingkaran berada pada ketinggian 4, grafik digeser secara vertikal ke atas sebesar 4. Dengan menggabungkan transformasi-transformasi ini, diperoleh</para>
+<equation id="fs-id1165133047569" class="unnumbered"><label /> <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>4</m:mn>
+ </m:mrow>
+</m:math> </equation></solution>
+</exercise></example>
+
+<note id="fs-id1165137692182" class="precalculus try">
+<label>Coba</label>
+<exercise id="ti_06_01_11"><problem id="fs-id1165137447011"><para id="fs-id1165137447012">Sebuah beban dipasang pada pegas yang kemudian digantungkan pada papan, seperti ditunjukkan pada <link target-id="Figure_06_01_029" />. Ketika pegas berosilasi naik-turun, posisi <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi>
+ </m:mrow>
+</m:math> beban relatif terhadap papan berkisar dari <m:math>
+ <m:mrow>
+  <m:mn>–1</m:mn>
+ </m:mrow>
+</m:math> inci (pada waktu <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math> hingga <m:math>
+ <m:mrow>
+  <m:mn>–7</m:mn>
+ </m:mrow>
+</m:math> inci (pada waktu <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mi>π</m:mi><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math> di bawah papan. Anggap posisi <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi>
+ </m:mrow>
+</m:math> diberikan sebagai fungsi sinusoidal dari <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Lukiskan grafik fungsi, dan kemudian temukan fungsi kosinus yang memberikan posisi <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi>
+ </m:mrow>
+</m:math> dalam hal <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </para><figure id="Figure_06_01_029" class="small">
+<media id="fs-id1165137811089" alt="Ilustrasi pegas dengan panjang y.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_029.jpg" />
+</media>
+</figure>
+</problem>
+<solution id="fs-id1165137736527">
+<para id="fs-id1165137736529"> <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>4</m:mn>
+ </m:mrow>
+</m:math> </para>
+<media id="fs-id1165137786551" alt="Grafik kosinus dengan range [-1,-7]. Periodenya 2pi. Maksimum lokal berada di (0,-1), (2pi,-1), dan (4pi, -1). Minimum lokal berada di (pi,-7) dan (3pi, -7).">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_027.jpg" />
+</media>
+</solution>
+</exercise></note>
+
+<example id="Example_06_01_13">
+<exercise id="fs-id1165135187190"><problem id="fs-id1165137812716">
+<title>Menentukan Ketinggian Penumpang pada Bianglala</title>
+<para id="fs-id1165137500935">London Eye adalah bianglala besar berdiameter 135 meter (443 kaki). Bianglala ini menyelesaikan satu putaran setiap 30 menit. Penumpang naik dari peron 2 meter di atas tanah. Nyatakan ketinggian penumpang dari tanah sebagai fungsi waktu dalam menit.</para></problem>
+<solution id="fs-id1165137837117">
+<para id="fs-id1165137837120">Dengan diameter 135 m, bianglala memiliki jari-jari 67.5 m. Ketinggian akan berosilasi dengan amplitudo 67.5 m di atas dan di bawah pusat.</para>
+<para id="fs-id1165134086000">Penumpang naik 2 m di atas permukaan tanah, sehingga pusat bianglala harus berada <m:math>
+ <m:mrow>
+  <m:mn>67.5</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>69.5</m:mn>
+ </m:mrow>
+</m:math> m di atas permukaan tanah. Garis tengah osilasi berada pada 69.5 m.</para>
+<para id="fs-id1165137578349">Bianglala memerlukan 30 menit untuk menyelesaikan 1 putaran, sehingga ketinggian berosilasi dengan periode 30 menit.</para><para id="fs-id1165137529532">Terakhir, karena penumpang naik pada titik terendah, ketinggian bermula dari nilai terkecil lalu meningkat, mengikuti bentuk kurva kosinus yang dicerminkan secara vertikal.</para>
+<list id="fs-id1165137529537" list-type="bulleted"><item>Amplitudo: <m:math>
+ <m:mrow>
+  <m:mn>67.5,</m:mn>
+ </m:mrow>
+</m:math> Jadi <m:math>
+ <m:mrow>
+  <m:mi>A</m:mi><m:mo>=</m:mo><m:mn>67.5</m:mn>
+ </m:mrow>
+</m:math> </item>
+<item>Garis tengah: <m:math>
+ <m:mrow>
+  <m:mn>69.5,</m:mn>
+ </m:mrow>
+</m:math> Jadi <m:math>
+ <m:mrow>
+  <m:mi>D</m:mi><m:mo>=</m:mo><m:mn>69.5</m:mn>
+ </m:mrow>
+</m:math> </item>
+<item>Periode: <m:math>
+ <m:mrow>
+  <m:mn>30,</m:mn>
+ </m:mrow>
+</m:math> Jadi <m:math>
+ <m:mrow>
+  <m:mi>B</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>30</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mrow>
+    <m:mn>15</m:mn>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </item>
+<item>Bentuk: <m:math>
+ <m:mrow>
+  <m:mi>−cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>t</m:mi>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> </item>
+</list><para id="fs-id1165137767318">Persamaan untuk ketinggian penumpang adalah</para>
+<equation id="fs-id1165135403551" class="unnumbered"><label /> <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>67.5</m:mn><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mi>π</m:mi>
+     <m:mrow>
+      <m:mn>15</m:mn>
+     </m:mrow>
+    </m:mfrac>
+    <m:mi>t</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>69.5</m:mn>
+ </m:mrow>
+</m:math> </equation>
+<para id="fs-id1165137634889">di mana <m:math>
+ <m:mrow>
+  <m:mi>t</m:mi>
+ </m:mrow>
+</m:math> dinyatakan dalam menit dan <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi>
+ </m:mrow>
+</m:math> diukur dalam meter.</para>
+</solution>
+</exercise></example>
+
+<note id="fs-id1165137540365" class="precalculus media media-notitle">
+<label>Media</label>
+<para id="fs-id1165137761688">Akses sumber daya online ini untuk instruksi tambahan dan latihan dengan grafik fungsi sinus dan kosinus.</para>
+<list id="fs-id1165137761692" list-type="bulleted"><item><link url="https://openstax.org/l/ampperiod">Amplitudo dan Periode Sinus dan Kosinus</link></item>
+<item><link url="https://openstax.org/l/translasincos">Pergeseran Grafik Sinus dan Kosinus</link></item>
+<item><link url="https://openstax.org/l/transformsincos">Menggambar Transformasi Sinus dan Kosinus</link></item>
+<item><link url="https://openstax.org/l/graphsinefunc">Menggambar Fungsi Sinus</link></item>
+</list></note>
+
+
+</section>
+<section id="fs-id1165137574576" class="key-equations"><title>Persamaan Utama</title><table id="eip-id1165133087385" summary=".." class="unnumbered unstyled"><label />
+<title />
+<tgroup cols="2">
+<colspec colnum="1" colname="c1" />
+<colspec colnum="2" colname="c2" />
+<tbody>
+<row>
+<entry>fungsi sinusoidal</entry>
+<entry> <m:math>
+ <m:mtable columnalign="left">
+  <m:mtr>
+   <m:mtd>
+    <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+     <m:mi>x</m:mi>
+    <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mi>B</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>C</m:mi>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>D</m:mi>
+   </m:mtd>
+  </m:mtr>
+  <m:mtr>
+   <m:mtd>
+    <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+     <m:mi>x</m:mi>
+    <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mi>B</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>C</m:mi>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>D</m:mi>
+   </m:mtd>
+  </m:mtr>
+ </m:mtable>
+
+</m:math>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</section><section id="fs-id1165137540392" class="key-concepts">
+<title>Konsep Utama</title>
+<list id="fs-id1165137762207" list-type="bulleted"><item>Fungsi periodik berulang setelah nilai tertentu. Nilai positif terkecil tersebut adalah periode. Fungsi dasar sinus dan kosinus memiliki periode <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>π</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </item>
+<item>Fungsi <m:math>
+ <m:mrow>
+  <m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi>
+ </m:mrow>
+</m:math> adalah ganjil, sehingga grafiknya simetris terhadap titik asal. <m:math>
+ <m:mrow>
+  <m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi>
+ </m:mrow>
+</m:math> merupakan fungsi genap, sehingga grafiknya simetris terhadap sumbu <emphasis effect="italics">y</emphasis>.</item>
+<item>Grafik fungsi sinusoidal memiliki bentuk umum yang sama dengan fungsi sinus atau kosinus.</item>
+<item>Dalam rumus umum untuk fungsi sinusoidal, periode adalah <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mrow><m:mo>|</m:mo> <m:mi>B</m:mi> <m:mo>|</m:mo></m:mrow>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Lihatlah <link target-id="Example_06_01_01" />.</item>
+<item>Dalam rumus umum untuk fungsi sinusoidal, <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>|</m:mo> <m:mi>A</m:mi> <m:mo>|</m:mo></m:mrow>
+ </m:mrow>
+</m:math> menyatakan amplitudo. Jika <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>|</m:mo> <m:mi>A</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> fungsi diregangkan, sedangkan jika <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>|</m:mo> <m:mi>A</m:mi> <m:mo>|</m:mo></m:mrow><m:mo>&lt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> fungsi dimampatkan. Lihat <link target-id="Example_06_01_02" />.</item>
+<item>Nilai <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>C</m:mi>
+   <m:mi>B</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> dalam rumus umum fungsi sinusoidal menunjukkan pergeseran fase. Lihat <link target-id="Example_06_01_03" />.</item>
+<item>Nilai <m:math>
+ <m:mrow>
+  <m:mi>D</m:mi>
+ </m:mrow>
+</m:math> dalam rumus umum fungsi sinusoidal menunjukkan pergeseran vertikal dari garis tengah. Lihat <link target-id="Example_06_01_04" />.</item>
+<item>Kombinasi variasi fungsi sinusoidal dapat dikenali dari persamaan. Lihat <link target-id="Example_06_01_05" />.</item>
+<item>Persamaan fungsi sinusoidal dapat ditentukan dari grafik. Lihat <link target-id="Example_06_01_06" /> dan <link target-id="Example_06_01_07" />.</item>
+<item>Suatu fungsi dapat digambar dengan mengidentifikasi amplitudo dan periodenya. Lihat <link target-id="Example_06_01_08" /> dan <link target-id="Example_06_01_09" />.</item>
+<item>Suatu fungsi juga dapat digambar dengan mengidentifikasi amplitudo, periode, pergeseran fase, dan pergeseran horizontalnya. Lihat <link target-id="Example_06_01_10" />.</item>
+<item>Fungsi sinusoidal dapat digunakan untuk menyelesaikan masalah dunia nyata. Lihat <link target-id="Example_06_01_11" />, <link target-id="Example_06_01_12" />, dan <link target-id="Example_06_01_13" />.</item>
+</list></section>
+<section id="fs-id1165137842570" class="section-exercises"><title>Latihan Bagian</title><section id="fs-id1165137475812">
+<title>Verbal</title>
+<exercise id="fs-id1165137432049">
+<problem id="fs-id1165137415633"><para id="fs-id1165137415634">Mengapa fungsi sinus dan kosinus disebut fungsi periodik?</para></problem>
+<solution id="fs-id1165137415637"><para id="fs-id1165137415638">Fungsi sinus dan kosinus memiliki sifat yang <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>x</m:mi><m:mo>+</m:mo><m:mi>P</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> untuk suatu <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Ini berarti bahwa nilai fungsi berulang setiap <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi>
+ </m:mrow>
+</m:math> satuan pada sumbu <emphasis effect="italics">x</emphasis>.</para></solution>
+</exercise>
+<exercise id="fs-id1165135305829">
+<problem id="fs-id1165135305831"><para id="fs-id1165135305832">Bagaimana grafik <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi>
+ </m:mrow>
+</m:math>
+dibandingkan dengan grafik <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>?</m:mo>
+ </m:mrow>
+</m:math>
+Jelaskan bagaimana grafik <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi>
+ </m:mrow>
+</m:math>
+untuk memperoleh <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para></problem>
+</exercise>
+<exercise id="fs-id1165134290285">
+<problem id="fs-id1165134290287"><para id="fs-id1165134290288">Untuk persamaan <m:math>
+ <m:mrow>
+  <m:mi>A</m:mi><m:mspace width="0.3em" /><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mi>B</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>C</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>D</m:mi><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> Konstanta apa yang memengaruhi range fungsi dan bagaimana pengaruhnya terhadap range?</para></problem>
+<solution id="fs-id1165137811265"><para id="fs-id1165137431114">Nilai mutlak konstanta <m:math>
+ <m:mrow>
+  <m:mi>A</m:mi>
+ </m:mrow>
+</m:math> (amplitudo) memperlebar keseluruhan range, sedangkan konstanta <m:math>
+ <m:mrow>
+  <m:mi>D</m:mi>
+ </m:mrow>
+</m:math> (pergeseran vertikal) menggeser grafik secara vertikal.</para></solution>
+</exercise>
+<exercise id="fs-id1165137810849">
+<problem id="fs-id1165137810851"><para id="fs-id1165137810852">Bagaimana range fungsi sinus yang digeser berkaitan dengan persamaan <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>A</m:mi><m:mspace width="0.3em" /><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>B</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>C</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>D</m:mi><m:mo>?</m:mo>
+ </m:mrow>
+</m:math>
+</para></problem>
+</exercise>
+<exercise id="fs-id1165137410268">
+<problem id="fs-id1165137432413"><para id="fs-id1165137432414">Bagaimana lingkaran satuan dapat digunakan untuk membangun grafik dari <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>t</m:mi><m:mo>?</m:mo>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1165137407584"><para id="fs-id1165137407585">Pada titik di mana sisi terminal dari <m:math>
+ <m:mrow>
+  <m:mi>t</m:mi>
+ </m:mrow>
+</m:math> memotong lingkaran satuan, Anda dapat menentukan bahwa <m:math>
+ <m:mrow>
+  <m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>t</m:mi>
+ </m:mrow>
+</m:math> sama dengan koordinat <emphasis effect="italics">y</emphasis> titik tersebut.</para></solution>
+</exercise>
+</section>
+
+<section id="fs-id1165137663688">
+<title>Grafis</title>
+<para id="fs-id1165137742733">Untuk latihan berikut, gambarkan dua periode penuh setiap fungsi dan nyatakan amplitudo, periode, serta garis tengahnya. Nyatakan nilai maksimum dan minimum <emphasis effect="italics">y</emphasis> serta nilai <emphasis effect="italics">x</emphasis> yang bersesuaian dalam satu periode untuk <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>0.</m:mn>
+ </m:mrow>
+</m:math> Bulatkan jawaban hingga dua tempat desimal jika perlu.</para><exercise id="fs-id1165137570454">
+<problem id="fs-id1165137570456"><para id="fs-id1165137570457"> <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi>
+ </m:mrow>
+</m:math>
+</para></problem>
+</exercise>
+<exercise id="fs-id1165137423636"><problem id="fs-id1165137423638"><para id="fs-id1165137423639"> <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+   <m:mn>2</m:mn>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1165135456747">
+
+<media id="fs-id1165137871371" alt="Grafik (2/3)cos(x). Grafik memiliki amplitudo 2/3, periode 2pi, dan range [-2/3, 2/3].">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_202.jpg" />
+</media>
+
+<para id="fs-id1165137817435">amplitudo: <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>2</m:mn>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mo>;</m:mo>
+ </m:mrow>
+</m:math> Periode: <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>π</m:mi><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> garis tengah: <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> maksimum: <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mn>2</m:mn>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> terjadi pada <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi mathvariant="normal">π</m:mi><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> minimum: <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+   <m:mn>2</m:mn>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> terjadi pada <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mi>π</m:mi><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> Untuk satu periode, grafik dimulai pada 0 dan berakhir pada <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>π</m:mi>
+ </m:mrow>
+</m:math> </para>
+</solution>
+</exercise><exercise id="fs-id1165135663289">
+<problem id="fs-id1165135663292">
+<para id="fs-id1165135663294"> <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>sin</m:mi>
+  <m:mspace width="0.3em" /><m:mi>x</m:mi>
+ </m:mrow>
+</m:math>
+</para></problem>
+</exercise>
+<exercise id="fs-id1165137678150"><problem id="fs-id1165135160163"><para id="fs-id1165135160164"> <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1165137407212">
+
+<media id="fs-id1165135151296" alt="Grafik 4sin(x). Grafik memiliki amplitudo 4, periode 2pi, dan range [-4, 4].">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_204.jpg" />
+</media>
+
+<para id="fs-id1165137535655">amplitudo: 4; periode: <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>π</m:mi><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> garis tengah: <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> maksimum <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn>
+ </m:mrow>
+</m:math> terjadi pada <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>;</m:mo>
+ </m:mrow>
+</m:math> minimum: <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn>
+ </m:mrow>
+</m:math> terjadi pada <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>3</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>;</m:mo>
+ </m:mrow>
+</m:math> satu periode penuh terjadi dari <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math> hingga <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi>
+ </m:mrow>
+</m:math> </para></solution>
+</exercise><exercise id="fs-id1165137451618">
+<problem id="fs-id1165137451620"><para id="fs-id1165137451622"> <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi>
+ </m:mrow>
+</m:math>
+</para></problem>
+</exercise>
+<exercise id="fs-id1165137794096"><problem id="fs-id1165137794099"><para id="fs-id1165137585075"> <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>x</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> </para></problem>
+<solution id="fs-id1165137871346">
+
+<media id="fs-id1165135386486" alt="Grafik cos(2x). Grafik memiliki amplitudo 1, periode pi, dan range [-1,1].">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_206.jpg" />
+</media>
+
+<para id="fs-id1165137827174">amplitudo: 1; periode: <m:math>
+ <m:mrow>
+  <m:mi>π</m:mi><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> garis tengah: <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> maksimum: <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn>
+ </m:mrow>
+</m:math> terjadi pada <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mi>π</m:mi><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> minimum: <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>1</m:mn>
+ </m:mrow>
+</m:math> terjadi pada <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>;</m:mo>
+ </m:mrow>
+</m:math> satu periode penuh digambar dari <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math> hingga <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mi>π</m:mi>
+ </m:mrow>
+</m:math> </para>
+</solution>
+</exercise><exercise id="fs-id1165135241360">
+<problem id="fs-id1165137531898"><para id="fs-id1165137531899"> <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.3em" /><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>x</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>
+</para></problem>
+</exercise>
+<exercise id="fs-id1165137793956"><problem id="fs-id1165137793958"><para id="fs-id1165137793959"> <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>4</m:mn><m:mspace width="0.3em" /><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mi>π</m:mi><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1165137804069">
+<media id="fs-id1165137874893" alt="Grafik 4cos(pi*x). Grafik memiliki amplitudo 4, periode 2, dan range [-4, 4].">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_208.jpg" />
+</media>
+
+<para id="fs-id1165137434223">Amplitudo: 4; periode: 2; garis tengah: <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> maksimum: <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn>
+ </m:mrow>
+</m:math> terjadi pada <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> minimum: <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn>
+ </m:mrow>
+</m:math> terjadi pada <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn>
+ </m:mrow>
+</m:math> </para>
+</solution>
+</exercise><exercise id="fs-id1165135487094">
+<problem id="fs-id1165135181423"><para id="fs-id1165135181424"> <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn><m:mspace width="0.3em" /><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>6</m:mn>
+     <m:mn>5</m:mn>
+    </m:mfrac>
+    <m:mi>x</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>
+</para></problem>
+</exercise>
+<exercise id="fs-id1165134277994"><problem id="fs-id1165134277996"><para id="fs-id1165134277997"> <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mspace width="0.3em" /><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>8</m:mn><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>5</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1165137843946">
+
+<media id="fs-id1165137424209" alt="Grafik 3sin(8(x+4))+5. Grafik memiliki amplitudo 3, range [2, 8], dan periode pi/4.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_210.jpg" />
+</media>
+
+<para id="fs-id1165134107350">amplitudo: 3; periode: <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>4</m:mn>
+  </m:mfrac>
+  <m:mo>;</m:mo>
+ </m:mrow>
+</m:math> garis tengah: <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> maksimum: <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>8</m:mn>
+ </m:mrow>
+</m:math> terjadi pada <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0.12</m:mn><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> minimum: <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn>
+ </m:mrow>
+</m:math> terjadi pada <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0.516</m:mn><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> Pergeseran horizontal: <m:math>
+ <m:mrow>
+  <m:mo>−</m:mo><m:mn>4</m:mn><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> pergeseran vertikal 5; satu periode berlangsung dari <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math> hingga <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>4</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </para>
+</solution>
+</exercise><exercise id="fs-id1165137870948">
+<problem id="fs-id1165135457711"><para id="fs-id1165135457712"> <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.3em" /><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>21</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>4</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+</exercise>
+<exercise id="fs-id1165135675218"><problem id="fs-id1165137414495"><para id="fs-id1165137414496"> <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mspace width="0.3em" /><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>20</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>2</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1165134284471">
+
+<media id="fs-id1165135487190" alt="Grafik 5sin(5x+20)-2. Grafik memiliki amplitudo 5, periode 2pi/5, dan range [-7,3].">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_212.jpg" />
+</media>
+
+<para id="fs-id1165137862366">Amplitudo: 5; periode: <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>5</m:mn>
+  </m:mfrac>
+  <m:mo>;</m:mo>
+ </m:mrow>
+</m:math> garis tengah: <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−2</m:mn><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> maksimum: <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn>
+ </m:mrow>
+</m:math> terjadi pada <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0.08</m:mn><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> minimum: <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>−7</m:mn>
+ </m:mrow>
+</m:math> terjadi pada <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0.71;</m:mn>
+ </m:mrow>
+</m:math> Pergeseran fase: <m:math>
+ <m:mrow>
+  <m:mn>−4</m:mn><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> pergeseran vertikal: <m:math>
+ <m:mrow>
+  <m:mn>−2;</m:mn>
+ </m:mrow>
+</m:math> satu periode penuh dapat digambar pada interval <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math> hingga <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>5</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </para></solution>
+</exercise><para id="fs-id1165137803788">Untuk latihan berikut, gambarkan satu periode penuh setiap fungsi, dimulai dari <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0.</m:mn>
+ </m:mrow>
+</m:math> Untuk setiap fungsi, nyatakan amplitudo, periode, dan garis tengahnya. Nyatakan nilai maksimum dan minimum <emphasis effect="italics">y</emphasis> serta nilai <emphasis effect="italics">x</emphasis> yang bersesuaian dalam satu periode untuk <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>0.</m:mn>
+ </m:mrow>
+</m:math> Nyatakan pergeseran fase dan pergeseran vertikal, jika ada. Bulatkan jawaban hingga dua tempat desimal jika perlu.</para><exercise id="fs-id1165135154308">
+<problem id="fs-id1165137694190"><para id="fs-id1165137694191"> <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>t</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>t</m:mi><m:mo>−</m:mo><m:mfrac>
+     <m:mrow>
+      <m:mn>5</m:mn><m:mi>π</m:mi>
+     </m:mrow>
+     <m:mn>6</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> </para>
+</problem></exercise>
+
+<exercise id="fs-id1165137898084"><problem id="fs-id1165137898086"><para id="fs-id1165137898087"> <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>t</m:mi><m:mo>+</m:mo><m:mfrac>
+     <m:mi>π</m:mi>
+     <m:mn>3</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>1</m:mn>
+ </m:mrow>
+</m:math> </para></problem>
+<solution id="fs-id1165134541171">
+
+<media id="fs-id1165135411369" alt="Grafik -cos(t+pi/3)+1. Grafik memiliki amplitudo 1, periode 2pi, dan range [0,2]. Grafik digeser pi/3 ke kiri.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_214.jpg" />
+</media>
+
+<para id="fs-id1165137911368">Amplitudo: 1; periode: <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>π</m:mi><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> garis tengah: <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> maksimum: <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn>
+ </m:mrow>
+</m:math> terjadi pada <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2.09</m:mn><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> minimum: <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math> terjadi pada <m:math>
+ <m:mrow>
+  <m:mi>t</m:mi><m:mo>=</m:mo><m:mn>5.24</m:mn><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> Pergeseran fase: <m:math>
+ <m:mrow>
+  <m:mo>−</m:mo><m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mo>;</m:mo>
+ </m:mrow>
+</m:math> pergeseran vertikal: 1; satu periode penuh adalah dari <m:math>
+ <m:mrow>
+  <m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math> hingga <m:math>
+ <m:mrow>
+  <m:mi>t</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>π</m:mi>
+ </m:mrow>
+</m:math> </para>
+</solution>
+</exercise><exercise id="fs-id1165135250664">
+<problem id="fs-id1165135250666"><para id="fs-id1165135250667"> <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>t</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mi>t</m:mi><m:mo>+</m:mo><m:mfrac>
+       <m:mi>π</m:mi>
+       <m:mn>4</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>3</m:mn>
+ </m:mrow>
+</m:math> </para></problem>
+</exercise>
+<exercise id="fs-id1165137552971"><problem id="fs-id1165137552973"><para id="fs-id1165137552974"> <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>t</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>t</m:mi><m:mo>+</m:mo><m:mfrac>
+     <m:mrow>
+      <m:mn>5</m:mn><m:mi>π</m:mi>
+     </m:mrow>
+     <m:mn>3</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> </para></problem>
+<solution id="fs-id1165137541180">
+<media id="fs-id1165135349231" alt="Grafik -sin((1/2)*t + 5pi/3). Grafik memiliki amplitudo 1, range [-1,1], periode 4pi, dan pergeseran fase -10pi/3.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_216.jpg" />
+</media>
+<para id="fs-id1165135511335">amplitudo: 1; periode: <m:math>
+ <m:mrow>
+  <m:mn>4</m:mn><m:mi>π</m:mi><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> garis tengah: <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> maksimum: <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn>
+ </m:mrow>
+</m:math> terjadi pada <m:math>
+ <m:mrow>
+  <m:mi>t</m:mi><m:mo>=</m:mo><m:mn>11.52</m:mn><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> minimum: <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>1</m:mn>
+ </m:mrow>
+</m:math> terjadi pada <m:math>
+ <m:mrow>
+  <m:mi>t</m:mi><m:mo>=</m:mo><m:mn>5.24</m:mn><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> Pergeseran fase: <m:math>
+ <m:mrow>
+  <m:mo>−</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>10</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mo>;</m:mo>
+ </m:mrow>
+</m:math> Pergeseran vertikal: 0 </para>
+</solution>
+</exercise><exercise id="fs-id1165135247503">
+<problem id="fs-id1165135247505"><para id="fs-id1165135247506"> <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mi>π</m:mi>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>7</m:mn>
+ </m:mrow>
+</m:math> </para></problem>
+</exercise>
+<exercise id="fs-id1165137658354" class="media-set-2"><problem id="fs-id1165137658356"><para id="fs-id1165137823542">Tentukan amplitudo, garis tengah, periode, dan persamaan yang melibatkan fungsi sinus untuk grafik yang ditunjukkan di <link target-id="Figure_06_01_218" />.</para>
+<figure id="Figure_06_01_218" class="small">
+<media id="fs-id1165134378625" alt="Grafik sinusoidal dengan amplitudo 2, range [-5, -1], periode 4, dan garis tengah y=-3." display="block">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_218.jpg" />
+</media>
+</figure>
+</problem>
+<solution id="fs-id1165135708054"><para id="fs-id1165135708055">Amplitudo: 2; garis tengah: <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> periode: 4; persamaan: <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mi>π</m:mi>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>x</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mn>3</m:mn>
+ </m:mrow>
+</m:math> </para></solution>
+</exercise><exercise id="fs-id1165137705148" class="media-set-2"><problem id="fs-id1165135169261"><para id="fs-id1165135169262">Tentukan amplitudo, periode, garis tengah, dan persamaan yang melibatkan kosinus untuk grafik yang ditunjukkan di <link target-id="Figure_06_01_219" />.</para>
+<figure id="Figure_06_01_219" class="small">
+<media id="fs-id1165135192938" alt="Grafik dengan fungsi induk kosinus, amplitudo 3, periode pi, garis tengah y=-1, dan range [-4,2]." display="block">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_219.jpg" />
+</media>
+</figure>
+</problem>
+</exercise><exercise id="fs-id1165135688798" class="media-set-2">
+<problem id="fs-id1165135688800"><para id="fs-id1165135688801">Tentukan amplitudo, periode, garis tengah, dan persamaan yang melibatkan kosinus untuk grafik yang ditunjukkan di <link target-id="Figure_06_01_220" />.</para>
+<figure id="Figure_06_01_220" class="small">
+<media id="fs-id1165134045717" alt="Grafik dengan fungsi induk kosinus, amplitudo 2, periode 5, garis tengah y=3, dan range [1,5].">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_220.jpg" />
+</media>
+</figure></problem>
+<solution id="fs-id1165134378700"><para id="fs-id1165134378701">Amplitudo: 2; periode: 5; garis tengah: <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> persamaan: <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>2</m:mn><m:mi>π</m:mi>
+     </m:mrow>
+     <m:mn>5</m:mn>
+    </m:mfrac>
+    <m:mi>x</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>3</m:mn>
+ </m:mrow>
+</m:math> </para></solution>
+</exercise>
+<exercise id="fs-id1165135333824" class="media-set-2">
+<problem id="fs-id1165135333826"><para id="fs-id1165135333827">Tentukan amplitudo, periode, garis tengah, dan persamaan yang melibatkan sinus untuk grafik yang ditunjukkan di <link target-id="Figure_06_01_221" />.</para>
+<figure id="Figure_06_01_221" class="small">
+<media id="fs-id1165134262487" alt="Grafik sinusoidal dengan amplitudo 4, periode 10, garis tengah y=0, dan range [-4,4].">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_221.jpg" />
+</media>
+</figure>
+</problem>
+</exercise>
+<exercise id="fs-id1165137473550" class="media-set-2">
+<problem id="fs-id1165134389954"><para id="fs-id1165134389955">Tentukan amplitudo, periode, garis tengah, dan persamaan yang melibatkan kosinus untuk grafik yang ditunjukkan di <link target-id="Figure_06_01_222" />.</para>
+<figure id="Figure_06_01_222" class="small">
+<media id="fs-id1165137676946" alt="Grafik dengan fungsi induk kosinus, range [-4,4], amplitudo 4, dan periode 2.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_222.jpg" />
+</media>
+</figure></problem>
+<solution id="fs-id1165135534972"><para id="fs-id1165135534973">Amplitudo: 4; periode: 2; garis tengah: <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> persamaan: <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>π</m:mi><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mi>x</m:mi><m:mo>−</m:mo><m:mfrac>
+       <m:mi>π</m:mi>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> </para></solution>
+</exercise>
+<exercise id="fs-id1165137425686" class="media-set-2">
+<problem id="fs-id1165137425688"><para id="fs-id1165137425689">Tentukan amplitudo, periode, garis tengah, dan persamaan yang melibatkan sinus untuk grafik yang ditunjukkan di <link target-id="Figure_06_01_223" />.</para>
+<figure id="Figure_06_01_223" class="small">
+<media id="fs-id1165137445238" alt="Grafik dengan fungsi induk sinus. Amplitudonya 2, periodenya 2, dan garis tengahnya y=0.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_223.jpg" />
+</media>
+</figure></problem>
+</exercise>
+<exercise id="fs-id1165137588535" class="media-set-2">
+<problem id="fs-id1165137588538"><para id="fs-id1165137588539">Tentukan amplitudo, periode, garis tengah, dan persamaan yang melibatkan kosinus untuk grafik yang ditunjukkan di <link target-id="Figure_06_01_224" />.</para>
+<figure id="Figure_06_01_224" class="small">
+<media id="fs-id1165135252106" alt="Grafik dengan fungsi induk kosinus. Amplitudonya 2, periodenya 2, dan garis tengahnya y=1.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_224.jpg" />
+</media>
+</figure></problem>
+<solution id="fs-id1165137600948"><para id="fs-id1165137600949">amplitudo: 2; periode: 2; garis tengah <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> persamaan: <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>π</m:mi><m:mi>x</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>1</m:mn>
+ </m:mrow>
+</m:math> </para></solution>
+</exercise>
+<exercise id="fs-id1165135530674" class="media-set-2">
+<problem id="fs-id1165137823256"><para id="fs-id1165137823257">Tentukan amplitudo, periode, garis tengah, dan persamaan yang melibatkan sinus untuk grafik yang ditunjukkan di <link target-id="Figure_06_01_225" />.</para>
+
+<figure id="Figure_06_01_225" class="small">
+<media id="fs-id1165133362029" alt="Grafik dengan fungsi induk sinus. Amplitudonya 1, periodenya 4, dan garis tengahnya y=0.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_06_01_225.jpg" />
+</media>
+</figure></problem>
+</exercise>
+</section>
+
+
+
+<section id="fs-id1165134043561">
+<title>Aljabar</title>
+<para id="fs-id1165134043566">Untuk latihan berikut, tetapkan <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para><exercise id="fs-id1165135471271"><problem id="fs-id1165135471273"><para id="fs-id1165137650837">Pada <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>[</m:mo> <m:mrow>
+   <m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mi>π</m:mi>
+  </m:mrow> <m:mo>),</m:mo></m:mrow>
+ </m:mrow>
+</m:math> selesaikan <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0.</m:mn>
+ </m:mrow>
+</m:math> </para></problem>
+<solution id="eip-idm685047824">
+<para id="eip-idm685047568"> <m:math>
+<m:mn>0</m:mn><m:mo>,</m:mo><m:mn>π</m:mn>
+
+</m:math> </para></solution></exercise><exercise id="fs-id1165137400540"><problem id="fs-id1165137400542"><para id="fs-id1165137400543">Pada <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>[</m:mo> <m:mrow>
+   <m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mi>π</m:mi>
+  </m:mrow> <m:mo>),</m:mo></m:mrow>
+ </m:mrow>
+</m:math> selesaikan <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </para></problem>
+<!--<solution id="fs-id1165137832261"><para id="fs-id1165137784896"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>&#960;</m:mi>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>5</m:mn><m:mi>&#960;</m:mi>
+   </m:mrow>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </para></solution>-->
+</exercise><exercise id="fs-id1165137637941"><problem id="fs-id1165137637943"><para id="fs-id1165137637944">Hitung <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mi>π</m:mi>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </para></problem>
+<solution id="eip-idm498263712">
+<para id="eip-idm438787472"> <m:math>
+<m:mtext>sin</m:mtext><m:mo>(</m:mo><m:mfrac><m:mn>π</m:mn><m:mn>2</m:mn></m:mfrac><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>1</m:mn>
+</m:math> </para></solution>
+</exercise><exercise id="fs-id1165137804692"><problem id="fs-id1165137442246"><para id="fs-id1165137442247">Pada <m:math>
+ <m:mrow>
+  <m:mo stretchy="false">[</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msqrt>
+     <m:mn>2</m:mn>
+    </m:msqrt>
+
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Temukan semua nilai dari <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </para></problem>
+<!--<solution id="fs-id1165137837133"><para id="fs-id1165137837134"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>&#960;</m:mi>
+   <m:mn>4</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>3</m:mn><m:mi>&#960;</m:mi>
+   </m:mrow>
+   <m:mn>4</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </para></solution>-->
+</exercise><exercise id="fs-id1165137416978"><problem id="fs-id1165135189866"><para id="fs-id1165135189867">Pada <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>[</m:mo> <m:mrow>
+   <m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mi>π</m:mi>
+  </m:mrow> <m:mo>),</m:mo></m:mrow>
+ </m:mrow>
+</m:math> nilai maksimum fungsi terjadi pada nilai <emphasis effect="italics">x</emphasis> berapa?</para></problem>
+<solution id="eip-idm232022464">
+<para id="eip-idm232022208">
+ <m:math>
+<m:mfrac><m:mn>π</m:mn><m:mn>2</m:mn></m:mfrac>
+</m:math>
+</para>
+</solution></exercise><exercise id="fs-id1165137942464"><problem id="fs-id1165137942466"><para id="fs-id1165137942467">Pada <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>[</m:mo> <m:mrow>
+   <m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mi>π</m:mi>
+  </m:mrow> <m:mo>),</m:mo></m:mrow>
+ </m:mrow>
+</m:math> nilai minimum fungsi terjadi pada nilai <emphasis effect="italics">x</emphasis> berapa?</para></problem>
+<!--<solution id="fs-id1165134042136"><para id="fs-id1165134042137"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>3</m:mn><m:mi>&#960;</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </para></solution>-->
+</exercise><exercise id="fs-id1165137633931"><problem id="fs-id1165137633933"><para id="fs-id1165137633934">Tunjukkan bahwa <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>−</m:mi><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Ini berarti bahwa <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi>
+ </m:mrow>
+</m:math> adalah fungsi ganjil dan memiliki simetri terhadap ________________.</para></problem>
+<solution id="eip-idm468422592">
+<para id="eip-idm468422336"> <m:math>
+<m:mi>f</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mtext>sin</m:mtext><m:mi>x</m:mi>
+</m:math>
+adalah simetris</para></solution></exercise><para id="fs-id1165137806520">Untuk latihan berikut, tetapkan <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para><exercise id="fs-id1165137844202"><problem id="fs-id1165137844204"><para id="fs-id1165137844205">Pada <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>[</m:mo> <m:mrow>
+   <m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mi>π</m:mi>
+  </m:mrow> <m:mo>),</m:mo></m:mrow>
+ </m:mrow>
+</m:math> selesaikan persamaan <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0.</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<!--<solution id="fs-id1165134129955"><para id="fs-id1165134129956"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>&#960;</m:mi>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>3</m:mn><m:mi>&#960;</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </para></solution>-->
+</exercise><exercise id="fs-id1165134043804"><problem id="fs-id1165135191893"><para id="fs-id1165135191894">Pada <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>[</m:mo> <m:mrow>
+   <m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mi>π</m:mi>
+  </m:mrow> <m:mo>),</m:mo></m:mrow>
+ </m:mrow>
+</m:math> selesaikan <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </para></problem>
+<solution id="eip-idm503657376">
+<para id="eip-idm456116448">
+ <m:math>
+<m:mfrac><m:mn>π</m:mn><m:mn>3</m:mn></m:mfrac><m:mo>,</m:mo><m:mfrac><m:mrow><m:mn>5</m:mn><m:mn>π</m:mn></m:mrow><m:mn>3</m:mn></m:mfrac>
+</m:math>
+</para>
+</solution>
+</exercise><exercise id="fs-id1165137423113"><problem id="fs-id1165137423115"><para id="fs-id1165137447173">Pada <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>[</m:mo> <m:mrow>
+   <m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mi>π</m:mi>
+  </m:mrow> <m:mo>),</m:mo></m:mrow>
+ </m:mrow>
+</m:math> tentukan titik potong sumbu <emphasis effect="italics">x</emphasis> dari <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para></problem>
+<!--<solution id="fs-id1165135440505"><para id="fs-id1165135440506"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>&#960;</m:mi>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>3</m:mn><m:mi>&#960;</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </para></solution>-->
+</exercise><exercise id="fs-id1165134394631"><problem id="fs-id1165134394633"><para id="fs-id1165134230442">Pada <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>[</m:mo> <m:mrow>
+   <m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mi>π</m:mi>
+  </m:mrow> <m:mo>),</m:mo></m:mrow>
+ </m:mrow>
+</m:math> tentukan nilai <emphasis effect="italics">x</emphasis> tempat fungsi mencapai nilai maksimum atau minimum.</para></problem>
+<solution id="eip-idm649466192">
+<para id="eip-idm649465936">Maksimum:
+ <m:math>
+<m:mn>1</m:mn>
+</m:math>
+di
+ <m:math>
+<m:mi>x</m:mi><m:mo>=</m:mo>
+<m:mn>0</m:mn>
+</m:math>
+; minimum:
+ <m:math>
+<m:mn>-1</m:mn>
+</m:math>
+di
+ <m:math>
+<m:mi>x</m:mi><m:mo>=</m:mo>
+<m:mn>π</m:mn>
+</m:math> </para></solution></exercise><exercise id="fs-id1165137442136"><problem id="fs-id1165137442139"><para id="fs-id1165137442140">Pada <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>[</m:mo> <m:mrow>
+   <m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mi>π</m:mi>
+  </m:mrow> <m:mo>),</m:mo></m:mrow>
+ </m:mrow>
+</m:math> selesaikan persamaan <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msqrt>
+     <m:mn>3</m:mn>
+    </m:msqrt>
+
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </para></problem>
+<!--<solution id="fs-id1165137933103"><para id="fs-id1165137933104"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>&#960;</m:mi>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>11</m:mn><m:mi>&#960;</m:mi>
+   </m:mrow>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </para></solution>-->
+</exercise></section>
+
+<section id="fs-id1165137638455">
+<title>Teknologi</title>
+<exercise id="fs-id1165135193041"><problem id="fs-id1165135193043">
+  <para id="fs-id1165137639606">Gambarkan grafik <m:math>
+ <m:mrow>
+  <m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi>
+ </m:mrow>
+</m:math> pada <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>[</m:mo> <m:mrow>
+   <m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mi>π</m:mi>
+  </m:mrow> <m:mo>]</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Jelaskan mengapa grafik tampak demikian.</para></problem>
+<solution id="eip-idm501526848">
+<para id="eip-idm466138656">Sebuah fungsi linear ditambahkan pada fungsi sinus periodik. Grafik tidak memiliki amplitudo karena ketika fungsi linear meningkat tanpa batas, fungsi gabungan <m:math>
+<m:mi>h</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mtext>sin</m:mtext><m:mi>x</m:mi>
+</m:math>
+juga akan meningkat tanpa batas. Grafik dibatasi oleh grafik
+
+
+ <m:math>
+<m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+</m:math>
+
+dan
+
+
+ <m:math>
+<m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn>
+</m:math>
+karena sinus berosilasi di antara −1 dan 1.
+
+<media id="eip-idm358410368" alt="Gambar menampilkan grafik h(t) terhadap t. Sumbu horizontal menyatakan t dari 0 hingga 2π, dengan penanda utama π/2, π, dan 3π/2. Sumbu vertikal menyatakan h(t) dari 0 hingga 6. Kurva bermula di titik asal (0,0) dan terus naik hingga sekitar (2π, 6). Mula-mula gradien meningkat, lalu menurun di sekitar t=π ketika h(t) sekitar 3 sehingga laju kenaikan melambat, dan akhirnya gradien kembali meningkat sehingga laju kenaikan bertambah menjelang akhir interval."><image mime-type="jpeg" src="../../media/CNX_Precalc_Figure_06_01_226.jpg" /></media></para></solution></exercise><exercise id="fs-id1165137736577"><problem id="fs-id1165137736579"><para id="fs-id1165137637316">Gambarkan grafik <m:math>
+ <m:mrow>
+  <m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi>
+ </m:mrow>
+</m:math> pada <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>[</m:mo> <m:mrow>
+   <m:mo>−</m:mo><m:mn>100</m:mn><m:mo>,</m:mo><m:mn>100</m:mn>
+  </m:mrow> <m:mo>]</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Apakah grafik muncul seperti yang diprediksi dalam latihan sebelumnya?</para></problem>
+<!--<solution id="fs-id1165137433807">
+<para id="fs-id1165137433809">The graph appears linear. The linear functions dominate the shape of the graph for large values of <m:math>
+ <m:mrow>
+  <m:mtext>&#8201;</m:mtext><m:mi>x</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </para>
+
+<media id="fs-id1165137604843" alt="A sinusoidal graph that increases like the function y=x, shown from 0 to 100.">
+<image mime-type="image/jpg" src="CNX_Precalc_Figure_06_01_227.jpg"/>
+</media>
+
+</solution>-->
+</exercise><exercise id="fs-id1165137891285"><problem id="fs-id1165137891288">
+<para id="fs-id1165137891290">Gambarkan grafik <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mspace width="0.3em" /><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi>
+ </m:mrow>
+</m:math> pada <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>[</m:mo> <m:mrow>
+   <m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mi>π</m:mi>
+  </m:mrow> <m:mo>]</m:mo></m:mrow>
+ </m:mrow>
+</m:math> dan jelaskan dengan kata-kata bagaimana grafik tersebut berbeda dari grafik <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </para></problem>
+<solution id="eip-idm304745008">
+<para id="eip-idm451079760">Tidak ada amplitudo karena fungsi tidak terbatas.
+<media id="eip-idm586629920" alt="Gambar menampilkan grafik fungsi periodik pada sistem koordinat dengan sumbu y terbalik. Sumbu x, berlabel &quot;X&quot;, membentang dari 0 hingga 2pi dengan penanda pi/2, pi, 3pi/2, dan 2pi. Sumbu y, berlabel &quot;f(x)&quot;, menempatkan titik asal (0) di atas; bilangan bulat positif 1 hingga 5 bertambah ke arah bawah. Kurva bermula di (0,0), minimum lokal nilai fungsi. Kurva lalu turun—yang menunjukkan nilai fungsi meningkat—hingga maksimum lokal 2 di sekitar x=pi/2. Setelah itu kurva naik, menunjukkan nilai menurun, dan kembali ke minimum lokal 0 pada x=pi. Kurva kembali turun hingga maksimum global 5 di sekitar x=3pi/2, kemudian naik ke minimum lokal 0 pada x=2pi dan menyelesaikan satu periode osilasi penuh."><image mime-type="jpeg" src="../../media/CNX_Precalc_Figure_06_01_228.jpg" /></media></para></solution>
+</exercise><exercise id="fs-id1165133085093"><problem id="fs-id1165133085095"><para id="fs-id1165133085096">Gambarkan grafik <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mspace width="0.3em" /><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi>
+ </m:mrow>
+</m:math> pada jendela <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>[</m:mo> <m:mrow>
+<m:mn>−10</m:mn><m:mo>,</m:mo><m:mn>10</m:mn>
+  </m:mrow> <m:mo>]</m:mo></m:mrow>
+ </m:mrow>
+</m:math> dan jelaskan apa yang ditunjukkan grafik.</para></problem>
+<!--<solution id="fs-id1165135322029">
+<para id="fs-id1165134283628">The graph is symmetric with respect to the <emphasis effect="italics">y</emphasis>-axis and there is no amplitude because the function is not periodic.</para>
+
+
+<media id="fs-id1165137570542" alt="A sinusoidal graph that has increasing peaks and decreasing lows as the absolute value of x increases.">
+<image mime-type="image/jpg" src="CNX_Precalc_Figure_06_01_229.jpg"/>
+</media>
+
+</solution>-->
+</exercise><exercise id="fs-id1165137433574"><problem id="fs-id1165137433577">
+<para id="fs-id1165137696192">Gambarkan grafik <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi>
+   </m:mrow>
+   <m:mi>x</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> pada jendela <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>[</m:mo> <m:mrow>
+<m:mn>−5</m:mn><m:mi>π</m:mi><m:mo>,</m:mo><m:mn>5</m:mn><m:mi>π</m:mi>
+  </m:mrow> <m:mo>]</m:mo></m:mrow>
+ </m:mrow>
+</m:math> dan jelaskan apa yang ditunjukkan grafik.</para></problem>
+<solution id="eip-idm420606880">
+<para id="eip-idm420606304">Grafik simetris terhadap sumbu y dan tidak memiliki amplitudo karena batas fungsi mengecil ketika
+
+ <m:math>
+<m:mo>|</m:mo><m:mi>x</m:mi><m:mo>|</m:mo>
+</m:math>
+bertambah. Tampaknya terdapat asimtot horizontal pada
+
+ <m:math>
+<m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+</m:math>
+.
+<media id="eip-idm1385291856" alt="Grafik fungsi osilasi teredam yang menyerupai sin(x)/x. Sumbu x membentang dari -5π hingga 5π dan sumbu y dari -2 hingga 2. Kurva mencapai puncak di (0,1) dan memotong sumbu x pada kelipatan bulat π."><image mime-type="jpeg" src="../../media/CNX_Precalc_Figure_06_01_230.jpg" /></media>
+</para></solution></exercise></section>
+
+<section id="fs-id1165135333770">
+<title>Aplikasi Dunia Nyata</title>
+<exercise id="fs-id1165135333775" class="media-set-2"><problem id="fs-id1165137435670"><para id="fs-id1165137435671">Sebuah bianglala berdiameter 25 meter dan dinaiki dari peron 1 meter di atas tanah. Posisi pukul enam pada bianglala sejajar dengan peron naik. Roda menyelesaikan 1 putaran penuh dalam 10 menit. Fungsi <m:math>
+ <m:mrow>
+  <m:mi>h</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>t</m:mi>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> memberikan ketinggian seseorang dalam meter di atas tanah <emphasis effect="italics">t</emphasis> menit setelah roda mulai berputar.</para><list id="fs-id1165135194497" list-type="enumerated" number-style="arabic" class="circled">
+<item><span class="token">ⓐ</span> Temukan amplitudo, garis tengah, dan periode <m:math>
+ <m:mrow>
+  <m:mi>h</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>t</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </item>
+<item><span class="token">ⓑ</span> Temukan rumus untuk fungsi ketinggian <m:math>
+ <m:mrow>
+  <m:mi>h</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>t</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> </item>
+<item><span class="token">ⓒ</span> Seberapa tinggi seseorang di atas tanah setelah 5 menit?</item>
+</list>
+</problem>
+<!--
+<solution id="fs-id1165135205671">
+<list id="fs-id1165135205673" list-type="enumerated" number-style="lower-alpha"><item>Amplitude: 12.5; period: 10; midline: <m:math>
+ <m:mrow>
+  <m:mtext>&#8201;</m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>13.5</m:mn><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> </item>
+<item> <m:math>
+ <m:mrow>
+  <m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>12.5</m:mn><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mi>&#960;</m:mi>
+     <m:mn>5</m:mn>
+    </m:mfrac>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mi>t</m:mi><m:mo>&#8722;</m:mo><m:mn>2.5</m:mn>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>13.5</m:mn><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> </item>
+<item>26 ft</item>
+</list></solution> -->
+</exercise></section></section></content>
+<glossary>
+<definition id="fs-id1165137414167">
+<term>amplitudo</term>
+<meaning id="fs-id1165137463141">ketinggian vertikal suatu fungsi; konstanta <m:math>
+ <m:mrow>
+  <m:mi>A</m:mi>
+ </m:mrow>
+</m:math> muncul dalam definisi fungsi sinusoidal</meaning>
+</definition>
+<definition id="fs-id1165137602032">
+<term>garis tengah</term>
+<meaning id="fs-id1165137602037">garis horizontal <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>D</m:mi><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> di mana <m:math>
+ <m:mrow>
+  <m:mi>D</m:mi>
+ </m:mrow>
+</m:math> muncul dalam bentuk umum fungsi sinusoidal</meaning>
+</definition>
+<definition id="fs-id1165137678058">
+<term>fungsi periodik</term>
+<meaning id="fs-id1165137678063">fungsi <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> yang memenuhi <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>x</m:mi><m:mo>+</m:mo><m:mi>P</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> untuk konstanta tertentu <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi>
+ </m:mrow>
+</m:math> dan nilai apa pun dari <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi>
+ </m:mrow>
+</m:math> </meaning>
+</definition>
+<definition id="fs-id1165137939683">
+<term>pergeseran fase</term>
+<meaning id="fs-id1165137939688">pergeseran horizontal fungsi sinus atau kosinus dasar; konstanta <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>C</m:mi>
+   <m:mi>B</m:mi>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </meaning>
+</definition>
+<definition id="fs-id1165135160153">
+<term>fungsi sinusoidal</term>
+<meaning id="fs-id1165137737500">fungsi apa pun yang dapat dinyatakan dalam bentuk <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>B</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>C</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>D</m:mi>
+ </m:mrow>
+</m:math> atau <m:math>
+ <m:mrow>
+  <m:mi>f</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>A</m:mi><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>B</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>C</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>D</m:mi>
+ </m:mrow>
+</m:math> </meaning>
+</definition>
+</glossary>
+</document>

@@ -1,0 +1,81 @@
+{
+  "accessibility": {
+    "result": "PASS",
+    "translated_alt_and_summary_count": 3
+  },
+  "assets": {
+    "byte_identical_to_source": true,
+    "records": [
+      {
+        "bytes": 284130,
+        "reference": "../../media/CNX_Precalc_Figure_07_04_002-5139.jpg",
+        "sha256": "c41ebc4a7775fae8b88cb7e7dabfdddb96c08dedd3793c9c313008d62b516240"
+      },
+      {
+        "bytes": 78957,
+        "reference": "../../media/CNX_Precalc_Figure_07_04_001.jpg",
+        "sha256": "549a65164c38aeec178e969bff149b76a2c21d824e90483145f91dabcbbe8110"
+      }
+    ],
+    "reference_count": 2,
+    "result": "PASS"
+  },
+  "coverage": {
+    "result": "PASS",
+    "source_slots": 170,
+    "translated_slots": 170
+  },
+  "language": {
+    "forbidden_id_id_count": 0,
+    "high_confidence_english_residue_count": 0,
+    "result": "PASS"
+  },
+  "math_and_numeric": {
+    "authorized_numeric_localization_slots": [
+      10
+    ],
+    "non_mtext_mathml_byte_semantics": "PASS",
+    "reader_numeric_mismatch_count": 0,
+    "result": "PASS"
+  },
+  "module_id": "m49397",
+  "overlay": {
+    "bytes": 12642,
+    "path": "tools/agent_c_m49397_final.json",
+    "sha256": "785478322245b3c8fb5872a4435901b1dc3157adb37869280a12adaddfa77c6f"
+  },
+  "preservation": {
+    "comments": 0,
+    "elements": 5591,
+    "ids": 426,
+    "images": 2,
+    "mathml_elements": 5051,
+    "result": "PASS",
+    "xrefs": 10
+  },
+  "repeat_build": {
+    "byte_identical": true,
+    "result": "PASS",
+    "runs": 2,
+    "sha256": "673f377b3e73acd37246258a9d2622a5131919dd8d7e0861500b321c2f877e2d"
+  },
+  "schema_id": "hp-a30-003-current-byte-module-qa-v1",
+  "semantic_structures": {
+    "examples": 7,
+    "exercises": 75,
+    "figures": 2,
+    "solutions": 44,
+    "tables": 1
+  },
+  "source": {
+    "bytes": 161828,
+    "path": "source/modules/m49397/index.cnxml",
+    "sha256": "518e82cad5d41cb19f9a3e5389d70d54c2c80817461c8be92df6d9178b1d2899"
+  },
+  "status": "PASS",
+  "target": {
+    "bytes": 163374,
+    "path": "translated/modules/m49397/index.cnxml",
+    "sha256": "673f377b3e73acd37246258a9d2622a5131919dd8d7e0861500b321c2f877e2d"
+  }
+}

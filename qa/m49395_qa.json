@@ -1,0 +1,129 @@
+{
+  "accessibility": {
+    "result": "PASS",
+    "translated_alt_and_summary_count": 15
+  },
+  "assets": {
+    "byte_identical_to_source": true,
+    "records": [
+      {
+        "bytes": 156223,
+        "reference": "../../media/CNX_Precalc_Figure_07_02_001.jpg",
+        "sha256": "91887e1d313349195f281d124359df1d0bdf95116f67291a4d5a11575a9beb6e"
+      },
+      {
+        "bytes": 117829,
+        "reference": "../../media/CNX_Precalc_Figure_07_01_004-93aa.jpg",
+        "sha256": "d3eaff0c5a8e30d34f9f5d11dad91e16bcf6d0ab4b0fff161e0a2eefcfc59aee"
+      },
+      {
+        "bytes": 78292,
+        "reference": "../../media/CNX_Precalc_Figure_07_02_002.jpg",
+        "sha256": "985c7cf6956b449d3d2258dd087b5f4a5a02a716f1c1b8e4147731237448aca6"
+      },
+      {
+        "bytes": 32092,
+        "reference": "../../media/CNX_Precalc_Figure_07_02_003-e4a8.jpg",
+        "sha256": "d300b236593b312212a37e481d2c71a21bcb701e9f4e11b77f351bb2bded7b47"
+      },
+      {
+        "bytes": 52501,
+        "reference": "../../media/CNX_Precalc_Figure_07_02_004-e86a.jpg",
+        "sha256": "14d98f85471d1aa819627c69f9dcee638858121b100d416894cf3d3260ddda63"
+      },
+      {
+        "bytes": 52821,
+        "reference": "../../media/CNX_Precalc_Figure_07_02_007.jpg",
+        "sha256": "05b2b59244bb3855855082c54c2efa25c61da0ef680358578624d2060c8cac7c"
+      },
+      {
+        "bytes": 33686,
+        "reference": "../../media/CNX_Precalc_Figure_07_02_005.jpg",
+        "sha256": "04972398d1454d30f7b9619cc886ca622e3d28d428f6ca75a2e97ff2078ff920"
+      },
+      {
+        "bytes": 78385,
+        "reference": "../../media/CNX_Precalc_Figure_07_02_006.jpg",
+        "sha256": "ef0acc11561ec4b2dd0c4264d792bd0e14b869acf416f83f801c662313a40591"
+      },
+      {
+        "bytes": 83417,
+        "reference": "../../media/CNX_Precalc_Figure_07_02_201-c02d.jpg",
+        "sha256": "8f94e5f29e239c28ba6ea83688edc517f285b8b301561a771172c957b5c347a9"
+      },
+      {
+        "bytes": 87240,
+        "reference": "../../media/CNX_Precalc_Figure_07_02_203-d60a.jpg",
+        "sha256": "602b47f9e3ad28686262a46cf9f1ca43eb5da89c4020ac82760a6544fc1ea185"
+      },
+      {
+        "bytes": 77264,
+        "reference": "../../media/CNX_Precalc_Figure_07_02_205.jpg",
+        "sha256": "542c922b796d265e4af139feea5fda3ffae18659575ab1fb245083099e67b3cf"
+      },
+      {
+        "bytes": 79193,
+        "reference": "../../media/CNX_Precalc_Figure_07_02_207.jpg",
+        "sha256": "4f340b961da5cf13a5acf90d8d8e6fe52631ba385d513850b9706267e59ad008"
+      }
+    ],
+    "reference_count": 12,
+    "result": "PASS"
+  },
+  "coverage": {
+    "result": "PASS",
+    "source_slots": 408,
+    "translated_slots": 408
+  },
+  "language": {
+    "forbidden_id_id_count": 0,
+    "high_confidence_english_residue_count": 0,
+    "result": "PASS"
+  },
+  "math_and_numeric": {
+    "authorized_numeric_localization_slots": [],
+    "non_mtext_mathml_byte_semantics": "PASS",
+    "reader_numeric_mismatch_count": 0,
+    "result": "PASS"
+  },
+  "module_id": "m49395",
+  "overlay": {
+    "bytes": 26689,
+    "path": "tools/agent_a_overlays/m49395.json",
+    "sha256": "df8c61fecc5ceb2736c5bb357fe4a38993119e42ecfeb41ddabe2f645744aeb8"
+  },
+  "preservation": {
+    "comments": 0,
+    "elements": 7686,
+    "ids": 502,
+    "images": 12,
+    "mathml_elements": 6925,
+    "result": "PASS",
+    "xrefs": 27
+  },
+  "repeat_build": {
+    "byte_identical": true,
+    "result": "PASS",
+    "runs": 2,
+    "sha256": "30e2aa214e2d80624f137f9b647854730baddcbd7890bde08b08a0c412a1b784"
+  },
+  "schema_id": "hp-a30-003-current-byte-module-qa-v1",
+  "semantic_structures": {
+    "examples": 11,
+    "exercises": 72,
+    "figures": 8,
+    "solutions": 44,
+    "tables": 3
+  },
+  "source": {
+    "bytes": 242661,
+    "path": "source/modules/m49395/index.cnxml",
+    "sha256": "b1d667f198a070590ded5a2a4ffdbb32c5c86d9b4cad8f3e3b0b1922fb19c64e"
+  },
+  "status": "PASS",
+  "target": {
+    "bytes": 243948,
+    "path": "translated/modules/m49395/index.cnxml",
+    "sha256": "30e2aa214e2d80624f137f9b647854730baddcbd7890bde08b08a0c412a1b784"
+  }
+}

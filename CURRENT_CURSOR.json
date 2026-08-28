@@ -1,0 +1,33 @@
+{
+  "assigned_modules": [
+    "m49386",
+    "m49387",
+    "m49389",
+    "m49390",
+    "m49392",
+    "m49393",
+    "m49395",
+    "m49396",
+    "m49397",
+    "m49398",
+    "m49399"
+  ],
+  "completed_modules": [
+    "m49386",
+    "m49387",
+    "m49389",
+    "m49390",
+    "m49392",
+    "m49393",
+    "m49395",
+    "m49396",
+    "m49397",
+    "m49398",
+    "m49399"
+  ],
+  "next_action": "Canonical owner may verify HANDOFF.json and checksums.sha256 and perform three-way integration; this helper must not merge or publish.",
+  "packet_id": "HP-A30-003",
+  "schema_id": "hp-a30-helper-cursor-v1",
+  "status": "complete_ready_for_owner_integration",
+  "write_boundary": "this_packet_root_only"
+}

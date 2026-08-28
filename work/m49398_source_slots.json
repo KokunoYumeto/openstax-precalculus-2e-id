@@ -1,0 +1,2454 @@
+{
+  "module_id": "m49398",
+  "schema_id": "hp-a30-cnxml-source-reader-slots-v1",
+  "slot_count": 407,
+  "slots": [
+    {
+      "kind": "text",
+      "locator": "/document[1]/title[1]/text()",
+      "slot": 1,
+      "source": "Solving Trigonometric Equations"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/metadata[1]/title[1]/text()",
+      "slot": 2,
+      "source": "Solving Trigonometric Equations"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/metadata[1]/abstract[1]/para[1]/text()",
+      "slot": 3,
+      "source": "In this section, you will:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/metadata[1]/abstract[1]/list[1]/item[1]/text()",
+      "slot": 4,
+      "source": "Solve linear trigonometric equations in sine and cosine."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/metadata[1]/abstract[1]/list[1]/item[2]/text()",
+      "slot": 5,
+      "source": "Solve equations involving a single trigonometric function."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/metadata[1]/abstract[1]/list[1]/item[3]/text()",
+      "slot": 6,
+      "source": "Solve trigonometric equations using a calculator."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/metadata[1]/abstract[1]/list[1]/item[4]/text()",
+      "slot": 7,
+      "source": "Solve trigonometric equations that are quadratic in form."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/metadata[1]/abstract[1]/list[1]/item[5]/text()",
+      "slot": 8,
+      "source": "Solve trigonometric equations using fundamental identities."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/metadata[1]/abstract[1]/list[1]/item[6]/text()",
+      "slot": 9,
+      "source": "Solve trigonometric equations with multiple angles. "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/metadata[1]/abstract[1]/list[1]/item[7]/text()",
+      "slot": 10,
+      "source": "Solve right triangle problems."
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/figure[1]/media[1]/@alt",
+      "slot": 11,
+      "source": "Photo of the Egyptian pyramids near a modern city."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/figure[1]/caption[1]/text()",
+      "slot": 12,
+      "source": "Egyptian pyramids standing near a modern city. (credit: Oisin Mulvihill)"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/para[1]/text()",
+      "slot": 13,
+      "source": "Thales of Miletus (circa 625–547 BC) is known as the founder of geometry. The legend is that he calculated the height of the Great Pyramid of Giza in Egypt using the theory of "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/para[1]/emphasis[1]/text()",
+      "slot": 14,
+      "source": "similar triangles"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/para[1]/emphasis[1]/tail()",
+      "slot": 15,
+      "source": ", which he developed by measuring the shadow of his staff. Based on proportions, this theory has applications in a number of areas, including fractal geometry, engineering, and architecture. Often, the angle of elevation and the angle of depression are found using similar triangles."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/para[2]/text()",
+      "slot": 16,
+      "source": "In earlier sections of this chapter, we looked at trigonometric identities. Identities are true for all values in the domain of the variable. In this section, we begin our study of trigonometric equations to study real-world scenarios such as the finding the dimensions of the pyramids."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/title[1]/text()",
+      "slot": 17,
+      "source": "Solving Linear Trigonometric Equations in Sine and Cosine"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[1]/text()",
+      "slot": 18,
+      "source": "Trigonometric equations are, as the name implies, equations that involve trigonometric functions. Similar in many ways to solving polynomial equations or rational equations, only specific values of the variable will be solutions, if there are solutions at all. Often we will solve a trigonometric equation over a specified interval. However, just as often, we will be asked to find all possible solutions, and as trigonometric functions are periodic, solutions are repeated within each period. In other words, trigonometric equations may have an infinite number of solutions. Additionally, like rational equations, the domain of the function must be considered before we assume that any solution is valid. The "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[1]/term[1]/text()",
+      "slot": 19,
+      "source": "period"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[1]/term[1]/tail()",
+      "slot": 20,
+      "source": " of both the sine function and the cosine function is "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[1]/math[1]/tail()",
+      "slot": 21,
+      "source": " In other words, every "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[1]/math[2]/tail()",
+      "slot": 22,
+      "source": " units, the "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[1]/emphasis[1]/text()",
+      "slot": 23,
+      "source": "y-"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[1]/emphasis[1]/tail()",
+      "slot": 24,
+      "source": "values repeat. If we need to find all possible solutions, then we must add "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[1]/math[3]/tail()",
+      "slot": 25,
+      "source": " where "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[1]/math[4]/tail()",
+      "slot": 26,
+      "source": " is an integer, to the initial solution. Recall the rule that gives the format for stating all possible solutions for a function where the period is "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[2]/text()",
+      "slot": 27,
+      "source": "There are similar rules for indicating all possible solutions for the other trigonometric functions. Solving trigonometric equations requires the same techniques as solving algebraic equations. We read the equation from left to right, horizontally, like a sentence. We look for known patterns, factor, find common denominators, and substitute certain expressions with a variable to make solving a more straightforward process. However, with trigonometric equations, we also have the advantage of using the identities we developed in the previous sections."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 28,
+      "source": "Solving a Linear Trigonometric Equation Involving the Cosine Function"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 29,
+      "source": "Find all possible exact solutions for the equation "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 30,
+      "source": "From the "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/para[1]/term[1]/text()",
+      "slot": 31,
+      "source": "unit circle"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/para[1]/term[1]/tail()",
+      "slot": 32,
+      "source": ", we know that"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/para[2]/text()",
+      "slot": 33,
+      "source": "These are the solutions in the interval "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/para[2]/math[1]/tail()",
+      "slot": 34,
+      "source": " All possible solutions are given by"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/equation[2]/math[1]/mrow[1]/mtext[1]/text()",
+      "slot": 35,
+      "source": "  and  "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/para[3]/text()",
+      "slot": 36,
+      "source": "where "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/para[3]/math[1]/tail()",
+      "slot": 37,
+      "source": " is an integer."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[2]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 38,
+      "source": "Solving a Linear Equation Involving the Sine Function"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[2]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 39,
+      "source": "Find all possible exact solutions for the equation "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[2]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 40,
+      "source": "Solving for all possible values of "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[2]/exercise[1]/solution[1]/para[1]/emphasis[1]/text()",
+      "slot": 41,
+      "source": "t"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[2]/exercise[1]/solution[1]/para[1]/emphasis[1]/tail()",
+      "slot": 42,
+      "source": " means that solutions include angles beyond the period of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[2]/exercise[1]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 43,
+      "source": " From "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[2]/exercise[1]/solution[1]/para[1]/link[1]/tail()",
+      "slot": 44,
+      "source": ", we can see that the solutions are "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[2]/exercise[1]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 45,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[2]/exercise[1]/solution[1]/para[1]/math[3]/tail()",
+      "slot": 46,
+      "source": " But the problem is asking for all possible values that solve the equation. Therefore, the answer is"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[2]/exercise[1]/solution[1]/equation[1]/math[1]/mrow[1]/mtext[1]/text()",
+      "slot": 47,
+      "source": "  and  "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[2]/exercise[1]/solution[1]/para[2]/text()",
+      "slot": 48,
+      "source": "where "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[2]/exercise[1]/solution[1]/para[2]/math[1]/tail()",
+      "slot": 49,
+      "source": " is an integer."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[1]/label[1]/text()",
+      "slot": 50,
+      "source": "How To"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[1]/para[1]/emphasis[1]/text()",
+      "slot": 51,
+      "source": "Given a trigonometric equation, solve using algebra"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/note[1]/para[1]/emphasis[1]/tail()",
+      "slot": 52,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[1]/list[1]/item[1]/text()",
+      "slot": 53,
+      "source": "Look for a pattern that suggests an algebraic property, such as the difference of squares or a factoring opportunity."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[1]/list[1]/item[2]/text()",
+      "slot": 54,
+      "source": "Substitute the trigonometric expression with a single variable, such as "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/note[1]/list[1]/item[2]/math[1]/tail()",
+      "slot": 55,
+      "source": " or "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[1]/list[1]/item[3]/text()",
+      "slot": 56,
+      "source": "Solve the equation the same way an algebraic equation would be solved."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[1]/list[1]/item[4]/text()",
+      "slot": 57,
+      "source": "Substitute the trigonometric expression back in for the variable in the resulting expressions."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[1]/list[1]/item[5]/text()",
+      "slot": 58,
+      "source": "Solve for the angle."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[3]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 59,
+      "source": "Solve the Trigonometric Equation in Linear Form"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[3]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 60,
+      "source": "Solve the equation exactly: "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[3]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 61,
+      "source": "Use algebraic techniques to solve the equation."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[2]/label[1]/text()",
+      "slot": 62,
+      "source": "Try It"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[2]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 63,
+      "source": "Solve exactly the following linear equation on the interval "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/title[1]/text()",
+      "slot": 64,
+      "source": "Solving Equations Involving a Single Trigonometric Function"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/para[1]/text()",
+      "slot": 65,
+      "source": "When we are given equations that involve only one of the six trigonometric functions, their solutions involve using algebraic techniques and the unit circle (see "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/para[1]/link[1]/tail()",
+      "slot": 66,
+      "source": "). We need to make several considerations when the equation involves trigonometric functions other than sine and cosine. Problems involving the reciprocals of the primary trigonometric functions need to be viewed from an algebraic perspective. In other words, we will write the reciprocal function, and solve for the angles using the function. Also, an equation involving the tangent function is slightly different from one containing a sine or cosine function. First, as we know, the period of tangent is "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/para[1]/math[1]/tail()",
+      "slot": 67,
+      "source": " not "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/para[1]/math[2]/tail()",
+      "slot": 68,
+      "source": " Further, the domain of tangent is all real numbers with the exception of odd integer multiples of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/para[1]/math[3]/tail()",
+      "slot": 69,
+      "source": " unless, of course, a problem places its own restrictions on the domain."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 70,
+      "source": "Solving a Problem Involving a Single Trigonometric Function"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 71,
+      "source": "Solve the problem exactly: "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 72,
+      "source": "As this problem is not easily factored, we will solve using the square root property. First, we use algebra to isolate "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 73,
+      "source": " Then we will find the angles."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 74,
+      "source": "Solving a Trigonometric Equation Involving Cosecant"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 75,
+      "source": "Solve the following equation exactly: "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 76,
+      "source": "We want all values of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 77,
+      "source": " for which "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 78,
+      "source": " over the interval "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/commentary[1]/title[1]/text()",
+      "slot": 79,
+      "source": "Analysis "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/commentary[1]/para[1]/text()",
+      "slot": 80,
+      "source": "As "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/commentary[1]/para[1]/math[1]/tail()",
+      "slot": 81,
+      "source": " notice that all four solutions are in the third and fourth quadrants."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[3]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 82,
+      "source": "Solving an Equation Involving Tangent"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[3]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 83,
+      "source": "Solve the equation exactly: "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[3]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 84,
+      "source": "Recall that the tangent function has a period of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[3]/exercise[1]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 85,
+      "source": " On the interval "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[3]/exercise[1]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 86,
+      "source": " and at the angle of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[3]/exercise[1]/solution[1]/para[1]/math[3]/tail()",
+      "slot": 87,
+      "source": " the tangent has a value of 1. However, the angle we want is "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[3]/exercise[1]/solution[1]/para[1]/math[4]/tail()",
+      "slot": 88,
+      "source": " Thus, if "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[3]/exercise[1]/solution[1]/para[1]/math[5]/tail()",
+      "slot": 89,
+      "source": " then"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[3]/exercise[1]/solution[1]/para[2]/text()",
+      "slot": 90,
+      "source": "Over the interval "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[3]/exercise[1]/solution[1]/para[2]/math[1]/tail()",
+      "slot": 91,
+      "source": " we have two solutions:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[3]/exercise[1]/solution[1]/equation[2]/math[1]/mrow[1]/mtext[1]/text()",
+      "slot": 92,
+      "source": "  and "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[1]/label[1]/text()",
+      "slot": 93,
+      "source": "Try It"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 94,
+      "source": "Find all solutions for "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[4]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 95,
+      "source": "Identify all Solutions to the Equation Involving Tangent"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[4]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 96,
+      "source": "Identify all exact solutions to the equation "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[4]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 97,
+      "source": "We can solve this equation using only algebra. Isolate the expression "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[4]/exercise[1]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 98,
+      "source": " on the left side of the equals sign."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[4]/exercise[1]/solution[1]/para[2]/text()",
+      "slot": 99,
+      "source": "There are two angles on the unit circle that have a tangent value of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[4]/exercise[1]/solution[1]/para[2]/math[1]/tail()",
+      "slot": 100,
+      "source": " and "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/title[1]/text()",
+      "slot": 101,
+      "source": "Solve Trigonometric Equations Using a Calculator"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/para[1]/text()",
+      "slot": 102,
+      "source": "Not all functions can be solved exactly using only the unit circle. When we must solve an equation involving an angle other than one of the special angles, we will need to use a calculator. Make sure it is set to the proper mode, either degrees or radians, depending on the criteria of the given problem."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[1]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 103,
+      "source": "Using a Calculator to Solve a Trigonometric Equation Involving Sine"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 104,
+      "source": "Use a calculator to solve the equation "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[1]/exercise[1]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 105,
+      "source": " where "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[1]/exercise[1]/problem[1]/para[1]/math[2]/tail()",
+      "slot": 106,
+      "source": " is in radians."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[1]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 107,
+      "source": "Make sure mode is set to radians. To find "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[1]/exercise[1]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 108,
+      "source": " use the inverse sine function. On most calculators, you will need to push the 2"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[1]/exercise[1]/solution[1]/para[1]/sup[1]/text()",
+      "slot": 109,
+      "source": "ND"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[1]/exercise[1]/solution[1]/para[1]/sup[1]/tail()",
+      "slot": 110,
+      "source": " button and then the SIN button to bring up the "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[1]/exercise[1]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 111,
+      "source": " function. What is shown on the screen is "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[1]/exercise[1]/solution[1]/para[1]/math[3]/tail()",
+      "slot": 112,
+      "source": " The calculator is ready for the input within the parentheses. For this problem, we enter "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[1]/exercise[1]/solution[1]/para[1]/math[4]/tail()",
+      "slot": 113,
+      "source": " and press ENTER. Thus, to four decimals places,"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[1]/exercise[1]/solution[1]/para[2]/text()",
+      "slot": 114,
+      "source": "The solution is"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[1]/exercise[1]/solution[1]/para[3]/text()",
+      "slot": 115,
+      "source": "The angle measurement in degrees is"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[1]/exercise[1]/commentary[1]/title[1]/text()",
+      "slot": 116,
+      "source": "Analysis "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[1]/exercise[1]/commentary[1]/para[1]/text()",
+      "slot": 117,
+      "source": "Note that a calculator will only return an angle in quadrants I or IV for the sine function, since that is the range of the inverse sine. The other angle is obtained by using "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 118,
+      "source": "Using a Calculator to Solve a Trigonometric Equation Involving Secant"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 119,
+      "source": "Use a calculator to solve the equation "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 120,
+      "source": " giving your answer in radians."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 121,
+      "source": "We can begin with some algebra."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/para[2]/text()",
+      "slot": 122,
+      "source": "Check that the MODE is in radians. Now use the inverse cosine function."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/para[3]/text()",
+      "slot": 123,
+      "source": "Since "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/para[3]/math[1]/tail()",
+      "slot": 124,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/para[3]/math[2]/tail()",
+      "slot": 125,
+      "source": " 1.8235 is between these two numbers, thus "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/para[3]/math[3]/mrow[1]/mtext[1]/text()",
+      "slot": 126,
+      "source": "1"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/para[3]/math[3]/mrow[1]/mtext[2]/text()",
+      "slot": 127,
+      "source": ".8235"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/para[3]/math[3]/tail()",
+      "slot": 128,
+      "source": " is in quadrant II. Cosine is also negative in quadrant III. Note that a calculator will only return an angle in quadrants I or II for the cosine function, since that is the range of the inverse cosine.  See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/para[3]/link[1]/tail()",
+      "slot": 129,
+      "source": "."
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/figure[1]/media[1]/@alt",
+      "slot": 130,
+      "source": "Graph of angles theta =approx 1.8235, theta prime =approx pi - 1.8235 = approx 1.3181, and then theta prime = pi + 1.3181 = approx 4.4597"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/para[4]/text()",
+      "slot": 131,
+      "source": "So, we also need to find the measure of the angle in quadrant III. In quadrant III, the reference angle is "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/para[4]/math[1]/mrow[1]/mtext[1]/text()",
+      "slot": 132,
+      "source": "1"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/para[4]/math[1]/mrow[1]/mtext[2]/text()",
+      "slot": 133,
+      "source": ".8235"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/para[4]/math[1]/mrow[1]/mtext[3]/text()",
+      "slot": 134,
+      "source": "1"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/para[4]/math[1]/mrow[1]/mtext[4]/text()",
+      "slot": 135,
+      "source": ".3181"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/para[4]/math[1]/mrow[1]/mtext[5]/text()",
+      "slot": 136,
+      "source": "."
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/para[4]/math[1]/tail()",
+      "slot": 137,
+      "source": " The other solution in quadrant III is "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/para[4]/math[2]/mrow[1]/mtext[1]/text()",
+      "slot": 138,
+      "source": "1"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/para[4]/math[2]/mrow[1]/mtext[2]/text()",
+      "slot": 139,
+      "source": ".3181"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/para[4]/math[2]/mrow[1]/mtext[3]/text()",
+      "slot": 140,
+      "source": "4"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/para[4]/math[2]/mrow[1]/mtext[4]/text()",
+      "slot": 141,
+      "source": ".4597"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/para[4]/math[2]/mrow[1]/mtext[5]/text()",
+      "slot": 142,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/para[5]/text()",
+      "slot": 143,
+      "source": "The solutions are "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/para[5]/math[1]/tail()",
+      "slot": 144,
+      "source": " and "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/note[1]/label[1]/text()",
+      "slot": 145,
+      "source": "Try It"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/note[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 146,
+      "source": "Solve "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/note[1]/exercise[1]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 147,
+      "source": " and "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/title[1]/text()",
+      "slot": 148,
+      "source": "Solving Trigonometric Equations in Quadratic Form"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/para[1]/text()",
+      "slot": 149,
+      "source": "Solving a "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/para[1]/term[1]/text()",
+      "slot": 150,
+      "source": "quadratic equation"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/para[1]/term[1]/tail()",
+      "slot": 151,
+      "source": " may be more complicated, but once again, we can use algebra as we would for any quadratic equation. Look at the pattern of the equation. Is there more than one trigonometric function in the equation, or is there only one? Which trigonometric function is squared? If there is only one function represented and one of the terms is squared, think about the standard form of a quadratic. Replace the trigonometric function with a variable such as "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/para[1]/math[1]/tail()",
+      "slot": 152,
+      "source": " or "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/para[1]/math[2]/tail()",
+      "slot": 153,
+      "source": " If substitution makes the equation look like a quadratic equation, then we can use the same methods for solving quadratics to solve the trigonometric equations."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[1]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 154,
+      "source": "Solving a Trigonometric Equation in Quadratic Form"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 155,
+      "source": "Solve the equation exactly: "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[1]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 156,
+      "source": "We begin by using substitution and replacing cos "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[1]/exercise[1]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 157,
+      "source": " with "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[1]/exercise[1]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 158,
+      "source": " It is not necessary to use substitution, but it may make the problem easier to solve visually. Let "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[1]/exercise[1]/solution[1]/para[1]/math[3]/tail()",
+      "slot": 159,
+      "source": " We have"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[1]/exercise[1]/solution[1]/para[2]/text()",
+      "slot": 160,
+      "source": "The equation cannot be factored, so we will use the "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[1]/exercise[1]/solution[1]/para[2]/term[1]/text()",
+      "slot": 161,
+      "source": "quadratic formula"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[1]/exercise[1]/solution[1]/para[3]/text()",
+      "slot": 162,
+      "source": "Replace "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[1]/exercise[1]/solution[1]/para[3]/math[1]/tail()",
+      "slot": 163,
+      "source": " with "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[1]/exercise[1]/solution[1]/para[3]/math[2]/tail()",
+      "slot": 164,
+      "source": " and solve. Thus,"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[1]/exercise[1]/solution[1]/para[4]/text()",
+      "slot": 165,
+      "source": "Note that only the + sign is used. This is because we get an error when we solve "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[1]/exercise[1]/solution[1]/para[4]/math[1]/tail()",
+      "slot": 166,
+      "source": " on a calculator, since the domain of the inverse cosine function is "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[1]/exercise[1]/solution[1]/para[4]/math[2]/tail()",
+      "slot": 167,
+      "source": " However, there is a second solution:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[1]/exercise[1]/solution[1]/para[5]/text()",
+      "slot": 168,
+      "source": "This terminal side of the angle lies in quadrant I. Since cosine is also positive in quadrant IV, the second solution is"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 169,
+      "source": "Solving a Trigonometric Equation in Quadratic Form by Factoring"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 170,
+      "source": "Solve the equation exactly: "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 171,
+      "source": "Using grouping, this quadratic can be factored. Either make the real substitution, "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 172,
+      "source": " or imagine it, as we factor:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/solution[1]/para[2]/text()",
+      "slot": 173,
+      "source": "Now set each factor equal to zero."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/solution[1]/para[3]/text()",
+      "slot": 174,
+      "source": "Next solve for "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/solution[1]/para[3]/math[1]/tail()",
+      "slot": 175,
+      "source": " as the range of the sine function is "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/solution[1]/para[3]/math[2]/tail()",
+      "slot": 176,
+      "source": " However, "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/solution[1]/para[3]/math[3]/tail()",
+      "slot": 177,
+      "source": " giving the solution "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/commentary[1]/title[1]/text()",
+      "slot": 178,
+      "source": "Analysis "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/commentary[1]/para[1]/text()",
+      "slot": 179,
+      "source": "Make sure to check all solutions on the given domain as some factors have no solution."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/note[1]/label[1]/text()",
+      "slot": 180,
+      "source": "Try It"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/note[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 181,
+      "source": "Solve "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/note[1]/exercise[1]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 182,
+      "source": " [Hint: Make a substitution to express the equation only in terms of cosine.]"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[3]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 183,
+      "source": "Solving a Trigonometric Equation Using Algebra"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[3]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 184,
+      "source": "Solve exactly:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[3]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 185,
+      "source": "This problem should appear familiar as it is similar to a quadratic. Let "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[3]/exercise[1]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 186,
+      "source": " The equation becomes "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[3]/exercise[1]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 187,
+      "source": " We begin by factoring:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[3]/exercise[1]/solution[1]/para[2]/text()",
+      "slot": 188,
+      "source": "Set each factor equal to zero."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[3]/exercise[1]/solution[1]/para[3]/text()",
+      "slot": 189,
+      "source": "Then, substitute back into the equation the original expression "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[3]/exercise[1]/solution[1]/para[3]/math[1]/tail()",
+      "slot": 190,
+      "source": " for "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[3]/exercise[1]/solution[1]/para[3]/math[2]/tail()",
+      "slot": 191,
+      "source": " Thus,"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[3]/exercise[1]/solution[1]/para[4]/text()",
+      "slot": 192,
+      "source": "The solutions within the domain "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[3]/exercise[1]/solution[1]/para[4]/math[1]/tail()",
+      "slot": 193,
+      "source": " are "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[3]/exercise[1]/solution[1]/para[5]/text()",
+      "slot": 194,
+      "source": "If we prefer not to substitute, we can solve the equation by following the same pattern of factoring and setting each factor equal to zero."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[3]/exercise[1]/commentary[1]/title[1]/text()",
+      "slot": 195,
+      "source": "Analysis"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[3]/exercise[1]/commentary[1]/para[1]/text()",
+      "slot": 196,
+      "source": "We can see the solutions on the graph in "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[3]/exercise[1]/commentary[1]/para[1]/link[1]/tail()",
+      "slot": 197,
+      "source": ". On the interval "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[3]/exercise[1]/commentary[1]/para[1]/math[1]/tail()",
+      "slot": 198,
+      "source": " the graph crosses the "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[3]/exercise[1]/commentary[1]/para[1]/emphasis[1]/text()",
+      "slot": 199,
+      "source": "x-"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[3]/exercise[1]/commentary[1]/para[1]/emphasis[1]/tail()",
+      "slot": 200,
+      "source": "axis four times, at the solutions noted. Notice that trigonometric equations that are in quadratic form can yield up to four solutions instead of the expected two that are found with quadratic equations. In this example, each solution (angle) corresponding to a positive sine value will yield two angles that would result in that value."
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[4]/example[3]/exercise[1]/commentary[1]/figure[1]/media[1]/@alt",
+      "slot": 201,
+      "source": "Graph of 2*(sin(theta))^2 + sin(theta) from 0 to 2pi. Zeros are at 0, pi, 7pi/6, and 11pi/6."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[3]/exercise[1]/commentary[1]/para[2]/text()",
+      "slot": 202,
+      "source": "We can verify the solutions on the unit circle in "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[3]/exercise[1]/commentary[1]/para[2]/link[1]/tail()",
+      "slot": 203,
+      "source": " as well."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[4]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 204,
+      "source": "Solving a Trigonometric Equation Quadratic in Form"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[4]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 205,
+      "source": "Solve the equation quadratic in form exactly: "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[4]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 206,
+      "source": "We can factor using grouping. Solution values of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[4]/exercise[1]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 207,
+      "source": " can be found on the unit circle:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/note[2]/label[1]/text()",
+      "slot": 208,
+      "source": "Try It"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/note[2]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 209,
+      "source": "Solve the quadratic equation "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/title[1]/text()",
+      "slot": 210,
+      "source": "Solving Trigonometric Equations Using Fundamental Identities"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/para[1]/text()",
+      "slot": 211,
+      "source": "While algebra can be used to solve a number of trigonometric equations, we can also use the fundamental identities because they make solving equations simpler. Remember that the techniques we use for solving are not the same as those for verifying identities. The basic rules of algebra apply here, as opposed to rewriting one side of the identity to match the other side. In the next example, we use two identities to simplify the equation."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[1]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 212,
+      "source": "Use Identities to Solve an Equation"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 213,
+      "source": "Use identities to solve exactly the trigonometric equation over the interval "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[1]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 214,
+      "source": "Notice that the left side of the equation is the difference formula for cosine."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[1]/exercise[1]/solution[1]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[3]/mtd[2]/mrow[1]/mtext[1]/text()",
+      "slot": 215,
+      "source": "Difference formula for cosine"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[1]/exercise[1]/solution[1]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[4]/mtd[2]/mrow[1]/mtext[1]/text()",
+      "slot": 216,
+      "source": "Use the negative angle identity"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[1]/exercise[1]/solution[1]/para[2]/text()",
+      "slot": 217,
+      "source": "From the unit circle in "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/example[1]/exercise[1]/solution[1]/para[2]/link[1]/tail()",
+      "slot": 218,
+      "source": ", we see that "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/example[1]/exercise[1]/solution[1]/para[2]/math[1]/tail()",
+      "slot": 219,
+      "source": " when "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[2]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 220,
+      "source": "Solving the Equation Using a Double-Angle Formula"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[2]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 221,
+      "source": "Solve the equation exactly using a double-angle formula: "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[2]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 222,
+      "source": "We have three choices of expressions to substitute for the double-angle of cosine. As it is simpler to solve for one trigonometric function at a time, we will choose the double-angle identity involving only cosine:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[2]/exercise[1]/solution[1]/para[2]/text()",
+      "slot": 223,
+      "source": "So, if "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/example[2]/exercise[1]/solution[1]/para[2]/math[1]/tail()",
+      "slot": 224,
+      "source": " then "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/example[2]/exercise[1]/solution[1]/para[2]/math[2]/tail()",
+      "slot": 225,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/example[2]/exercise[1]/solution[1]/para[2]/math[3]/tail()",
+      "slot": 226,
+      "source": " if "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/example[2]/exercise[1]/solution[1]/para[2]/math[4]/tail()",
+      "slot": 227,
+      "source": " then "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[3]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 228,
+      "source": "Solving an Equation Using an Identity"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[3]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 229,
+      "source": "Solve the equation exactly using an identity: "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[3]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 230,
+      "source": "If we rewrite the right side, we can write the equation in terms of cosine:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[3]/exercise[1]/solution[1]/equation[1]/math[1]/mtable[1]/mtr[2]/mtd[2]/msup[1]/mtext[1]/text()",
+      "slot": 231,
+      "source": "cos"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/example[3]/exercise[1]/solution[1]/para[2]/text()",
+      "slot": 232,
+      "source": "Our solutions are "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/title[1]/text()",
+      "slot": 233,
+      "source": "Solving Trigonometric Equations with Multiple Angles"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/para[1]/text()",
+      "slot": 234,
+      "source": "Sometimes it is not possible to solve a trigonometric equation with identities that have a multiple angle, such as "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/para[1]/math[1]/tail()",
+      "slot": 235,
+      "source": " or "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/para[1]/math[2]/tail()",
+      "slot": 236,
+      "source": " When confronted with these equations, recall that "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/para[1]/math[3]/tail()",
+      "slot": 237,
+      "source": " is a "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/para[1]/term[1]/text()",
+      "slot": 238,
+      "source": "horizontal compression"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/para[1]/term[1]/tail()",
+      "slot": 239,
+      "source": " by a factor of 2 of the function "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/para[1]/math[4]/tail()",
+      "slot": 240,
+      "source": " On an interval of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/para[1]/math[5]/tail()",
+      "slot": 241,
+      "source": " we can graph two periods of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/para[1]/math[6]/tail()",
+      "slot": 242,
+      "source": " as opposed to one cycle of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/para[1]/math[7]/tail()",
+      "slot": 243,
+      "source": " This compression of the graph leads us to believe there may be twice as many "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/para[1]/emphasis[1]/text()",
+      "slot": 244,
+      "source": "x"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/para[1]/emphasis[1]/tail()",
+      "slot": 245,
+      "source": "-intercepts or solutions to "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/para[1]/math[8]/tail()",
+      "slot": 246,
+      "source": " compared to "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/para[1]/math[9]/tail()",
+      "slot": 247,
+      "source": " This information will help us solve the equation."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/example[1]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 248,
+      "source": "Solving a Multiple Angle Trigonometric Equation"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/example[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 249,
+      "source": "Solve exactly: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/example[1]/exercise[1]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 250,
+      "source": " on "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/example[1]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 251,
+      "source": "We can see that this equation is the standard equation with a multiple of an angle. If "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/example[1]/exercise[1]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 252,
+      "source": " we know "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/example[1]/exercise[1]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 253,
+      "source": " is in quadrants I and IV. While "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/example[1]/exercise[1]/solution[1]/para[1]/math[3]/tail()",
+      "slot": 254,
+      "source": " will only yield solutions in quadrants I and II, we recognize that the solutions to the equation "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/example[1]/exercise[1]/solution[1]/para[1]/math[4]/tail()",
+      "slot": 255,
+      "source": " will be in quadrants I and IV."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/example[1]/exercise[1]/solution[1]/para[2]/text()",
+      "slot": 256,
+      "source": "Therefore, the possible angles are "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/example[1]/exercise[1]/solution[1]/para[2]/math[1]/tail()",
+      "slot": 257,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/example[1]/exercise[1]/solution[1]/para[2]/math[2]/tail()",
+      "slot": 258,
+      "source": " So, "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/example[1]/exercise[1]/solution[1]/para[2]/math[3]/tail()",
+      "slot": 259,
+      "source": " or "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/example[1]/exercise[1]/solution[1]/para[2]/math[4]/tail()",
+      "slot": 260,
+      "source": " which means that "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/example[1]/exercise[1]/solution[1]/para[2]/math[5]/tail()",
+      "slot": 261,
+      "source": " or "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/example[1]/exercise[1]/solution[1]/para[2]/math[6]/tail()",
+      "slot": 262,
+      "source": " Does this make sense? Yes, because "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/example[1]/exercise[1]/solution[1]/para[3]/text()",
+      "slot": 263,
+      "source": "Are there any other possible answers? Let us return to our first step."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/example[1]/exercise[1]/solution[1]/para[4]/text()",
+      "slot": 264,
+      "source": "In quadrant I, "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/example[1]/exercise[1]/solution[1]/para[4]/math[1]/tail()",
+      "slot": 265,
+      "source": " so "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/example[1]/exercise[1]/solution[1]/para[4]/math[2]/tail()",
+      "slot": 266,
+      "source": " as noted. Let us revolve around the circle again:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/example[1]/exercise[1]/solution[1]/para[5]/text()",
+      "slot": 267,
+      "source": "so "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/example[1]/exercise[1]/solution[1]/para[6]/text()",
+      "slot": 268,
+      "source": "One more rotation yields"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/example[1]/exercise[1]/solution[1]/para[7]/math[1]/tail()",
+      "slot": 269,
+      "source": " so this value for "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/example[1]/exercise[1]/solution[1]/para[7]/math[2]/tail()",
+      "slot": 270,
+      "source": " is larger than "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/example[1]/exercise[1]/solution[1]/para[7]/math[3]/tail()",
+      "slot": 271,
+      "source": " so it is not a solution on "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/example[1]/exercise[1]/solution[1]/para[8]/text()",
+      "slot": 272,
+      "source": "In quadrant IV, "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/example[1]/exercise[1]/solution[1]/para[8]/math[1]/tail()",
+      "slot": 273,
+      "source": " so "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/example[1]/exercise[1]/solution[1]/para[8]/math[2]/tail()",
+      "slot": 274,
+      "source": " as noted. Let us revolve around the circle again:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/example[1]/exercise[1]/solution[1]/para[9]/text()",
+      "slot": 275,
+      "source": "so "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/example[1]/exercise[1]/solution[1]/para[10]/text()",
+      "slot": 276,
+      "source": "One more rotation yields"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/example[1]/exercise[1]/solution[1]/para[11]/math[1]/tail()",
+      "slot": 277,
+      "source": " so this value for "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/example[1]/exercise[1]/solution[1]/para[11]/math[2]/tail()",
+      "slot": 278,
+      "source": " is larger than "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/example[1]/exercise[1]/solution[1]/para[11]/math[3]/tail()",
+      "slot": 279,
+      "source": " so it is not a solution on "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/example[1]/exercise[1]/solution[1]/para[12]/text()",
+      "slot": 280,
+      "source": "Our solutions are "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/example[1]/exercise[1]/solution[1]/para[12]/math[1]/mrow[1]/mtext[1]/text()",
+      "slot": 281,
+      "source": "and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/example[1]/exercise[1]/solution[1]/para[12]/math[1]/tail()",
+      "slot": 282,
+      "source": " Note that whenever we solve a problem in the form of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/example[1]/exercise[1]/solution[1]/para[12]/math[2]/tail()",
+      "slot": 283,
+      "source": " we must go around the unit circle "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/example[1]/exercise[1]/solution[1]/para[12]/math[3]/tail()",
+      "slot": 284,
+      "source": " times."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/title[1]/text()",
+      "slot": 285,
+      "source": "Solving Right Triangle Problems"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/para[1]/text()",
+      "slot": 286,
+      "source": "We can now use all of the methods we have learned to solve problems that involve applying the properties of right triangles and the "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/para[1]/term[1]/text()",
+      "slot": 287,
+      "source": "Pythagorean Theorem"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/para[1]/term[1]/tail()",
+      "slot": 288,
+      "source": ". We begin with the familiar Pythagorean Theorem, "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/para[1]/math[1]/tail()",
+      "slot": 289,
+      "source": " and model an equation to fit a situation."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/example[1]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 290,
+      "source": "Using the Pythagorean Theorem to Model an Equation"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/example[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 291,
+      "source": "Use the Pythagorean Theorem, and the properties of right triangles to model an equation that fits the problem."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/example[1]/exercise[1]/problem[1]/para[2]/text()",
+      "slot": 292,
+      "source": "One of the cables that anchors the center of the London Eye Ferris wheel to the ground must be replaced. The center of the Ferris wheel is 69.5 meters above the ground, and the second anchor on the ground is 23 meters from the base of the Ferris wheel. Approximately how long is the cable, and what is the angle of elevation (from ground up to the center of the Ferris wheel)? See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/example[1]/exercise[1]/problem[1]/para[2]/link[1]/tail()",
+      "slot": 293,
+      "source": "."
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[7]/example[1]/exercise[1]/problem[1]/figure[1]/media[1]/@alt",
+      "slot": 294,
+      "source": "Basic diagram of a ferris wheel (circle) and its support cables (form a right triangle). One cable runs from the center of the circle to the ground (outside the circle), is perpendicular to the ground, and has length 69.5. Another cable of unknown length (the hypotenuse) runs from the center of the circle to the ground 23 feet away from the other cable at an angle of theta degrees with the ground. So, in closing, there is a right triangle with base 23, height 69.5, hypotenuse unknown, and angle between base and hypotenuse of theta degrees."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/example[1]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 295,
+      "source": "Using the information given, we can draw a right triangle. We can find the length of the cable with the Pythagorean Theorem."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/example[1]/exercise[1]/solution[1]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[2]/mtd[1]/mrow[1]/mtable[1]/mtr[3]/mtd[1]/mrow[1]/mtext[2]/text()",
+      "slot": 296,
+      "source": " m"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/example[1]/exercise[1]/solution[1]/para[2]/text()",
+      "slot": 297,
+      "source": "The angle of elevation is "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/example[1]/exercise[1]/solution[1]/para[2]/math[1]/tail()",
+      "slot": 298,
+      "source": " formed by the second anchor on the ground and the cable reaching to the center of the wheel. We can use the tangent function to find its measure. Round to two decimal places."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/example[1]/exercise[1]/solution[1]/para[3]/text()",
+      "slot": 299,
+      "source": "The angle of elevation is approximately "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/example[1]/exercise[1]/solution[1]/para[3]/math[1]/tail()",
+      "slot": 300,
+      "source": " and the length of the cable is 73.2 meters."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/example[2]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 301,
+      "source": "Using the Pythagorean Theorem to Model an Abstract Problem"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/example[2]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 302,
+      "source": "OSHA safety regulations require that the base of a ladder be placed 1 foot from the wall for every 4 feet of ladder length. Find the angle that a ladder of any length forms with the ground and the height at which the ladder touches the wall."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/example[2]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 303,
+      "source": "For any length of ladder, the base needs to be a distance from the wall equal to one fourth of the ladder’s length. Equivalently, if the base of the ladder is “"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/example[2]/exercise[1]/solution[1]/para[1]/emphasis[1]/text()",
+      "slot": 304,
+      "source": "a”"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/example[2]/exercise[1]/solution[1]/para[1]/emphasis[1]/tail()",
+      "slot": 305,
+      "source": " feet from the wall, the length of the ladder will be 4"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/example[2]/exercise[1]/solution[1]/para[1]/emphasis[2]/text()",
+      "slot": 306,
+      "source": "a"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/example[2]/exercise[1]/solution[1]/para[1]/emphasis[2]/tail()",
+      "slot": 307,
+      "source": " feet. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/example[2]/exercise[1]/solution[1]/para[1]/link[1]/tail()",
+      "slot": 308,
+      "source": "."
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[7]/example[2]/exercise[1]/solution[1]/figure[1]/media[1]/@alt",
+      "slot": 309,
+      "source": "Diagram of a right triangle with base length a, height length b, hypotenuse length 4a. Opposite the height is an angle of theta degrees, and opposite the hypotenuse is an angle of 90 degrees."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/example[2]/exercise[1]/solution[1]/para[2]/text()",
+      "slot": 310,
+      "source": "The side adjacent to "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/example[2]/exercise[1]/solution[1]/para[2]/math[1]/tail()",
+      "slot": 311,
+      "source": " is "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/example[2]/exercise[1]/solution[1]/para[2]/emphasis[1]/text()",
+      "slot": 312,
+      "source": "a "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/example[2]/exercise[1]/solution[1]/para[2]/emphasis[1]/tail()",
+      "slot": 313,
+      "source": "and the hypotenuse is "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/example[2]/exercise[1]/solution[1]/para[2]/math[2]/tail()",
+      "slot": 314,
+      "source": " Thus,"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/example[2]/exercise[1]/solution[1]/para[3]/text()",
+      "slot": 315,
+      "source": "The elevation of the ladder forms an angle of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/example[2]/exercise[1]/solution[1]/para[3]/math[1]/tail()",
+      "slot": 316,
+      "source": " with the ground. The height at which the ladder touches the wall can be found using the Pythagorean Theorem:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/example[2]/exercise[1]/solution[1]/para[4]/text()",
+      "slot": 317,
+      "source": "Thus, the ladder touches the wall at "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/example[2]/exercise[1]/solution[1]/para[4]/math[1]/tail()",
+      "slot": 318,
+      "source": " feet from the ground."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/note[1]/label[1]/text()",
+      "slot": 319,
+      "source": "Media"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/note[1]/para[1]/text()",
+      "slot": 320,
+      "source": "Access these online resources for additional instruction and practice with solving trigonometric equations."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/note[1]/list[1]/item[1]/link[1]/text()",
+      "slot": 321,
+      "source": "Solving Trigonometric Equations I"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/note[1]/list[1]/item[2]/link[1]/text()",
+      "slot": 322,
+      "source": "Solving Trigonometric Equations II"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/note[1]/list[1]/item[3]/link[1]/text()",
+      "slot": 323,
+      "source": "Solving Trigonometric Equations III"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/note[1]/list[1]/item[4]/link[1]/text()",
+      "slot": 324,
+      "source": "Solving Trigonometric Equations IV"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/note[1]/list[1]/item[5]/link[1]/text()",
+      "slot": 325,
+      "source": "Solving Trigonometric Equations V"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/note[1]/list[1]/item[6]/link[1]/text()",
+      "slot": 326,
+      "source": "Solving Trigonometric Equations VI"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/title[1]/text()",
+      "slot": 327,
+      "source": "Key Concepts"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/list[1]/item[1]/text()",
+      "slot": 328,
+      "source": "When solving linear trigonometric equations, we can use algebraic techniques just as we do solving algebraic equations. Look for patterns, like the difference of squares, quadratic form, or an expression that lends itself well to substitution. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/list[1]/item[1]/link[1]/tail()",
+      "slot": 329,
+      "source": ", "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/list[1]/item[1]/link[2]/tail()",
+      "slot": 330,
+      "source": ", and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/list[1]/item[1]/link[3]/tail()",
+      "slot": 331,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/list[1]/item[2]/text()",
+      "slot": 332,
+      "source": "Equations involving a single trigonometric function can be solved or verified using the unit circle. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/list[1]/item[2]/link[1]/tail()",
+      "slot": 333,
+      "source": ", "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/list[1]/item[2]/link[2]/tail()",
+      "slot": 334,
+      "source": ", and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/list[1]/item[2]/link[3]/tail()",
+      "slot": 335,
+      "source": ", and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/list[1]/item[2]/link[4]/tail()",
+      "slot": 336,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/list[1]/item[3]/text()",
+      "slot": 337,
+      "source": "We can also solve trigonometric equations using a graphing calculator. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/list[1]/item[3]/link[1]/tail()",
+      "slot": 338,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/list[1]/item[3]/link[2]/tail()",
+      "slot": 339,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/list[1]/item[4]/text()",
+      "slot": 340,
+      "source": "Many equations appear quadratic in form. We can use substitution to make the equation appear simpler, and then use the same techniques we use solving an algebraic quadratic: factoring, the quadratic formula, etc. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/list[1]/item[4]/link[1]/tail()",
+      "slot": 341,
+      "source": ", "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/list[1]/item[4]/link[2]/tail()",
+      "slot": 342,
+      "source": ", "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/list[1]/item[4]/link[3]/tail()",
+      "slot": 343,
+      "source": ", and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/list[1]/item[4]/link[4]/tail()",
+      "slot": 344,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/list[1]/item[5]/text()",
+      "slot": 345,
+      "source": "We can also use the identities to solve trigonometric equation. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/list[1]/item[5]/link[1]/tail()",
+      "slot": 346,
+      "source": ", "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/list[1]/item[5]/link[2]/tail()",
+      "slot": 347,
+      "source": ", and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/list[1]/item[5]/link[3]/tail()",
+      "slot": 348,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/list[1]/item[6]/text()",
+      "slot": 349,
+      "source": "We can use substitution to solve a multiple-angle trigonometric equation, which is a compression of a standard trigonometric function. We will need to take the compression into account and verify that we have found all solutions on the given interval. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/list[1]/item[6]/link[1]/tail()",
+      "slot": 350,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/list[1]/item[7]/text()",
+      "slot": 351,
+      "source": "Real-world scenarios can be modeled and solved using the Pythagorean Theorem and trigonometric functions. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/list[1]/item[7]/link[1]/tail()",
+      "slot": 352,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/title[1]/text()",
+      "slot": 353,
+      "source": "Section Exercises"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[1]/title[1]/text()",
+      "slot": 354,
+      "source": "Verbal"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 355,
+      "source": "Will there always be solutions to trigonometric function equations? If not, describe an equation that would not have a solution. Explain why or why not."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[1]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 356,
+      "source": "There will not always be solutions to trigonometric function equations. For a basic example, "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[1]/exercise[2]/problem[1]/para[1]/text()",
+      "slot": 357,
+      "source": "When solving a trigonometric equation involving more than one trig function, do we always want to try to rewrite the equation so it is expressed in terms of one trigonometric function? Why or why not?"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[1]/exercise[3]/problem[1]/para[1]/text()",
+      "slot": 358,
+      "source": "When solving linear trig equations in terms of only sine or cosine, how do we know whether there will be solutions?"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[1]/exercise[3]/solution[1]/para[1]/text()",
+      "slot": 359,
+      "source": "If the sine or cosine function has a coefficient of one, isolate the term on one side of the equals sign. If the number it is set equal to has an absolute value less than or equal to one, the equation has solutions, otherwise it does not. If the sine or cosine does not have a coefficient equal to one, still isolate the term but then divide both sides of the equation by the leading coefficient.  Then, if the number it is set equal to has an absolute value greater than one, the equation has no solution."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[2]/title[1]/text()",
+      "slot": 360,
+      "source": "Algebraic"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[2]/para[1]/text()",
+      "slot": 361,
+      "source": "For the following exercises, find all solutions exactly on the interval "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[2]/para[2]/text()",
+      "slot": 362,
+      "source": "For the following exercises, solve exactly on "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[9]/section[2]/exercise[14]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 363,
+      "source": ", "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[9]/section[2]/exercise[14]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 364,
+      "source": ", "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[9]/section[2]/exercise[14]/solution[1]/para[1]/math[3]/tail()",
+      "slot": 365,
+      "source": ", "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[9]/section[2]/exercise[14]/solution[1]/para[1]/math[4]/tail()",
+      "slot": 366,
+      "source": ", "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[9]/section[2]/exercise[14]/solution[1]/para[1]/math[5]/tail()",
+      "slot": 367,
+      "source": ", "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[2]/para[3]/text()",
+      "slot": 368,
+      "source": "For the following exercises, find all exact solutions on "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[2]/para[4]/text()",
+      "slot": 369,
+      "source": "For the following exercises, solve with the methods shown in this section exactly on the interval "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[2]/para[5]/text()",
+      "slot": 370,
+      "source": "For the following exercises, solve exactly on the interval "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[9]/section[2]/para[5]/math[1]/tail()",
+      "slot": 371,
+      "source": " Use the quadratic formula if the equations do not factor."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[2]/exercise[40]/solution[1]/para[1]/text()",
+      "slot": 372,
+      "source": "There are no solutions."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[2]/exercise[46]/solution[1]/para[1]/text()",
+      "slot": 373,
+      "source": "There are no solutions."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[2]/para[6]/text()",
+      "slot": 374,
+      "source": "For the following exercises, find exact solutions on the interval "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[9]/section[2]/para[6]/math[1]/tail()",
+      "slot": 375,
+      "source": " Look for opportunities to use trigonometric identities."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[2]/exercise[48]/solution[1]/para[1]/text()",
+      "slot": 376,
+      "source": "There are no solutions."
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[9]/section[2]/exercise[56]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 377,
+      "source": ", "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[9]/section[2]/exercise[60]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 378,
+      "source": ", "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[3]/title[1]/text()",
+      "slot": 379,
+      "source": "Graphical"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[3]/para[1]/text()",
+      "slot": 380,
+      "source": "For the following exercises, algebraically determine all solutions of the trigonometric equation exactly, then verify the results by graphing the equation and finding the zeros. Use an interval of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[9]/section[3]/para[1]/math[1]/tail()",
+      "slot": 381,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[3]/exercise[4]/solution[1]/para[1]/text()",
+      "slot": 382,
+      "source": "There are no solutions."
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[9]/section[3]/exercise[6]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 383,
+      "source": ", \n  \n  "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[4]/title[1]/text()",
+      "slot": 384,
+      "source": "Technology"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[4]/para[1]/text()",
+      "slot": 385,
+      "source": "For the following exercises, use a calculator to find all solutions to four decimal places."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[4]/para[2]/text()",
+      "slot": 386,
+      "source": "For the following exercises, solve the equations algebraically, and then use a calculator to find the values on the interval "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[9]/section[4]/para[2]/math[1]/tail()",
+      "slot": 387,
+      "source": " Round to four decimal places."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[5]/title[1]/text()",
+      "slot": 388,
+      "source": "Extensions"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[5]/para[1]/text()",
+      "slot": 389,
+      "source": "For the following exercises, find all solutions exactly to the equations on the interval "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[5]/exercise[5]/solution[1]/para[1]/text()",
+      "slot": 390,
+      "source": "There are no solutions."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[5]/exercise[9]/solution[1]/para[1]/text()",
+      "slot": 391,
+      "source": "There are no solutions."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[6]/title[1]/text()",
+      "slot": 392,
+      "source": "Real-World Applications"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[6]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 393,
+      "source": "An airplane has only enough gas to fly to a city 200 miles northeast of its current location. If the pilot knows that the city is 25 miles north, how many degrees north of east should the airplane fly?"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[6]/exercise[2]/problem[1]/para[1]/text()",
+      "slot": 394,
+      "source": "If a loading ramp is placed next to a truck, at a height of 4 feet, and the ramp is 15 feet long, what angle does the ramp make with the ground?"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[6]/exercise[3]/problem[1]/para[1]/text()",
+      "slot": 395,
+      "source": "If a loading ramp is placed next to a truck, at a height of 2 feet, and the ramp is 20 feet long, what angle does the ramp make with the ground?"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[6]/exercise[4]/problem[1]/para[1]/text()",
+      "slot": 396,
+      "source": "A woman is watching a launched rocket currently 11 miles in altitude. If she is standing 4 miles from the launch pad, at what angle is she looking up from horizontal?"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[6]/exercise[5]/problem[1]/para[1]/text()",
+      "slot": 397,
+      "source": "An astronaut is in a launched rocket currently 15 miles in altitude. If a man is standing 2 miles from the launch pad, at what angle is she looking down at him from horizontal? (Hint: this is called the angle of depression.)"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[6]/exercise[6]/problem[1]/para[1]/text()",
+      "slot": 398,
+      "source": "A woman is standing 8 meters away from a 10-meter tall building. At what angle is she looking to the top of the building?"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[6]/exercise[7]/problem[1]/para[1]/text()",
+      "slot": 399,
+      "source": "A man is standing 10 meters away from a 6-meter tall building. Someone at the top of the building is looking down at him. At what angle is the person looking at him?"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[6]/exercise[8]/problem[1]/para[1]/text()",
+      "slot": 400,
+      "source": "A 20-foot tall building has a shadow that is 55 feet long. What is the angle of elevation of the sun?"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[6]/exercise[9]/problem[1]/para[1]/text()",
+      "slot": 401,
+      "source": "A 90-foot tall building has a shadow that is 2 feet long. What is the angle of elevation of the sun?"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[6]/exercise[10]/problem[1]/para[1]/text()",
+      "slot": 402,
+      "source": "A spotlight on the ground 3 meters from a 2-meter tall man casts a 6 meter shadow on a wall 6 meters from the man. At what angle is the light?"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[6]/exercise[11]/problem[1]/para[1]/text()",
+      "slot": 403,
+      "source": "A spotlight on the ground 3 feet from a 5-foot tall woman casts a 15-foot tall shadow on a wall 6 feet from the woman. At what angle is the light?"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[6]/para[1]/text()",
+      "slot": 404,
+      "source": "For the following exercises, find a solution to the word problem algebraically. Then use a calculator to verify the result. Round the answer to the nearest tenth of a degree."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[6]/exercise[12]/problem[1]/para[1]/text()",
+      "slot": 405,
+      "source": "A person does a handstand with his feet touching a wall and his hands 1.5 feet away from the wall. If the person is 6 feet tall, what angle do his feet make with the wall?"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[6]/exercise[13]/problem[1]/para[1]/text()",
+      "slot": 406,
+      "source": "A person does a handstand with her feet touching a wall and her hands 3 feet away from the wall. If the person is 5 feet tall, what angle do her feet make with the wall? "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[9]/section[6]/exercise[14]/problem[1]/para[1]/text()",
+      "slot": 407,
+      "source": "A 23-foot ladder is positioned next to a house. If the ladder slips at 7 feet from the house when there is not enough traction, what angle should the ladder make with the ground to avoid slipping?"
+    }
+  ],
+  "source": {
+    "bytes": 184807,
+    "path": "source/modules/m49398/index.cnxml",
+    "sha256": "bea40de87c9c0beb6555d8d6a29b59b133ee8f6836e324cf4f954ba2af1502b1"
+  }
+}

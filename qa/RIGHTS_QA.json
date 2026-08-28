@@ -1,0 +1,29 @@
+{
+  "attribution": "Access for free at https://openstax.org/books/precalculus-2e/pages/1-introduction-to-functions",
+  "checks": {
+    "adaptation_uses_same_license": "PASS",
+    "component_specific_credits_preserved_in_cnxml_and_captions": "PASS",
+    "license_file_present": "PASS",
+    "reader_contains_license_and_attribution": "PASS",
+    "trademark_exclusion_recorded": "PASS"
+  },
+  "license": {
+    "identifier": "CC-BY-NC-SA-4.0",
+    "name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+    "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+  },
+  "packet_id": "HP-A30-003",
+  "primary_evidence": [
+    {
+      "claim": "Precalculus 2e is licensed under CC BY-NC-SA 4.0 and adaptations must retain attribution and ShareAlike terms.",
+      "url": "https://openstax.org/books/precalculus-2e/pages/preface"
+    },
+    {
+      "claim": "The authority repository identifies Precalculus 2e as available under the Creative Commons Attribution-NonCommercial-ShareAlike license.",
+      "url": "https://github.com/openstax/osbooks-college-algebra-bundle"
+    }
+  ],
+  "schema_id": "hp-a30-003-rights-qa-v1",
+  "status": "PASS",
+  "verified_on": "2026-08-28"
+}

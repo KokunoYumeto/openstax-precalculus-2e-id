@@ -1,0 +1,1032 @@
+{
+  "module_id": "m49397",
+  "schema_id": "hp-a30-cnxml-source-reader-slots-v1",
+  "slot_count": 170,
+  "slots": [
+    {
+      "kind": "text",
+      "locator": "/document[1]/title[1]/text()",
+      "slot": 1,
+      "source": "Sum-to-Product and Product-to-Sum Formulas"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/metadata[1]/title[1]/text()",
+      "slot": 2,
+      "source": "Sum-to-Product and Product-to-Sum Formulas"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/metadata[1]/abstract[1]/para[1]/text()",
+      "slot": 3,
+      "source": "In this section, you will:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/metadata[1]/abstract[1]/list[1]/item[1]/text()",
+      "slot": 4,
+      "source": "Express products as sums."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/metadata[1]/abstract[1]/list[1]/item[2]/text()",
+      "slot": 5,
+      "source": "Express sums as products."
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/figure[1]/media[1]/@alt",
+      "slot": 6,
+      "source": "Photo of the UCLA marching band."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/figure[1]/caption[1]/text()",
+      "slot": 7,
+      "source": "The UCLA marching band (credit: Eric Chan, Flickr). "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/para[1]/text()",
+      "slot": 8,
+      "source": "A band marches down the field creating an amazing sound that bolsters the crowd. That sound travels as a wave that can be interpreted using trigonometric functions. For example, "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/para[1]/link[1]/tail()",
+      "slot": 9,
+      "source": " represents a sound wave for the musical note A. In this section, we will investigate trigonometric identities that are the foundation of everyday phenomena such as sound waves."
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/figure[2]/media[1]/@alt",
+      "slot": 10,
+      "source": "Graph of a sound wave for the musical note A - it is a periodic function much like sin and cos - from 0 to .01"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/title[1]/text()",
+      "slot": 11,
+      "source": "Expressing Products as Sums"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[1]/text()",
+      "slot": 12,
+      "source": "We have already learned a number of formulas useful for expanding or simplifying trigonometric expressions, but sometimes we may need to express the product of cosine and sine as a sum. We can use the "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[1]/term[1]/text()",
+      "slot": 13,
+      "source": "product-to-sum formulas"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[1]/term[1]/tail()",
+      "slot": 14,
+      "source": ", which express products of trigonometric functions as sums. Let’s investigate the cosine identity first and then the sine identity."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/section[1]/title[1]/text()",
+      "slot": 15,
+      "source": "Expressing Products as Sums for Cosine"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/section[1]/para[1]/text()",
+      "slot": 16,
+      "source": "We can derive the product-to-sum formula from the sum and difference identities for "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/section[1]/para[1]/term[1]/text()",
+      "slot": 17,
+      "source": "cosine"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/section[1]/para[1]/term[1]/tail()",
+      "slot": 18,
+      "source": ". If we add the two equations, we get:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/section[1]/para[2]/text()",
+      "slot": 19,
+      "source": "Then, we divide by "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/section[1]/para[2]/math[1]/tail()",
+      "slot": 20,
+      "source": " to isolate the product of cosines:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/section[1]/note[1]/label[1]/text()",
+      "slot": 21,
+      "source": "How To"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/section[1]/note[1]/para[1]/emphasis[1]/text()",
+      "slot": 22,
+      "source": "Given a product of cosines, express as a sum.\n        "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/section[1]/note[1]/list[1]/item[1]/text()",
+      "slot": 23,
+      "source": "Write the formula for the product of cosines."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/section[1]/note[1]/list[1]/item[2]/text()",
+      "slot": 24,
+      "source": "Substitute the given angles into the formula."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/section[1]/note[1]/list[1]/item[3]/text()",
+      "slot": 25,
+      "source": "Simplify."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/section[1]/example[1]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 26,
+      "source": "Writing the Product as a Sum Using the Product-to-Sum Formula for Cosine"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/section[1]/example[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 27,
+      "source": "Write the following product of cosines as a sum: "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/section[1]/example[1]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 28,
+      "source": "We begin by writing the formula for the product of cosines:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/section[1]/example[1]/exercise[1]/solution[1]/para[2]/text()",
+      "slot": 29,
+      "source": "We can then substitute the given angles into the formula and simplify."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/section[1]/note[2]/label[1]/text()",
+      "slot": 30,
+      "source": "Try It"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/section[1]/note[2]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 31,
+      "source": "Use the product-to-sum formula to write the product as a sum or difference: "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/section[2]/title[1]/text()",
+      "slot": 32,
+      "source": "Expressing the Product of Sine and Cosine as a Sum"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/section[2]/para[1]/text()",
+      "slot": 33,
+      "source": "Next, we will derive the product-to-sum formula for sine and cosine from the sum and difference formulas for "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/section[2]/para[1]/term[1]/text()",
+      "slot": 34,
+      "source": "sine"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/section[2]/para[1]/term[1]/tail()",
+      "slot": 35,
+      "source": ". If we add the sum and difference identities, we get:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/section[2]/para[2]/text()",
+      "slot": 36,
+      "source": "Then, we divide by 2 to isolate the product of cosine and sine:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/section[2]/example[1]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 37,
+      "source": "Writing the Product as a Sum Containing only Sine or Cosine"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/section[2]/example[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 38,
+      "source": "Express the following product as a sum containing only sine or cosine and no products: "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/section[2]/example[1]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 39,
+      "source": "Write the formula for the product of sine and cosine. Then substitute the given values into the formula and simplify."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/section[2]/note[1]/label[1]/text()",
+      "slot": 40,
+      "source": "Try It"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/section[2]/note[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 41,
+      "source": "Use the product-to-sum formula to write the product as a sum: "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/section[3]/title[1]/text()",
+      "slot": 42,
+      "source": "Expressing Products of Sines in Terms of Cosine"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/section[3]/para[1]/text()",
+      "slot": 43,
+      "source": "Expressing the product of sines in terms of "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/section[3]/para[1]/term[1]/text()",
+      "slot": 44,
+      "source": "cosine"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/section[3]/para[1]/term[1]/tail()",
+      "slot": 45,
+      "source": " is also derived from the sum and difference identities for cosine. In this case, we will first subtract the two cosine formulas:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/section[3]/para[2]/text()",
+      "slot": 46,
+      "source": "Then, we divide by 2 to isolate the product of sines:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/section[3]/para[3]/text()",
+      "slot": 47,
+      "source": "Similarly we could express the product of cosines in terms of sine or derive other product-to-sum formulas."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/section[3]/note[1]/title[1]/text()",
+      "slot": 48,
+      "source": "The Product-to-Sum Formulas"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/section[3]/note[1]/para[1]/text()",
+      "slot": 49,
+      "source": "The "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/section[3]/note[1]/para[1]/term[1]/text()",
+      "slot": 50,
+      "source": "product-to-sum formulas"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/section[3]/note[1]/para[1]/term[1]/tail()",
+      "slot": 51,
+      "source": " are as follows:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/section[3]/example[1]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 52,
+      "source": "Express the Product as a Sum or Difference"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/section[3]/example[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 53,
+      "source": "Write "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/section[3]/example[1]/exercise[1]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 54,
+      "source": " as a sum or difference."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/section[3]/example[1]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 55,
+      "source": "We have the product of cosines, so we begin by writing the related formula. Then we substitute the given angles and simplify."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/section[3]/example[1]/exercise[1]/solution[1]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[3]/mtd[2]/mrow[1]/mtext[1]/text()",
+      "slot": 56,
+      "source": "Use even-odd identity"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/section[3]/note[2]/label[1]/text()",
+      "slot": 57,
+      "source": "Try It"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/section[3]/note[2]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 58,
+      "source": "Use the product-to-sum formula to evaluate "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/title[1]/text()",
+      "slot": 59,
+      "source": "Expressing Sums as Products"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/para[1]/text()",
+      "slot": 60,
+      "source": "Some problems require the reverse of the process we just used. The "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/para[1]/term[1]/text()",
+      "slot": 61,
+      "source": "sum-to-product formulas"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/para[1]/term[1]/tail()",
+      "slot": 62,
+      "source": " allow us to express sums of sine or cosine as products. These formulas can be derived from the product-to-sum identities. For example, with a few substitutions, we can derive the sum-to-product identity for "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/para[1]/term[2]/text()",
+      "slot": 63,
+      "source": "sine"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/para[1]/term[2]/tail()",
+      "slot": 64,
+      "source": ". Let "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/para[1]/math[1]/tail()",
+      "slot": 65,
+      "source": " and "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/para[2]/text()",
+      "slot": 66,
+      "source": "Then,"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/para[3]/text()",
+      "slot": 67,
+      "source": "Thus, replacing "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/para[3]/math[1]/tail()",
+      "slot": 68,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/para[3]/math[2]/tail()",
+      "slot": 69,
+      "source": " in the product-to-sum formula with the substitute expressions, we have"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/equation[2]/math[1]/mrow[1]/mtable[1]/mtr[2]/mtd[3]/mrow[1]/mtext[1]/text()",
+      "slot": 70,
+      "source": "Substitute for"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/equation[2]/math[1]/mrow[1]/mtable[1]/mtr[2]/mtd[3]/mrow[1]/mtext[2]/text()",
+      "slot": 71,
+      "source": " and "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/para[4]/text()",
+      "slot": 72,
+      "source": "The other sum-to-product identities are derived similarly."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[1]/title[1]/text()",
+      "slot": 73,
+      "source": "Sum-to-Product Formulas"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[1]/para[1]/text()",
+      "slot": 74,
+      "source": "The "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[1]/para[1]/term[1]/text()",
+      "slot": 75,
+      "source": "sum-to-product formulas"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/note[1]/para[1]/term[1]/tail()",
+      "slot": 76,
+      "source": " are as follows:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 77,
+      "source": "Writing the Difference of Sines as a Product"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 78,
+      "source": "Write the following difference of sines expression as a product: "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 79,
+      "source": "We begin by writing the formula for the difference of sines."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/para[2]/text()",
+      "slot": 80,
+      "source": "Substitute the values into the formula, and simplify."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[2]/label[1]/text()",
+      "slot": 81,
+      "source": "Try It"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[2]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 82,
+      "source": "Use the sum-to-product formula to write the sum as a product: "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 83,
+      "source": "Evaluating Using the Sum-to-Product Formula"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 84,
+      "source": "Evaluate "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 85,
+      "source": "We begin by writing the formula for the difference of cosines."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/solution[1]/para[2]/text()",
+      "slot": 86,
+      "source": "Then we substitute the given angles and simplify."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[3]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 87,
+      "source": "Proving an Identity"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[3]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 88,
+      "source": "Prove the identity:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[3]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 89,
+      "source": "We will start with the left side, the more complicated side of the equation, and rewrite the expression until it matches the right side."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[3]/exercise[1]/commentary[1]/title[1]/text()",
+      "slot": 90,
+      "source": "Analysis "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[3]/exercise[1]/commentary[1]/para[2]/text()",
+      "slot": 91,
+      "source": "Recall that verifying trigonometric identities has its own set of rules. The procedures for solving an equation are not the same as the procedures for verifying an identity. When we prove an identity, we pick one side to work on and make substitutions until that side is transformed into the other side."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[4]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 92,
+      "source": "Verifying the Identity Using Double-Angle Formulas and Reciprocal Identities"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[4]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 93,
+      "source": "Verify the identity "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[4]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 94,
+      "source": "For verifying this equation, we are bringing together several of the identities. We will use the double-angle formula and the reciprocal identities. We will work with the right side of the equation and rewrite it until it matches the left side."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[3]/label[1]/text()",
+      "slot": 95,
+      "source": "Try It"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[3]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 96,
+      "source": "Verify the identity "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[4]/label[1]/text()",
+      "slot": 97,
+      "source": "Media"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[4]/para[1]/text()",
+      "slot": 98,
+      "source": "Access these online resources for additional instruction and practice with the product-to-sum and sum-to-product identities."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[4]/list[1]/item[1]/link[1]/text()",
+      "slot": 99,
+      "source": "Sum to Product Identities"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[4]/list[1]/item[2]/link[1]/text()",
+      "slot": 100,
+      "source": "Sum to Product and Product to Sum Identities"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/title[1]/text()",
+      "slot": 101,
+      "source": "Key Equations"
+    },
+    {
+      "kind": "attribute:summary",
+      "locator": "/document[1]/content[1]/section[3]/table[1]/@summary",
+      "slot": 102,
+      "source": ".."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/table[1]/tgroup[1]/tbody[1]/row[1]/entry[1]/emphasis[1]/text()",
+      "slot": 103,
+      "source": "Product-to-sum Formulas"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/table[1]/tgroup[1]/tbody[1]/row[2]/entry[1]/emphasis[1]/text()",
+      "slot": 104,
+      "source": "Sum-to-product Formulas"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/title[1]/text()",
+      "slot": 105,
+      "source": "Key Concepts"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/list[1]/item[1]/text()",
+      "slot": 106,
+      "source": "From the sum and difference identities, we can derive the product-to-sum formulas and the sum-to-product formulas for sine and cosine."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/list[1]/item[2]/text()",
+      "slot": 107,
+      "source": "We can use the product-to-sum formulas to rewrite products of sines, products of cosines, and products of sine and cosine as sums or differences of sines and cosines. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/list[1]/item[2]/link[1]/tail()",
+      "slot": 108,
+      "source": ", "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/list[1]/item[2]/link[2]/tail()",
+      "slot": 109,
+      "source": ", and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/list[1]/item[2]/link[3]/tail()",
+      "slot": 110,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/list[1]/item[3]/text()",
+      "slot": 111,
+      "source": "We can also derive the sum-to-product identities from the product-to-sum identities using substitution."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/list[1]/item[4]/text()",
+      "slot": 112,
+      "source": "We can use the sum-to-product formulas to rewrite sum or difference of sines, cosines, or products sine and cosine as products of sines and cosines. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/list[1]/item[4]/link[1]/tail()",
+      "slot": 113,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/list[1]/item[5]/text()",
+      "slot": 114,
+      "source": "Trigonometric expressions are often simpler to evaluate using the formulas. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/list[1]/item[5]/link[1]/tail()",
+      "slot": 115,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/list[1]/item[6]/text()",
+      "slot": 116,
+      "source": "The identities can be verified using other formulas or by converting the expressions to sines and cosines. To verify an identity, we choose the more complicated side of the equals sign and rewrite it until it is transformed into the other side. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/list[1]/item[6]/link[1]/tail()",
+      "slot": 117,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/list[1]/item[6]/link[2]/tail()",
+      "slot": 118,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/title[1]/text()",
+      "slot": 119,
+      "source": "Section Exercises"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[1]/title[1]/text()",
+      "slot": 120,
+      "source": "Verbal"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 121,
+      "source": "Starting with the product to sum formula "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/section[1]/exercise[1]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 122,
+      "source": " explain how to determine the formula for "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[1]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 123,
+      "source": "Substitute "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/section[1]/exercise[1]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 124,
+      "source": " into cosine and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/section[1]/exercise[1]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 125,
+      "source": " into sine and evaluate."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[1]/exercise[2]/problem[1]/para[1]/text()",
+      "slot": 126,
+      "source": "Explain two different methods of calculating "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/section[1]/exercise[2]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 127,
+      "source": " one of which uses the product to sum. Which method is easier?"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[1]/exercise[3]/problem[1]/para[1]/text()",
+      "slot": 128,
+      "source": "Explain a situation where we would convert an equation from a sum to a product and give an example."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[1]/exercise[3]/solution[1]/para[1]/text()",
+      "slot": 129,
+      "source": "Answers will vary. There are some equations that involve a sum of two trig expressions where when converted to a product are easier to solve. For example: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/section[1]/exercise[3]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 130,
+      "source": " When converting the numerator to a product the equation becomes: "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[1]/exercise[4]/problem[1]/para[1]/text()",
+      "slot": 131,
+      "source": "Explain a situation where we would convert an equation from a product to a sum, and give an example."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[2]/title[1]/text()",
+      "slot": 132,
+      "source": "Algebraic"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[2]/para[1]/text()",
+      "slot": 133,
+      "source": "For the following exercises, rewrite the product as a sum or difference."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[2]/para[2]/text()",
+      "slot": 134,
+      "source": "For the following exercises, rewrite the sum or difference as a product."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[2]/para[3]/text()",
+      "slot": 135,
+      "source": "For the following exercises, evaluate the product for the following using a sum or difference of two functions."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[2]/para[4]/text()",
+      "slot": 136,
+      "source": "For the following exercises, evaluate the product using a sum or difference of two functions. Leave in terms of sine and cosine."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[2]/para[5]/text()",
+      "slot": 137,
+      "source": "For the following exercises, rewrite the sum as a product of two functions. Leave in terms of sine and cosine."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[2]/para[6]/text()",
+      "slot": 138,
+      "source": "For the following exercises, prove the identity."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[3]/title[1]/text()",
+      "slot": 139,
+      "source": "Numeric"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[3]/para[1]/text()",
+      "slot": 140,
+      "source": "For the following exercises, rewrite the sum as a product of two functions or the product as a sum of two functions. Give your answer in terms of sines and cosines. Then evaluate the final answer numerically, rounded to four decimal places."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[3]/exercise[1]/solution[1]/para[1]/math[1]/mrow[1]/mtext[1]/text()",
+      "slot": 141,
+      "source": " 1"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[3]/exercise[1]/solution[1]/para[1]/math[1]/mrow[1]/mtext[2]/text()",
+      "slot": 142,
+      "source": ".5081"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[4]/title[1]/text()",
+      "slot": 143,
+      "source": "Technology"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[4]/para[1]/text()",
+      "slot": 144,
+      "source": "For the following exercises, algebraically determine whether each of the given expressions is a true identity. If it is not an identity, replace the right-hand side with an expression equivalent to the left side. Verify the results by graphing both expressions on a calculator."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[4]/exercise[2]/solution[1]/para[1]/text()",
+      "slot": 145,
+      "source": "It is and identity."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[4]/exercise[4]/solution[1]/para[1]/text()",
+      "slot": 146,
+      "source": "It is not an identity, but "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/section[4]/exercise[4]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 147,
+      "source": " is. "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[4]/para[2]/text()",
+      "slot": 148,
+      "source": "For the following exercises, simplify the expression to one term, then graph the original function and your simplified version to verify they are identical."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[5]/title[1]/text()",
+      "slot": 149,
+      "source": "Extensions"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[5]/para[1]/text()",
+      "slot": 150,
+      "source": "For the following exercises, prove the following sum-to-product formulas."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[5]/exercise[2]/solution[1]/para[1]/text()",
+      "slot": 151,
+      "source": "Start with "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/section[5]/exercise[2]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 152,
+      "source": " Make a substitution and let "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/section[5]/exercise[2]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 153,
+      "source": " and let "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/section[5]/exercise[2]/solution[1]/para[1]/math[3]/tail()",
+      "slot": 154,
+      "source": " so "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/section[5]/exercise[2]/solution[1]/para[1]/math[4]/tail()",
+      "slot": 155,
+      "source": " becomes "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[5]/exercise[2]/solution[1]/para[2]/text()",
+      "slot": 156,
+      "source": "Since "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/section[5]/exercise[2]/solution[1]/para[2]/math[1]/tail()",
+      "slot": 157,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/section[5]/exercise[2]/solution[1]/para[2]/math[2]/tail()",
+      "slot": 158,
+      "source": " we can solve for "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/section[5]/exercise[2]/solution[1]/para[2]/math[3]/tail()",
+      "slot": 159,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/section[5]/exercise[2]/solution[1]/para[2]/math[4]/tail()",
+      "slot": 160,
+      "source": " in terms of "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[5]/exercise[2]/solution[1]/para[2]/emphasis[1]/text()",
+      "slot": 161,
+      "source": "x"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/section[5]/exercise[2]/solution[1]/para[2]/emphasis[1]/tail()",
+      "slot": 162,
+      "source": " and "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[5]/exercise[2]/solution[1]/para[2]/emphasis[2]/text()",
+      "slot": 163,
+      "source": "y"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/section[5]/exercise[2]/solution[1]/para[2]/emphasis[2]/tail()",
+      "slot": 164,
+      "source": " and substitute in for "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/section[5]/exercise[2]/solution[1]/para[2]/math[5]/tail()",
+      "slot": 165,
+      "source": " and get "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/section[5]/para[2]/text()",
+      "slot": 166,
+      "source": "For the following exercises, prove the identity."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/glossary[1]/definition[1]/term[1]/text()",
+      "slot": 167,
+      "source": "product-to-sum formula"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/glossary[1]/definition[1]/meaning[1]/text()",
+      "slot": 168,
+      "source": "a trigonometric identity that allows the writing of a product of trigonometric functions as a sum or difference of trigonometric functions"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/glossary[1]/definition[2]/term[1]/text()",
+      "slot": 169,
+      "source": "sum-to-product formula"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/glossary[1]/definition[2]/meaning[1]/text()",
+      "slot": 170,
+      "source": "a trigonometric identity that allows, by using substitution, the writing of a sum of trigonometric functions as a product of trigonometric functions"
+    }
+  ],
+  "source": {
+    "bytes": 161828,
+    "path": "source/modules/m49397/index.cnxml",
+    "sha256": "518e82cad5d41cb19f9a3e5389d70d54c2c80817461c8be92df6d9178b1d2899"
+  }
+}

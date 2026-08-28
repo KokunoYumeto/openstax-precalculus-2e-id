@@ -1,0 +1,4698 @@
+{
+  "module_id": "m49390",
+  "schema_id": "hp-a30-cnxml-source-reader-slots-v1",
+  "slot_count": 781,
+  "slots": [
+    {
+      "kind": "text",
+      "locator": "/document[1]/title[1]/text()",
+      "slot": 1,
+      "source": "Inverse Trigonometric Functions"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/metadata[1]/title[1]/text()",
+      "slot": 2,
+      "source": "Inverse Trigonometric Functions"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/metadata[1]/abstract[1]/para[1]/text()",
+      "slot": 3,
+      "source": "In this section, you will:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/metadata[1]/abstract[1]/list[1]/item[1]/text()",
+      "slot": 4,
+      "source": "Understand and use the inverse sine, cosine, and tangent functions."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/metadata[1]/abstract[1]/list[1]/item[2]/text()",
+      "slot": 5,
+      "source": "Find the exact value of expressions involving the inverse sine, cosine, and tangent functions."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/metadata[1]/abstract[1]/list[1]/item[3]/text()",
+      "slot": 6,
+      "source": "Use a calculator to evaluate inverse trigonometric functions."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/metadata[1]/abstract[1]/list[1]/item[4]/text()",
+      "slot": 7,
+      "source": "Find exact values of composite functions with inverse trigonometric functions."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/para[1]/text()",
+      "slot": 8,
+      "source": "For any "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/para[1]/term[1]/text()",
+      "slot": 9,
+      "source": "right triangle"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/para[1]/term[1]/tail()",
+      "slot": 10,
+      "source": ", given one other angle and the length of one side, we can figure out what the other angles and sides are. But what if we are given only two sides of a right triangle? We need a procedure that leads us from a ratio of sides to an angle. This is where the notion of an inverse to a trigonometric function comes into play. In this section, we will explore the "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/para[1]/term[2]/text()",
+      "slot": 11,
+      "source": "inverse trigonometric functions"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/para[1]/term[2]/tail()",
+      "slot": 12,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/title[1]/text()",
+      "slot": 13,
+      "source": "Understanding and Using the Inverse Sine, Cosine, and Tangent Functions"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[1]/text()",
+      "slot": 14,
+      "source": "In order to use inverse trigonometric functions, we need to understand that an inverse trigonometric function “undoes” what the original trigonometric function “does,” as is the case with any other function and its inverse. In other words, the domain of the inverse function is the range of the original function, and vice versa, as summarized in "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[1]/link[1]/tail()",
+      "slot": 15,
+      "source": "."
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[1]/figure[1]/media[1]/@alt",
+      "slot": 16,
+      "source": "A chart that says “Trig Functinos”, “Inverse Trig Functions”, “Domain: Measure of an angle”, “Domain: Ratio”, “Range: Ratio”, and “Range: Measure of an angle”."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[2]/text()",
+      "slot": 17,
+      "source": "For example, if "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[2]/math[1]/tail()",
+      "slot": 18,
+      "source": " then we would write "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[2]/math[2]/tail()",
+      "slot": 19,
+      "source": " Be aware that "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[2]/math[3]/tail()",
+      "slot": 20,
+      "source": " does not mean "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[2]/math[4]/tail()",
+      "slot": 21,
+      "source": " The following examples illustrate the inverse trigonometric functions:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/list[1]/item[1]/text()",
+      "slot": 22,
+      "source": "Since "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/list[1]/item[1]/math[1]/mrow[1]/mtext[1]/text()",
+      "slot": 23,
+      "source": "sin"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/list[1]/item[1]/math[1]/tail()",
+      "slot": 24,
+      "source": " then "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/list[1]/item[1]/math[2]/mrow[1]/msup[1]/mrow[1]/mtext[1]/text()",
+      "slot": 25,
+      "source": "sin"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/list[1]/item[2]/text()",
+      "slot": 26,
+      "source": "Since "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/list[1]/item[2]/math[1]/tail()",
+      "slot": 27,
+      "source": " then "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/list[1]/item[3]/text()",
+      "slot": 28,
+      "source": "Since "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/list[1]/item[3]/math[1]/tail()",
+      "slot": 29,
+      "source": " then "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[3]/text()",
+      "slot": 30,
+      "source": "In previous sections, we evaluated the trigonometric functions at various angles, but at times we need to know what angle would yield a specific sine, cosine, or tangent value. For this, we need inverse functions. Recall that, for a "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[3]/term[1]/text()",
+      "slot": 31,
+      "source": "one-to-one function"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[3]/term[1]/tail()",
+      "slot": 32,
+      "source": ", if "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[3]/math[1]/tail()",
+      "slot": 33,
+      "source": " then an inverse function would satisfy "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[4]/text()",
+      "slot": 34,
+      "source": "Bear in mind that the sine, cosine, and tangent functions are not one-to-one functions. The graph of each function would fail the horizontal line test. In fact, no periodic function can be one-to-one because each output in its range corresponds to at least one input in every period, and there are an infinite number of periods. As with other functions that are not one-to-one, we will need to restrict the "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[4]/term[1]/text()",
+      "slot": 35,
+      "source": "domain"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[4]/term[1]/tail()",
+      "slot": 36,
+      "source": " of each function to yield a new function that is one-to-one. We choose a domain for each function that includes the number 0. "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[4]/link[1]/tail()",
+      "slot": 37,
+      "source": " shows the graph of the sine function limited to "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[4]/math[1]/tail()",
+      "slot": 38,
+      "source": " and the graph of the cosine function limited to "
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[1]/figure[2]/media[1]/@alt",
+      "slot": 39,
+      "source": "Two side-by-side graphs. The first graph, graph A, shows half of a period of the function sine of x. The second graph, graph B, shows half a period of the function cosine of x."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/figure[2]/caption[1]/text()",
+      "slot": 40,
+      "source": "(a) Sine function on a restricted domain of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/figure[2]/caption[1]/math[1]/tail()",
+      "slot": 41,
+      "source": " (b) Cosine function on a restricted domain of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[5]/link[1]/tail()",
+      "slot": 42,
+      "source": " shows the graph of the tangent function limited to "
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[1]/figure[3]/media[1]/@alt",
+      "slot": 43,
+      "source": "A graph of one period of tangent of x, from -pi/2 to pi/2."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/figure[3]/caption[1]/text()",
+      "slot": 44,
+      "source": "Tangent function on a restricted domain of "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[6]/text()",
+      "slot": 45,
+      "source": "These conventional choices for the restricted domain are somewhat arbitrary, but they have important, helpful characteristics. Each domain includes the origin and some positive values, and most importantly, each results in a one-to-one function that is invertible. The conventional choice for the restricted domain of the tangent function also has the useful property that it extends from one "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[6]/term[1]/text()",
+      "slot": 46,
+      "source": "vertical asymptote"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[6]/term[1]/tail()",
+      "slot": 47,
+      "source": " to the next instead of being divided into two parts by an asymptote."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[7]/text()",
+      "slot": 48,
+      "source": "On these restricted domains, we can define the "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[7]/term[1]/text()",
+      "slot": 49,
+      "source": "inverse trigonometric functions"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[7]/term[1]/tail()",
+      "slot": 50,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/list[2]/item[1]/text()",
+      "slot": 51,
+      "source": "The "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/list[2]/item[1]/term[1]/text()",
+      "slot": 52,
+      "source": "inverse sine function"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/list[2]/item[1]/math[1]/tail()",
+      "slot": 53,
+      "source": " means "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/list[2]/item[1]/math[2]/tail()",
+      "slot": 54,
+      "source": " The inverse sine function is sometimes called the "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/list[2]/item[1]/term[2]/text()",
+      "slot": 55,
+      "source": "arcsine"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/list[2]/item[1]/term[2]/tail()",
+      "slot": 56,
+      "source": " function, and notated "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/list[2]/item[1]/equation[1]/math[1]/mrow[1]/mtext[1]/text()",
+      "slot": 57,
+      "source": "has domain"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/list[2]/item[1]/equation[1]/math[1]/mrow[1]/mtext[2]/text()",
+      "slot": 58,
+      "source": "and range"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/list[2]/item[2]/text()",
+      "slot": 59,
+      "source": "The "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/list[2]/item[2]/term[1]/text()",
+      "slot": 60,
+      "source": "inverse cosine function"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/list[2]/item[2]/math[1]/tail()",
+      "slot": 61,
+      "source": " means "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/list[2]/item[2]/math[2]/tail()",
+      "slot": 62,
+      "source": " The inverse cosine function is sometimes called the "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/list[2]/item[2]/term[2]/text()",
+      "slot": 63,
+      "source": "arccosine"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/list[2]/item[2]/term[2]/tail()",
+      "slot": 64,
+      "source": " function, and notated "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/list[2]/item[2]/equation[1]/math[1]/mrow[1]/mtext[1]/text()",
+      "slot": 65,
+      "source": "has domain"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/list[2]/item[2]/equation[1]/math[1]/mrow[1]/mtext[2]/text()",
+      "slot": 66,
+      "source": "and range"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/list[2]/item[3]/text()",
+      "slot": 67,
+      "source": "The "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/list[2]/item[3]/term[1]/text()",
+      "slot": 68,
+      "source": "inverse tangent function"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/list[2]/item[3]/math[1]/tail()",
+      "slot": 69,
+      "source": " means "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/list[2]/item[3]/math[2]/tail()",
+      "slot": 70,
+      "source": " The inverse tangent function is sometimes called the "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/list[2]/item[3]/term[2]/text()",
+      "slot": 71,
+      "source": "arctangent"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/list[2]/item[3]/term[2]/tail()",
+      "slot": 72,
+      "source": " function, and notated "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/list[2]/item[3]/equation[1]/math[1]/mrow[1]/mtext[1]/text()",
+      "slot": 73,
+      "source": "has domain"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/list[2]/item[3]/equation[1]/math[1]/mrow[1]/mtext[2]/text()",
+      "slot": 74,
+      "source": "and range"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[8]/text()",
+      "slot": 75,
+      "source": "The graphs of the inverse functions are shown in "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[8]/link[1]/tail()",
+      "slot": 76,
+      "source": ", "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[8]/link[2]/tail()",
+      "slot": 77,
+      "source": ", and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[8]/link[3]/tail()",
+      "slot": 78,
+      "source": ". Notice that the output of each of these inverse functions is a "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[8]/emphasis[1]/text()",
+      "slot": 79,
+      "source": "number, "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[8]/emphasis[1]/tail()",
+      "slot": 80,
+      "source": "an angle in radian measure. We see that "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[8]/math[1]/tail()",
+      "slot": 81,
+      "source": " has domain "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[8]/math[2]/tail()",
+      "slot": 82,
+      "source": " and range "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[8]/math[4]/tail()",
+      "slot": 83,
+      "source": " has domain "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[8]/math[5]/tail()",
+      "slot": 84,
+      "source": " and range "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[8]/math[6]/tail()",
+      "slot": 85,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[8]/math[7]/tail()",
+      "slot": 86,
+      "source": " has domain of all real numbers and range "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[8]/math[8]/tail()",
+      "slot": 87,
+      "source": " To find the "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[8]/term[1]/text()",
+      "slot": 88,
+      "source": "domain"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[8]/term[1]/tail()",
+      "slot": 89,
+      "source": " and "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[8]/term[2]/text()",
+      "slot": 90,
+      "source": "range"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[8]/term[2]/tail()",
+      "slot": 91,
+      "source": " of inverse trigonometric functions, switch the domain and range of the original functions. Each graph of the inverse trigonometric function is a reflection of the graph of the original function about the line "
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[1]/figure[4]/media[1]/@alt",
+      "slot": 92,
+      "source": "A graph of the functions of sine of x and arc sine of x. There is a dotted line y=x between the two graphs, to show inverse nature of the two functions"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/figure[4]/caption[1]/text()",
+      "slot": 93,
+      "source": "The sine function and inverse sine (or arcsine) function"
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[1]/figure[5]/media[1]/@alt",
+      "slot": 94,
+      "source": "A graph of the functions of cosine of x and arc cosine of x. There is a dotted line at y=x to show the inverse nature of the two functions."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/figure[5]/caption[1]/text()",
+      "slot": 95,
+      "source": "The cosine function and inverse cosine (or arccosine) function"
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[1]/figure[6]/media[1]/@alt",
+      "slot": 96,
+      "source": "A graph of the functions of tangent of x and arc tangent of x. There is a dotted line at y=x to show the inverse nature of the two functions."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/figure[6]/caption[1]/text()",
+      "slot": 97,
+      "source": "The tangent function and inverse tangent (or arctangent) function"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[1]/title[1]/text()",
+      "slot": 98,
+      "source": "Relations for Inverse Sine, Cosine, and Tangent Functions"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[1]/para[1]/text()",
+      "slot": 99,
+      "source": "For angles in the interval "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/note[1]/para[1]/math[1]/tail()",
+      "slot": 100,
+      "source": " if "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/note[1]/para[1]/math[2]/tail()",
+      "slot": 101,
+      "source": " then "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[1]/para[2]/text()",
+      "slot": 102,
+      "source": "For angles in the interval "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/note[1]/para[2]/math[1]/tail()",
+      "slot": 103,
+      "source": " if "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/note[1]/para[2]/math[2]/tail()",
+      "slot": 104,
+      "source": " then "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[1]/para[3]/text()",
+      "slot": 105,
+      "source": "For angles in the interval "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/note[1]/para[3]/math[1]/tail()",
+      "slot": 106,
+      "source": " if "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/note[1]/para[3]/math[2]/tail()",
+      "slot": 107,
+      "source": " then "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 108,
+      "source": "Writing a Relation for an Inverse Function"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 109,
+      "source": "Given "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 110,
+      "source": " write a relation involving the inverse sine."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 111,
+      "source": "Use the relation for the inverse sine. If "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 112,
+      "source": " then "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 113,
+      "source": ". "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/para[2]/text()",
+      "slot": 114,
+      "source": "In this problem, "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/para[2]/math[1]/tail()",
+      "slot": 115,
+      "source": " and "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[2]/label[1]/text()",
+      "slot": 116,
+      "source": "Try It"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[2]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 117,
+      "source": "Given "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/note[2]/exercise[1]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 118,
+      "source": " write a relation involving the inverse cosine."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/title[1]/text()",
+      "slot": 119,
+      "source": "Finding the Exact Value of Expressions Involving the Inverse Sine, Cosine, and Tangent Functions"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/para[1]/text()",
+      "slot": 120,
+      "source": "Now that we can identify inverse functions, we will learn to evaluate them. For most values in their domains, we must evaluate the inverse trigonometric functions by using a calculator, interpolating from a table, or using some other numerical technique. Just as we did with the original trigonometric functions, we can give exact values for the inverse functions when we are using the special angles, specifically "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/para[1]/math[1]/tail()",
+      "slot": 121,
+      "source": " (30°), "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/para[1]/math[2]/tail()",
+      "slot": 122,
+      "source": " (45°), and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/para[1]/math[3]/tail()",
+      "slot": 123,
+      "source": " (60°), and their reflections into other quadrants."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[1]/label[1]/text()",
+      "slot": 124,
+      "source": "How To"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[1]/para[1]/emphasis[1]/text()",
+      "slot": 125,
+      "source": "Given a “special” input value, evaluate an inverse trigonometric function."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[1]/list[1]/item[1]/text()",
+      "slot": 126,
+      "source": "Find angle "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/note[1]/list[1]/item[1]/math[1]/tail()",
+      "slot": 127,
+      "source": " for which the original trigonometric function has an output equal to the given input for the inverse trigonometric function."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[1]/list[1]/item[2]/text()",
+      "slot": 128,
+      "source": "If "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/note[1]/list[1]/item[2]/math[1]/tail()",
+      "slot": 129,
+      "source": " is not in the defined range of the inverse, find another angle "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/note[1]/list[1]/item[2]/math[2]/tail()",
+      "slot": 130,
+      "source": " that is in the defined range and has the same sine, cosine, or tangent as "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/note[1]/list[1]/item[2]/math[3]/tail()",
+      "slot": 131,
+      "source": " depending on which corresponds to the given inverse function."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 132,
+      "source": "Evaluating Inverse Trigonometric Functions for Special Input Values"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 133,
+      "source": "Evaluate each of the following."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/problem[1]/list[1]/item[1]/span[1]/text()",
+      "slot": 134,
+      "source": "ⓐ"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/problem[1]/list[1]/item[1]/math[1]/mrow[1]/msup[1]/mrow[1]/mtext[1]/text()",
+      "slot": 135,
+      "source": "sin"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/problem[1]/list[1]/item[2]/span[1]/text()",
+      "slot": 136,
+      "source": "ⓑ"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/problem[1]/list[1]/item[2]/math[1]/mrow[1]/msup[1]/mrow[1]/mtext[1]/text()",
+      "slot": 137,
+      "source": "sin"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/problem[1]/list[1]/item[3]/span[1]/text()",
+      "slot": 138,
+      "source": "ⓒ"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/problem[1]/list[1]/item[4]/span[1]/text()",
+      "slot": 139,
+      "source": "ⓓ"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[1]/span[1]/text()",
+      "slot": 140,
+      "source": "ⓐ"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[1]/span[1]/tail()",
+      "slot": 141,
+      "source": " Evaluating "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[1]/math[1]/tail()",
+      "slot": 142,
+      "source": " is the same as determining the angle that would have a sine value of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[1]/math[2]/tail()",
+      "slot": 143,
+      "source": " In other words, what angle "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[1]/math[3]/tail()",
+      "slot": 144,
+      "source": " would satisfy "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[1]/math[4]/tail()",
+      "slot": 145,
+      "source": " There are multiple values that would satisfy this relationship, such as "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[1]/math[5]/tail()",
+      "slot": 146,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[1]/math[6]/tail()",
+      "slot": 147,
+      "source": " but we know we need the angle in the interval "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[1]/math[7]/tail()",
+      "slot": 148,
+      "source": " so the answer will be "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[1]/math[8]/tail()",
+      "slot": 149,
+      "source": " Remember that the inverse is a function, so for each input, we will get exactly one output."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[2]/span[1]/text()",
+      "slot": 150,
+      "source": "ⓑ"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[2]/span[1]/tail()",
+      "slot": 151,
+      "source": " To evaluate "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[2]/math[1]/tail()",
+      "slot": 152,
+      "source": " we know that "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[2]/math[2]/tail()",
+      "slot": 153,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[2]/math[3]/tail()",
+      "slot": 154,
+      "source": " both have a sine value of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[2]/math[4]/tail()",
+      "slot": 155,
+      "source": " but neither is in the interval "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[2]/math[5]/tail()",
+      "slot": 156,
+      "source": " For that, we need the negative angle coterminal with "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[2]/math[7]/mrow[1]/msup[1]/mrow[1]/mtext[1]/text()",
+      "slot": 157,
+      "source": "sin"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[3]/span[1]/text()",
+      "slot": 158,
+      "source": "ⓒ"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[3]/span[1]/tail()",
+      "slot": 159,
+      "source": "To evaluate "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[3]/math[1]/tail()",
+      "slot": 160,
+      "source": " we are looking for an angle in the interval "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[3]/math[2]/tail()",
+      "slot": 161,
+      "source": " with a cosine value of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[3]/math[3]/tail()",
+      "slot": 162,
+      "source": " The angle that satisfies this is "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[4]/span[1]/text()",
+      "slot": 163,
+      "source": "ⓓ"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[4]/span[1]/tail()",
+      "slot": 164,
+      "source": " Evaluating "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[4]/math[1]/tail()",
+      "slot": 165,
+      "source": " we are looking for an angle in the interval "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[4]/math[2]/tail()",
+      "slot": 166,
+      "source": " with a tangent value of 1. The correct angle is "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[2]/label[1]/text()",
+      "slot": 167,
+      "source": "Try It"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[2]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 168,
+      "source": "Evaluate each of the following."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[2]/exercise[1]/problem[1]/list[1]/item[1]/span[1]/text()",
+      "slot": 169,
+      "source": "ⓐ"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[2]/exercise[1]/problem[1]/list[1]/item[1]/math[1]/mrow[1]/msup[1]/mrow[1]/mtext[1]/text()",
+      "slot": 170,
+      "source": "sin"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[2]/exercise[1]/problem[1]/list[1]/item[2]/span[1]/text()",
+      "slot": 171,
+      "source": "ⓑ"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[2]/exercise[1]/problem[1]/list[1]/item[3]/span[1]/text()",
+      "slot": 172,
+      "source": "ⓒ"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[2]/exercise[1]/problem[1]/list[1]/item[4]/span[1]/text()",
+      "slot": 173,
+      "source": "ⓓ"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[2]/exercise[1]/solution[1]/list[1]/item[1]/span[1]/text()",
+      "slot": 174,
+      "source": "ⓐ"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[2]/exercise[1]/solution[1]/list[1]/item[2]/span[1]/text()",
+      "slot": 175,
+      "source": "ⓑ"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[2]/exercise[1]/solution[1]/list[1]/item[3]/span[1]/text()",
+      "slot": 176,
+      "source": "ⓒ"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[2]/exercise[1]/solution[1]/list[1]/item[4]/span[1]/text()",
+      "slot": 177,
+      "source": "ⓓ"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/title[1]/text()",
+      "slot": 178,
+      "source": "Using a Calculator to Evaluate Inverse Trigonometric Functions"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/para[1]/text()",
+      "slot": 179,
+      "source": "To evaluate "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/para[1]/term[1]/text()",
+      "slot": 180,
+      "source": "inverse trigonometric functions"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/para[1]/term[1]/tail()",
+      "slot": 181,
+      "source": " that do not involve the special angles discussed previously, we will need to use a calculator or other type of technology. Most scientific calculators and calculator-emulating applications have specific keys or buttons for the inverse sine, cosine, and tangent functions. These may be labeled, for example, "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/para[1]/emphasis[1]/text()",
+      "slot": 182,
+      "source": "SIN"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/para[1]/math[1]/tail()",
+      "slot": 183,
+      "source": ", "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/para[1]/emphasis[2]/text()",
+      "slot": 184,
+      "source": "ARCSIN"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/para[1]/emphasis[2]/tail()",
+      "slot": 185,
+      "source": ", or "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/para[1]/emphasis[3]/text()",
+      "slot": 186,
+      "source": "ASIN"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/para[1]/emphasis[3]/tail()",
+      "slot": 187,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/para[2]/text()",
+      "slot": 188,
+      "source": "In the previous chapter, we worked with trigonometry on a right triangle to solve for the sides of a triangle given one side and an additional angle. Using the inverse trigonometric functions, we can solve for the angles of a right triangle given two sides, and we can use a calculator to find the values to several decimal places."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/para[3]/text()",
+      "slot": 189,
+      "source": "In these examples and exercises, the answers will be interpreted as angles and we will use "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/para[3]/math[1]/tail()",
+      "slot": 190,
+      "source": " as the independent variable. The value displayed on the calculator may be in degrees or radians, so be sure to set the mode appropriate to the application."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[1]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 191,
+      "source": "Evaluating the Inverse Sine on a Calculator"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 192,
+      "source": "Evaluate "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[1]/exercise[1]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 193,
+      "source": " using a calculator."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[1]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 194,
+      "source": "Because the output of the inverse function is an angle, the calculator will give us a degree value if in degree mode and a radian value if in radian mode. Calculators also use the same domain restrictions on the angles as we are using."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[1]/exercise[1]/solution[1]/para[2]/text()",
+      "slot": 195,
+      "source": "In radian mode, "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[1]/exercise[1]/solution[1]/para[2]/math[1]/tail()",
+      "slot": 196,
+      "source": " In degree mode, "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[1]/exercise[1]/solution[1]/para[2]/math[2]/tail()",
+      "slot": 197,
+      "source": " Note that in calculus and beyond we will use radians in almost all cases."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/note[1]/label[1]/text()",
+      "slot": 198,
+      "source": "Try It"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/note[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 199,
+      "source": "Evaluate "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/note[1]/exercise[1]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 200,
+      "source": " using a calculator."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/note[1]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 201,
+      "source": "1.9823 or 113.578°"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/note[2]/label[1]/text()",
+      "slot": 202,
+      "source": "How To"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/note[2]/para[1]/emphasis[1]/text()",
+      "slot": 203,
+      "source": "Given two sides of a right triangle like the one shown in "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/note[2]/para[1]/emphasis[1]/link[1]/tail()",
+      "slot": 204,
+      "source": ", find an angle.\n"
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[3]/note[2]/figure[1]/media[1]/@alt",
+      "slot": 205,
+      "source": "An illustration of a right triangle with an angle theta. Adjacent to theta is the side a, opposite theta is the side p, and the hypoteneuse is side h."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/note[2]/list[1]/item[1]/text()",
+      "slot": 206,
+      "source": "If one given side is the hypotenuse of length "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/note[2]/list[1]/item[1]/math[1]/tail()",
+      "slot": 207,
+      "source": " and the side of length "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/note[2]/list[1]/item[1]/math[2]/tail()",
+      "slot": 208,
+      "source": " adjacent to the desired angle is given, use the equation "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/note[2]/list[1]/item[2]/text()",
+      "slot": 209,
+      "source": "If one given side is the hypotenuse of length "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/note[2]/list[1]/item[2]/math[1]/tail()",
+      "slot": 210,
+      "source": " and the side of length "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/note[2]/list[1]/item[2]/math[2]/tail()",
+      "slot": 211,
+      "source": " opposite to the desired angle is given, use the equation "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/note[2]/list[1]/item[3]/text()",
+      "slot": 212,
+      "source": "If the two legs (the sides adjacent to the right angle) are given, then use the equation "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 213,
+      "source": "Applying the Inverse Cosine to a Right Triangle"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 214,
+      "source": "Solve the triangle in "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/problem[1]/para[1]/link[1]/tail()",
+      "slot": 215,
+      "source": " for the angle "
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/problem[1]/figure[1]/media[1]/@alt",
+      "slot": 216,
+      "source": "An illustration of a right triangle with the angle theta. Adjacent to the angle theta is a side with a length of 9 and a hypoteneuse of length 12."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 217,
+      "source": "Because we know the hypotenuse and the side adjacent to the angle, it makes sense for us to use the cosine function."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[2]/mtd[2]/mrow[1]/mtext[1]/text()",
+      "slot": 218,
+      "source": "Apply definition of the inverse"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[3]/mtd[1]/mrow[1]/mtext[1]/text()",
+      "slot": 219,
+      "source": " or about "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[3]/mtd[2]/mrow[1]/mtext[1]/text()",
+      "slot": 220,
+      "source": "Evaluate"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/note[3]/label[1]/text()",
+      "slot": 221,
+      "source": "Try It"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/note[3]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 222,
+      "source": "Solve the triangle in "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/note[3]/exercise[1]/problem[1]/para[1]/link[1]/tail()",
+      "slot": 223,
+      "source": " for the angle "
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[3]/note[3]/exercise[1]/problem[1]/figure[1]/media[1]/@alt",
+      "slot": 224,
+      "source": "An illustration of a right triangle with the angle theta. Opposite to the angle theta is a side with a length of 6 and a hypoteneuse of length 10."
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/note[3]/exercise[1]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 225,
+      "source": " radians"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/title[1]/text()",
+      "slot": 226,
+      "source": "Finding Exact Values of Composite Functions with Inverse Trigonometric Functions"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/para[1]/text()",
+      "slot": 227,
+      "source": "There are times when we need to compose a trigonometric function with an inverse trigonometric function. In these cases, we can usually find exact values for the resulting expressions without resorting to a calculator. Even when the input to the composite function is a variable or an expression, we can often find an expression for the output. To help sort out different cases, let "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/para[1]/math[1]/tail()",
+      "slot": 228,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/para[1]/math[2]/tail()",
+      "slot": 229,
+      "source": " be two different trigonometric functions belonging to the set "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/para[1]/math[3]/tail()",
+      "slot": 230,
+      "source": " and let "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/para[1]/math[4]/tail()",
+      "slot": 231,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/para[1]/math[5]/tail()",
+      "slot": 232,
+      "source": " be their inverses."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/title[1]/text()",
+      "slot": 233,
+      "source": "Evaluating Compositions of the Form "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/title[1]/emphasis[1]/text()",
+      "slot": 234,
+      "source": "f"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/title[1]/emphasis[1]/tail()",
+      "slot": 235,
+      "source": "("
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/title[1]/emphasis[2]/text()",
+      "slot": 236,
+      "source": "f"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/title[1]/sup[1]/text()",
+      "slot": 237,
+      "source": "−1"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/title[1]/sup[1]/tail()",
+      "slot": 238,
+      "source": "("
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/title[1]/emphasis[3]/text()",
+      "slot": 239,
+      "source": "y"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/title[1]/emphasis[3]/tail()",
+      "slot": 240,
+      "source": ")) and "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/title[1]/emphasis[4]/text()",
+      "slot": 241,
+      "source": "f"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/title[1]/sup[2]/text()",
+      "slot": 242,
+      "source": "−1"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/title[1]/sup[2]/tail()",
+      "slot": 243,
+      "source": "("
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/title[1]/emphasis[5]/text()",
+      "slot": 244,
+      "source": "f"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/title[1]/emphasis[5]/tail()",
+      "slot": 245,
+      "source": "("
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/title[1]/emphasis[6]/text()",
+      "slot": 246,
+      "source": "x"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/title[1]/emphasis[6]/tail()",
+      "slot": 247,
+      "source": "))"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/para[1]/text()",
+      "slot": 248,
+      "source": "For any trigonometric function, "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/para[1]/math[1]/tail()",
+      "slot": 249,
+      "source": " for all "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/para[1]/math[2]/tail()",
+      "slot": 250,
+      "source": " in the proper domain for the given function. This follows from the definition of the inverse and from the fact that the range of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/para[1]/math[3]/tail()",
+      "slot": 251,
+      "source": " was defined to be identical to the domain of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/para[1]/math[4]/tail()",
+      "slot": 252,
+      "source": " However, we have to be a little more careful with expressions of the form "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/note[1]/title[1]/text()",
+      "slot": 253,
+      "source": "Compositions of a trigonometric function and its inverse"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/note[1]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[1]/mtd[1]/mrow[1]/mtext[1]/text()",
+      "slot": 254,
+      "source": "for"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/note[1]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[2]/mtd[1]/mrow[1]/mtext[1]/text()",
+      "slot": 255,
+      "source": "for"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/note[1]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[3]/mtd[1]/mrow[1]/mtext[1]/text()",
+      "slot": 256,
+      "source": "for"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/note[1]/equation[2]/math[1]/mrow[1]/mtable[1]/mtr[1]/mtd[1]/mrow[1]/mtext[1]/text()",
+      "slot": 257,
+      "source": "only for "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/note[1]/equation[2]/math[1]/mrow[1]/mtable[1]/mtr[2]/mtd[1]/mrow[1]/mtext[1]/text()",
+      "slot": 258,
+      "source": "only for "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/note[1]/equation[2]/math[1]/mrow[1]/mtable[1]/mtr[3]/mtd[1]/mrow[1]/mtext[1]/text()",
+      "slot": 259,
+      "source": "only for "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/note[2]/label[1]/text()",
+      "slot": 260,
+      "source": "Q&A"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/note[2]/para[1]/emphasis[1]/text()",
+      "slot": 261,
+      "source": "Is it correct that "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/note[2]/para[2]/emphasis[1]/text()",
+      "slot": 262,
+      "source": "No. This equation is correct if "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/note[2]/para[2]/emphasis[1]/math[1]/tail()",
+      "slot": 263,
+      "source": " belongs to the restricted domain "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/note[2]/para[2]/emphasis[1]/math[2]/tail()",
+      "slot": 264,
+      "source": " but sine is defined for all real input values, and for "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/note[2]/para[2]/emphasis[1]/math[3]/tail()",
+      "slot": 265,
+      "source": " outside the restricted interval, the equation is not correct because its inverse always returns a value in "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/note[2]/para[2]/emphasis[1]/math[4]/tail()",
+      "slot": 266,
+      "source": " The situation is similar for cosine and tangent and their inverses. For example, "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/note[3]/label[1]/text()",
+      "slot": 267,
+      "source": "How To"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/note[3]/para[1]/emphasis[1]/text()",
+      "slot": 268,
+      "source": "Given an expression of the form f"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/note[3]/para[1]/emphasis[1]/sup[1]/text()",
+      "slot": 269,
+      "source": "−1"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/note[3]/para[1]/emphasis[1]/sup[1]/tail()",
+      "slot": 270,
+      "source": "(f(θ)) where "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/note[3]/para[1]/emphasis[1]/math[1]/mrow[1]/mtext[1]/text()",
+      "slot": 271,
+      "source": " or "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/note[3]/para[1]/emphasis[1]/math[1]/tail()",
+      "slot": 272,
+      "source": " evaluate."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/note[3]/list[1]/item[1]/text()",
+      "slot": 273,
+      "source": "If "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/note[3]/list[1]/item[1]/math[1]/tail()",
+      "slot": 274,
+      "source": " is in the restricted domain of "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/note[3]/list[1]/item[1]/math[2]/mrow[1]/mtext[1]/text()",
+      "slot": 275,
+      "source": " then "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/note[3]/list[1]/item[2]/text()",
+      "slot": 276,
+      "source": "If not, then find an angle "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/note[3]/list[1]/item[2]/math[1]/tail()",
+      "slot": 277,
+      "source": " within the restricted domain of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/note[3]/list[1]/item[2]/math[2]/tail()",
+      "slot": 278,
+      "source": " such that "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/note[3]/list[1]/item[2]/math[3]/tail()",
+      "slot": 279,
+      "source": " Then "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/example[1]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 280,
+      "source": "Using Inverse Trigonometric Functions"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/example[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 281,
+      "source": "Evaluate the following:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/example[1]/exercise[1]/problem[1]/list[1]/item[1]/span[1]/text()",
+      "slot": 282,
+      "source": "ⓐ"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/example[1]/exercise[1]/problem[1]/list[1]/item[2]/span[1]/text()",
+      "slot": 283,
+      "source": "ⓑ"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/example[1]/exercise[1]/problem[1]/list[1]/item[3]/span[1]/text()",
+      "slot": 284,
+      "source": "ⓒ"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/example[1]/exercise[1]/problem[1]/list[1]/item[4]/span[1]/text()",
+      "slot": 285,
+      "source": "ⓓ"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/example[1]/exercise[1]/solution[1]/list[1]/item[1]/span[1]/text()",
+      "slot": 286,
+      "source": "ⓐ"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/example[1]/exercise[1]/solution[1]/list[1]/item[1]/math[1]/mrow[1]/mtext[1]/text()",
+      "slot": 287,
+      "source": " is in "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/example[1]/exercise[1]/solution[1]/list[1]/item[1]/math[1]/tail()",
+      "slot": 288,
+      "source": " so "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/example[1]/exercise[1]/solution[1]/list[1]/item[2]/span[1]/text()",
+      "slot": 289,
+      "source": "ⓑ"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/example[1]/exercise[1]/solution[1]/list[1]/item[2]/math[1]/mrow[1]/mtext[1]/text()",
+      "slot": 290,
+      "source": " is not in "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/example[1]/exercise[1]/solution[1]/list[1]/item[2]/math[1]/tail()",
+      "slot": 291,
+      "source": " but "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/example[1]/exercise[1]/solution[1]/list[1]/item[2]/math[2]/tail()",
+      "slot": 292,
+      "source": " so "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/example[1]/exercise[1]/solution[1]/list[1]/item[3]/span[1]/text()",
+      "slot": 293,
+      "source": "ⓒ"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/example[1]/exercise[1]/solution[1]/list[1]/item[3]/math[1]/mrow[1]/mtext[1]/text()",
+      "slot": 294,
+      "source": " is in "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/example[1]/exercise[1]/solution[1]/list[1]/item[3]/math[1]/tail()",
+      "slot": 295,
+      "source": " so "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/example[1]/exercise[1]/solution[1]/list[1]/item[4]/span[1]/text()",
+      "slot": 296,
+      "source": "ⓓ"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/example[1]/exercise[1]/solution[1]/list[1]/item[4]/math[1]/mrow[1]/mtext[1]/text()",
+      "slot": 297,
+      "source": " is not in "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/example[1]/exercise[1]/solution[1]/list[1]/item[4]/math[1]/tail()",
+      "slot": 298,
+      "source": " but "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/example[1]/exercise[1]/solution[1]/list[1]/item[4]/math[2]/tail()",
+      "slot": 299,
+      "source": " because cosine is an even function.\n       "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/example[1]/exercise[1]/solution[1]/list[1]/item[4]/math[3]/mrow[1]/mtext[1]/text()",
+      "slot": 300,
+      "source": " is in "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/example[1]/exercise[1]/solution[1]/list[1]/item[4]/math[3]/tail()",
+      "slot": 301,
+      "source": " so "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/note[4]/label[1]/text()",
+      "slot": 302,
+      "source": "Try It"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/note[4]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 303,
+      "source": "Evaluate "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/note[4]/exercise[1]/problem[1]/para[1]/math[1]/mrow[1]/mtext[1]/text()",
+      "slot": 304,
+      "source": "and"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/title[1]/text()",
+      "slot": 305,
+      "source": "Evaluating Compositions of the Form "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/title[1]/emphasis[1]/text()",
+      "slot": 306,
+      "source": "f"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/title[1]/sup[1]/text()",
+      "slot": 307,
+      "source": "−1"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/title[1]/sup[1]/tail()",
+      "slot": 308,
+      "source": "("
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/title[1]/emphasis[2]/text()",
+      "slot": 309,
+      "source": "g"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/title[1]/emphasis[2]/tail()",
+      "slot": 310,
+      "source": "("
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/title[1]/emphasis[3]/text()",
+      "slot": 311,
+      "source": "x"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/title[1]/emphasis[3]/tail()",
+      "slot": 312,
+      "source": "))"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/para[1]/text()",
+      "slot": 313,
+      "source": "Now that we can compose a trigonometric function with its inverse, we can explore how to evaluate a composition of a trigonometric function and the inverse of another trigonometric function. We will begin with compositions of the form "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/para[1]/math[1]/tail()",
+      "slot": 314,
+      "source": " For special values of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/para[1]/math[2]/tail()",
+      "slot": 315,
+      "source": " we can exactly evaluate the inner function and then the outer, inverse function. However, we can find a more general approach by considering the relation between the two acute angles of a right triangle where one is "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/para[1]/math[3]/tail()",
+      "slot": 316,
+      "source": " making the other "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/para[1]/math[4]/tail()",
+      "slot": 317,
+      "source": " Consider the sine and cosine of each angle of the right triangle in "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/para[1]/link[1]/tail()",
+      "slot": 318,
+      "source": "."
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/figure[1]/media[1]/@alt",
+      "slot": 319,
+      "source": "An illustration of a right triangle with angles theta and pi/2 - theta. Opposite the angle theta and adjacent the angle pi/2-theta is the side a. Adjacent the angle theta and opposite the angle pi/2 - theta is the side b. The hypoteneuse is labeled c."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/figure[1]/caption[1]/text()",
+      "slot": 320,
+      "source": "Right triangle illustrating the cofunction relationships"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/para[2]/text()",
+      "slot": 321,
+      "source": "Because "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/para[2]/math[1]/tail()",
+      "slot": 322,
+      "source": " we have "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/para[2]/math[2]/tail()",
+      "slot": 323,
+      "source": " if "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/para[2]/math[3]/tail()",
+      "slot": 324,
+      "source": " If "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/para[2]/math[4]/tail()",
+      "slot": 325,
+      "source": " is not in this domain, then we need to find another angle that has the same cosine as "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/para[2]/math[5]/tail()",
+      "slot": 326,
+      "source": " and does belong to the restricted domain; we then subtract this angle from "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/para[2]/math[6]/tail()",
+      "slot": 327,
+      "source": " Similarly, "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/para[2]/math[7]/tail()",
+      "slot": 328,
+      "source": " so "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/para[2]/math[8]/tail()",
+      "slot": 329,
+      "source": " if "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/para[2]/math[9]/tail()",
+      "slot": 330,
+      "source": " These are just the function-cofunction relationships presented in another way."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/note[1]/label[1]/text()",
+      "slot": 331,
+      "source": "How To"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/note[1]/para[1]/emphasis[1]/text()",
+      "slot": 332,
+      "source": "Given functions of the form "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/note[1]/para[1]/emphasis[1]/math[1]/tail()",
+      "slot": 333,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/note[1]/para[1]/emphasis[1]/math[2]/tail()",
+      "slot": 334,
+      "source": " evaluate them."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/note[1]/list[1]/item[1]/text()",
+      "slot": 335,
+      "source": "If "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/note[1]/list[1]/item[1]/math[1]/mrow[1]/mtext[1]/text()",
+      "slot": 336,
+      "source": " is in "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/note[1]/list[1]/item[1]/math[1]/tail()",
+      "slot": 337,
+      "source": " then "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/note[1]/list[1]/item[2]/text()",
+      "slot": 338,
+      "source": "If "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/note[1]/list[1]/item[2]/math[1]/mrow[1]/mtext[1]/text()",
+      "slot": 339,
+      "source": " is not in "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/note[1]/list[1]/item[2]/math[1]/tail()",
+      "slot": 340,
+      "source": " then find another angle "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/note[1]/list[1]/item[2]/math[2]/mrow[1]/mtext[1]/text()",
+      "slot": 341,
+      "source": " in "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/note[1]/list[1]/item[2]/math[2]/tail()",
+      "slot": 342,
+      "source": " such that "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/note[1]/list[1]/item[3]/text()",
+      "slot": 343,
+      "source": "If "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/note[1]/list[1]/item[3]/math[1]/mrow[1]/mtext[1]/text()",
+      "slot": 344,
+      "source": " is in "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/note[1]/list[1]/item[3]/math[1]/tail()",
+      "slot": 345,
+      "source": " then "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/note[1]/list[1]/item[4]/text()",
+      "slot": 346,
+      "source": "If "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/note[1]/list[1]/item[4]/math[1]/mrow[1]/mtext[1]/text()",
+      "slot": 347,
+      "source": " is not in"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/note[1]/list[1]/item[4]/math[1]/tail()",
+      "slot": 348,
+      "source": " then find another angle "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/note[1]/list[1]/item[4]/math[2]/mrow[1]/mtext[1]/text()",
+      "slot": 349,
+      "source": " in "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/note[1]/list[1]/item[4]/math[2]/tail()",
+      "slot": 350,
+      "source": " such that "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/example[1]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 351,
+      "source": "Evaluating the Composition of an Inverse Sine with a Cosine"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/example[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 352,
+      "source": "Evaluate "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/example[1]/exercise[1]/problem[1]/list[1]/item[1]/span[1]/text()",
+      "slot": 353,
+      "source": "ⓐ"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/example[1]/exercise[1]/problem[1]/list[1]/item[1]/span[1]/tail()",
+      "slot": 354,
+      "source": "by direct evaluation."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/example[1]/exercise[1]/problem[1]/list[1]/item[2]/span[1]/text()",
+      "slot": 355,
+      "source": "ⓑ"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/example[1]/exercise[1]/problem[1]/list[1]/item[2]/span[1]/tail()",
+      "slot": 356,
+      "source": " by the method described previously."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[1]/span[1]/text()",
+      "slot": 357,
+      "source": "ⓐ"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[1]/span[1]/tail()",
+      "slot": 358,
+      "source": " Here, we can directly evaluate the inside of the composition.\n       "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[1]/para[1]/text()",
+      "slot": 359,
+      "source": "Now, we can evaluate the inverse function as we did earlier."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[2]/span[1]/text()",
+      "slot": 360,
+      "source": "ⓑ"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[2]/span[1]/tail()",
+      "slot": 361,
+      "source": " We have "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[2]/math[1]/mrow[1]/mtext[1]/text()",
+      "slot": 362,
+      "source": ","
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/example[1]/exercise[1]/solution[1]/list[1]/item[2]/math[1]/tail()",
+      "slot": 363,
+      "source": " and\n       "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/note[2]/label[1]/text()",
+      "slot": 364,
+      "source": "Try It"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[2]/note[2]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 365,
+      "source": "Evaluate "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/title[1]/text()",
+      "slot": 366,
+      "source": "Evaluating Compositions of the Form "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/title[1]/emphasis[1]/text()",
+      "slot": 367,
+      "source": "f"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/title[1]/emphasis[1]/tail()",
+      "slot": 368,
+      "source": "("
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/title[1]/emphasis[2]/text()",
+      "slot": 369,
+      "source": "g"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/title[1]/sup[1]/text()",
+      "slot": 370,
+      "source": "−1"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/title[1]/sup[1]/tail()",
+      "slot": 371,
+      "source": "("
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/title[1]/emphasis[3]/text()",
+      "slot": 372,
+      "source": "x"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/title[1]/emphasis[3]/tail()",
+      "slot": 373,
+      "source": "))"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/para[1]/text()",
+      "slot": 374,
+      "source": "To evaluate compositions of the form "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/para[1]/math[1]/tail()",
+      "slot": 375,
+      "source": " where "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/para[1]/math[2]/tail()",
+      "slot": 376,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/para[1]/math[3]/tail()",
+      "slot": 377,
+      "source": " are any two of the functions sine, cosine, or tangent and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/para[1]/math[4]/tail()",
+      "slot": 378,
+      "source": " is any input in the domain of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/para[1]/math[5]/tail()",
+      "slot": 379,
+      "source": " we have exact formulas, such as "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/para[1]/math[6]/tail()",
+      "slot": 380,
+      "source": " When we need to use them, we can derive these formulas by using the trigonometric relations between the angles and sides of a right triangle, together with the use of Pythagoras’s relation between the lengths of the sides. We can use the Pythagorean identity, "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/para[1]/math[7]/tail()",
+      "slot": 381,
+      "source": " to solve for one when given the other. We can also use the "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/para[1]/term[1]/text()",
+      "slot": 382,
+      "source": "inverse trigonometric functions"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/para[1]/term[1]/tail()",
+      "slot": 383,
+      "source": " to find compositions involving algebraic expressions."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[1]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 384,
+      "source": "Evaluating the Composition of a Sine with an Inverse Cosine"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 385,
+      "source": "Find an exact value for "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[1]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 386,
+      "source": "Beginning with the inside, we can say there is some angle such that "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[1]/exercise[1]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 387,
+      "source": " which means "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[1]/exercise[1]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 388,
+      "source": " and we are looking for "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[1]/exercise[1]/solution[1]/para[1]/math[3]/tail()",
+      "slot": 389,
+      "source": " We can use the Pythagorean identity to do this. "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[1]/exercise[1]/solution[1]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[1]/mtd[4]/mrow[1]/mtext[1]/text()",
+      "slot": 390,
+      "source": "Use our known value for cosine"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[1]/exercise[1]/solution[1]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[2]/mtd[4]/mrow[1]/mtext[1]/text()",
+      "slot": 391,
+      "source": "Solve for sine"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[1]/exercise[1]/solution[1]/para[2]/text()",
+      "slot": 392,
+      "source": "Since "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[1]/exercise[1]/solution[1]/para[2]/math[1]/tail()",
+      "slot": 393,
+      "source": " is in quadrant I, "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[1]/exercise[1]/solution[1]/para[2]/math[2]/tail()",
+      "slot": 394,
+      "source": " must be positive, so the solution is "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[1]/exercise[1]/solution[1]/para[2]/math[3]/tail()",
+      "slot": 395,
+      "source": " See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[1]/exercise[1]/solution[1]/para[2]/link[1]/tail()",
+      "slot": 396,
+      "source": "."
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[1]/exercise[1]/solution[1]/figure[1]/media[1]/@alt",
+      "slot": 397,
+      "source": "An illustration of a right triangle with an angle theta. Oppostie the angle theta is a side with length 3. Adjacent the angle theta is a side with length 4. The hypoteneuse has angle of length 5."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[1]/exercise[1]/solution[1]/figure[1]/caption[1]/text()",
+      "slot": 398,
+      "source": "Right triangle illustrating that if "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[1]/exercise[1]/solution[1]/figure[1]/caption[1]/math[1]/tail()",
+      "slot": 399,
+      "source": " then "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[1]/exercise[1]/solution[1]/para[3]/text()",
+      "slot": 400,
+      "source": "We know that the inverse cosine always gives an angle on the interval "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[1]/exercise[1]/solution[1]/para[3]/math[1]/tail()",
+      "slot": 401,
+      "source": " so we know that the sine of that angle must be positive; therefore "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/note[1]/label[1]/text()",
+      "slot": 402,
+      "source": "Try It"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/note[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 403,
+      "source": "Evaluate "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[2]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 404,
+      "source": "Evaluating the Composition of a Sine with an Inverse Tangent"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[2]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 405,
+      "source": "Find an exact value for "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[2]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 406,
+      "source": "While we could use a similar technique as in "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[2]/exercise[1]/solution[1]/para[1]/link[1]/tail()",
+      "slot": 407,
+      "source": ", we will demonstrate a different technique here. From the inside, we know there is an angle such that "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[2]/exercise[1]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 408,
+      "source": " We can envision this as the opposite and adjacent sides on a right triangle, as shown in "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[2]/exercise[1]/solution[1]/para[1]/link[2]/tail()",
+      "slot": 409,
+      "source": "."
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[2]/exercise[1]/solution[1]/figure[1]/media[1]/@alt",
+      "slot": 410,
+      "source": "An illustration of a right triangle with angle theta. Adjacent the angle theta is a side with length 4. Opposite the angle theta is a side with length 7."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[2]/exercise[1]/solution[1]/figure[1]/caption[1]/text()",
+      "slot": 411,
+      "source": "A right triangle with two sides known"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[2]/exercise[1]/solution[1]/para[2]/text()",
+      "slot": 412,
+      "source": "Using the Pythagorean Theorem, we can find the hypotenuse of this triangle."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[2]/exercise[1]/solution[1]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[1]/mtd[1]/mrow[1]/mtable[1]/mtr[2]/mtd[1]/mrow[1]/msup[3]/mrow[1]/mtext[1]/text()",
+      "slot": 413,
+      "source": "hypotenuse"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[2]/exercise[1]/solution[1]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[2]/mtd[1]/mrow[1]/mtext[1]/text()",
+      "slot": 414,
+      "source": "hypotenuse"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[2]/exercise[1]/solution[1]/para[3]/text()",
+      "slot": 415,
+      "source": "Now, we can evaluate the sine of the angle as the opposite side divided by the hypotenuse."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[2]/exercise[1]/solution[1]/para[4]/text()",
+      "slot": 416,
+      "source": "This gives us our desired composition."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/note[2]/label[1]/text()",
+      "slot": 417,
+      "source": "Try It"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/note[2]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 418,
+      "source": "Evaluate "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[3]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 419,
+      "source": "Finding the Cosine of the Inverse Sine of an Algebraic Expression"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[3]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 420,
+      "source": "Find a simplified expression for "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[3]/exercise[1]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 421,
+      "source": " for "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[3]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 422,
+      "source": "We know there is an angle "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[3]/exercise[1]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 423,
+      "source": " such that "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[3]/exercise[1]/solution[1]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[1]/mtd[2]/mrow[1]/mtext[1]/text()",
+      "slot": 424,
+      "source": "Use the Pythagorean Theorem"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[3]/exercise[1]/solution[1]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[2]/mtd[2]/mrow[1]/mtext[1]/text()",
+      "slot": 425,
+      "source": "Solve for cosine"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[3]/exercise[1]/solution[1]/para[2]/text()",
+      "slot": 426,
+      "source": "Because we know that the inverse sine must give an angle on the interval "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[3]/exercise[1]/solution[1]/para[2]/math[1]/tail()",
+      "slot": 427,
+      "source": " we can deduce that the cosine of that angle must be positive."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/note[3]/label[1]/text()",
+      "slot": 428,
+      "source": "Try It"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/note[3]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 429,
+      "source": "Find a simplified expression for "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/note[3]/exercise[1]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 430,
+      "source": " for "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/note[4]/label[1]/text()",
+      "slot": 431,
+      "source": "Media"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/note[4]/para[1]/text()",
+      "slot": 432,
+      "source": "Access this online resource for additional instruction and practice with inverse trigonometric functions."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/note[4]/list[1]/item[1]/link[1]/text()",
+      "slot": 433,
+      "source": "Evaluate Expressions Involving Inverse Trigonometric Functions"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/title[1]/text()",
+      "slot": 434,
+      "source": "Key Concepts"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/list[1]/item[1]/text()",
+      "slot": 435,
+      "source": "An inverse function is one that “undoes” another function. The domain of an inverse function is the range of the original function and the range of an inverse function is the domain of the original function."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/list[1]/item[2]/text()",
+      "slot": 436,
+      "source": "Because the trigonometric functions are not one-to-one on their natural domains, inverse trigonometric functions are defined for restricted domains."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/list[1]/item[3]/text()",
+      "slot": 437,
+      "source": "For any trigonometric function "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/list[1]/item[3]/math[1]/tail()",
+      "slot": 438,
+      "source": " if "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/list[1]/item[3]/math[2]/tail()",
+      "slot": 439,
+      "source": " then "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/list[1]/item[3]/math[3]/tail()",
+      "slot": 440,
+      "source": " However, "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/list[1]/item[3]/math[4]/tail()",
+      "slot": 441,
+      "source": " only implies "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/list[1]/item[3]/math[5]/tail()",
+      "slot": 442,
+      "source": " if "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/list[1]/item[3]/math[6]/tail()",
+      "slot": 443,
+      "source": " is in the restricted domain of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/list[1]/item[3]/math[7]/tail()",
+      "slot": 444,
+      "source": " See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/list[1]/item[3]/link[1]/tail()",
+      "slot": 445,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/list[1]/item[4]/text()",
+      "slot": 446,
+      "source": "Special angles are the outputs of inverse trigonometric functions for special input values; for example, "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/list[1]/item[4]/math[1]/mrow[1]/mtext[1]/text()",
+      "slot": 447,
+      "source": "and"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/list[1]/item[4]/math[1]/tail()",
+      "slot": 448,
+      "source": " See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/list[1]/item[4]/link[1]/tail()",
+      "slot": 449,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/list[1]/item[5]/text()",
+      "slot": 450,
+      "source": "A calculator will return an angle within the restricted domain of the original trigonometric function. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/list[1]/item[5]/link[1]/tail()",
+      "slot": 451,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/list[1]/item[6]/text()",
+      "slot": 452,
+      "source": "Inverse functions allow us to find an angle when given two sides of a right triangle. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/list[1]/item[6]/link[1]/tail()",
+      "slot": 453,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/list[1]/item[7]/text()",
+      "slot": 454,
+      "source": "In function composition, if the inside function is an inverse trigonometric function, then there are exact expressions; for example, "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/list[1]/item[7]/math[1]/tail()",
+      "slot": 455,
+      "source": " See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/list[1]/item[7]/link[1]/tail()",
+      "slot": 456,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/list[1]/item[8]/text()",
+      "slot": 457,
+      "source": "If the inside function is a trigonometric function, then the only possible combinations are "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/list[1]/item[8]/math[1]/tail()",
+      "slot": 458,
+      "source": " if "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/list[1]/item[8]/math[2]/tail()",
+      "slot": 459,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/list[1]/item[8]/math[3]/tail()",
+      "slot": 460,
+      "source": " if "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/list[1]/item[8]/math[4]/tail()",
+      "slot": 461,
+      "source": "     See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/list[1]/item[8]/link[1]/tail()",
+      "slot": 462,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/list[1]/item[8]/link[2]/tail()",
+      "slot": 463,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/list[1]/item[9]/text()",
+      "slot": 464,
+      "source": "When evaluating the composition of a trigonometric function with an inverse trigonometric function, draw a reference triangle to assist in determining the ratio of sides that represents the output of the trigonometric function. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/list[1]/item[9]/link[1]/tail()",
+      "slot": 465,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/list[1]/item[10]/text()",
+      "slot": 466,
+      "source": "When evaluating the composition of a trigonometric function with an inverse trigonometric function, you may use trig identities to assist in determining the ratio of sides. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[5]/list[1]/item[10]/link[1]/tail()",
+      "slot": 467,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/title[1]/text()",
+      "slot": 468,
+      "source": "Section Exercises"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/title[1]/text()",
+      "slot": 469,
+      "source": "Verbal"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 470,
+      "source": "Why do the functions "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[1]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 471,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[1]/problem[1]/para[1]/math[2]/tail()",
+      "slot": 472,
+      "source": " have different ranges?"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 473,
+      "source": "The function "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[1]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 474,
+      "source": " is one-to-one on "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[1]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 475,
+      "source": " thus, this interval is the range of the inverse function of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[1]/solution[1]/para[1]/math[4]/tail()",
+      "slot": 476,
+      "source": " The function "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[1]/solution[1]/para[1]/math[5]/tail()",
+      "slot": 477,
+      "source": " is one-to-one on "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[1]/solution[1]/para[1]/math[6]/tail()",
+      "slot": 478,
+      "source": " thus, this interval is the range of the inverse function of "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[2]/problem[1]/para[1]/text()",
+      "slot": 479,
+      "source": "Since the functions "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[2]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 480,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[2]/problem[1]/para[1]/math[2]/tail()",
+      "slot": 481,
+      "source": " are inverse functions, why is "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[2]/problem[1]/para[1]/math[3]/tail()",
+      "slot": 482,
+      "source": " not equal to "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[3]/problem[1]/para[1]/text()",
+      "slot": 483,
+      "source": "Explain the meaning of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[3]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 484,
+      "source": " is the radian measure of an angle between "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[3]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 485,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[3]/solution[1]/para[1]/math[3]/tail()",
+      "slot": 486,
+      "source": " whose sine is 0.5. "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[4]/problem[1]/para[1]/text()",
+      "slot": 487,
+      "source": "Most calculators do not have a key to evaluate "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[4]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 488,
+      "source": " Explain how this can be done using the cosine function or the inverse cosine function."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[5]/problem[1]/para[1]/text()",
+      "slot": 489,
+      "source": "Why must the domain of the sine function, "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[5]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 490,
+      "source": " be restricted to "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[5]/problem[1]/para[1]/math[2]/tail()",
+      "slot": 491,
+      "source": " for the inverse sine function to exist?"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[5]/solution[1]/para[1]/text()",
+      "slot": 492,
+      "source": " In order for any function to have an inverse, the function must be one-to-one and must pass the horizontal line test. The regular sine function is not one-to-one unless its domain is restricted in some way. Mathematicians have agreed to restrict the sine function to the interval "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[5]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 493,
+      "source": " so that it is one-to-one and possesses an inverse. "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[6]/problem[1]/para[1]/text()",
+      "slot": 494,
+      "source": "Discuss why this statement is incorrect: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[6]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 495,
+      "source": " for all "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[7]/problem[1]/para[1]/text()",
+      "slot": 496,
+      "source": "Determine whether the following statement is true or false and explain your answer: "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[7]/solution[1]/para[1]/text()",
+      "slot": 497,
+      "source": "True . The angle, "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[7]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 498,
+      "source": " that equals "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[7]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 499,
+      "source": ", "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[7]/solution[1]/para[1]/math[3]/tail()",
+      "slot": 500,
+      "source": ", will be a second quadrant angle with reference angle, "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[7]/solution[1]/para[1]/math[4]/tail()",
+      "slot": 501,
+      "source": ", where "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[7]/solution[1]/para[1]/math[5]/tail()",
+      "slot": 502,
+      "source": " equals "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[7]/solution[1]/para[1]/math[6]/tail()",
+      "slot": 503,
+      "source": ", "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[7]/solution[1]/para[1]/math[7]/tail()",
+      "slot": 504,
+      "source": ". Since "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[7]/solution[1]/para[1]/math[8]/tail()",
+      "slot": 505,
+      "source": " is the reference angle for "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[7]/solution[1]/para[1]/math[9]/tail()",
+      "slot": 506,
+      "source": ", "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[7]/solution[1]/para[1]/math[10]/tail()",
+      "slot": 507,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[7]/solution[1]/para[1]/math[11]/tail()",
+      "slot": 508,
+      "source": " = "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[7]/solution[1]/para[1]/math[12]/tail()",
+      "slot": 509,
+      "source": "- "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[2]/title[1]/text()",
+      "slot": 510,
+      "source": "Algebraic"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[2]/para[1]/text()",
+      "slot": 511,
+      "source": "For the following exercises, evaluate the expressions."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[2]/para[2]/text()",
+      "slot": 512,
+      "source": "For the following exercises, use a calculator to evaluate each expression. Express answers to the nearest hundredth."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[2]/exercise[10]/solution[1]/para[1]/text()",
+      "slot": 513,
+      "source": "1.98"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[2]/exercise[12]/solution[1]/para[1]/text()",
+      "slot": 514,
+      "source": " 0.93 "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[2]/exercise[14]/solution[1]/para[1]/text()",
+      "slot": 515,
+      "source": "1.41"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[2]/para[3]/text()",
+      "slot": 516,
+      "source": "For the following exercises, find the angle "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[2]/para[3]/math[1]/tail()",
+      "slot": 517,
+      "source": " in the given right triangle. Round answers to the nearest hundredth."
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[6]/section[2]/exercise[15]/problem[1]/media[1]/@alt",
+      "slot": 518,
+      "source": "An illustration of a right triangle with angle theta. Opposite the angle theta is a side with length of 7. The hypotenuse has a lngeth of 10."
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[6]/section[2]/exercise[16]/problem[1]/media[1]/@alt",
+      "slot": 519,
+      "source": "An illustration of a right triangle with angle theta. Adjacent the angle theta is a side of length 19. Opposite the angle theta is a side with length 12."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[2]/exercise[16]/solution[1]/para[1]/text()",
+      "slot": 520,
+      "source": "0.56 radians "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[2]/para[4]/text()",
+      "slot": 521,
+      "source": "For the following exercises, find the exact value, if possible, without a calculator. If it is not possible, explain why."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[2]/exercise[18]/solution[1]/para[1]/text()",
+      "slot": 522,
+      "source": "0 "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[2]/exercise[20]/solution[1]/para[1]/text()",
+      "slot": 523,
+      "source": "0.71 "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[2]/exercise[22]/solution[1]/para[1]/text()",
+      "slot": 524,
+      "source": "-0.71 "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[2]/exercise[26]/solution[1]/para[1]/text()",
+      "slot": 525,
+      "source": "0.8 "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[2]/para[5]/text()",
+      "slot": 526,
+      "source": "For the following exercises, find the exact value of the expression in terms of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[2]/para[5]/math[1]/tail()",
+      "slot": 527,
+      "source": "\n    with the help of a reference triangle."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[3]/title[1]/text()",
+      "slot": 528,
+      "source": "Extensions"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[3]/para[1]/text()",
+      "slot": 529,
+      "source": "For the following exercises, evaluate the expression without using a calculator. Give the exact value."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[3]/para[2]/text()",
+      "slot": 530,
+      "source": "For the following exercises, find the function if "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[4]/title[1]/text()",
+      "slot": 531,
+      "source": "Graphical"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[4]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 532,
+      "source": "Graph "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[4]/exercise[1]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 533,
+      "source": " and state the domain and range of the function."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[4]/exercise[2]/problem[1]/para[1]/text()",
+      "slot": 534,
+      "source": "Graph "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[4]/exercise[2]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 535,
+      "source": " and state the domain and range of the function."
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[6]/section[4]/exercise[2]/solution[1]/media[1]/@alt",
+      "slot": 536,
+      "source": "A graph of the function arc cosine of x over -1 to 1. The range of the function is 0 to pi."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[4]/exercise[2]/solution[1]/para[1]/text()",
+      "slot": 537,
+      "source": "domain "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[4]/exercise[2]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 538,
+      "source": " range "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[4]/exercise[3]/problem[1]/para[1]/text()",
+      "slot": 539,
+      "source": "Graph one cycle of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[4]/exercise[3]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 540,
+      "source": " and state the domain and range of the function."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[4]/exercise[4]/problem[1]/para[1]/text()",
+      "slot": 541,
+      "source": "For what value of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[4]/exercise[4]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 542,
+      "source": " does "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[4]/exercise[4]/problem[1]/para[1]/math[2]/tail()",
+      "slot": 543,
+      "source": " Use a graphing calculator to approximate the answer."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[4]/exercise[4]/solution[1]/para[1]/text()",
+      "slot": 544,
+      "source": " approximately "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[4]/exercise[5]/problem[1]/para[1]/text()",
+      "slot": 545,
+      "source": "For what value of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[4]/exercise[5]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 546,
+      "source": " does "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[4]/exercise[5]/problem[1]/para[1]/math[2]/tail()",
+      "slot": 547,
+      "source": " Use a graphing calculator to approximate the answer."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[5]/title[1]/text()",
+      "slot": 548,
+      "source": "Real-World Applications"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[5]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 549,
+      "source": "Suppose a 13-foot ladder is leaning against a building, reaching to the bottom of a second-ﬂoor window 12 feet above the ground. What angle, in radians, does the ladder make with the building?"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[5]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 550,
+      "source": "0.395 radians"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[5]/exercise[2]/problem[1]/para[1]/text()",
+      "slot": 551,
+      "source": "Suppose you drive 0.6 miles on a road so that the vertical distance changes from 0 to 150 feet. What is the angle of elevation of the road?"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[5]/exercise[3]/problem[1]/para[1]/text()",
+      "slot": 552,
+      "source": "An isosceles triangle has two congruent sides of length 9 inches. The remaining side has a length of 8 inches. Find the angle that a side of 9 inches makes with the 8-inch side. "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[5]/exercise[3]/solution[1]/para[1]/text()",
+      "slot": 553,
+      "source": "1.11 radians "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[5]/exercise[4]/problem[1]/para[1]/text()",
+      "slot": 554,
+      "source": "Without using a calculator, approximate the value of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[5]/exercise[4]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 555,
+      "source": " Explain why your answer is reasonable."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[5]/exercise[5]/problem[1]/para[1]/text()",
+      "slot": 556,
+      "source": "A truss (interior beam structure) for the roof of a house is constructed from two identical right triangles. Each has a base of 12 feet and height of 4 feet. Find the measure of the acute angle adjacent to the 4-foot side."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[5]/exercise[5]/solution[1]/para[1]/text()",
+      "slot": 557,
+      "source": "1.25 radians"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[5]/exercise[6]/problem[1]/para[1]/text()",
+      "slot": 558,
+      "source": "The line "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[5]/exercise[6]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 559,
+      "source": " passes through the origin in the "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[5]/exercise[6]/problem[1]/para[1]/emphasis[1]/text()",
+      "slot": 560,
+      "source": "x"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[5]/exercise[6]/problem[1]/para[1]/emphasis[1]/tail()",
+      "slot": 561,
+      "source": ","
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[5]/exercise[6]/problem[1]/para[1]/emphasis[2]/text()",
+      "slot": 562,
+      "source": "y"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[5]/exercise[6]/problem[1]/para[1]/emphasis[2]/tail()",
+      "slot": 563,
+      "source": "-plane. What is the measure of the angle that the line makes with the positive "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[5]/exercise[6]/problem[1]/para[1]/emphasis[3]/text()",
+      "slot": 564,
+      "source": "x"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[5]/exercise[6]/problem[1]/para[1]/emphasis[3]/tail()",
+      "slot": 565,
+      "source": "-axis?"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[5]/exercise[7]/problem[1]/para[1]/text()",
+      "slot": 566,
+      "source": "The line "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[5]/exercise[7]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 567,
+      "source": " passes through the origin in the "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[5]/exercise[7]/problem[1]/para[1]/emphasis[1]/text()",
+      "slot": 568,
+      "source": "x"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[5]/exercise[7]/problem[1]/para[1]/emphasis[1]/tail()",
+      "slot": 569,
+      "source": ","
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[5]/exercise[7]/problem[1]/para[1]/emphasis[2]/text()",
+      "slot": 570,
+      "source": "y"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[5]/exercise[7]/problem[1]/para[1]/emphasis[2]/tail()",
+      "slot": 571,
+      "source": "-plane. What is the measure of the angle that the line makes with the negative "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[5]/exercise[7]/problem[1]/para[1]/emphasis[3]/text()",
+      "slot": 572,
+      "source": "x"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/section[5]/exercise[7]/problem[1]/para[1]/emphasis[3]/tail()",
+      "slot": 573,
+      "source": "-axis?"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[5]/exercise[7]/solution[1]/para[1]/text()",
+      "slot": 574,
+      "source": "0.405 radians "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[5]/exercise[8]/problem[1]/para[1]/text()",
+      "slot": 575,
+      "source": "What percentage grade should a road have if the angle of elevation of the road is 4 degrees? (The percentage grade is defined as the change in the altitude of the road over a 100-foot horizontal distance. For example a 5% grade means that the road rises 5 feet for every 100 feet of horizontal distance.)"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[5]/exercise[9]/problem[1]/para[1]/text()",
+      "slot": 576,
+      "source": "A 20-foot ladder leans up against the side of a building so that the foot of the ladder is 10 feet from the base of the building. If specifications call for the ladder's angle of elevation to be between 35 and 45 degrees, does the placement of this ladder satisfy safety specifications?"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[5]/exercise[9]/solution[1]/para[1]/text()",
+      "slot": 577,
+      "source": "No. The angle the ladder makes with the horizontal is 60 degrees. "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/section[5]/exercise[10]/problem[1]/para[1]/text()",
+      "slot": 578,
+      "source": "Suppose a 15-foot ladder leans against the side of a house so that the angle of elevation of the ladder is 42 degrees. How far is the foot of the ladder from the side of the house?"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/title[1]/text()",
+      "slot": 579,
+      "source": "Chapter Review Exercises"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[1]/title[1]/link[1]/text()",
+      "slot": 580,
+      "source": "Graphs of the Sine and Cosine Functions"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[1]/para[1]/text()",
+      "slot": 581,
+      "source": "For the following exercises, graph the functions for two periods and determine the amplitude or stretching factor, period, midline equation, and asymptotes."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[1]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 582,
+      "source": "amplitude: 3; period: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[1]/exercise[1]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 583,
+      "source": " midline: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[1]/exercise[1]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 584,
+      "source": " no asymptotes"
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[7]/section[1]/exercise[1]/solution[1]/media[1]/@alt",
+      "slot": 585,
+      "source": "A graph of two periods of a function with a cosine parent function. The graph has a range of [0,6] graphed over -2pi to 2pi. Maximums as -pi and pi."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[1]/exercise[3]/solution[1]/para[1]/text()",
+      "slot": 586,
+      "source": "amplitude: 3; period: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[1]/exercise[3]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 587,
+      "source": " midline: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[1]/exercise[3]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 588,
+      "source": " no asymptotes"
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[7]/section[1]/exercise[3]/solution[1]/media[1]/@alt",
+      "slot": 589,
+      "source": "A graph of four periods of a function with a cosine parent function. Graphed from -4pi to 4pi. Range is [-3,3]."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[1]/exercise[5]/solution[1]/para[1]/text()",
+      "slot": 590,
+      "source": "amplitude: 3; period: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[1]/exercise[5]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 591,
+      "source": " midline: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[1]/exercise[5]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 592,
+      "source": " no asymptotes"
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[7]/section[1]/exercise[5]/solution[1]/media[1]/@alt",
+      "slot": 593,
+      "source": "A graph of two periods of a sinusoidal function. Range is [-7,-1]. Maximums at -5pi/4 and 3pi/4."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[1]/exercise[7]/solution[1]/para[1]/text()",
+      "slot": 594,
+      "source": "amplitude: 6; period: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[1]/exercise[7]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 595,
+      "source": " midline: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[1]/exercise[7]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 596,
+      "source": " no asymptotes"
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[7]/section[1]/exercise[7]/solution[1]/media[1]/@alt",
+      "slot": 597,
+      "source": "A sinusoidal graph over two periods. Range is [-7,5], amplitude is 6, and period is 2pi/3."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/title[1]/link[1]/text()",
+      "slot": 598,
+      "source": "Graphs of the Other Trigonometric Functions"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/para[1]/text()",
+      "slot": 599,
+      "source": "For the following exercises, graph the functions for two periods and determine the amplitude or stretching factor, period,\nmidline equation, and asymptotes."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 600,
+      "source": "stretching factor: none; period: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[1]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 601,
+      "source": " midline: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[1]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 602,
+      "source": " asymptotes: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[1]/solution[1]/para[1]/math[3]/tail()",
+      "slot": 603,
+      "source": " where "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[1]/solution[1]/para[1]/math[4]/tail()",
+      "slot": 604,
+      "source": " is an integer"
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[1]/solution[1]/media[1]/@alt",
+      "slot": 605,
+      "source": "A graph of a tangent function over two periods. Graphed from -pi to pi, with asymptotes at -pi/2 and pi/2."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[3]/solution[1]/para[1]/text()",
+      "slot": 606,
+      "source": "stretching factor: 3; period: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[3]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 607,
+      "source": " midline: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[3]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 608,
+      "source": " asymptotes: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[3]/solution[1]/para[1]/math[3]/tail()",
+      "slot": 609,
+      "source": " where "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[3]/solution[1]/para[1]/math[4]/tail()",
+      "slot": 610,
+      "source": " is an integer"
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[3]/solution[1]/media[1]/@alt",
+      "slot": 611,
+      "source": "A graph of a tangent function over two periods. Asymptotes at -pi/8 and pi/8. Period of pi/4. Midline at y=-2."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/para[2]/text()",
+      "slot": 612,
+      "source": "For the following exercises, graph two full periods. Identify the period, the phase shift, the amplitude, and asymptotes."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[5]/solution[1]/para[1]/text()",
+      "slot": 613,
+      "source": "amplitude: none; period: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[5]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 614,
+      "source": " no phase shift; asymptotes: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[5]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 615,
+      "source": " where "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[5]/solution[1]/para[1]/math[3]/tail()",
+      "slot": 616,
+      "source": " is an odd integer"
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[5]/solution[1]/media[1]/@alt",
+      "slot": 617,
+      "source": "A graph of two periods of a secant function. Period of 2 pi, graphed from -2pi to 2pi. Asymptotes at -3pi/2, -pi/2, pi/2, and 3pi/2."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[7]/solution[1]/para[1]/text()",
+      "slot": 618,
+      "source": "amplitude: none; period: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[7]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 619,
+      "source": " no phase shift; asymptotes: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[7]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 620,
+      "source": " where "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[7]/solution[1]/para[1]/math[3]/tail()",
+      "slot": 621,
+      "source": " is an integer"
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[7]/solution[1]/media[1]/@alt",
+      "slot": 622,
+      "source": "A graph of a cosecant functionover two and a half periods. Graphed from -pi to pi, period of 2pi/5."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[9]/solution[1]/para[1]/text()",
+      "slot": 623,
+      "source": "amplitude: none; period: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[9]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 624,
+      "source": " no phase shift; asymptotes: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[9]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 625,
+      "source": " where "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[9]/solution[1]/para[1]/math[3]/tail()",
+      "slot": 626,
+      "source": " is an integer"
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[9]/solution[1]/media[1]/@alt",
+      "slot": 627,
+      "source": "A graph of two periods of a cosecant function. Graphed from -4pi to 4pi. Asymptotes at multiples of 2pi. Period of 4pi."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/para[3]/text()",
+      "slot": 628,
+      "source": "For the following exercises, use this scenario: The population of a city has risen and fallen over a 20-year interval. Its population may be modeled by the following function: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/para[3]/math[1]/tail()",
+      "slot": 629,
+      "source": " where the domain is the years since 1980 and the range is the population of the city."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[11]/problem[1]/para[1]/text()",
+      "slot": 630,
+      "source": "What is the largest and smallest population the city may have?"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[11]/solution[1]/para[1]/text()",
+      "slot": 631,
+      "source": " largest: 20,000; smallest: 4,000"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[12]/problem[1]/para[1]/text()",
+      "slot": 632,
+      "source": "Graph the function on the domain of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[12]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 633,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[13]/problem[1]/para[1]/text()",
+      "slot": 634,
+      "source": "What are the amplitude, period, and phase shift for the function?"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[13]/solution[1]/para[1]/text()",
+      "slot": 635,
+      "source": " amplitude: 8,000; period: 10; phase shift: 0 "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[14]/problem[1]/para[1]/text()",
+      "slot": 636,
+      "source": "Over this domain, when does the population reach 18,000? 13,000?"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[15]/problem[1]/para[1]/text()",
+      "slot": 637,
+      "source": "What is the predicted population in 2007? 2010?"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[15]/solution[1]/para[1]/text()",
+      "slot": 638,
+      "source": " In 2007, the predicted population is 4,413. In 2010, the population will be 11,924. "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/para[4]/text()",
+      "slot": 639,
+      "source": "For the following exercises, suppose a weight is attached to a spring and bobs up and down, exhibiting symmetry."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[16]/problem[1]/para[1]/text()",
+      "slot": 640,
+      "source": "Suppose the graph of the displacement function is shown in "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[16]/problem[1]/para[1]/link[1]/tail()",
+      "slot": 641,
+      "source": ", where the values on the "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[16]/problem[1]/para[1]/emphasis[1]/text()",
+      "slot": 642,
+      "source": "x"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[16]/problem[1]/para[1]/emphasis[1]/tail()",
+      "slot": 643,
+      "source": "-axis represent the time in seconds and the "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[16]/problem[1]/para[1]/emphasis[2]/text()",
+      "slot": 644,
+      "source": "y"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[16]/problem[1]/para[1]/emphasis[2]/tail()",
+      "slot": 645,
+      "source": "-axis represents the displacement in inches. Give the equation that models the vertical displacement of the weight on the spring."
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[16]/problem[1]/figure[1]/media[1]/@alt",
+      "slot": 646,
+      "source": "A graph of a consine function over one period. Graphed on the domain of [0,10]. Range is [-5,5]."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[17]/problem[1]/para[1]/text()",
+      "slot": 647,
+      "source": "At time = 0, what is the displacement of the weight?"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[17]/solution[1]/para[1]/text()",
+      "slot": 648,
+      "source": " 5 in."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[18]/problem[1]/para[1]/text()",
+      "slot": 649,
+      "source": "At what time does the displacement from the equilibrium point equal zero?"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[19]/problem[1]/para[1]/text()",
+      "slot": 650,
+      "source": "What is the time required for the weight to return to its initial height of 5 inches? In other words, what is the period for the displacement function?"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[19]/solution[1]/para[1]/text()",
+      "slot": 651,
+      "source": " 10 seconds"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[3]/title[1]/link[1]/text()",
+      "slot": 652,
+      "source": "Inverse Trigonometric Functions"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[3]/para[1]/text()",
+      "slot": 653,
+      "source": "For the following exercises, find the exact value without the aid of a calculator."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[3]/exercise[8]/solution[1]/para[1]/text()",
+      "slot": 654,
+      "source": "No solution"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[3]/exercise[12]/problem[1]/para[1]/text()",
+      "slot": 655,
+      "source": "Graph "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[3]/exercise[12]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 656,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[3]/exercise[12]/problem[1]/para[1]/math[2]/tail()",
+      "slot": 657,
+      "source": " on the interval "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[3]/exercise[12]/problem[1]/para[1]/math[3]/tail()",
+      "slot": 658,
+      "source": " and explain any observations."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[3]/exercise[12]/solution[1]/para[1]/text()",
+      "slot": 659,
+      "source": "The graphs are not symmetrical with respect to the line "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[3]/exercise[12]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 660,
+      "source": " They are symmetrical with respect to the "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[3]/exercise[12]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 661,
+      "source": "-axis."
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[7]/section[3]/exercise[12]/solution[1]/media[1]/@alt",
+      "slot": 662,
+      "source": "A graph of cosine of x and secant of x. Cosine of x has maximums where secant has minimums and vice versa. Asymptotes at x=-3pi/2, -pi/2, pi/2, and 3pi/2."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[3]/exercise[13]/problem[1]/para[1]/text()",
+      "slot": 663,
+      "source": "Graph "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[3]/exercise[13]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 664,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[3]/exercise[13]/problem[1]/para[1]/math[2]/tail()",
+      "slot": 665,
+      "source": " and explain any observations."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[3]/exercise[14]/problem[1]/para[1]/text()",
+      "slot": 666,
+      "source": "Graph the function "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[3]/exercise[14]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 667,
+      "source": " on the interval "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[3]/exercise[14]/problem[1]/para[1]/math[2]/tail()",
+      "slot": 668,
+      "source": " and compare the graph to the graph of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[3]/exercise[14]/problem[1]/para[1]/math[3]/tail()",
+      "slot": 669,
+      "source": " on the same interval. Describe any observations."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[3]/exercise[14]/solution[1]/para[1]/text()",
+      "slot": 670,
+      "source": "The graphs appear to be identical."
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[7]/section[3]/exercise[14]/solution[1]/media[1]/@alt",
+      "slot": 671,
+      "source": "Two graphs of two identical functions on the interval [-1 to 1]. Both graphs appear sinusoidal."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/title[1]/text()",
+      "slot": 672,
+      "source": "Chapter Practice Test"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/para[1]/text()",
+      "slot": 673,
+      "source": "For the following exercises, sketch the graph of each function for two full periods. Determine the amplitude, the period, and the equation for the midline."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 674,
+      "source": "amplitude: 0.5; period: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/exercise[1]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 675,
+      "source": " midline "
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[8]/exercise[1]/solution[1]/media[1]/@alt",
+      "slot": 676,
+      "source": "A graph of two periods of a sinusoidal function, graphed over -2pi to 2pi. The range is [-0.5,0.5]. X-intercepts at multiples of pi."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/exercise[3]/solution[1]/para[1]/text()",
+      "slot": 677,
+      "source": "amplitude: 5; period: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/exercise[3]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 678,
+      "source": " midline: "
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[8]/exercise[3]/solution[1]/media[1]/@alt",
+      "slot": 679,
+      "source": "Two periods of a sine function, graphed over -2pi to 2pi. The range is [-5,5], amplitude of 5, period of 2pi."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/exercise[5]/solution[1]/para[1]/text()",
+      "slot": 680,
+      "source": "amplitude: 1; period: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/exercise[5]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 681,
+      "source": " midline: "
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[8]/exercise[5]/solution[1]/media[1]/@alt",
+      "slot": 682,
+      "source": "A graph of two periods of a cosine function, graphed over -7pi/3 to 5pi/3. Range is [0,2], Period is 2pi, amplitude is1."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/exercise[7]/solution[1]/para[1]/text()",
+      "slot": 683,
+      "source": "amplitude: 3; period: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/exercise[7]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 684,
+      "source": " midline: "
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[8]/exercise[7]/solution[1]/media[1]/@alt",
+      "slot": 685,
+      "source": "A graph of two periods of a cosine function, over -7pi/2 to 17pi/2. The range is [-3,3], period is 6pi, and amplitude is 3."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/exercise[9]/solution[1]/para[1]/text()",
+      "slot": 686,
+      "source": "amplitude: none; period: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/exercise[9]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 687,
+      "source": " midline: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/exercise[9]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 688,
+      "source": " asymptotes: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/exercise[9]/solution[1]/para[1]/math[3]/tail()",
+      "slot": 689,
+      "source": " where "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/exercise[9]/solution[1]/para[1]/math[4]/tail()",
+      "slot": 690,
+      "source": " is an integer"
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[8]/exercise[9]/solution[1]/media[1]/@alt",
+      "slot": 691,
+      "source": "A graph of two periods of a tangent function over -5pi/6 to 7pi/6. Period is pi, midline at y=0."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/exercise[11]/solution[1]/para[1]/text()",
+      "slot": 692,
+      "source": "amplitude: none; period: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/exercise[11]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 693,
+      "source": " midline: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/exercise[11]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 694,
+      "source": "  asymptotes: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/exercise[11]/solution[1]/para[1]/math[3]/tail()",
+      "slot": 695,
+      "source": "  where "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/exercise[11]/solution[1]/para[1]/math[4]/tail()",
+      "slot": 696,
+      "source": " is an integer"
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[8]/exercise[11]/solution[1]/media[1]/@alt",
+      "slot": 697,
+      "source": "A graph of two periods of a cosecant functinon, over -2pi/3 to 2pi/3. Vertical asymptotes at multiples of pi/3. Period of 2pi/3."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/exercise[13]/solution[1]/para[1]/text()",
+      "slot": 698,
+      "source": "amplitude: none; period: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/exercise[13]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 699,
+      "source": " midline: "
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[8]/exercise[13]/solution[1]/media[1]/@alt",
+      "slot": 700,
+      "source": "A graph of two periods of a cosecant function, graphed from -9pi/4 to 7pi/4. Period is 2pi, midline at y=-3."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/para[2]/text()",
+      "slot": 701,
+      "source": "For the following exercises, determine the amplitude, period, and midline of the graph, and then find a formula for the function."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/exercise[14]/problem[1]/para[1]/text()",
+      "slot": 702,
+      "source": "Give in terms of a sine function."
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[8]/exercise[14]/problem[1]/media[1]/@alt",
+      "slot": 703,
+      "source": "A graph of two periods of a sine function, graphed from -2 to 2. Range is [-6,-2], period is 2, and amplitude is 2."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/exercise[15]/problem[1]/para[1]/text()",
+      "slot": 704,
+      "source": "Give in terms of a sine function."
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[8]/exercise[15]/problem[1]/media[1]/@alt",
+      "slot": 705,
+      "source": "A graph of two periods of a sine function, graphed over -2 to 2. Range is [-2,2], period is 2, and amplitude is 2."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/exercise[15]/solution[1]/para[1]/text()",
+      "slot": 706,
+      "source": "amplitude: 2; period: 2; midline: "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/exercise[16]/problem[1]/para[1]/text()",
+      "slot": 707,
+      "source": "Give in terms of a tangent function."
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[8]/exercise[16]/problem[1]/media[1]/@alt",
+      "slot": 708,
+      "source": "A graph of two periods of a tangent function, graphed over -3pi/4 to 5pi/4. Vertical asymptotes at x=-pi/4, 3pi/4. Period is pi."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/para[3]/text()",
+      "slot": 709,
+      "source": "For the following exercises, find the amplitude, period, phase shift, and midline."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/exercise[17]/solution[1]/para[1]/text()",
+      "slot": 710,
+      "source": "amplitude: 1; period: 12; phase shift: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/exercise[17]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 711,
+      "source": " midline "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/exercise[19]/problem[1]/para[1]/text()",
+      "slot": 712,
+      "source": "The outside temperature over the course of a day can be modeled as a sinusoidal function. Suppose you know the temperature is 68°F at midnight and the high and low temperatures during the day are 80°F and 56°F, respectively. Assuming "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/exercise[19]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 713,
+      "source": " is the number of hours since midnight, find a function for the temperature, "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/exercise[19]/problem[1]/para[1]/math[2]/tail()",
+      "slot": 714,
+      "source": " in terms of "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/exercise[20]/problem[1]/para[1]/text()",
+      "slot": 715,
+      "source": "Water is pumped into a storage bin and empties according to a periodic rate. The depth of the water is 3 feet at its lowest at 2:00 a.m. and 71 feet at its highest, which occurs every 5 hours. Write a cosine function that models the depth of the water as a function of time, and then graph the function for one period."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/para[4]/text()",
+      "slot": 716,
+      "source": "For the following exercises, find the period and horizontal shift of each function."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/exercise[21]/solution[1]/para[1]/text()",
+      "slot": 717,
+      "source": "period: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/exercise[21]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 718,
+      "source": " horizontal shift: "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/exercise[23]/problem[1]/para[1]/text()",
+      "slot": 719,
+      "source": "Write the equation for the graph in "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/exercise[23]/problem[1]/para[1]/link[1]/tail()",
+      "slot": 720,
+      "source": " in terms of the secant function and give the period and phase shift."
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[8]/exercise[23]/problem[1]/figure[1]/media[1]/@alt",
+      "slot": 721,
+      "source": "A graph of 2 periods of a secant function, graphed over -2 to 2. The period is 2 and there is no phase shift."
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/exercise[23]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 722,
+      "source": " period: 2; phase shift: 0"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/exercise[24]/problem[1]/para[1]/text()",
+      "slot": 723,
+      "source": "If "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/exercise[24]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 724,
+      "source": " find "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/exercise[25]/problem[1]/para[1]/text()",
+      "slot": 725,
+      "source": "If "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/exercise[25]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 726,
+      "source": " find "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/para[5]/text()",
+      "slot": 727,
+      "source": "For the following exercises, graph the functions on the specified window and answer the questions."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/exercise[26]/problem[1]/para[1]/text()",
+      "slot": 728,
+      "source": "Graph "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/exercise[26]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 729,
+      "source": " on the viewing window "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/exercise[26]/problem[1]/para[1]/math[2]/tail()",
+      "slot": 730,
+      "source": " by "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/exercise[26]/problem[1]/para[1]/math[3]/tail()",
+      "slot": 731,
+      "source": " Approximate the graph’s period."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/exercise[27]/problem[1]/para[1]/text()",
+      "slot": 732,
+      "source": "Graph "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/exercise[27]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 733,
+      "source": " on the following domains in "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/exercise[27]/problem[1]/para[1]/math[3]/tail()",
+      "slot": 734,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/exercise[27]/problem[1]/para[1]/math[4]/tail()",
+      "slot": 735,
+      "source": " Suppose this function models sound waves. Why would these views look so different?"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/exercise[27]/solution[1]/para[1]/text()",
+      "slot": 736,
+      "source": "The views are different because the period of the wave is "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/exercise[27]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 737,
+      "source": " Over a bigger domain, there will be more cycles of the graph. "
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[8]/exercise[27]/solution[1]/media[1]/@alt",
+      "slot": 738,
+      "source": "Two side-by-side graphs of a sinusodial function. The first graph is graphed over 0 to 1, the second graph is graphed over 0 to 3. There are many periods for each."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/exercise[28]/problem[1]/para[1]/text()",
+      "slot": 739,
+      "source": "Graph "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/exercise[28]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 740,
+      "source": " on "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/exercise[28]/problem[1]/para[1]/math[2]/tail()",
+      "slot": 741,
+      "source": " and explain any observations."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/para[6]/text()",
+      "slot": 742,
+      "source": "For the following exercises, let "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/exercise[29]/problem[1]/para[1]/text()",
+      "slot": 743,
+      "source": "What is the largest possible value for "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/exercise[30]/problem[1]/para[1]/text()",
+      "slot": 744,
+      "source": "What is the smallest possible value for "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/exercise[31]/problem[1]/para[1]/text()",
+      "slot": 745,
+      "source": "Where is the function increasing on the interval "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/exercise[31]/solution[1]/para[1]/text()",
+      "slot": 746,
+      "source": "On the approximate intervals "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/para[7]/text()",
+      "slot": 747,
+      "source": "For the following exercises, find and graph one period of the periodic function with the given amplitude, period, and phase shift."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/exercise[32]/problem[1]/para[1]/text()",
+      "slot": 748,
+      "source": "Sine curve with amplitude 3, period "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/exercise[32]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 749,
+      "source": " and phase shift "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/exercise[33]/problem[1]/para[1]/text()",
+      "slot": 750,
+      "source": "Cosine curve with amplitude 2, period "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/exercise[33]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 751,
+      "source": " and phase shift "
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[8]/exercise[33]/solution[1]/media[1]/@alt",
+      "slot": 752,
+      "source": "A graph of one period of a cosine function, graphed over -pi/4 to 0. Range is [1,5], period is pi/6."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/para[8]/text()",
+      "slot": 753,
+      "source": "For the following exercises, graph the function. Describe the graph and, wherever applicable, any periodic behavior, amplitude, asymptotes, or undefined points."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/exercise[35]/solution[1]/para[1]/text()",
+      "slot": 754,
+      "source": "This graph is periodic with a period of "
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[8]/exercise[35]/solution[1]/media[1]/@alt",
+      "slot": 755,
+      "source": "A graph of two periods of a sinusoidal function, The graph has a period of 2pi."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/para[9]/text()",
+      "slot": 756,
+      "source": "For the following exercises, find the exact value."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/para[10]/text()",
+      "slot": 757,
+      "source": "For the following exercises, suppose "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/para[10]/math[1]/tail()",
+      "slot": 758,
+      "source": "\nEvaluate the following expressions.\n"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/exercise[46]/problem[1]/para[1]/text()",
+      "slot": 759,
+      "source": "Given "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/exercise[46]/problem[1]/para[1]/link[1]/tail()",
+      "slot": 760,
+      "source": ", find the measure of angle "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[8]/exercise[46]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 761,
+      "source": " to three decimal places. Answer in radians."
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[8]/exercise[46]/problem[1]/figure[1]/media[1]/@alt",
+      "slot": 762,
+      "source": "An illustration of a right triangle with angle theta. Opposite the angle theta is a side with length 12, adjacent to the angle theta is a side with length 19."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/para[11]/text()",
+      "slot": 763,
+      "source": "For the following exercises, determine whether the equation is true or false."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/exercise[47]/solution[1]/para[1]/text()",
+      "slot": 764,
+      "source": " False"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/exercise[49]/problem[1]/para[1]/text()",
+      "slot": 765,
+      "source": "The grade of a road is 7%. This means that for every horizontal distance of 100 feet on the road, the vertical rise is 7 feet. Find the angle the road makes with the horizontal in radians. "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[8]/exercise[49]/solution[1]/para[1]/text()",
+      "slot": 766,
+      "source": "approximately 0.07 radians"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/glossary[1]/definition[1]/term[1]/text()",
+      "slot": 767,
+      "source": "arccosine"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/glossary[1]/definition[1]/meaning[1]/text()",
+      "slot": 768,
+      "source": "another name for the inverse cosine; "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/glossary[1]/definition[2]/term[1]/text()",
+      "slot": 769,
+      "source": "arcsine"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/glossary[1]/definition[2]/meaning[1]/text()",
+      "slot": 770,
+      "source": "another name for the inverse sine; "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/glossary[1]/definition[3]/term[1]/text()",
+      "slot": 771,
+      "source": "arctangent"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/glossary[1]/definition[3]/meaning[1]/text()",
+      "slot": 772,
+      "source": "another name for the inverse tangent; "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/glossary[1]/definition[4]/term[1]/text()",
+      "slot": 773,
+      "source": "inverse cosine function"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/glossary[1]/definition[4]/meaning[1]/text()",
+      "slot": 774,
+      "source": "the function "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/glossary[1]/definition[4]/meaning[1]/math[1]/tail()",
+      "slot": 775,
+      "source": " which is the inverse of the cosine function and the angle that has a cosine equal to a given number"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/glossary[1]/definition[5]/term[1]/text()",
+      "slot": 776,
+      "source": "inverse sine function"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/glossary[1]/definition[5]/meaning[1]/text()",
+      "slot": 777,
+      "source": "the function "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/glossary[1]/definition[5]/meaning[1]/math[1]/tail()",
+      "slot": 778,
+      "source": " which is the inverse of the sine function and the angle that has a sine equal to a given number"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/glossary[1]/definition[6]/term[1]/text()",
+      "slot": 779,
+      "source": "inverse tangent function"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/glossary[1]/definition[6]/meaning[1]/text()",
+      "slot": 780,
+      "source": "the function "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/glossary[1]/definition[6]/meaning[1]/math[1]/tail()",
+      "slot": 781,
+      "source": " which is the inverse of the tangent function and the angle that has a tangent equal to a given number"
+    }
+  ],
+  "source": {
+    "bytes": 239182,
+    "path": "source/modules/m49390/index.cnxml",
+    "sha256": "97c66042d3d978a570d83efdfdadffeafc00cd9e4145f29c54c87124aa724d53"
+  }
+}

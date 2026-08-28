@@ -1,0 +1,61 @@
+{
+  "arxiv_search_result": {
+    "decision": "fallback_required",
+    "finding": "No suitable Indonesian-language arXiv source in the same mathematical field with downloadable TeX was identified during the bounded terminology search.",
+    "queries": [
+      "site:arxiv.org trigonometri Bahasa Indonesia matematika",
+      "site:arxiv.org Indonesian trigonometric functions Bahasa Indonesia",
+      "site:arxiv.org fungsi trigonometri",
+      "site:arxiv.org identitas trigonometri"
+    ],
+    "searched_on": "2026-08-28",
+    "status": "completed"
+  },
+  "fallback_reference": {
+    "authors": [
+      "Yosep Dwi Kristanto",
+      "Muhammad Taqiyuddin",
+      "Al Azhary Masta",
+      "Elyda Yulfiana"
+    ],
+    "document": "Ringkasan Bab 3 — Matematika Tingkat Lanjut (Edisi Revisi) untuk SMA Kelas XI",
+    "inspection_mode": "direct inspection of the Indonesian-language PDF text",
+    "inspected_on": "2026-08-28",
+    "isbn": "978-623-388-333-7",
+    "publisher": "Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi Republik Indonesia",
+    "url": "https://static.buku.kemdikbud.go.id/content/media/pdf/MTK11/Ringkasan_Bab_3_MTK_TL_K11_BS.pdf",
+    "year": 2024
+  },
+  "observed_terms": [
+    "lingkaran satuan",
+    "fungsi trigonometri",
+    "fungsi sinus",
+    "fungsi kosinus",
+    "amplitudo",
+    "periode",
+    "pergeseran horizontal",
+    "pergeseran vertikal",
+    "daerah hasil",
+    "Identitas Kebalikan",
+    "Identitas Hasil Bagi",
+    "Identitas Pythagoras",
+    "Identitas Genap Ganjil",
+    "Aturan Sinus",
+    "Aturan Kosinus"
+  ],
+  "packet_decision": {
+    "contract_modified": false,
+    "decision": "retain_and_document",
+    "notes": [
+      "The packet's fungsi sinus, fungsi kosinus, amplitudo, periode, pergeseran horizontal, pergeseran vertikal, and Identitas Pythagoras agree with representative Indonesian field usage.",
+      "The reference uses bilangan acuan in its own context. The packet retains sudut acuan for the source concept reference angle because the referent is explicitly an angle; this is a deliberate semantic distinction, not an invented equivalence.",
+      "Terminology proposals remain proposals only; the frozen owner glossary was not edited."
+    ],
+    "propagation_required": false
+  },
+  "provenance": {
+    "translation_localization_assistance": "OpenAI Codex gpt-5.6-sol, Ultra"
+  },
+  "schema_id": "hp-a30-003-terminology-reference-decision-v1",
+  "status": "PASS"
+}

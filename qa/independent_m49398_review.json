@@ -1,0 +1,151 @@
+{
+  "schema_id": "hp-a30-independent-module-review-v1",
+  "packet_id": "HP-A30-003",
+  "module_id": "m49398",
+  "reviewer": "Codex on instructions of the user",
+  "status": "PASS",
+  "review_scope": [
+    "complete reader-facing slot coverage",
+    "natural Indonesian (id-ID)",
+    "terminology consistency against the frozen packet contract",
+    "accessibility text",
+    "numeric and formula fidelity",
+    "dropped clauses",
+    "stitched-text behavior across inline CNXML elements"
+  ],
+  "inputs": [
+    {
+      "path": "source/modules/m49398/index.cnxml",
+      "bytes": 184807,
+      "sha256": "bea40de87c9c0beb6555d8d6a29b59b133ee8f6836e324cf4f954ba2af1502b1"
+    },
+    {
+      "path": "work/m49398_source_slots.json",
+      "bytes": 93916,
+      "sha256": "5595197836810771ae0854dd3517a00ebb61a750fb09b1ef2b32fc44568b3886"
+    },
+    {
+      "path": "work/m49398_translation_overlay.json",
+      "bytes": 45811,
+      "sha256": "3e51a6d109e4b89e15a5e151ba04f87dd945998321728b7be4b92190e5c072a4"
+    },
+    {
+      "path": "translated/modules/m49398/index.cnxml",
+      "bytes": 187042,
+      "sha256": "600ab80be1acecba1befa5b966ab453e82b97bcf83704407092c69e50602c0d3"
+    },
+    {
+      "path": "contracts/TERMINOLOGY.csv",
+      "bytes": 74708,
+      "sha256": "bb5f21eca26c1900bbd88d40c8ef8e39f2183d678b97d75b1d806ae5a0c0961d"
+    }
+  ],
+  "checks": {
+    "source_slots_match_frozen_source": {
+      "status": "PASS",
+      "slot_count": 407
+    },
+    "overlay_slot_coverage": {
+      "status": "PASS",
+      "translated_slots": 407,
+      "missing_slots": [],
+      "extra_slots": []
+    },
+    "translated_cnxml_matches_overlay": {
+      "status": "PASS",
+      "matched_slots": 407
+    },
+    "identified_repair_set": {
+      "status": "PASS",
+      "correction_groups_applied": 18,
+      "corrected_slots": [
+        28,
+        40,
+        58,
+        76,
+        111,
+        171,
+        172,
+        199,
+        200,
+        218,
+        244,
+        245,
+        265,
+        269,
+        270,
+        271,
+        273,
+        277,
+        278,
+        279,
+        355,
+        357,
+        361,
+        375,
+        389
+      ],
+      "all_expected_replacements_exact": true
+    },
+    "xml_and_topology_preservation": {
+      "status": "PASS",
+      "elements": 6999,
+      "identifiers": 719,
+      "mathml_elements": 6114,
+      "images": 5,
+      "xrefs": 32,
+      "comments": 0
+    },
+    "formula_and_numeric_fidelity": {
+      "status": "PASS",
+      "non_mtext_mathml_exact": true,
+      "reader_slot_digit_sequences_exact": true,
+      "digit_sequence_mismatches": 0
+    },
+    "accessibility_text": {
+      "status": "PASS",
+      "translated_alt_attributes": 5,
+      "missing_source_alt_attributes": 0
+    },
+    "dropped_clause_check": {
+      "status": "PASS",
+      "dropped_clauses_found": 0
+    },
+    "terminology_consistency": {
+      "status": "PASS",
+      "verified_terms": [
+        "linear",
+        "fungsi trigonometri",
+        "fungsi resiprokal",
+        "lingkaran satuan",
+        "range",
+        "sinus",
+        "kosinus",
+        "tangen",
+        "sekan",
+        "kosekan",
+        "sudut acuan",
+        "pemfaktoran",
+        "solusi eksak"
+      ]
+    },
+    "natural_indonesian_and_stitched_text": {
+      "status": "PASS",
+      "reviewed_slots": 407,
+      "remaining_required_corrections": 0
+    }
+  },
+  "corrections": [],
+  "correction_observations": [
+    {
+      "slots": [
+        292,
+        294
+      ],
+      "category": "source_accessibility_unit_inconsistency",
+      "translation_changed": false,
+      "observation": "The source narrative states that the ground anchor is 23 meters from the wheel, while the source alt text states 23 feet. The Indonesian translation faithfully preserves each source unit; this remains an upstream source/accessibility correction observation rather than translation drift."
+    }
+  ],
+  "conclusion": "All 407 reader-facing slots are present in the rebuilt target, the 18 identified language and stitched-text correction groups are resolved, and the current target passes independent semantic, terminology, accessibility, topology, MathML, identifier, cross-reference, numeric, and clause-completeness review."
+}

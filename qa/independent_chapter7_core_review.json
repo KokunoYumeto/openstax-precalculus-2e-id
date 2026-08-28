@@ -1,0 +1,686 @@
+{
+  "correction_result": {
+    "additional_unique_slots_corrected_after_stitched_reaudit": 14,
+    "all_75_correction_groups_resolved": true,
+    "audited_proposal_slots_already_equal": 8,
+    "audited_proposal_slots_changed": 135,
+    "changed_slots_by_module": {
+      "m49393": [
+        5,
+        61,
+        62,
+        63,
+        167,
+        168,
+        175,
+        176,
+        184,
+        194,
+        195,
+        206,
+        218,
+        219,
+        222,
+        223,
+        273,
+        274,
+        276,
+        277,
+        278,
+        279,
+        282,
+        298,
+        299
+      ],
+      "m49395": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        34,
+        39,
+        53,
+        88,
+        97,
+        113,
+        123,
+        130,
+        159,
+        161,
+        162,
+        164,
+        165,
+        167,
+        172,
+        174,
+        187,
+        203,
+        204,
+        212,
+        213,
+        214,
+        215,
+        216,
+        224,
+        226,
+        230,
+        246,
+        252,
+        253,
+        260,
+        261,
+        262,
+        266,
+        275,
+        277,
+        288,
+        294,
+        298,
+        300,
+        305,
+        328,
+        331,
+        335,
+        336,
+        342,
+        343,
+        347,
+        348,
+        349,
+        350,
+        397,
+        399
+      ],
+      "m49396": [
+        4,
+        5,
+        6,
+        7,
+        15,
+        17,
+        18,
+        20,
+        23,
+        48,
+        50,
+        78,
+        95,
+        96,
+        102,
+        121,
+        127,
+        130,
+        133,
+        134,
+        137,
+        147,
+        162,
+        187,
+        190,
+        191,
+        192,
+        194,
+        196,
+        197,
+        198,
+        200,
+        202,
+        203,
+        204,
+        221,
+        253,
+        266,
+        272,
+        334,
+        335,
+        337
+      ],
+      "m49397": [
+        1,
+        2,
+        4,
+        5,
+        29,
+        54,
+        55,
+        86,
+        89,
+        93,
+        96,
+        122,
+        133,
+        134,
+        146,
+        153,
+        154,
+        158,
+        160,
+        164,
+        165,
+        168,
+        170
+      ]
+    },
+    "correction_group_75": {
+      "module_id": "m49393",
+      "result": "PASS",
+      "slot": 218,
+      "source": "This is a difference of squares formula: ",
+      "target": "Ini adalah rumus selisih kuadrat: "
+    },
+    "correction_group_count": 75,
+    "status": "PASS",
+    "total_unique_changed_slots": 149
+  },
+  "modules": {
+    "m49393": {
+      "additional_formula_boundary_or_terminology_slots": [
+        195,
+        276,
+        277,
+        298,
+        299
+      ],
+      "audited_proposal_slots_already_equal": [],
+      "changed_slot_count": 25,
+      "changed_slots": [
+        5,
+        61,
+        62,
+        63,
+        167,
+        168,
+        175,
+        176,
+        184,
+        194,
+        195,
+        206,
+        218,
+        219,
+        222,
+        223,
+        273,
+        274,
+        276,
+        277,
+        278,
+        279,
+        282,
+        298,
+        299
+      ],
+      "current_bytes": {
+        "overlay_path": "tools/agent_c_m49393_final.json",
+        "overlay_sha256": "2b3886ab88a10312be1e3ae5698b505eb9d1bfa6baf829c4c083e06a2b97aa3a",
+        "source_path": "source/modules/m49393/index.cnxml",
+        "source_sha256": "127998ee2cb1b1aa44beb4df1bee6aab9b593dddaf3e7e919e1e047d2ef59747",
+        "target_bytes": 143092,
+        "target_path": "translated/modules/m49393/index.cnxml",
+        "target_sha256": "fd07ee885692d4fd53d2fd37e51bd69a68373e05c6370eb242aea4d9261e2f15"
+      },
+      "language_results": {
+        "accessibility_prose": "PASS",
+        "accuracy_and_naturalness": "PASS",
+        "english_residue": "PASS",
+        "formula_and_numeric_fidelity": "PASS",
+        "stitched_xml_boundaries": "PASS",
+        "terminology_consistency": "PASS"
+      },
+      "post_stitch_refined_proposed_slots": [
+        274
+      ],
+      "reader_slots_reaudited": 305,
+      "reviewed_numeric_localization_slots": [
+        71
+      ],
+      "slot_kinds": {
+        "attribute:alt": 4,
+        "attribute:summary": 5,
+        "tail": 102,
+        "text": 194
+      },
+      "source_authored_discrepancies": [
+        {
+          "issue": "Source typo 'identifies' for 'identities'; Indonesian correctly uses 'identitas'.",
+          "slots": [
+            18
+          ]
+        },
+        {
+          "issue": "Source table summary is '..'; Indonesian supplies a meaningful four-row accessibility summary.",
+          "slots": [
+            233
+          ]
+        },
+        {
+          "issue": "Source phrase 'negative identities' is underspecified; Indonesian retains the literal ambiguity for owner correction tracking.",
+          "slots": [
+            293
+          ]
+        }
+      ],
+      "status": "PASS",
+      "structural_results": {
+        "asset_closure": "PASS",
+        "canonical_overlay_rebuild_equal": true,
+        "comments": 0,
+        "elements": 5875,
+        "ids": 399,
+        "images": 4,
+        "mathml_elements": 5270,
+        "xrefs": 19
+      }
+    },
+    "m49395": {
+      "additional_formula_boundary_or_terminology_slots": [],
+      "audited_proposal_slots_already_equal": [
+        173,
+        225,
+        276
+      ],
+      "changed_slot_count": 59,
+      "changed_slots": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        34,
+        39,
+        53,
+        88,
+        97,
+        113,
+        123,
+        130,
+        159,
+        161,
+        162,
+        164,
+        165,
+        167,
+        172,
+        174,
+        187,
+        203,
+        204,
+        212,
+        213,
+        214,
+        215,
+        216,
+        224,
+        226,
+        230,
+        246,
+        252,
+        253,
+        260,
+        261,
+        262,
+        266,
+        275,
+        277,
+        288,
+        294,
+        298,
+        300,
+        305,
+        328,
+        331,
+        335,
+        336,
+        342,
+        343,
+        347,
+        348,
+        349,
+        350,
+        397,
+        399
+      ],
+      "current_bytes": {
+        "overlay_path": "tools/agent_a_overlays/m49395.json",
+        "overlay_sha256": "df8c61fecc5ceb2736c5bb357fe4a38993119e42ecfeb41ddabe2f645744aeb8",
+        "source_path": "source/modules/m49395/index.cnxml",
+        "source_sha256": "b1d667f198a070590ded5a2a4ffdbb32c5c86d9b4cad8f3e3b0b1922fb19c64e",
+        "target_bytes": 243948,
+        "target_path": "translated/modules/m49395/index.cnxml",
+        "target_sha256": "30e2aa214e2d80624f137f9b647854730baddcbd7890bde08b08a0c412a1b784"
+      },
+      "language_results": {
+        "accessibility_prose": "PASS",
+        "accuracy_and_naturalness": "PASS",
+        "english_residue": "PASS",
+        "formula_and_numeric_fidelity": "PASS",
+        "stitched_xml_boundaries": "PASS",
+        "terminology_consistency": "PASS"
+      },
+      "post_stitch_refined_proposed_slots": [
+        162,
+        172,
+        174,
+        204,
+        213,
+        214,
+        216
+      ],
+      "reader_slots_reaudited": 408,
+      "reviewed_numeric_localization_slots": [
+        10
+      ],
+      "slot_kinds": {
+        "attribute:alt": 12,
+        "attribute:summary": 3,
+        "tail": 164,
+        "text": 229
+      },
+      "source_authored_discrepancies": [
+        {
+          "issue": "Source summary has 'two columns/' punctuation error; Indonesian summary is corrected.",
+          "slots": [
+            230
+          ]
+        },
+        {
+          "issue": "Source key-equations summary is '..'; Indonesian now supplies an accurate seven-row summary.",
+          "slots": [
+            305
+          ]
+        },
+        {
+          "issue": "Source says 'They are the different'; Indonesian correctly says the functions differ.",
+          "slots": [
+            383,
+            389
+          ]
+        }
+      ],
+      "status": "PASS",
+      "structural_results": {
+        "asset_closure": "PASS",
+        "canonical_overlay_rebuild_equal": true,
+        "comments": 0,
+        "elements": 7686,
+        "ids": 502,
+        "images": 12,
+        "mathml_elements": 6925,
+        "xrefs": 27
+      }
+    },
+    "m49396": {
+      "additional_formula_boundary_or_terminology_slots": [
+        20,
+        23,
+        137,
+        147,
+        162,
+        187,
+        266
+      ],
+      "audited_proposal_slots_already_equal": [
+        3,
+        49,
+        193,
+        199
+      ],
+      "changed_slot_count": 42,
+      "changed_slots": [
+        4,
+        5,
+        6,
+        7,
+        15,
+        17,
+        18,
+        20,
+        23,
+        48,
+        50,
+        78,
+        95,
+        96,
+        102,
+        121,
+        127,
+        130,
+        133,
+        134,
+        137,
+        147,
+        162,
+        187,
+        190,
+        191,
+        192,
+        194,
+        196,
+        197,
+        198,
+        200,
+        202,
+        203,
+        204,
+        221,
+        253,
+        266,
+        272,
+        334,
+        335,
+        337
+      ],
+      "current_bytes": {
+        "overlay_path": "tools/agent_c_m49396_final.json",
+        "overlay_sha256": "2db64c4b27d9a18cefbfbe5e61f790f95dc5221097e1a4135f05776a0481ce55",
+        "source_path": "source/modules/m49396/index.cnxml",
+        "source_sha256": "3ac803d81877dc0fb60f4a94ec5c17ec3b2df7b4eb033effd6845aed28d1b13e",
+        "target_bytes": 232200,
+        "target_path": "translated/modules/m49396/index.cnxml",
+        "target_sha256": "ced54382c745753457c2c0f2773b8f1aec44717af3eda90cc78c0f598fd9f9c2"
+      },
+      "language_results": {
+        "accessibility_prose": "PASS",
+        "accuracy_and_naturalness": "PASS",
+        "english_residue": "PASS",
+        "formula_and_numeric_fidelity": "PASS",
+        "stitched_xml_boundaries": "PASS",
+        "terminology_consistency": "PASS"
+      },
+      "post_stitch_refined_proposed_slots": [
+        191,
+        197,
+        203,
+        337
+      ],
+      "reader_slots_reaudited": 345,
+      "reviewed_numeric_localization_slots": [],
+      "slot_kinds": {
+        "attribute:alt": 5,
+        "attribute:summary": 1,
+        "tail": 142,
+        "text": 197
+      },
+      "source_authored_discrepancies": [
+        {
+          "issue": "Source says 'We see that we to need'; Indonesian removes the typo.",
+          "slots": [
+            58
+          ]
+        },
+        {
+          "issue": "Source commentary contradicts itself by repeating 'left side'; Indonesian preserves the source contradiction for owner correction tracking.",
+          "slots": [
+            101
+          ]
+        },
+        {
+          "issue": "Protected MathML encodes the degree sign in sin(15°) as mtext letter 'o'; target preserves it exactly.",
+          "slots": [
+            165
+          ]
+        },
+        {
+          "issue": "Source key-equations summary is '..'; Indonesian supplies a meaningful three-row summary.",
+          "slots": [
+            233
+          ]
+        }
+      ],
+      "status": "PASS",
+      "structural_results": {
+        "asset_closure": "PASS",
+        "canonical_overlay_rebuild_equal": true,
+        "comments": 0,
+        "elements": 7368,
+        "ids": 496,
+        "images": 5,
+        "mathml_elements": 6686,
+        "xrefs": 20
+      }
+    },
+    "m49397": {
+      "additional_formula_boundary_or_terminology_slots": [
+        122,
+        154
+      ],
+      "audited_proposal_slots_already_equal": [
+        3
+      ],
+      "changed_slot_count": 23,
+      "changed_slots": [
+        1,
+        2,
+        4,
+        5,
+        29,
+        54,
+        55,
+        86,
+        89,
+        93,
+        96,
+        122,
+        133,
+        134,
+        146,
+        153,
+        154,
+        158,
+        160,
+        164,
+        165,
+        168,
+        170
+      ],
+      "current_bytes": {
+        "overlay_path": "tools/agent_c_m49397_final.json",
+        "overlay_sha256": "785478322245b3c8fb5872a4435901b1dc3157adb37869280a12adaddfa77c6f",
+        "source_path": "source/modules/m49397/index.cnxml",
+        "source_sha256": "518e82cad5d41cb19f9a3e5389d70d54c2c80817461c8be92df6d9178b1d2899",
+        "target_bytes": 163374,
+        "target_path": "translated/modules/m49397/index.cnxml",
+        "target_sha256": "673f377b3e73acd37246258a9d2622a5131919dd8d7e0861500b321c2f877e2d"
+      },
+      "language_results": {
+        "accessibility_prose": "PASS",
+        "accuracy_and_naturalness": "PASS",
+        "english_residue": "PASS",
+        "formula_and_numeric_fidelity": "PASS",
+        "stitched_xml_boundaries": "PASS",
+        "terminology_consistency": "PASS"
+      },
+      "post_stitch_refined_proposed_slots": [
+        158
+      ],
+      "reader_slots_reaudited": 170,
+      "reviewed_numeric_localization_slots": [
+        10
+      ],
+      "slot_kinds": {
+        "attribute:alt": 2,
+        "attribute:summary": 1,
+        "tail": 38,
+        "text": 129
+      },
+      "source_authored_discrepancies": [
+        {
+          "issue": "Source MathML instruction 'Substitute for ...' is incomplete; target preserves it for owner correction tracking.",
+          "slots": [
+            70,
+            71
+          ]
+        },
+        {
+          "issue": "Source key-equations summary is '..'; Indonesian supplies a meaningful two-row summary.",
+          "slots": [
+            102
+          ]
+        },
+        {
+          "issue": "Source phrase 'or products sine and cosine' is malformed; Indonesian follows the mathematically coherent intended reading.",
+          "slots": [
+            112
+          ]
+        },
+        {
+          "issue": "Source says 'It is and identity'; Indonesian correctly states that it is an identity.",
+          "slots": [
+            145
+          ]
+        }
+      ],
+      "status": "PASS",
+      "structural_results": {
+        "asset_closure": "PASS",
+        "canonical_overlay_rebuild_equal": true,
+        "comments": 0,
+        "elements": 5591,
+        "ids": 426,
+        "images": 2,
+        "mathml_elements": 5051,
+        "xrefs": 10
+      }
+    }
+  },
+  "overall_status": "PASS",
+  "packet_id": "HP-A30-003",
+  "prior_fail_receipt": {
+    "audited_proposed_slots": 142,
+    "correction_groups": 74,
+    "sha256": "04af19691c7e584e4c076f6a4345ec6bd8575aa3d77a1dbd41885fe902eafc9e"
+  },
+  "qa_results": {
+    "accessibility_summaries": "PASS",
+    "asset_closure": "PASS",
+    "canonical_overlay_rebuild": "PASS",
+    "english_residue": "PASS",
+    "formula_numeric_fidelity": "PASS",
+    "formula_tail_duplicate_punctuation": "PASS",
+    "overall_status": "PASS",
+    "reader_facing_language": "PASS",
+    "repeat_in_memory_build_identity": "PASS",
+    "reviewed_localizations": "PASS",
+    "xml_topology_ids_xrefs_non_mtext_mathml": "PASS"
+  },
+  "review_scope": {
+    "accessibility_slots_reaudited": 33,
+    "module_ids": [
+      "m49393",
+      "m49395",
+      "m49396",
+      "m49397"
+    ],
+    "reader_facing_slots_reaudited": 1228,
+    "source_boundary": "Frozen HP-A30-003 source/modules/{m49393,m49395,m49396,m49397}/index.cnxml only",
+    "write_boundary": "Only the four declared overlays, their four corresponding translated targets, and this review receipt were changed; no other module, contract, glossary, owner, integration, backend, Git, or publication file was touched."
+  },
+  "review_timestamp": "2026-08-28T20:56:54+02:00",
+  "reviewer": "Codex independent helper auditor",
+  "schema_id": "hp-a30-independent-chapter7-core-review-v3",
+  "signoff": "Codex, acting on the instructions of the user; independent helper-only remediation and QA, with no integration or publication authority exercised.",
+  "source_issue_policy": "Source-authored discrepancies remain explicitly recorded; protected formulas and semantics were not silently altered."
+}

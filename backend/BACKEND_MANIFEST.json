@@ -1,0 +1,43 @@
+{
+  "checks": {
+    "all_28_required_fields": "PASS",
+    "canonical_entity_id_sort": "PASS",
+    "csv_canonical_json_cell_round_trip": "PASS",
+    "exact_overlay_to_target_reproduction": "PASS",
+    "json_schema_draft_2020_12": "PASS",
+    "two_run_record_build": "PASS"
+  },
+  "entity_counts": {
+    "artifact": 14,
+    "asset": 196,
+    "concept": 25,
+    "correction": 50,
+    "course": 1,
+    "edition": 1,
+    "program": 1,
+    "qa_event": 13,
+    "relation": 1721,
+    "resource": 1,
+    "rights": 1,
+    "segment": 5118,
+    "term": 65,
+    "unit": 11
+  },
+  "exports": [
+    {
+      "bytes": 13315066,
+      "path": "backend/records.jsonl",
+      "sha256": "b610d022054c638464f7e276e66fbbc1e90461334eb165f3a9ec40b949442324"
+    },
+    {
+      "bytes": 11565430,
+      "path": "backend/records.csv",
+      "sha256": "77db1c431c7e500907184cd5dcfbfa853ba5ab879dbe86b090fcef98857c1ee9"
+    }
+  ],
+  "packet_id": "HP-A30-003",
+  "record_count": 7218,
+  "schema_id": "hp-a30-003-backend-manifest-v2",
+  "schema_version": "0.1.0",
+  "status": "PASS"
+}

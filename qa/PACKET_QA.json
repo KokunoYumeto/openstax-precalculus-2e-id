@@ -1,0 +1,145 @@
+{
+  "aggregate_preservation": {
+    "comments": 40,
+    "elements": 62990,
+    "ids": 5541,
+    "images": 196,
+    "mathml_elements": 54237,
+    "xrefs": 279
+  },
+  "assets": {
+    "all_byte_identical": true,
+    "all_present": true,
+    "manifest_count": 196,
+    "result": "PASS",
+    "unique_count": 196
+  },
+  "authority": {
+    "commit": "789b54099106b071d1d32bfcee454fed72eb4768",
+    "contracts_verified": 4,
+    "repository": "openstax/osbooks-college-algebra-bundle",
+    "source_manifest": {
+      "bytes": 49164,
+      "sha256": "428f88ad01cf140af0ae61e5fe70f1b3f4a39484e135a169811087748808d573"
+    },
+    "tree": "05b39123f698772482c0c33a43fa2d2d4ea562ae"
+  },
+  "checks": {
+    "accessibility_text": "PASS",
+    "asset_closure": "PASS",
+    "contract_hashes": "PASS",
+    "forbidden_id_id_corruption_or_terminology": "PASS_ZERO",
+    "high_confidence_english_residue": "PASS_ZERO",
+    "non_mtext_mathml": "PASS",
+    "overlay_exact_coverage": "PASS",
+    "reader_numeric_tokens": "PASS",
+    "source_hashes": "PASS",
+    "two_run_repeat_build": "PASS",
+    "xml_topology_ids_xrefs_comments": "PASS"
+  },
+  "coverage": {
+    "reader_slots": 5118,
+    "result": "PASS",
+    "source_slots": 5118
+  },
+  "module_qa": [
+    {
+      "module_id": "m49386",
+      "path": "qa/m49386_qa.json",
+      "status": "PASS",
+      "target_sha256": "8facb3f47c07d61a95fc1f96771cebb15b9167e2c099e3031ae057116178344c"
+    },
+    {
+      "module_id": "m49387",
+      "path": "qa/m49387_qa.json",
+      "status": "PASS",
+      "target_sha256": "61dc889ef58d41d68811616907610b8296e342c6e111293ec8f80d1eb0a2f8c1"
+    },
+    {
+      "module_id": "m49389",
+      "path": "qa/m49389_qa.json",
+      "status": "PASS",
+      "target_sha256": "0e027f82bb59720b401ee4ad1897a31830895413deec8cfd4a3d06e8c74fee3a"
+    },
+    {
+      "module_id": "m49390",
+      "path": "qa/m49390_qa.json",
+      "status": "PASS",
+      "target_sha256": "3be5ae9b4c4320780b8fc9c920da5b98319fda39db8b2d10f46f988b03ea175e"
+    },
+    {
+      "module_id": "m49392",
+      "path": "qa/m49392_qa.json",
+      "status": "PASS",
+      "target_sha256": "2661c89425f5e13021d979ed098253270f3eef3307a406ba9a66cce7ca46ba75"
+    },
+    {
+      "module_id": "m49393",
+      "path": "qa/m49393_qa.json",
+      "status": "PASS",
+      "target_sha256": "fd07ee885692d4fd53d2fd37e51bd69a68373e05c6370eb242aea4d9261e2f15"
+    },
+    {
+      "module_id": "m49395",
+      "path": "qa/m49395_qa.json",
+      "status": "PASS",
+      "target_sha256": "30e2aa214e2d80624f137f9b647854730baddcbd7890bde08b08a0c412a1b784"
+    },
+    {
+      "module_id": "m49396",
+      "path": "qa/m49396_qa.json",
+      "status": "PASS",
+      "target_sha256": "ced54382c745753457c2c0f2773b8f1aec44717af3eda90cc78c0f598fd9f9c2"
+    },
+    {
+      "module_id": "m49397",
+      "path": "qa/m49397_qa.json",
+      "status": "PASS",
+      "target_sha256": "673f377b3e73acd37246258a9d2622a5131919dd8d7e0861500b321c2f877e2d"
+    },
+    {
+      "module_id": "m49398",
+      "path": "qa/m49398_qa.json",
+      "status": "PASS",
+      "target_sha256": "600ab80be1acecba1befa5b966ab453e82b97bcf83704407092c69e50602c0d3"
+    },
+    {
+      "module_id": "m49399",
+      "path": "qa/m49399_qa.json",
+      "status": "PASS",
+      "target_sha256": "b2185e569982efffaab0e79115d82d020490db0a32a6cadb39ce5dd126092f2b"
+    }
+  ],
+  "packet_id": "HP-A30-003",
+  "schema_id": "hp-a30-003-current-byte-packet-qa-v1",
+  "scope": {
+    "contiguous_assigned_order": true,
+    "module_count": 11,
+    "module_ids": [
+      "m49386",
+      "m49387",
+      "m49389",
+      "m49390",
+      "m49392",
+      "m49393",
+      "m49395",
+      "m49396",
+      "m49397",
+      "m49398",
+      "m49399"
+    ],
+    "neighboring_modules_touched": false,
+    "source_orders": [
+      38,
+      48
+    ]
+  },
+  "semantic_structures": {
+    "examples": 102,
+    "exercises": 886,
+    "figures": 117,
+    "solutions": 527,
+    "tables": 40
+  },
+  "status": "PASS"
+}

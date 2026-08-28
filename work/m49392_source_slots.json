@@ -1,0 +1,42 @@
+{
+  "module_id": "m49392",
+  "schema_id": "hp-a30-cnxml-source-reader-slots-v1",
+  "slot_count": 5,
+  "slots": [
+    {
+      "kind": "text",
+      "locator": "/document[1]/title[1]/text()",
+      "slot": 1,
+      "source": "Introduction to Trigonometric Identities and Equations"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/metadata[1]/title[1]/text()",
+      "slot": 2,
+      "source": "Introduction to Trigonometric Identities and Equations"
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/figure[1]/media[1]/@alt",
+      "slot": 3,
+      "source": "A close-up shot of an oscilloscope screen displaying a vibrant neon blue waveform. The waveform is complex, featuring a main undulating curve with smaller, uniform ripples or serrations along its entire length. There appears to be a second, fainter waveform of a similar pattern slightly offset and overlapping, creating an intricate, almost braided visual effect. The background is a dark blue grid, typical of an oscilloscope display, with lighter grid lines visible through the glowing waveform, indicating precise measurements."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/figure[1]/caption[1]/text()",
+      "slot": 4,
+      "source": "A sine wave models disturbance. (credit: modification of work by Mikael Altemark, Flickr)."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/para[1]/text()",
+      "slot": 5,
+      "source": "Math is everywhere, even in places we might not immediately recognize. For example, mathematical relationships describe the transmission of images, light, and sound. The sinusoidal graph in the figure above models music playing on a phone, radio, or computer. Such graphs are described using trigonometric equations and functions. In this chapter, we discuss how to manipulate trigonometric equations algebraically by applying various formulas and trigonometric identities. We will also investigate some of the ways that trigonometric equations are used to model real-life phenomena."
+    }
+  ],
+  "source": {
+    "bytes": 1892,
+    "path": "source/modules/m49392/index.cnxml",
+    "sha256": "1c3527fb75112c456fe58f605d68bee71bc99a922caece28fd695ba9c57ee739"
+  }
+}

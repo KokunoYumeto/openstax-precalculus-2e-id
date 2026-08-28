@@ -1,0 +1,22 @@
+{
+  "module_id": "m49392",
+  "schema_id": "hp-a30-003-agent-b-reader-overlay-v1",
+  "semantic_review_capture": {
+    "capture_basis": "translated/modules/m49392/index.cnxml by immutable source locator",
+    "changed_slot_count": 0
+  },
+  "slot_count": 5,
+  "source": {
+    "bytes": 1892,
+    "path": "source/modules/m49392/index.cnxml",
+    "sha256": "1c3527fb75112c456fe58f605d68bee71bc99a922caece28fd695ba9c57ee739"
+  },
+  "translation_method": "network-assisted draft, deterministic terminology normalization, source-context post-edit, and captured packet-level semantic review; frozen deterministic overlay",
+  "translations": {
+    "1": "Pengantar Identitas dan Persamaan Trigonometri",
+    "2": "Pengantar Identitas dan Persamaan Trigonometri",
+    "3": "Foto jarak dekat layar osiloskop yang menampilkan bentuk gelombang biru neon cerah. Bentuk gelombang tersebut kompleks: sebuah kurva utama yang bergelombang disertai riak atau gerigi kecil yang seragam di sepanjang kurva. Tampak pula bentuk gelombang kedua yang lebih redup, dengan pola serupa, sedikit bergeser dan saling menumpuk sehingga menghasilkan efek visual rumit yang menyerupai anyaman. Latar belakangnya berupa kisi-kisi biru tua khas tampilan osiloskop. Garis kisi yang lebih terang terlihat menembus bentuk gelombang bercahaya dan menunjukkan pengukuran yang presisi.",
+    "4": "Gelombang sinus memodelkan gangguan. (kredit: modifikasi karya Mikael Altemark, Flickr).",
+    "5": "Matematika ada di mana-mana, bahkan di tempat yang mungkin tidak langsung kita kenali. Misalnya, hubungan matematis menggambarkan transmisi gambar, cahaya, dan suara. Grafik sinusoidal pada gambar di atas memodelkan musik yang diputar melalui telepon, radio, atau komputer. Grafik seperti itu dideskripsikan menggunakan persamaan dan fungsi trigonometri. Dalam bab ini, kita membahas cara memanipulasi persamaan trigonometri secara aljabar dengan menerapkan berbagai rumus dan identitas trigonometri. Kita juga akan menyelidiki beberapa cara penggunaan persamaan trigonometri untuk memodelkan fenomena kehidupan nyata."
+  }
+}

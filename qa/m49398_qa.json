@@ -1,0 +1,94 @@
+{
+  "accessibility": {
+    "result": "PASS",
+    "translated_alt_and_summary_count": 5
+  },
+  "assets": {
+    "byte_identical_to_source": true,
+    "records": [
+      {
+        "bytes": 164537,
+        "reference": "../../media/CNX_Precalc_Figure_07_05_001.jpg",
+        "sha256": "35023324d1cbcf8a04a0118f5ca5c17d5ef7336382c68fc50b887950458627f7"
+      },
+      {
+        "bytes": 96082,
+        "reference": "../../media/CNX_Precalc_Figure_07_05_005.jpg",
+        "sha256": "55d8a818466a29b9c179d4b35c8b6dde37322f98257aeb8003b107a0af932754"
+      },
+      {
+        "bytes": 69342,
+        "reference": "../../media/CNX_Precalc_Figure_07_05_004.jpg",
+        "sha256": "29fd1295595beda3ff4acdebd4df57f594bf6a13ae7fb589e7baaea34132294d"
+      },
+      {
+        "bytes": 49298,
+        "reference": "../../media/CNX_Precalc_Figure_07_05_002.jpg",
+        "sha256": "2811c1962996a8e40540e3b2c274cb2dfb745b85aa659929237169039dac97f3"
+      },
+      {
+        "bytes": 38214,
+        "reference": "../../media/CNX_Precalc_Figure_07_05_003.jpg",
+        "sha256": "4977c1ccb0b15c6b2c5293b27b429adcbb1799a5c3dca0b98877700e1b192005"
+      }
+    ],
+    "reference_count": 5,
+    "result": "PASS"
+  },
+  "coverage": {
+    "result": "PASS",
+    "source_slots": 407,
+    "translated_slots": 407
+  },
+  "language": {
+    "forbidden_id_id_count": 0,
+    "high_confidence_english_residue_count": 0,
+    "result": "PASS"
+  },
+  "math_and_numeric": {
+    "authorized_numeric_localization_slots": [],
+    "non_mtext_mathml_byte_semantics": "PASS",
+    "reader_numeric_mismatch_count": 0,
+    "result": "PASS"
+  },
+  "module_id": "m49398",
+  "overlay": {
+    "bytes": 45811,
+    "path": "work/m49398_translation_overlay.json",
+    "sha256": "3e51a6d109e4b89e15a5e151ba04f87dd945998321728b7be4b92190e5c072a4"
+  },
+  "preservation": {
+    "comments": 0,
+    "elements": 6999,
+    "ids": 719,
+    "images": 5,
+    "mathml_elements": 6114,
+    "result": "PASS",
+    "xrefs": 32
+  },
+  "repeat_build": {
+    "byte_identical": true,
+    "result": "PASS",
+    "runs": 2,
+    "sha256": "600ab80be1acecba1befa5b966ab453e82b97bcf83704407092c69e50602c0d3"
+  },
+  "schema_id": "hp-a30-003-current-byte-module-qa-v1",
+  "semantic_structures": {
+    "examples": 19,
+    "exercises": 130,
+    "figures": 5,
+    "solutions": 77,
+    "tables": 0
+  },
+  "source": {
+    "bytes": 184807,
+    "path": "source/modules/m49398/index.cnxml",
+    "sha256": "bea40de87c9c0beb6555d8d6a29b59b133ee8f6836e324cf4f954ba2af1502b1"
+  },
+  "status": "PASS",
+  "target": {
+    "bytes": 187042,
+    "path": "translated/modules/m49398/index.cnxml",
+    "sha256": "600ab80be1acecba1befa5b966ab453e82b97bcf83704407092c69e50602c0d3"
+  }
+}

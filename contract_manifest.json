@@ -1,0 +1,31 @@
+{
+  "contracts": [
+    {
+      "bytes": 74708,
+      "packet_path": "contracts/TERMINOLOGY.csv",
+      "sha256": "bb5f21eca26c1900bbd88d40c8ef8e39f2183d678b97d75b1d806ae5a0c0961d",
+      "source_locator": "00_control/TERMINOLOGY.csv"
+    },
+    {
+      "bytes": 2523,
+      "packet_path": "contracts/BACKEND_SCHEMA_VERSION.json",
+      "sha256": "89fbab77ce37492b44adcd1c07e20f6f140ba0667d5f4aa7e2674a702f2014e3",
+      "source_locator": "00_control/BACKEND_SCHEMA_VERSION.json"
+    },
+    {
+      "bytes": 2806,
+      "packet_path": "contracts/backend-record-v0.schema.json",
+      "sha256": "0c6c2994ebc9cd02c4605d34dc19a3590280de1e9a9a6f6df96b8f86840c3c53",
+      "source_locator": "backend/schema/backend-record-v0.schema.json"
+    },
+    {
+      "bytes": 942,
+      "packet_path": "contracts/BUILD_CONFIG.json",
+      "sha256": "280b02939419914acae75545fe064c35c7a40c068ecd9704da85526c5a9a2cb5",
+      "source_locator": "backend/BUILD_CONFIG.json"
+    }
+  ],
+  "mode": "read_only_exact_byte_freeze",
+  "packet_id": "HP-A30-003",
+  "schema_id": "hp-a30-contract-manifest-v1"
+}

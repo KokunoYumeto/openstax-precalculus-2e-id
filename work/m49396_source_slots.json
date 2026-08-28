@@ -1,0 +1,2082 @@
+{
+  "module_id": "m49396",
+  "schema_id": "hp-a30-cnxml-source-reader-slots-v1",
+  "slot_count": 345,
+  "slots": [
+    {
+      "kind": "text",
+      "locator": "/document[1]/title[1]/text()",
+      "slot": 1,
+      "source": "Double-Angle, Half-Angle, and Reduction Formulas"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/metadata[1]/title[1]/text()",
+      "slot": 2,
+      "source": "Double-Angle, Half-Angle, and Reduction Formulas"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/metadata[1]/abstract[1]/para[1]/text()",
+      "slot": 3,
+      "source": "In this section, you will:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/metadata[1]/abstract[1]/list[1]/item[1]/text()",
+      "slot": 4,
+      "source": "Use double-angle formulas to find exact values."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/metadata[1]/abstract[1]/list[1]/item[2]/text()",
+      "slot": 5,
+      "source": "Use double-angle formulas to verify identities."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/metadata[1]/abstract[1]/list[1]/item[3]/text()",
+      "slot": 6,
+      "source": "Use reduction formulas to simplify an expression."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/metadata[1]/abstract[1]/list[1]/item[4]/text()",
+      "slot": 7,
+      "source": "Use half-angle formulas to find exact values."
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/figure[1]/media[1]/@alt",
+      "slot": 8,
+      "source": "Picture of two bicycle ramps, one with a steep slope and one with a gentle slope."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/figure[1]/caption[1]/text()",
+      "slot": 9,
+      "source": "Bicycle ramps for advanced riders have a steeper incline than those designed for novices."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/para[1]/text()",
+      "slot": 10,
+      "source": "Bicycle ramps made for competition (see "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/para[1]/link[1]/tail()",
+      "slot": 11,
+      "source": ") must vary in height depending on the skill level of the competitors. For advanced competitors, the angle formed by the ramp and the ground should be "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/para[1]/math[1]/tail()",
+      "slot": 12,
+      "source": " such that "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/para[1]/math[2]/tail()",
+      "slot": 13,
+      "source": " The angle is divided in half for novices. What is the steepness of the ramp for novices? In this section, we will investigate three additional categories of identities that we can use to answer questions such as this one."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/title[1]/text()",
+      "slot": 14,
+      "source": "Using Double-Angle Formulas to Find Exact Values"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[1]/text()",
+      "slot": 15,
+      "source": "In the previous section, we used addition and subtraction formulas for trigonometric functions. Now, we take another look at those same formulas. The "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[1]/term[1]/text()",
+      "slot": 16,
+      "source": "double-angle formulas"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[1]/term[1]/tail()",
+      "slot": 17,
+      "source": " are a special case of the sum formulas, where "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[1]/math[1]/tail()",
+      "slot": 18,
+      "source": " Deriving the double-angle formula for sine begins with the sum formula,"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[2]/text()",
+      "slot": 19,
+      "source": "If we let "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[2]/math[1]/tail()",
+      "slot": 20,
+      "source": " then we have"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[3]/text()",
+      "slot": 21,
+      "source": "Deriving the double-angle for cosine gives us three options. First, starting from the sum formula, "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[3]/math[1]/tail()",
+      "slot": 22,
+      "source": " and letting "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[3]/math[2]/tail()",
+      "slot": 23,
+      "source": " we have"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[4]/text()",
+      "slot": 24,
+      "source": "Using the Pythagorean properties, we can expand this double-angle formula for cosine and get two more interpretations. The first one is:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[5]/text()",
+      "slot": 25,
+      "source": "The second interpretation is:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/para[6]/text()",
+      "slot": 26,
+      "source": "Similarly, to derive the double-angle formula for tangent, replacing "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/para[6]/math[1]/tail()",
+      "slot": 27,
+      "source": " in the sum formula gives"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[1]/title[1]/text()",
+      "slot": 28,
+      "source": "Double-Angle Formulas"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[1]/para[1]/text()",
+      "slot": 29,
+      "source": "The "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[1]/para[1]/term[1]/text()",
+      "slot": 30,
+      "source": "double-angle formulas"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/note[1]/para[1]/term[1]/tail()",
+      "slot": 31,
+      "source": " are summarized as follows:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[2]/label[1]/text()",
+      "slot": 32,
+      "source": "How To"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[2]/para[1]/emphasis[1]/text()",
+      "slot": 33,
+      "source": "Given the tangent of an angle and the quadrant in which it is located, use the double-angle formulas to find the exact value.\n      "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[2]/list[1]/item[1]/text()",
+      "slot": 34,
+      "source": "Draw a triangle to reflect the given information."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[2]/list[1]/item[2]/text()",
+      "slot": 35,
+      "source": "Determine the correct double-angle formula."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[2]/list[1]/item[3]/text()",
+      "slot": 36,
+      "source": "Substitute values into the formula based on the triangle."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[2]/list[1]/item[4]/text()",
+      "slot": 37,
+      "source": "Simplify."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 38,
+      "source": "Using a Double-Angle Formula to Find the Exact Value Involving Tangent"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 39,
+      "source": "Given that "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 40,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/problem[1]/para[1]/math[2]/tail()",
+      "slot": 41,
+      "source": " is in quadrant II, find the following:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/problem[1]/list[1]/item[1]/span[1]/text()",
+      "slot": 42,
+      "source": "ⓐ"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/problem[1]/list[1]/item[2]/span[1]/text()",
+      "slot": 43,
+      "source": "ⓑ"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/problem[1]/list[1]/item[3]/span[1]/text()",
+      "slot": 44,
+      "source": "ⓒ"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 45,
+      "source": "If we draw a triangle to reflect the information given, we can find the values needed to solve the problems on the image. We are given "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 46,
+      "source": " such that "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 47,
+      "source": " is in quadrant II. The tangent of an angle is equal to the opposite side over the adjacent side, and because "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/para[1]/math[3]/tail()",
+      "slot": 48,
+      "source": " is in the second quadrant, the adjacent side is on the "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/para[1]/emphasis[1]/text()",
+      "slot": 49,
+      "source": "x"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/para[1]/emphasis[1]/tail()",
+      "slot": 50,
+      "source": "-axis and is negative. Use the "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/para[1]/term[1]/text()",
+      "slot": 51,
+      "source": "Pythagorean Theorem"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/para[1]/term[1]/tail()",
+      "slot": 52,
+      "source": " to find the length of the hypotenuse:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/para[2]/text()",
+      "slot": 53,
+      "source": "Now we can draw a triangle similar to the one shown in "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/para[2]/link[1]/tail()",
+      "slot": 54,
+      "source": "."
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/figure[1]/media[1]/@alt",
+      "slot": 55,
+      "source": "Diagram of a triangle in the x,y-plane. The vertices are at the origin, (-4,0), and (-4,3). The angle at the origin is theta. The angle formed by the side (-4,3) to (-4,0) forms a right angle with the x axis. The hypotenuse across from the right angle is length 5."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/list[1]/item[1]/span[1]/text()",
+      "slot": 56,
+      "source": "ⓐ"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/list[1]/item[1]/span[1]/tail()",
+      "slot": 57,
+      "source": "Let’s begin by writing the double-angle formula for sine.\n            "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/list[1]/item[1]/para[1]/text()",
+      "slot": 58,
+      "source": "We see that we to need to find "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/list[1]/item[1]/para[1]/math[1]/tail()",
+      "slot": 59,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/list[1]/item[1]/para[1]/math[2]/tail()",
+      "slot": 60,
+      "source": " Based on "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/list[1]/item[1]/para[1]/link[1]/tail()",
+      "slot": 61,
+      "source": ", we see that the hypotenuse equals 5, so "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/list[1]/item[1]/para[1]/math[3]/tail()",
+      "slot": 62,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/list[1]/item[1]/para[1]/math[4]/tail()",
+      "slot": 63,
+      "source": " Substitute these values into the equation, and simplify."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/list[1]/item[1]/para[2]/text()",
+      "slot": 64,
+      "source": "Thus,"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/list[1]/item[2]/span[1]/text()",
+      "slot": 65,
+      "source": "ⓑ"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/list[1]/item[2]/span[1]/tail()",
+      "slot": 66,
+      "source": " Write the double-angle formula for cosine.\n          "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/list[1]/item[2]/para[1]/text()",
+      "slot": 67,
+      "source": "Again, substitute the values of the sine and cosine into the equation, and simplify."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/list[1]/item[3]/span[1]/text()",
+      "slot": 68,
+      "source": "ⓒ"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/list[1]/item[3]/span[1]/tail()",
+      "slot": 69,
+      "source": " Write the double-angle formula for tangent.\n          "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/list[1]/item[3]/para[1]/text()",
+      "slot": 70,
+      "source": "In this formula, we need the tangent, which we were given as "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/list[1]/item[3]/para[1]/math[1]/tail()",
+      "slot": 71,
+      "source": " Substitute this value into the equation, and simplify."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[3]/label[1]/text()",
+      "slot": 72,
+      "source": "Try It"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/note[3]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 73,
+      "source": "Given "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/note[3]/exercise[1]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 74,
+      "source": " with "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/note[3]/exercise[1]/problem[1]/para[1]/math[2]/tail()",
+      "slot": 75,
+      "source": " in quadrant I, find "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[2]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 76,
+      "source": "Using the Double-Angle Formula for Cosine without Exact Values"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[2]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 77,
+      "source": "Use the double-angle formula for cosine to write "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[1]/example[2]/exercise[1]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 78,
+      "source": " in terms of "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[2]/exercise[1]/solution[1]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[2]/mtd[1]/mrow[1]/msup[2]/mtext[1]/text()",
+      "slot": 79,
+      "source": "sin"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[2]/exercise[1]/commentary[1]/title[1]/text()",
+      "slot": 80,
+      "source": "Analysis "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[1]/example[2]/exercise[1]/commentary[1]/para[1]/text()",
+      "slot": 81,
+      "source": "This example illustrates that we can use the double-angle formula without having exact values. It emphasizes that the pattern is what we need to remember and that identities are true for all values in the domain of the trigonometric function."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/title[1]/text()",
+      "slot": 82,
+      "source": "Using Double-Angle Formulas to Verify Identities"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/para[1]/text()",
+      "slot": 83,
+      "source": "Establishing identities using the double-angle formulas is performed using the same steps we used to derive the sum and difference formulas. Choose the more complicated side of the equation and rewrite it until it matches the other side."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 84,
+      "source": "Using the Double-Angle Formulas to Establish an Identity"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 85,
+      "source": "Establish the following identity using double-angle formulas:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 86,
+      "source": "We will work on the right side of the equal sign and rewrite the expression until it matches the left side."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/commentary[1]/title[1]/text()",
+      "slot": 87,
+      "source": "Analysis "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/commentary[1]/para[1]/text()",
+      "slot": 88,
+      "source": "This process is not complicated, as long as we recall the perfect square formula from algebra:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/commentary[1]/para[2]/text()",
+      "slot": 89,
+      "source": "where "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/commentary[1]/para[2]/math[1]/tail()",
+      "slot": 90,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[2]/example[1]/exercise[1]/commentary[1]/para[2]/math[2]/tail()",
+      "slot": 91,
+      "source": " Part of being successful in mathematics is the ability to recognize patterns. While the terms or symbols may change, the algebra remains consistent."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[1]/label[1]/text()",
+      "slot": 92,
+      "source": "Try It"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 93,
+      "source": "Establish the identity: "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 94,
+      "source": "Verifying a Double-Angle Identity for Tangent "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 95,
+      "source": "Verify the identity:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 96,
+      "source": "In this case, we will work with the left side of the equation and simplify or rewrite until it equals the right side of the equation."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/solution[1]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[1]/mtd[2]/mrow[1]/mtext[1]/text()",
+      "slot": 97,
+      "source": "Double-angle formula"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/solution[1]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[2]/mtd[2]/mrow[1]/mtext[1]/text()",
+      "slot": 98,
+      "source": "Multiply by a term that results in desired numerator"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/solution[1]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[4]/mtd[2]/mrow[1]/mtext[1]/text()",
+      "slot": 99,
+      "source": "Use reciprocal identity for "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/commentary[1]/title[1]/text()",
+      "slot": 100,
+      "source": "Analysis "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/commentary[1]/para[1]/text()",
+      "slot": 101,
+      "source": "Here is a case where the more complicated side of the initial equation appeared on the right, but we chose to work the left side. However, if we had chosen the left side to rewrite, we would have been working backwards to arrive at the equivalency. For example, suppose that we wanted to show"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/commentary[1]/para[2]/text()",
+      "slot": 102,
+      "source": "Let’s work on the right side."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/commentary[1]/para[3]/text()",
+      "slot": 103,
+      "source": "When using the identities to simplify a trigonometric expression or solve a trigonometric equation, there are usually several paths to a desired result. There is no set rule as to what side should be manipulated. However, we should begin with the guidelines set forth earlier."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[2]/label[1]/text()",
+      "slot": 104,
+      "source": "Try It"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[2]/note[2]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 105,
+      "source": "Verify the identity: "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/title[1]/text()",
+      "slot": 106,
+      "source": "Use Reduction Formulas to Simplify an Expression"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/para[1]/text()",
+      "slot": 107,
+      "source": "The double-angle formulas can be used to derive the "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/para[1]/term[1]/text()",
+      "slot": 108,
+      "source": "reduction formulas"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/para[1]/term[1]/tail()",
+      "slot": 109,
+      "source": ", which are formulas we can use to reduce the power of a given expression involving even powers of sine or cosine. They allow us to rewrite the even powers of sine or cosine in terms of the first power of cosine. These formulas are especially important in higher-level math courses, calculus in particular. Also called the power-reducing formulas, three identities are included and are easily derived from the double-angle formulas."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/para[2]/text()",
+      "slot": 110,
+      "source": "We can use two of the three double-angle formulas for cosine to derive the reduction formulas for sine and cosine. Let’s begin with "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/para[2]/math[1]/tail()",
+      "slot": 111,
+      "source": " Solve for "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/para[3]/text()",
+      "slot": 112,
+      "source": "Next, we use the formula "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/para[3]/math[1]/tail()",
+      "slot": 113,
+      "source": " Solve for "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/para[4]/text()",
+      "slot": 114,
+      "source": "The last reduction formula is derived by writing tangent in terms of sine and cosine:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/equation[3]/math[1]/mrow[1]/mtable[1]/mtr[2]/mtd[2]/mrow[1]/mtext[1]/text()",
+      "slot": 115,
+      "source": "Substitute the reduction formulas."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/note[1]/title[1]/text()",
+      "slot": 116,
+      "source": "Reduction Formulas"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/note[1]/para[1]/text()",
+      "slot": 117,
+      "source": "The "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/note[1]/para[1]/term[1]/text()",
+      "slot": 118,
+      "source": "reduction formulas"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/note[1]/para[1]/term[1]/tail()",
+      "slot": 119,
+      "source": " are summarized as follows:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[1]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 120,
+      "source": "Writing an Equivalent Expression Not Containing Powers Greater Than 1"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 121,
+      "source": "Write an equivalent expression for "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[1]/exercise[1]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 122,
+      "source": " that does not involve any powers of sine or cosine greater than 1."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[1]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 123,
+      "source": "We will apply the reduction formula for cosine twice."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[1]/exercise[1]/solution[1]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[2]/mtd[2]/mrow[1]/msup[1]/mrow[1]/mtext[1]/text()",
+      "slot": 124,
+      "source": "Substitute reduction formula for cos"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[1]/exercise[1]/solution[1]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[4]/mtd[2]/mrow[1]/msup[1]/mrow[1]/mtext[1]/text()",
+      "slot": 125,
+      "source": " Substitute reduction formula for cos"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[1]/exercise[1]/commentary[1]/title[1]/text()",
+      "slot": 126,
+      "source": "Analysis "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[1]/exercise[1]/commentary[1]/para[1]/text()",
+      "slot": 127,
+      "source": "The solution is found by using the reduction formula twice, as noted, and the perfect square formula from algebra."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 128,
+      "source": "Using the Power-Reducing Formulas to Prove an Identity"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 129,
+      "source": "Use the power-reducing formulas to prove"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 130,
+      "source": "We will work on simplifying the left side of the equation:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/equation[1]/math[1]/mrow[1]/mtable[1]/mtr[2]/mtd[2]/mrow[1]/mtext[1]/text()",
+      "slot": 131,
+      "source": "Substitute the power-reduction formula"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/commentary[1]/title[1]/text()",
+      "slot": 132,
+      "source": "Analysis "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/commentary[1]/para[1]/text()",
+      "slot": 133,
+      "source": "Note that in this example, we substituted"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/commentary[1]/para[2]/text()",
+      "slot": 134,
+      "source": "for "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/commentary[1]/para[2]/math[1]/tail()",
+      "slot": 135,
+      "source": " The formula states"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/commentary[1]/para[3]/text()",
+      "slot": 136,
+      "source": "We let "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/commentary[1]/para[3]/math[1]/tail()",
+      "slot": 137,
+      "source": " so "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/note[2]/label[1]/text()",
+      "slot": 138,
+      "source": "Try It"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/note[2]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 139,
+      "source": "Use the power-reducing formulas to prove that "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/note[2]/exercise[1]/solution[1]/para[1]/math[1]/mrow[1]/mtable[1]/mtr[2]/mtd[2]/mrow[1]/msup[1]/mrow[1]/mtext[1]/text()",
+      "slot": 140,
+      "source": "Substitute reduction formula for cos"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[3]/note[2]/exercise[1]/solution[1]/para[1]/math[1]/mrow[1]/mtable[1]/mtr[4]/mtd[2]/mrow[1]/msup[1]/mrow[1]/mtext[1]/text()",
+      "slot": 141,
+      "source": "Substitute reduction formula for cos"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/title[1]/text()",
+      "slot": 142,
+      "source": " Using Half-Angle Formulas to Find Exact Values "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/para[1]/text()",
+      "slot": 143,
+      "source": "The next set of identities is the set of "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/para[1]/term[1]/text()",
+      "slot": 144,
+      "source": "half-angle formulas"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/para[1]/term[1]/tail()",
+      "slot": 145,
+      "source": ", which can be derived from the reduction formulas and we can use when we have an angle that is half the size of a special angle. If we replace "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/para[1]/math[1]/tail()",
+      "slot": 146,
+      "source": " with "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/para[1]/math[2]/tail()",
+      "slot": 147,
+      "source": " the half-angle formula for sine is found by simplifying the equation and solving for "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/para[1]/math[3]/tail()",
+      "slot": 148,
+      "source": " Note that the half-angle formulas are preceded by a "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/para[1]/math[4]/tail()",
+      "slot": 149,
+      "source": " sign. This does not mean that both the positive and negative expressions are valid. Rather, it depends on the quadrant in which "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/para[1]/math[5]/tail()",
+      "slot": 150,
+      "source": " terminates."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/para[2]/text()",
+      "slot": 151,
+      "source": "The half-angle formula for sine is derived as follows:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/para[3]/text()",
+      "slot": 152,
+      "source": "To derive the half-angle formula for cosine, we have"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/para[4]/text()",
+      "slot": 153,
+      "source": "For the tangent identity, we have"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/note[1]/title[1]/text()",
+      "slot": 154,
+      "source": "Half-Angle Formulas"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/note[1]/para[1]/text()",
+      "slot": 155,
+      "source": "The "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/note[1]/para[1]/term[1]/text()",
+      "slot": 156,
+      "source": "half-angle formulas"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/note[1]/para[1]/term[1]/tail()",
+      "slot": 157,
+      "source": " are as follows:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[1]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 158,
+      "source": "Using a Half-Angle Formula to Find the Exact Value of a Sine Function"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 159,
+      "source": "Find "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[1]/exercise[1]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 160,
+      "source": " using a half-angle formula."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[1]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 161,
+      "source": "Since "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[1]/exercise[1]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 162,
+      "source": " we use the half-angle formula for sine:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[1]/exercise[1]/commentary[1]/title[1]/text()",
+      "slot": 163,
+      "source": "Analysis "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[1]/exercise[1]/commentary[1]/para[1]/text()",
+      "slot": 164,
+      "source": "Notice that we used only the positive root because "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[1]/exercise[1]/commentary[1]/para[1]/math[1]/mrow[1]/msup[1]/mtext[1]/text()",
+      "slot": 165,
+      "source": "o"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[1]/exercise[1]/commentary[1]/para[1]/math[1]/tail()",
+      "slot": 166,
+      "source": " is positive."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/note[2]/label[1]/text()",
+      "slot": 167,
+      "source": "How To"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/note[2]/para[1]/emphasis[1]/text()",
+      "slot": 168,
+      "source": "Given the tangent of an angle and the quadrant in which the angle lies, find the exact values of trigonometric functions of half of the angle."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/note[2]/list[1]/item[1]/text()",
+      "slot": 169,
+      "source": "Draw a triangle to represent the given information."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/note[2]/list[1]/item[2]/text()",
+      "slot": 170,
+      "source": "Determine the correct half-angle formula."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/note[2]/list[1]/item[3]/text()",
+      "slot": 171,
+      "source": "Substitute values into the formula based on the triangle."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/note[2]/list[1]/item[4]/text()",
+      "slot": 172,
+      "source": "Simplify."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 173,
+      "source": "Finding Exact Values Using Half-Angle Identities"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 174,
+      "source": "Given that "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 175,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/problem[1]/para[1]/math[2]/tail()",
+      "slot": 176,
+      "source": " lies in quadrant III, find the exact value of the following:"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/problem[1]/list[1]/item[1]/span[1]/text()",
+      "slot": 177,
+      "source": "ⓐ"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/problem[1]/list[1]/item[2]/span[1]/text()",
+      "slot": 178,
+      "source": "ⓑ"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/problem[1]/list[1]/item[3]/span[1]/text()",
+      "slot": 179,
+      "source": "ⓒ"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 180,
+      "source": "Using the given information, we can draw the triangle shown in "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/solution[1]/para[1]/link[1]/tail()",
+      "slot": 181,
+      "source": ". Using the Pythagorean Theorem, we find the hypotenuse to be 17. Therefore, we can calculate "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 182,
+      "source": " and "
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/solution[1]/figure[1]/media[1]/@alt",
+      "slot": 183,
+      "source": "Diagram of a triangle in the x,y-plane. The vertices are at the origin, (-15,0), and (-15,-8). The angle at the origin is alpha. The angle formed by the side (-15,-8) to (-15,0) forms a right angle with the x axis. The hypotenuse across from the right angle is length 17."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/span[1]/text()",
+      "slot": 184,
+      "source": "ⓐ"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/span[1]/tail()",
+      "slot": 185,
+      "source": "Before we start, we must remember that, if "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/math[1]/tail()",
+      "slot": 186,
+      "source": " is in quadrant III, then "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/math[2]/tail()",
+      "slot": 187,
+      "source": " so "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/math[3]/tail()",
+      "slot": 188,
+      "source": " This means that the terminal side of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/math[4]/tail()",
+      "slot": 189,
+      "source": " is in quadrant II, since "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/para[1]/text()",
+      "slot": 190,
+      "source": "To find "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/para[1]/math[1]/tail()",
+      "slot": 191,
+      "source": " we begin by writing the half-angle formula for sine. Then we substitute the value of the cosine we found from the triangle in "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/para[1]/link[1]/tail()",
+      "slot": 192,
+      "source": " and simplify."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/para[2]/text()",
+      "slot": 193,
+      "source": "We choose the positive value of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/solution[1]/list[1]/item[1]/para[2]/math[1]/tail()",
+      "slot": 194,
+      "source": " because the angle terminates in quadrant II and sine is positive in quadrant II."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/solution[1]/list[1]/item[2]/span[1]/text()",
+      "slot": 195,
+      "source": "ⓑ"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/solution[1]/list[1]/item[2]/span[1]/tail()",
+      "slot": 196,
+      "source": " To find "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/solution[1]/list[1]/item[2]/math[1]/tail()",
+      "slot": 197,
+      "source": " we will write the half-angle formula for cosine, substitute the value of the cosine we found from the triangle in "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/solution[1]/list[1]/item[2]/link[1]/tail()",
+      "slot": 198,
+      "source": ", and simplify.\n            "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/solution[1]/list[1]/item[2]/para[1]/text()",
+      "slot": 199,
+      "source": "We choose the negative value of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/solution[1]/list[1]/item[2]/para[1]/math[1]/tail()",
+      "slot": 200,
+      "source": " because the angle is in quadrant II because cosine is negative in quadrant II."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/solution[1]/list[1]/item[3]/span[1]/text()",
+      "slot": 201,
+      "source": "ⓒ"
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/solution[1]/list[1]/item[3]/span[1]/tail()",
+      "slot": 202,
+      "source": " To find "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/solution[1]/list[1]/item[3]/math[1]/tail()",
+      "slot": 203,
+      "source": " we write the half-angle formula for tangent. Again, we substitute the value of the cosine we found from the triangle in "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/solution[1]/list[1]/item[3]/link[1]/tail()",
+      "slot": 204,
+      "source": " and simplify.\n            "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/solution[1]/list[1]/item[3]/para[1]/text()",
+      "slot": 205,
+      "source": "We choose the negative value of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/solution[1]/list[1]/item[3]/para[1]/math[1]/tail()",
+      "slot": 206,
+      "source": " because "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/solution[1]/list[1]/item[3]/para[1]/math[2]/tail()",
+      "slot": 207,
+      "source": " lies in quadrant II, and tangent is negative in quadrant II."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/note[3]/label[1]/text()",
+      "slot": 208,
+      "source": "Try It"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/note[3]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 209,
+      "source": "Given that "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/note[3]/exercise[1]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 210,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/note[3]/exercise[1]/problem[1]/para[1]/math[2]/tail()",
+      "slot": 211,
+      "source": " lies in quadrant IV, find the exact value of "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[3]/exercise[1]/problem[1]/title[1]/text()",
+      "slot": 212,
+      "source": "Finding the Measurement of a Half Angle "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[3]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 213,
+      "source": "Now, we will return to the problem posed at the beginning of the section. A bicycle ramp is constructed for high-level competition with an angle of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[3]/exercise[1]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 214,
+      "source": " formed by the ramp and the ground. Another ramp is to be constructed half as steep for novice competition. If "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[3]/exercise[1]/problem[1]/para[1]/math[2]/tail()",
+      "slot": 215,
+      "source": " for higher-level competition, what is the measurement of the angle for novice competition?"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[3]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 216,
+      "source": "Since the angle for novice competition measures half the steepness of the angle for the high-level competition, and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[3]/exercise[1]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 217,
+      "source": " for high-competition, we can find "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[3]/exercise[1]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 218,
+      "source": " from the right triangle and the Pythagorean theorem so that we can use the half-angle identities. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[3]/exercise[1]/solution[1]/para[1]/link[1]/tail()",
+      "slot": 219,
+      "source": "."
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[4]/example[3]/exercise[1]/solution[1]/figure[1]/media[1]/@alt",
+      "slot": 220,
+      "source": "Image of a right triangle with sides 3, 5, and rad34. Rad 34 is the hypotenuse, and 3 is the base. The angle formed by the hypotenuse and base is theta. The angle between the side of length 3 and side of length 5 is a right angle."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[3]/exercise[1]/solution[1]/para[2]/text()",
+      "slot": 221,
+      "source": "We see that "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[3]/exercise[1]/solution[1]/para[2]/math[1]/tail()",
+      "slot": 222,
+      "source": " We can use the half-angle formula for tangent: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[3]/exercise[1]/solution[1]/para[2]/math[2]/tail()",
+      "slot": 223,
+      "source": " Since "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[3]/exercise[1]/solution[1]/para[2]/math[3]/tail()",
+      "slot": 224,
+      "source": " is in the first quadrant, so is "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[3]/exercise[1]/solution[1]/para[2]/math[4]/tail()",
+      "slot": 225,
+      "source": " Thus,"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/example[3]/exercise[1]/solution[1]/para[3]/text()",
+      "slot": 226,
+      "source": "We can take the inverse tangent to find the angle: "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[4]/example[3]/exercise[1]/solution[1]/para[3]/math[1]/tail()",
+      "slot": 227,
+      "source": " So the angle of the ramp for novice competition is "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/note[4]/label[1]/text()",
+      "slot": 228,
+      "source": "Media"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/note[4]/para[1]/text()",
+      "slot": 229,
+      "source": "Access these online resources for additional instruction and practice with double-angle, half-angle, and reduction formulas."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/note[4]/list[1]/item[1]/link[1]/text()",
+      "slot": 230,
+      "source": "Double-Angle Identities"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[4]/note[4]/list[1]/item[2]/link[1]/text()",
+      "slot": 231,
+      "source": "Half-Angle Identities"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/title[1]/text()",
+      "slot": 232,
+      "source": "Key Equations"
+    },
+    {
+      "kind": "attribute:summary",
+      "locator": "/document[1]/content[1]/section[5]/table[1]/@summary",
+      "slot": 233,
+      "source": ".."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/table[1]/tgroup[1]/tbody[1]/row[1]/entry[1]/emphasis[1]/text()",
+      "slot": 234,
+      "source": "Double-angle formulas"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/table[1]/tgroup[1]/tbody[1]/row[2]/entry[1]/emphasis[1]/text()",
+      "slot": 235,
+      "source": "Reduction formulas"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[5]/table[1]/tgroup[1]/tbody[1]/row[3]/entry[1]/emphasis[1]/text()",
+      "slot": 236,
+      "source": "Half-angle formulas"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/title[1]/text()",
+      "slot": 237,
+      "source": "Key Concepts"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/list[1]/item[1]/text()",
+      "slot": 238,
+      "source": "Double-angle identities are derived from the sum formulas of the fundamental trigonometric functions: sine, cosine, and tangent. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/list[1]/item[1]/link[1]/tail()",
+      "slot": 239,
+      "source": ", "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/list[1]/item[1]/link[2]/tail()",
+      "slot": 240,
+      "source": ",  "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/list[1]/item[1]/link[3]/tail()",
+      "slot": 241,
+      "source": ", and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/list[1]/item[1]/link[4]/tail()",
+      "slot": 242,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/list[1]/item[2]/text()",
+      "slot": 243,
+      "source": "Reduction formulas are especially useful in calculus, as they allow us to reduce the power of the trigonometric term. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/list[1]/item[2]/link[1]/tail()",
+      "slot": 244,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/list[1]/item[2]/link[2]/tail()",
+      "slot": 245,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[6]/list[1]/item[3]/text()",
+      "slot": 246,
+      "source": "Half-angle formulas allow us to find the value of trigonometric functions involving half-angles, whether the original angle is known or not. See "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/list[1]/item[3]/link[1]/tail()",
+      "slot": 247,
+      "source": ", "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/list[1]/item[3]/link[2]/tail()",
+      "slot": 248,
+      "source": ", and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[6]/list[1]/item[3]/link[3]/tail()",
+      "slot": 249,
+      "source": "."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/title[1]/text()",
+      "slot": 250,
+      "source": "Section Exercises"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[1]/title[1]/text()",
+      "slot": 251,
+      "source": "Verbal"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[1]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 252,
+      "source": "Explain how to determine the reduction identities from the double-angle identity "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[1]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 253,
+      "source": "Use the Pythagorean identities and isolate the squared term. "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[1]/exercise[2]/problem[1]/para[1]/text()",
+      "slot": 254,
+      "source": "Explain how to determine the double-angle formula for "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[1]/exercise[2]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 255,
+      "source": " using the double-angle formulas for "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[1]/exercise[2]/problem[1]/para[1]/math[2]/tail()",
+      "slot": 256,
+      "source": " and "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[1]/exercise[3]/problem[1]/para[1]/text()",
+      "slot": 257,
+      "source": "We can determine the half-angle formula for "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[1]/exercise[3]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 258,
+      "source": " by dividing the formula for "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[1]/exercise[3]/problem[1]/para[1]/math[2]/tail()",
+      "slot": 259,
+      "source": " by "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[1]/exercise[3]/problem[1]/para[1]/math[3]/tail()",
+      "slot": 260,
+      "source": " Explain how to determine two formulas for "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[1]/exercise[3]/problem[1]/para[1]/math[4]/tail()",
+      "slot": 261,
+      "source": "\n        that do not involve any square roots."
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[1]/exercise[3]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 262,
+      "source": " multiplying the top and bottom by "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[1]/exercise[3]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 263,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[1]/exercise[3]/solution[1]/para[1]/math[3]/tail()",
+      "slot": 264,
+      "source": " respectively. "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[1]/exercise[4]/problem[1]/para[1]/text()",
+      "slot": 265,
+      "source": "For the half-angle formula given in the previous exercise for "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[1]/exercise[4]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 266,
+      "source": " explain why dividing by 0 is not a concern. (Hint: examine the values of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[1]/exercise[4]/problem[1]/para[1]/math[2]/tail()",
+      "slot": 267,
+      "source": " necessary for the denominator to be 0.)"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/title[1]/text()",
+      "slot": 268,
+      "source": "Algebraic"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/para[1]/text()",
+      "slot": 269,
+      "source": "For the following exercises, find the exact values of a) "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/para[1]/math[1]/tail()",
+      "slot": 270,
+      "source": " b) "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/para[1]/math[2]/tail()",
+      "slot": 271,
+      "source": " and c) "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/para[1]/math[3]/tail()",
+      "slot": 272,
+      "source": " without solving for "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[1]/problem[1]/para[1]/text()",
+      "slot": 273,
+      "source": "If "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[1]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 274,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[1]/problem[1]/para[1]/math[2]/tail()",
+      "slot": 275,
+      "source": " is in quadrant I."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[1]/solution[1]/para[1]/text()",
+      "slot": 276,
+      "source": "a) "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[1]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 277,
+      "source": " b) "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[1]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 278,
+      "source": " c) "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[2]/problem[1]/para[1]/text()",
+      "slot": 279,
+      "source": "If "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[2]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 280,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[2]/problem[1]/para[1]/math[2]/tail()",
+      "slot": 281,
+      "source": " is in quadrant I."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[3]/problem[1]/para[1]/text()",
+      "slot": 282,
+      "source": "If "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[3]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 283,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[3]/problem[1]/para[1]/math[2]/tail()",
+      "slot": 284,
+      "source": " is in quadrant III."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[3]/solution[1]/para[1]/text()",
+      "slot": 285,
+      "source": "a) "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[3]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 286,
+      "source": " b) "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[3]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 287,
+      "source": " c) "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[4]/problem[1]/para[1]/text()",
+      "slot": 288,
+      "source": "If "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[4]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 289,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[4]/problem[1]/para[1]/math[2]/tail()",
+      "slot": 290,
+      "source": " is in quadrant IV."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/para[2]/text()",
+      "slot": 291,
+      "source": "For the following exercises, find the values of the six trigonometric functions if the conditions provided hold."
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[5]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 292,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[6]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 293,
+      "source": " and "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/para[3]/text()",
+      "slot": 294,
+      "source": "For the following exercises, simplify to one trigonometric expression."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/para[4]/text()",
+      "slot": 295,
+      "source": "For the following exercises, find the exact value using half-angle formulas."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/para[5]/text()",
+      "slot": 296,
+      "source": "For the following exercises, find the exact values of a) "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/para[5]/math[1]/tail()",
+      "slot": 297,
+      "source": " b) "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/para[5]/math[2]/tail()",
+      "slot": 298,
+      "source": " and c) "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/para[5]/math[3]/tail()",
+      "slot": 299,
+      "source": " without solving for "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/para[5]/math[4]/tail()",
+      "slot": 300,
+      "source": "\n      when "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[16]/problem[1]/para[1]/text()",
+      "slot": 301,
+      "source": "If "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[16]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 302,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[16]/problem[1]/para[1]/math[2]/tail()",
+      "slot": 303,
+      "source": " is in quadrant IV."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[17]/problem[1]/para[1]/text()",
+      "slot": 304,
+      "source": "If "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[17]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 305,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[17]/problem[1]/para[1]/math[2]/tail()",
+      "slot": 306,
+      "source": " is in quadrant III."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[17]/solution[1]/para[1]/text()",
+      "slot": 307,
+      "source": "a) "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[17]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 308,
+      "source": " b) "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[17]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 309,
+      "source": " c) "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[18]/problem[1]/para[1]/text()",
+      "slot": 310,
+      "source": "If "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[18]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 311,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[18]/problem[1]/para[1]/math[2]/tail()",
+      "slot": 312,
+      "source": " is in quadrant II."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[19]/problem[1]/para[1]/text()",
+      "slot": 313,
+      "source": "If "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[19]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 314,
+      "source": " and "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[19]/problem[1]/para[1]/math[2]/tail()",
+      "slot": 315,
+      "source": " is in quadrant II."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[19]/solution[1]/para[1]/text()",
+      "slot": 316,
+      "source": "a) "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[19]/solution[1]/para[1]/math[1]/tail()",
+      "slot": 317,
+      "source": " b) "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[19]/solution[1]/para[1]/math[2]/tail()",
+      "slot": 318,
+      "source": " c) "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/para[6]/text()",
+      "slot": 319,
+      "source": "For the following exercises, use "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/para[6]/link[1]/tail()",
+      "slot": 320,
+      "source": " to find the requested half and double angles."
+    },
+    {
+      "kind": "attribute:alt",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/figure[1]/media[1]/@alt",
+      "slot": 321,
+      "source": "Image of a right triangle. The base is length 12, and the height is length 5. The angle between the base and the height is 90 degrees, the angle between the base and the hypotenuse is theta, and the angle between the height and the hypotenuse is alpha degrees."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[20]/problem[1]/para[1]/text()",
+      "slot": 322,
+      "source": "Find "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[20]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 323,
+      "source": " and "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[21]/problem[1]/para[1]/text()",
+      "slot": 324,
+      "source": "Find "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[21]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 325,
+      "source": " and "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[22]/problem[1]/para[1]/text()",
+      "slot": 326,
+      "source": "Find "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[22]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 327,
+      "source": " and "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[23]/problem[1]/para[1]/text()",
+      "slot": 328,
+      "source": "Find "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[23]/problem[1]/para[1]/math[1]/tail()",
+      "slot": 329,
+      "source": " and "
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/para[7]/text()",
+      "slot": 330,
+      "source": "For the following exercises, simplify each expression. Do not evaluate."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/para[8]/text()",
+      "slot": 331,
+      "source": "For the following exercises, prove the identity given."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/para[9]/text()",
+      "slot": 332,
+      "source": "For the following exercises, rewrite the expression with an exponent no higher than 1."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[3]/title[1]/text()",
+      "slot": 333,
+      "source": "Technology"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[3]/para[1]/text()",
+      "slot": 334,
+      "source": "For the following exercises, reduce the equations to powers of one, and then check the answer graphically."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[3]/para[2]/text()",
+      "slot": 335,
+      "source": "For the following exercises, algebraically find an equivalent function, only in terms of "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[3]/para[2]/math[1]/tail()",
+      "slot": 336,
+      "source": " and/or "
+    },
+    {
+      "kind": "tail",
+      "locator": "/document[1]/content[1]/section[7]/section[3]/para[2]/math[2]/tail()",
+      "slot": 337,
+      "source": " and then check the answer by graphing both equations."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[4]/title[1]/text()",
+      "slot": 338,
+      "source": "Extensions"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/content[1]/section[7]/section[4]/para[1]/text()",
+      "slot": 339,
+      "source": "For the following exercises, prove the identities."
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/glossary[1]/definition[1]/term[1]/text()",
+      "slot": 340,
+      "source": "double-angle formulas"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/glossary[1]/definition[1]/meaning[1]/text()",
+      "slot": 341,
+      "source": "identities derived from the sum formulas for sine, cosine, and tangent in which the angles are equal"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/glossary[1]/definition[2]/term[1]/text()",
+      "slot": 342,
+      "source": "half-angle formulas"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/glossary[1]/definition[2]/meaning[1]/text()",
+      "slot": 343,
+      "source": "identities derived from the reduction  formulas and used to determine half-angle values of trigonometric functions"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/glossary[1]/definition[3]/term[1]/text()",
+      "slot": 344,
+      "source": "reduction formulas"
+    },
+    {
+      "kind": "text",
+      "locator": "/document[1]/glossary[1]/definition[3]/meaning[1]/text()",
+      "slot": 345,
+      "source": "identities derived from the double-angle formulas and used to reduce the power of a trigonometric function"
+    }
+  ],
+  "source": {
+    "bytes": 230612,
+    "path": "source/modules/m49396/index.cnxml",
+    "sha256": "3ac803d81877dc0fb60f4a94ec5c17ec3b2df7b4eb033effd6845aed28d1b13e"
+  }
+}

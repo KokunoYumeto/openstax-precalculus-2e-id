@@ -1,0 +1,1376 @@
+{
+  "assets": [
+    {
+      "bytes": 306401,
+      "path": "media/CNX_Precalc2e_Figure_06_00_001.jpg",
+      "sha256": "b2eebef043136f4c1d647b05540280159f0b839bcdb8b90c5800f531c8552840"
+    },
+    {
+      "bytes": 169168,
+      "path": "media/CNX_Precalc_Figure_06_01_001.jpg",
+      "sha256": "21876832c2216a84195b9fa4d76489e48354494fb0cef4aa06cd6ae08760304b"
+    },
+    {
+      "bytes": 73089,
+      "path": "media/CNX_Precalc_Figure_06_01_002.jpg",
+      "sha256": "7977150f7466a8161fd2c893079436bddf3bb9865cda20e4e2a225445259932e"
+    },
+    {
+      "bytes": 93933,
+      "path": "media/CNX_Precalc_Figure_06_01_003.jpg",
+      "sha256": "f9abffe995c0b1095a5608674f0cde598171eefe4f38346c671109aa00a57285"
+    },
+    {
+      "bytes": 80014,
+      "path": "media/CNX_Precalc_Figure_06_01_004.jpg",
+      "sha256": "baf92dbf3b682721849f11bf2079d3ad344b16f08668dd7eb0514181ed711d0a"
+    },
+    {
+      "bytes": 108447,
+      "path": "media/CNX_Precalc_Figure_06_01_005.jpg",
+      "sha256": "88787e910948a327dc480fe406ec47196c4edacedd1dd72e6c5c362b3d5b49de"
+    },
+    {
+      "bytes": 67495,
+      "path": "media/CNX_Precalc_Figure_06_01_006.jpg",
+      "sha256": "d0d45230a595e8a4ad42744d855dd84452a7ab3fb83ef82953d256b6d599b57b"
+    },
+    {
+      "bytes": 70451,
+      "path": "media/CNX_Precalc_Figure_06_01_007.jpg",
+      "sha256": "ced499d10ad959481a9d687fd761d10f45ae1230ef7155dc63bb801291a463fb"
+    },
+    {
+      "bytes": 114862,
+      "path": "media/CNX_Precalc_Figure_06_01_008.jpg",
+      "sha256": "c099929aa4323177c12928fb455c2188a9b6ba060b54b14b362e1cf8449618ee"
+    },
+    {
+      "bytes": 234431,
+      "path": "media/CNX_Precalc_Figure_06_01_009.jpg",
+      "sha256": "19af03d2aaca3c13df5d1da546e643d4c74e4f106c2fe70610fa5271db95af52"
+    },
+    {
+      "bytes": 65501,
+      "path": "media/CNX_Precalc_Figure_06_01_010.jpg",
+      "sha256": "d7703a8a84c7904523c91e6ef708e07ad63cec3c572cc321d79d3fff5258424b"
+    },
+    {
+      "bytes": 128706,
+      "path": "media/CNX_Precalc_Figure_06_01_011.jpg",
+      "sha256": "4c7289ccb1f48364c4a77589a5ae34652f5098791b86ae8607f73fc480db2afd"
+    },
+    {
+      "bytes": 98349,
+      "path": "media/CNX_Precalc_Figure_06_01_012.jpg",
+      "sha256": "be937d5bc0b2e06c9bfd58842f201d982eb38b42987ad83c40de9637e9b4c3e5"
+    },
+    {
+      "bytes": 90195,
+      "path": "media/CNX_Precalc_Figure_06_01_013.jpg",
+      "sha256": "f0c52b8c286f3ed84d0b0929782f38cce4f742a2df644cb17751d2bb89b8a38d"
+    },
+    {
+      "bytes": 93732,
+      "path": "media/CNX_Precalc_Figure_06_01_014.jpg",
+      "sha256": "d42d75b40c3575b99e993b5e70a3a070358328caee4c05910f46dd885e680682"
+    },
+    {
+      "bytes": 74584,
+      "path": "media/CNX_Precalc_Figure_06_01_015.jpg",
+      "sha256": "b59a9dfa0e1fff85d90cb09d4ce87c6c26a44c516f101f63a108787ba0ac1c76"
+    },
+    {
+      "bytes": 75630,
+      "path": "media/CNX_Precalc_Figure_06_01_016.jpg",
+      "sha256": "d5012681e6c8211a43ef562d006359965d831bb8a63e2f180836d27e13e427d6"
+    },
+    {
+      "bytes": 42480,
+      "path": "media/CNX_Precalc_Figure_06_01_017.jpg",
+      "sha256": "27aae3c78472dddb3b1ffa4a2d8b44bc461c2481e96318971eb5c4b3313d1e33"
+    },
+    {
+      "bytes": 41487,
+      "path": "media/CNX_Precalc_Figure_06_01_018n-0a72.jpg",
+      "sha256": "ee580adc5044de4d44e2c74da1b372869b4aaa261777ea69927d9bf40af19123"
+    },
+    {
+      "bytes": 95974,
+      "path": "media/CNX_Precalc_Figure_06_01_019.jpg",
+      "sha256": "2e4a2f22294e75ddb934749fadf36b6096d0d06f9a9f1f0db6200471e67af240"
+    },
+    {
+      "bytes": 84250,
+      "path": "media/CNX_Precalc_Figure_06_01_020.jpg",
+      "sha256": "b491ebce35f512eead7ead916238f03a82817180f34f80b719e7fa20402ca62b"
+    },
+    {
+      "bytes": 84099,
+      "path": "media/CNX_Precalc_Figure_06_01_021.jpg",
+      "sha256": "16100243bf2aa5e336db232c47440174cb02783e08df3fc430b582d5eecf12e7"
+    },
+    {
+      "bytes": 75742,
+      "path": "media/CNX_Precalc_Figure_06_01_022.jpg",
+      "sha256": "bdabbafc0e29dc772febfd9250cff0ddd821049f85256885ee73e759b1541a3d"
+    },
+    {
+      "bytes": 86441,
+      "path": "media/CNX_Precalc_Figure_06_01_023.jpg",
+      "sha256": "5c539dedaabbb03e5e6d4aa97f7af0e2f2b54ecbfe3593ac9345a3fb44a5eb7d"
+    },
+    {
+      "bytes": 102760,
+      "path": "media/CNX_Precalc_Figure_06_01_024.jpg",
+      "sha256": "dbfdb56ff1ce93f3abb6261e53939c8de83a0e907ee521674f5b34e74c57a717"
+    },
+    {
+      "bytes": 73346,
+      "path": "media/CNX_Precalc_Figure_06_01_025.jpg",
+      "sha256": "8acb4a1396e870930de54bfecd5ba1c2281883d10583890d7922ef8150e37bed"
+    },
+    {
+      "bytes": 116501,
+      "path": "media/CNX_Precalc_Figure_06_01_026.jpg",
+      "sha256": "0acc39e5b4883531fcd7aca38fc7e1e849af0dfc8f277d6e85e413de97d5b663"
+    },
+    {
+      "bytes": 121118,
+      "path": "media/CNX_Precalc_Figure_06_01_027.jpg",
+      "sha256": "18ac0680c8f13d37697b6103ab168f99fa2bf827175fc496649376f0ba08038e"
+    },
+    {
+      "bytes": 106809,
+      "path": "media/CNX_Precalc_Figure_06_01_028.jpg",
+      "sha256": "b41c2d4d22bff2edce592cf184060d973b14bc9750c005b07435f5fc21d03801"
+    },
+    {
+      "bytes": 98164,
+      "path": "media/CNX_Precalc_Figure_06_01_029.jpg",
+      "sha256": "471e8a409d2e8a15f94094bcaddba3afcd740b91ab30374ac6cdbddc1cb99953"
+    },
+    {
+      "bytes": 58406,
+      "path": "media/CNX_Precalc_Figure_06_01_202.jpg",
+      "sha256": "400d3497556378adbc3ee1f98aca7a0bb51be5b287341640f3109b5a6cd698be"
+    },
+    {
+      "bytes": 62828,
+      "path": "media/CNX_Precalc_Figure_06_01_204.jpg",
+      "sha256": "c0f2c40974c6530d5fa8798003fc354bafb057de5cf8ee58ceca16c295f79b52"
+    },
+    {
+      "bytes": 48478,
+      "path": "media/CNX_Precalc_Figure_06_01_206.jpg",
+      "sha256": "69c9a5cc5dc94d9246f67940fb3247632fc44e45a666dbc18e28233109927cda"
+    },
+    {
+      "bytes": 69090,
+      "path": "media/CNX_Precalc_Figure_06_01_208.jpg",
+      "sha256": "9ec03fb88557b0df2e66d047200f525ba06297d83e04a1691b054d904a4404bc"
+    },
+    {
+      "bytes": 67794,
+      "path": "media/CNX_Precalc_Figure_06_01_210.jpg",
+      "sha256": "de65c1390de4759bcd4edea7d2ee7826de3f18cf6bf80610ee9696ca0294a260"
+    },
+    {
+      "bytes": 75905,
+      "path": "media/CNX_Precalc_Figure_06_01_212.jpg",
+      "sha256": "e5858870e0a01933245a378680196706bcf4547a8cb760435fcd4767321faf4a"
+    },
+    {
+      "bytes": 62331,
+      "path": "media/CNX_Precalc_Figure_06_01_214.jpg",
+      "sha256": "c6131cdd82e29c281c939d2bd183d58501ae9e6c2610c3d13dda9f00dede6659"
+    },
+    {
+      "bytes": 52980,
+      "path": "media/CNX_Precalc_Figure_06_01_216.jpg",
+      "sha256": "a957c608a651e9df47457d27cdbe56464edc21965ee3e3f49958d05c38482cf1"
+    },
+    {
+      "bytes": 75925,
+      "path": "media/CNX_Precalc_Figure_06_01_218.jpg",
+      "sha256": "87689eb3f49fa09a107db7d563d6e9536b7f79b0bd77d809d2fcf333cd4ebdc9"
+    },
+    {
+      "bytes": 68677,
+      "path": "media/CNX_Precalc_Figure_06_01_219.jpg",
+      "sha256": "ad6427c216d98263dbfa8ced18b11d3ba88d82343f60a7fecef5498d67b42a5f"
+    },
+    {
+      "bytes": 80334,
+      "path": "media/CNX_Precalc_Figure_06_01_220.jpg",
+      "sha256": "4adca1502967e0fd5cdcf2307e81757776f688a3fa6fff67d0c80013d4790335"
+    },
+    {
+      "bytes": 97193,
+      "path": "media/CNX_Precalc_Figure_06_01_221.jpg",
+      "sha256": "56b0b66b75307a34d3e9986b6bd595906677c0933a5280d1d55a9f0f2e31c59f"
+    },
+    {
+      "bytes": 68868,
+      "path": "media/CNX_Precalc_Figure_06_01_222.jpg",
+      "sha256": "3c492e4340e04c888c15ef12872b05f6883c836d042f2a9678c28663694f8320"
+    },
+    {
+      "bytes": 41158,
+      "path": "media/CNX_Precalc_Figure_06_01_223.jpg",
+      "sha256": "11ac6b5c64977a6bbff69c95f0fd38dcdfd9c13a6eabcf403c1485355f46e302"
+    },
+    {
+      "bytes": 47965,
+      "path": "media/CNX_Precalc_Figure_06_01_224.jpg",
+      "sha256": "2c9544ff6e17f378799852c43cbdab61053d6efe4acc56d53184cd1a816b6c60"
+    },
+    {
+      "bytes": 47687,
+      "path": "media/CNX_Precalc_Figure_06_01_225.jpg",
+      "sha256": "260c78586ad3b78a45c7edf88ca83e3064655baf124cef7a533dbfadb0a780b3"
+    },
+    {
+      "bytes": 40401,
+      "path": "media/CNX_Precalc_Figure_06_01_226.jpg",
+      "sha256": "97a8e1af558dd42788a9dd3ee12d02358b0ec4804a863a6867500a1d50ed542d"
+    },
+    {
+      "bytes": 45181,
+      "path": "media/CNX_Precalc_Figure_06_01_228.jpg",
+      "sha256": "e0ae6a20001a0628732158630a1eba4b70fe29b0b9a1728b904a64707a759e57"
+    },
+    {
+      "bytes": 59256,
+      "path": "media/CNX_Precalc_Figure_06_01_230.jpg",
+      "sha256": "d08b165517f976043eddf19c06b5b30d14b4a6ffe79c2571c8a14b0371d4fae3"
+    },
+    {
+      "bytes": 75463,
+      "path": "media/CNX_Precalc_Figure_06_02_001.jpg",
+      "sha256": "27a125596e66109b69120162785d4326d86055c289d270ccfd4953c434745709"
+    },
+    {
+      "bytes": 33064,
+      "path": "media/CNX_Precalc_Figure_06_02_002.jpg",
+      "sha256": "5f823823f613e324d768451e5f2d4c89a3f495fd223cdc831581a4d6df9988f1"
+    },
+    {
+      "bytes": 59542,
+      "path": "media/CNX_Precalc_Figure_06_02_003.jpg",
+      "sha256": "a5ffe601769f33a07b0c753d338e242c9b184107afffbb64dc54b35af7d30e6b"
+    },
+    {
+      "bytes": 79432,
+      "path": "media/CNX_Precalc_Figure_06_02_004.jpg",
+      "sha256": "0cd0c33584c7ae18f347744e20aaaeca8c11606877f466e3e155b9b6bca73107"
+    },
+    {
+      "bytes": 48471,
+      "path": "media/CNX_Precalc_Figure_06_02_005.jpg",
+      "sha256": "9e831a3d9424ec877914adee2874687171878a2f7a420370d99df577e3657d6a"
+    },
+    {
+      "bytes": 64622,
+      "path": "media/CNX_Precalc_Figure_06_02_006.jpg",
+      "sha256": "04bb0caa1e3b9a44653c5ad88931a89473ec347f41f58a5198484be3fbd4bb4d"
+    },
+    {
+      "bytes": 88202,
+      "path": "media/CNX_Precalc_Figure_06_02_007.jpg",
+      "sha256": "93c8b9d847ed76608fabef39514d46ba5b77a06f8ca5844505238d4cfaafe958"
+    },
+    {
+      "bytes": 109638,
+      "path": "media/CNX_Precalc_Figure_06_02_008.jpg",
+      "sha256": "84a19134f7e20ebd47ef58217f0fdeed00b131bfc2cbe797fe27fadbcd16418d"
+    },
+    {
+      "bytes": 113913,
+      "path": "media/CNX_Precalc_Figure_06_02_009.jpg",
+      "sha256": "615a1748ff07c5b64c204c75144e61e3dc4f2460e50da741255ea4a71c5fc027"
+    },
+    {
+      "bytes": 47198,
+      "path": "media/CNX_Precalc_Figure_06_02_010.jpg",
+      "sha256": "e5f51c43ae79ede421ed5c675fff8ab01ac21bfb1561c1b090d443c0a2f9b050"
+    },
+    {
+      "bytes": 102482,
+      "path": "media/CNX_Precalc_Figure_06_02_011.jpg",
+      "sha256": "61d590da6652c48e85cd4f269b7bdb82d96a83210d8ea983e637c731877bee12"
+    },
+    {
+      "bytes": 83209,
+      "path": "media/CNX_Precalc_Figure_06_02_012.jpg",
+      "sha256": "0d468431a09b7167b7038d47c6d194a91d26eeb9034261488a6fbc67ad70c5e4"
+    },
+    {
+      "bytes": 45181,
+      "path": "media/CNX_Precalc_Figure_06_02_013.jpg",
+      "sha256": "6bb2585c56022059fcf50022a385a637c5daa9fe4e04066e6f9aa8286dbd61fc"
+    },
+    {
+      "bytes": 112435,
+      "path": "media/CNX_Precalc_Figure_06_02_014F.jpg",
+      "sha256": "f20e89927452ef8bfd86b5c646f0aa0f69fd92e72dbd3f3486a6c496c25d3b36"
+    },
+    {
+      "bytes": 81305,
+      "path": "media/CNX_Precalc_Figure_06_02_015.jpg",
+      "sha256": "a23685d6870b30df7d3bc0e8f094ab3d29ae7231146616b4f98ebb2b9ac677fb"
+    },
+    {
+      "bytes": 86307,
+      "path": "media/CNX_Precalc_Figure_06_02_016.jpg",
+      "sha256": "c94cb30d0e3d6223eeb95d2a43d6423a3622cc16ff8ba0053b47e5d2b3c57238"
+    },
+    {
+      "bytes": 56629,
+      "path": "media/CNX_Precalc_Figure_06_02_017.jpg",
+      "sha256": "84d1615508a994fb7a78a9d254dbb57363a740b8958ca9db47c2aecd23284a8a"
+    },
+    {
+      "bytes": 63359,
+      "path": "media/CNX_Precalc_Figure_06_02_019.jpg",
+      "sha256": "e06b9e1206c77b919968ff245c20e922832b5c89b5609497c17b08f84331132d"
+    },
+    {
+      "bytes": 78645,
+      "path": "media/CNX_Precalc_Figure_06_02_020.jpg",
+      "sha256": "9a037ce439405d60ab60d087c0e21c8a4578a2c5e3161af9c7aad8215fc9b9bd"
+    },
+    {
+      "bytes": 91064,
+      "path": "media/CNX_Precalc_Figure_06_02_021n.jpg",
+      "sha256": "cedc79259c8fde30e08c2379db071a31486b3fb99ecffcd810c107c69617a45d"
+    },
+    {
+      "bytes": 39735,
+      "path": "media/CNX_Precalc_Figure_06_02_022.jpg",
+      "sha256": "18e51af44fc1d6e201cfe3bf5912cf2adca71a0d4e1bdf15ea3c5153f76a242c"
+    },
+    {
+      "bytes": 126745,
+      "path": "media/CNX_Precalc_Figure_06_02_023.jpg",
+      "sha256": "47ea7603d2702223abc288dc15639badc54d17f1f80a8d6edb75dd1099fe262d"
+    },
+    {
+      "bytes": 58486,
+      "path": "media/CNX_Precalc_Figure_06_02_023b.jpg",
+      "sha256": "026ecb1e8f526894b36cc27078eb531b254684550f7bd1818ed0dbbd0ad61628"
+    },
+    {
+      "bytes": 110524,
+      "path": "media/CNX_Precalc_Figure_06_02_201combined.jpg",
+      "sha256": "28b27ac3d4cbde22415fe7a22996fc496551b0de2f46fd2017be311d7cd12276"
+    },
+    {
+      "bytes": 73968,
+      "path": "media/CNX_Precalc_Figure_06_02_202.jpg",
+      "sha256": "46fd5431a884ac593db51b093a7298ed02cdce0ab02a6360749cf32974075e99"
+    },
+    {
+      "bytes": 93724,
+      "path": "media/CNX_Precalc_Figure_06_02_204.jpg",
+      "sha256": "c9eab792256fe196a61ed156d6b38accbe5896ca74eb184cc0c0f8f8a934d63d"
+    },
+    {
+      "bytes": 76220,
+      "path": "media/CNX_Precalc_Figure_06_02_206.jpg",
+      "sha256": "64d342edb2ccef58a95fe7adc72741d226d946fbab39b27e0e3a0fb9ff5fb9d0"
+    },
+    {
+      "bytes": 78057,
+      "path": "media/CNX_Precalc_Figure_06_02_208.jpg",
+      "sha256": "0fd7fcee6b42c9c6bf452b48f59fd0930e4523f8579323a841b51e71b548dbe7"
+    },
+    {
+      "bytes": 80917,
+      "path": "media/CNX_Precalc_Figure_06_02_210.jpg",
+      "sha256": "0b6910ca25738915573010aca71b94216e264dcf8320af80160319f2c8ef0485"
+    },
+    {
+      "bytes": 89159,
+      "path": "media/CNX_Precalc_Figure_06_02_212.jpg",
+      "sha256": "898e1d90511ee858e0b7cfb348be8b993417f29a051e1db69888369ad0a43eea"
+    },
+    {
+      "bytes": 89083,
+      "path": "media/CNX_Precalc_Figure_06_02_214.jpg",
+      "sha256": "ecf5eabf013f74f0475ca771aeed7faec1c97a89472d28b857149c3fe20b1247"
+    },
+    {
+      "bytes": 127481,
+      "path": "media/CNX_Precalc_Figure_06_02_216.jpg",
+      "sha256": "3e20a36df49a9f9173faf68c9ac705db3fbc8598829e52173c51a040576eb343"
+    },
+    {
+      "bytes": 137287,
+      "path": "media/CNX_Precalc_Figure_06_02_218.jpg",
+      "sha256": "9a2dcb13cc083f0a288817632922e1eef85e53ab3462a044510b88a97773496b"
+    },
+    {
+      "bytes": 67856,
+      "path": "media/CNX_Precalc_Figure_06_02_220.jpg",
+      "sha256": "dea218fd80c6642d4ad01b797ef84b17e0ac46d20fe0994d8c9cb8c396758d6f"
+    },
+    {
+      "bytes": 93296,
+      "path": "media/CNX_Precalc_Figure_06_02_222.jpg",
+      "sha256": "f82ce559ca6445f2cf7473993d011b9259429cdc8f213d15d3224366b3b4a215"
+    },
+    {
+      "bytes": 88012,
+      "path": "media/CNX_Precalc_Figure_06_02_223.jpg",
+      "sha256": "faeae2a46cbe4f43f3b1fe73bc1380be27966e1662d44782e3e5410c55d003b1"
+    },
+    {
+      "bytes": 128749,
+      "path": "media/CNX_Precalc_Figure_06_02_224.jpg",
+      "sha256": "7b02a42a5614e540562f6d2b8a6dcb2920190aaa75d0b5cbb3b6b5478334a07a"
+    },
+    {
+      "bytes": 74583,
+      "path": "media/CNX_Precalc_Figure_06_02_225.jpg",
+      "sha256": "d74de570d6231ad299b85ddd037f2885297be463f813d7be7bdb21ae003642e4"
+    },
+    {
+      "bytes": 81774,
+      "path": "media/CNX_Precalc_Figure_06_02_226.jpg",
+      "sha256": "f07b3da12767f78d907aafad393b6887d7724cedb89cc455c332ff63ea398963"
+    },
+    {
+      "bytes": 90648,
+      "path": "media/CNX_Precalc_Figure_06_02_227.jpg",
+      "sha256": "7d064c535f4c452405b29e0f4297ca4f23b9003725cb411b8ef5e887790621b3"
+    },
+    {
+      "bytes": 83132,
+      "path": "media/CNX_Precalc_Figure_06_02_228.jpg",
+      "sha256": "5a91fb1cae5bd660ffb04d7aa9dcaa6d95f7654944f99078ff66f4e40fd1cdba"
+    },
+    {
+      "bytes": 81863,
+      "path": "media/CNX_Precalc_Figure_06_02_230.jpg",
+      "sha256": "8d72a31f00e662facff09492cd0fd777d39048b2677ea7fe9fd5f87268bbdbc4"
+    },
+    {
+      "bytes": 646385,
+      "path": "media/CNX_Precalc_Figure_06_02_232.jpg",
+      "sha256": "6080aef2ab4bf3b21787256644cf9b42158c7d610e63b3f75bc28a33d19145af"
+    },
+    {
+      "bytes": 122811,
+      "path": "media/CNX_Precalc_Figure_06_02_234.jpg",
+      "sha256": "b3f55d2356c56d6749b810ddf5f3e4ec723f88e2e1ad89b5e056d448ff5c325d"
+    },
+    {
+      "bytes": 114010,
+      "path": "media/CNX_Precalc_Figure_06_02_237.jpg",
+      "sha256": "a79d599d4d3256730133200f05df3c67da51449093d4138a92da182713f097b9"
+    },
+    {
+      "bytes": 74622,
+      "path": "media/CNX_Precalc_Figure_06_02_238.jpg",
+      "sha256": "1a43052d33d8a8059faa9666ae553d1d528d4447a6ddabb816c0d704f2f17bfa"
+    },
+    {
+      "bytes": 85399,
+      "path": "media/CNX_Precalc_Figure_06_02_240.jpg",
+      "sha256": "6060e837bb0ad6b928def3f38a55070e3430aee9bc9f85b5f159288a36f6d316"
+    },
+    {
+      "bytes": 72487,
+      "path": "media/CNX_Precalc_Figure_06_02_241.jpg",
+      "sha256": "c09fc974ff82a5ab65800b4ed094ca50f56f0418504ed833881db2a26285f9de"
+    },
+    {
+      "bytes": 77215,
+      "path": "media/CNX_Precalc_Figure_06_03_001.jpg",
+      "sha256": "4fa68ad8773367183aa124848feb2713398228584d64db4582f84a886b625073"
+    },
+    {
+      "bytes": 53676,
+      "path": "media/CNX_Precalc_Figure_06_03_003.jpg",
+      "sha256": "f6221a9269ba90b6a6739b65a2737213e13344d150d2992d747c1effbfdfbeb7"
+    },
+    {
+      "bytes": 67043,
+      "path": "media/CNX_Precalc_Figure_06_03_004n.jpg",
+      "sha256": "73d91c0bd9a911103b6005dd002a39f65067357fc59854e8e6f95364509ced2a"
+    },
+    {
+      "bytes": 56936,
+      "path": "media/CNX_Precalc_Figure_06_03_005n.jpg",
+      "sha256": "e66c976eb6e2157f57f419faa2b5d4056fce01823c6e5180d8c20ae5c9a6249a"
+    },
+    {
+      "bytes": 72011,
+      "path": "media/CNX_Precalc_Figure_06_03_006n.jpg",
+      "sha256": "5011e40d621c2f6c3e810c4d3795e65a59509a57a42a31adaa83e4d752e21e6c"
+    },
+    {
+      "bytes": 36628,
+      "path": "media/CNX_Precalc_Figure_06_03_007.jpg",
+      "sha256": "b3c1cbd33f32d4b9765dafa85af4390cf20e941bfc60adfd8db44a96293fd0e1"
+    },
+    {
+      "bytes": 34527,
+      "path": "media/CNX_Precalc_Figure_06_03_008.jpg",
+      "sha256": "8bda0d8acf1cc7d8998d5466340abb90a25420043ee4868ef4d119c01a47a996"
+    },
+    {
+      "bytes": 40491,
+      "path": "media/CNX_Precalc_Figure_06_03_009.jpg",
+      "sha256": "a613badd82a7d1695e183cd1a23b798312f0bea163f5c99cae5f96f6de7a9bbe"
+    },
+    {
+      "bytes": 40992,
+      "path": "media/CNX_Precalc_Figure_06_03_010.jpg",
+      "sha256": "d9f22446c04823e0cf962c324e83fa827fb1548da47cbc32b93968da026eca15"
+    },
+    {
+      "bytes": 41441,
+      "path": "media/CNX_Precalc_Figure_06_03_011n.jpg",
+      "sha256": "5e14fc48b69180c2417d0eb26f70ee82e77a4e70306c7cc3e530f4ce19893eed"
+    },
+    {
+      "bytes": 43117,
+      "path": "media/CNX_Precalc_Figure_06_03_012.jpg",
+      "sha256": "cda19bd08a50f6c10b8dade152c4b866b2e0961a6ee2657a42af2f09e9522121"
+    },
+    {
+      "bytes": 69242,
+      "path": "media/CNX_Precalc_Figure_06_03_013.jpg",
+      "sha256": "6ce0bd9606084c234ef7482985f438740f347f87e7714d932a8feb04522d4c1e"
+    },
+    {
+      "bytes": 35995,
+      "path": "media/CNX_Precalc_Figure_06_03_201.jpg",
+      "sha256": "768c84746ebb1ebbbed4acc594990dd65f20d8243e8dc589b3e7dc84d41611a8"
+    },
+    {
+      "bytes": 36341,
+      "path": "media/CNX_Precalc_Figure_06_03_202.jpg",
+      "sha256": "36c88a6acdec9abf754f4b9bb0e6b79a65b71387200b3f18d106c85148d36eed"
+    },
+    {
+      "bytes": 38342,
+      "path": "media/CNX_Precalc_Figure_06_03_204.jpg",
+      "sha256": "a03047541ed900ea67549f15b589fcd5bca8c105905c7882a7672d85900be2d9"
+    },
+    {
+      "bytes": 73376,
+      "path": "media/CNX_Precalc_Figure_06_03_206.jpg",
+      "sha256": "9a717ac3504bbe72d9d059727d6dfacef748a83d86160f15033b1b2defc17119"
+    },
+    {
+      "bytes": 89472,
+      "path": "media/CNX_Precalc_Figure_06_03_208.jpg",
+      "sha256": "aaa76a094f3f9c7838f5ed81913538d6690553a6b49abb681b1efbd0ca39b045"
+    },
+    {
+      "bytes": 89456,
+      "path": "media/CNX_Precalc_Figure_06_03_210.jpg",
+      "sha256": "951f7874e349dda949985eb5c08a70d1864c1dad4db4a9c986930e9f0629ea22"
+    },
+    {
+      "bytes": 117889,
+      "path": "media/CNX_Precalc_Figure_06_03_212.jpg",
+      "sha256": "e3f2b6ee63a6441a4a8405584b03870c2d046bd8011ae3da4a31dbd7ca7e69be"
+    },
+    {
+      "bytes": 66523,
+      "path": "media/CNX_Precalc_Figure_06_03_214.jpg",
+      "sha256": "9e2ba7eba6b54c9b19147ad88c896acb50e57be93a4865f29fda911fa34e1726"
+    },
+    {
+      "bytes": 105587,
+      "path": "media/CNX_Precalc_Figure_06_03_216.jpg",
+      "sha256": "643540d83dbe32e50683ecf89e05952b7004dd1959f9557e128a0d1b88401596"
+    },
+    {
+      "bytes": 89626,
+      "path": "media/CNX_Precalc_Figure_06_03_218.jpg",
+      "sha256": "5b16f0078193fd0e77cf0df09a8c79afd9330e886fd3c7a99754105de59fa3ee"
+    },
+    {
+      "bytes": 94691,
+      "path": "media/CNX_Precalc_Figure_06_03_220.jpg",
+      "sha256": "4db1ae3a008bb1a4068d84f3e97fb10b5617d8db40d4c18d4f16e67849f260a8"
+    },
+    {
+      "bytes": 99360,
+      "path": "media/CNX_Precalc_Figure_06_03_222.jpg",
+      "sha256": "d36022ee8761d093490a5c23b9fe867f2785fc313c8ad5633f57c7f062ae9f13"
+    },
+    {
+      "bytes": 70082,
+      "path": "media/CNX_Precalc_Figure_06_03_225.jpg",
+      "sha256": "a4263bdcd02b1d57729dd2e8a3cfbcc14fe0b2d1db0eec32b7c3e3247d6e9e86"
+    },
+    {
+      "bytes": 97747,
+      "path": "media/CNX_Precalc_Figure_06_03_226.jpg",
+      "sha256": "7544fc13ed8c0ae644a29994b6a6e2e55a9b5a3a798997487145e147592d7ace"
+    },
+    {
+      "bytes": 107796,
+      "path": "media/CNX_Precalc_Figure_06_03_228.jpg",
+      "sha256": "4f207a3e8ce168ed34ee37df597f60146ba5687bd835571f93d6fe02df559f33"
+    },
+    {
+      "bytes": 69604,
+      "path": "media/CNX_Precalc_Figure_06_03_229.jpg",
+      "sha256": "a5b6c327799ea386af6ca900d933b35cf37c35c37eddeb7138f2b6b9eaab611f"
+    },
+    {
+      "bytes": 75376,
+      "path": "media/CNX_Precalc_Figure_06_03_231.jpg",
+      "sha256": "771d27d3fb177edbe8f4d2d6d720fe64e4000e1cd09fe8ee918f9c628c495323"
+    },
+    {
+      "bytes": 69557,
+      "path": "media/CNX_Precalc_Figure_06_03_233.jpg",
+      "sha256": "eee5c97b65c4c14a26c3b5eae41b87d7ef48045cb84828df778167e0df10f3e4"
+    },
+    {
+      "bytes": 75739,
+      "path": "media/CNX_Precalc_Figure_06_03_235.jpg",
+      "sha256": "18127f097d724df1ffa559485ae8937c537ea0217b1baa27dd95d1a69880232f"
+    },
+    {
+      "bytes": 83062,
+      "path": "media/CNX_Precalc_Figure_06_03_237.jpg",
+      "sha256": "ee6a9862bbc8249ea4aa0cd038512a142f6df467ce2b11f227c4deab873438a5"
+    },
+    {
+      "bytes": 92575,
+      "path": "media/CNX_Precalc_Figure_06_03_239.jpg",
+      "sha256": "7c44583e07000a28f424100075e7a5e9cf6bbd695959fdf39e62623ee9e8a9db"
+    },
+    {
+      "bytes": 102348,
+      "path": "media/CNX_Precalc_Figure_06_03_241.jpg",
+      "sha256": "21277edb0061686563d52af96a58d7153b14feb87eb5bacae75b5441e50d2b4f"
+    },
+    {
+      "bytes": 60678,
+      "path": "media/CNX_Precalc_Figure_06_03_242.jpg",
+      "sha256": "bfc276d24e836db39d0e1c91900535cf61829e634f8d77781c5b654de1032eb9"
+    },
+    {
+      "bytes": 74762,
+      "path": "media/CNX_Precalc_Figure_06_03_243.jpg",
+      "sha256": "ed6ffd1779d166783a43a7a210c138b7f6bb71a23a3bcd262e3f32dbf021c668"
+    },
+    {
+      "bytes": 41975,
+      "path": "media/CNX_Precalc_Figure_06_03_244.jpg",
+      "sha256": "db5101a8298fc55db7693b81cb23301519f11b7913ac6d65cf3ce76ddb64d2d7"
+    },
+    {
+      "bytes": 52825,
+      "path": "media/CNX_Precalc_Figure_06_03_246.jpg",
+      "sha256": "87f22461b712446ae90fe7b1eccd5846d437b48fa5db2a5e2cd0915a6a144c0f"
+    },
+    {
+      "bytes": 196999,
+      "path": "media/CNX_Precalc_Figure_06_03_248.jpg",
+      "sha256": "8100af454c0045003673f8e0676e5974e8992c898e55c68f21c21d2dcc0b1a9d"
+    },
+    {
+      "bytes": 52378,
+      "path": "media/CNX_Precalc_Figure_06_03_251.jpg",
+      "sha256": "95f95d3cb6e091824d65428722eb4129164be549059f4869ca9970d067789b02"
+    },
+    {
+      "bytes": 71900,
+      "path": "media/CNX_Precalc_Figure_06_03_254.jpg",
+      "sha256": "00022d8a7095313680809b5e45b4b8a75442b7f46ed6f6f59c64ee95c84c4556"
+    },
+    {
+      "bytes": 23475,
+      "path": "media/CNX_Precalc_Figure_06_03_255.jpg",
+      "sha256": "1769d4a34086dc3f297525a49c0bb053dae8e36ac27791e07c78d56b092bdf1d"
+    },
+    {
+      "bytes": 225208,
+      "path": "media/CNX_Precalc_Figure_07_00_001.jpg",
+      "sha256": "394c2a4e3de49edd6971f9b0782ded7cdff14b45331e7c279d0e62ca0b9d5c38"
+    },
+    {
+      "bytes": 68887,
+      "path": "media/CNX_Precalc_Figure_07_01_002-a36c.jpg",
+      "sha256": "dea93d9d647a8604997119854be0ef267e68198f2f53860ddd13116445bd9e8e"
+    },
+    {
+      "bytes": 70859,
+      "path": "media/CNX_Precalc_Figure_07_01_003.jpg",
+      "sha256": "6483469656dcc3d59205ec861e13c35a8381be5e348ad3701e2d27a1c4e56f54"
+    },
+    {
+      "bytes": 117829,
+      "path": "media/CNX_Precalc_Figure_07_01_004-93aa.jpg",
+      "sha256": "d3eaff0c5a8e30d34f9f5d11dad91e16bcf6d0ab4b0fff161e0a2eefcfc59aee"
+    },
+    {
+      "bytes": 224064,
+      "path": "media/CNX_Precalc_Figure_07_01_006.jpg",
+      "sha256": "ba68d35177b9f84d57579bd2913b99d3c85c8c03db38bd6ec740c29aa0d9999a"
+    },
+    {
+      "bytes": 94978,
+      "path": "media/CNX_Precalc_Figure_07_01_007.jpg",
+      "sha256": "04bebfb7630ac29c2ed9573e25f37671b9d2d231cbfd6d8c5b63fb31e4d0b0eb"
+    },
+    {
+      "bytes": 156223,
+      "path": "media/CNX_Precalc_Figure_07_02_001.jpg",
+      "sha256": "91887e1d313349195f281d124359df1d0bdf95116f67291a4d5a11575a9beb6e"
+    },
+    {
+      "bytes": 78292,
+      "path": "media/CNX_Precalc_Figure_07_02_002.jpg",
+      "sha256": "985c7cf6956b449d3d2258dd087b5f4a5a02a716f1c1b8e4147731237448aca6"
+    },
+    {
+      "bytes": 32092,
+      "path": "media/CNX_Precalc_Figure_07_02_003-e4a8.jpg",
+      "sha256": "d300b236593b312212a37e481d2c71a21bcb701e9f4e11b77f351bb2bded7b47"
+    },
+    {
+      "bytes": 52501,
+      "path": "media/CNX_Precalc_Figure_07_02_004-e86a.jpg",
+      "sha256": "14d98f85471d1aa819627c69f9dcee638858121b100d416894cf3d3260ddda63"
+    },
+    {
+      "bytes": 33686,
+      "path": "media/CNX_Precalc_Figure_07_02_005.jpg",
+      "sha256": "04972398d1454d30f7b9619cc886ca622e3d28d428f6ca75a2e97ff2078ff920"
+    },
+    {
+      "bytes": 78385,
+      "path": "media/CNX_Precalc_Figure_07_02_006.jpg",
+      "sha256": "ef0acc11561ec4b2dd0c4264d792bd0e14b869acf416f83f801c662313a40591"
+    },
+    {
+      "bytes": 52821,
+      "path": "media/CNX_Precalc_Figure_07_02_007.jpg",
+      "sha256": "05b2b59244bb3855855082c54c2efa25c61da0ef680358578624d2060c8cac7c"
+    },
+    {
+      "bytes": 83417,
+      "path": "media/CNX_Precalc_Figure_07_02_201-c02d.jpg",
+      "sha256": "8f94e5f29e239c28ba6ea83688edc517f285b8b301561a771172c957b5c347a9"
+    },
+    {
+      "bytes": 87240,
+      "path": "media/CNX_Precalc_Figure_07_02_203-d60a.jpg",
+      "sha256": "602b47f9e3ad28686262a46cf9f1ca43eb5da89c4020ac82760a6544fc1ea185"
+    },
+    {
+      "bytes": 77264,
+      "path": "media/CNX_Precalc_Figure_07_02_205.jpg",
+      "sha256": "542c922b796d265e4af139feea5fda3ffae18659575ab1fb245083099e67b3cf"
+    },
+    {
+      "bytes": 79193,
+      "path": "media/CNX_Precalc_Figure_07_02_207.jpg",
+      "sha256": "4f340b961da5cf13a5acf90d8d8e6fe52631ba385d513850b9706267e59ad008"
+    },
+    {
+      "bytes": 172642,
+      "path": "media/CNX_Precalc_Figure_07_03_001.jpg",
+      "sha256": "3609ff870d3b0cc7c97aa565d89d7f21d3a4d91e75da79da4d302c4483bacd72"
+    },
+    {
+      "bytes": 47473,
+      "path": "media/CNX_Precalc_Figure_07_03_002.jpg",
+      "sha256": "5c1c09c12cc7a68160d098ff514ed6a626ca93bd3dce593d2f8ffdde86cba22f"
+    },
+    {
+      "bytes": 56580,
+      "path": "media/CNX_Precalc_Figure_07_03_003.jpg",
+      "sha256": "f82b36935a0b7ce9f3317397ffc32ed9f58cc6e309278a3eb3a0af42240b2728"
+    },
+    {
+      "bytes": 48545,
+      "path": "media/CNX_Precalc_Figure_07_03_004.jpg",
+      "sha256": "626842ea636f570cb8fb965ea8233b01bc335e205f67632369e8481baebfa8fa"
+    },
+    {
+      "bytes": 41441,
+      "path": "media/CNX_Precalc_Figure_07_03_201-50f9.jpg",
+      "sha256": "5553876dc2b7e4f77c24a2b9c4c229f3500e45a4e26c15345920a52ee9a53c8e"
+    },
+    {
+      "bytes": 78957,
+      "path": "media/CNX_Precalc_Figure_07_04_001.jpg",
+      "sha256": "549a65164c38aeec178e969bff149b76a2c21d824e90483145f91dabcbbe8110"
+    },
+    {
+      "bytes": 284130,
+      "path": "media/CNX_Precalc_Figure_07_04_002-5139.jpg",
+      "sha256": "c41ebc4a7775fae8b88cb7e7dabfdddb96c08dedd3793c9c313008d62b516240"
+    },
+    {
+      "bytes": 164537,
+      "path": "media/CNX_Precalc_Figure_07_05_001.jpg",
+      "sha256": "35023324d1cbcf8a04a0118f5ca5c17d5ef7336382c68fc50b887950458627f7"
+    },
+    {
+      "bytes": 49298,
+      "path": "media/CNX_Precalc_Figure_07_05_002.jpg",
+      "sha256": "2811c1962996a8e40540e3b2c274cb2dfb745b85aa659929237169039dac97f3"
+    },
+    {
+      "bytes": 38214,
+      "path": "media/CNX_Precalc_Figure_07_05_003.jpg",
+      "sha256": "4977c1ccb0b15c6b2c5293b27b429adcbb1799a5c3dca0b98877700e1b192005"
+    },
+    {
+      "bytes": 69342,
+      "path": "media/CNX_Precalc_Figure_07_05_004.jpg",
+      "sha256": "29fd1295595beda3ff4acdebd4df57f594bf6a13ae7fb589e7baaea34132294d"
+    },
+    {
+      "bytes": 96082,
+      "path": "media/CNX_Precalc_Figure_07_05_005.jpg",
+      "sha256": "55d8a818466a29b9c179d4b35c8b6dde37322f98257aeb8003b107a0af932754"
+    },
+    {
+      "bytes": 89080,
+      "path": "media/CNX_Precalc_Figure_07_06_001.jpg",
+      "sha256": "c140bc252ea2899e57500774776806f47edaf99705b93ae7e94460e0d7537b8b"
+    },
+    {
+      "bytes": 90415,
+      "path": "media/CNX_Precalc_Figure_07_06_002.jpg",
+      "sha256": "529dd45e9107d3d0093a2f59735916ea5615d0e674d08fa9d101647910726e23"
+    },
+    {
+      "bytes": 65246,
+      "path": "media/CNX_Precalc_Figure_07_06_003.jpg",
+      "sha256": "14fee2438d44a9be044fce66ee25b250b04fa9d6be26a6f3a3877610f0bddcdf"
+    },
+    {
+      "bytes": 64862,
+      "path": "media/CNX_Precalc_Figure_07_06_004.jpg",
+      "sha256": "d4a187471ce9e752d0082a036071d37106f1f6652aba064eba08655c8dc76af7"
+    },
+    {
+      "bytes": 135725,
+      "path": "media/CNX_Precalc_Figure_07_06_010.jpg",
+      "sha256": "bad308acd339123086c6843530269336c0524c1fdd3e681a0ddda6c78c652e53"
+    },
+    {
+      "bytes": 103087,
+      "path": "media/CNX_Precalc_Figure_07_06_011.jpg",
+      "sha256": "8c9ac26e980554dc06c09d9f4a0c686118f3c0d1a487f63da6565556e5589e8c"
+    },
+    {
+      "bytes": 132160,
+      "path": "media/CNX_Precalc_Figure_07_06_013.jpg",
+      "sha256": "ae4f02b4a28e381d457c888856e1e92d8b16eafd7fafb89b12f11e2019ff2ee5"
+    },
+    {
+      "bytes": 104777,
+      "path": "media/CNX_Precalc_Figure_07_06_015.jpg",
+      "sha256": "3f532edb037262595a945b87319f6df5dab39aefbc6e57bb958dcdff49dab24d"
+    },
+    {
+      "bytes": 80131,
+      "path": "media/CNX_Precalc_Figure_07_06_016.jpg",
+      "sha256": "8df932b06fbb5575c3f3fd0f10f4efeae83b7bdaaa941bf15400739ce3183dc0"
+    },
+    {
+      "bytes": 50547,
+      "path": "media/CNX_Precalc_Figure_07_06_017.jpg",
+      "sha256": "911eb64397b985ba30b1322a4c72c3b1a3fc2212829e205bc6636ae388e1bf50"
+    },
+    {
+      "bytes": 53243,
+      "path": "media/CNX_Precalc_Figure_07_06_018.jpg",
+      "sha256": "c191183f711df5d43618aa5d43c3ca0ab7f0a9eaecfb3e3bc68ebb6ee228d335"
+    },
+    {
+      "bytes": 72115,
+      "path": "media/CNX_Precalc_Figure_07_07_002.jpg",
+      "sha256": "08eeca39c3ea4180bc0f9393b52bb48043be26e71af1942b3bd8146da22b951c"
+    },
+    {
+      "bytes": 54723,
+      "path": "media/CNX_Precalc_Figure_07_07_003.jpg",
+      "sha256": "c3dd1e0e6bd02176a618670cd50babb9c1a05945b0664e05bc49d2db1a09545a"
+    },
+    {
+      "bytes": 78895,
+      "path": "media/CNX_Precalc_Figure_07_07_004.jpg",
+      "sha256": "3d9b4f12df54c9d62c9dd5db22e8efbc43243c1b90d25957cd477dfaea334d05"
+    },
+    {
+      "bytes": 40189,
+      "path": "media/CNX_Precalc_Figure_07_07_006.jpg",
+      "sha256": "0d238525fc8a02eb540523f056a20e292922f673d16834e415147b10b4200f15"
+    },
+    {
+      "bytes": 46511,
+      "path": "media/CNX_Precalc_Figure_07_07_007.jpg",
+      "sha256": "9fd705a7a8ad6e89618b203cb138f8e7e070005d68b0cbf8005de475241ef54b"
+    },
+    {
+      "bytes": 38500,
+      "path": "media/CNX_Precalc_Figure_07_07_008.jpg",
+      "sha256": "09242a6a2dfcc21b27e246b893036bd0eb350e9c4d9a8524c8860ed5abe404f6"
+    },
+    {
+      "bytes": 39091,
+      "path": "media/CNX_Precalc_Figure_07_07_009.jpg",
+      "sha256": "e9d129a8256eefe156c0d84ccafa9052ad8567debead833e6114b42b3b61e267"
+    },
+    {
+      "bytes": 54861,
+      "path": "media/CNX_Precalc_Figure_07_07_010.jpg",
+      "sha256": "9013a154cfd69c80bbff3a50e355c433e6727fabcb179544cc5784306183bbca"
+    },
+    {
+      "bytes": 49457,
+      "path": "media/CNX_Precalc_Figure_07_07_011.jpg",
+      "sha256": "39a32d6cabadf77fd8c76ed7958ec70b37fe52ede87f04d529527165afb117ee"
+    },
+    {
+      "bytes": 37763,
+      "path": "media/CNX_Precalc_Figure_07_07_012.jpg",
+      "sha256": "78137bcd91052a597687d98c4704ef3af8d8439247d9fad952aaa4d18a196fa5"
+    },
+    {
+      "bytes": 61624,
+      "path": "media/CNX_Precalc_Figure_07_07_013.jpg",
+      "sha256": "94e7de8c6f6c68b9e76d9748c89b567590a0f89422d765d93e082aecb9dcb6c9"
+    },
+    {
+      "bytes": 86399,
+      "path": "media/CNX_Precalc_Figure_07_07_014.jpg",
+      "sha256": "35e40a7ddaa45a1a13c57c2d25e35901c3f56344958275d849bd4d9db589abed"
+    },
+    {
+      "bytes": 87002,
+      "path": "media/CNX_Precalc_Figure_07_07_015.jpg",
+      "sha256": "a6ba91167c4b75d6348b214ed0dd3606d41c769f72be5c119b6df3cf6a8cfe64"
+    },
+    {
+      "bytes": 106732,
+      "path": "media/CNX_Precalc_Figure_07_07_016.jpg",
+      "sha256": "cacdea387961858ee5ecdbf074771e56aedb30d082195b47d16a410409325e3f"
+    },
+    {
+      "bytes": 41033,
+      "path": "media/CNX_Precalc_Figure_07_07_201.jpg",
+      "sha256": "5b086aa2c3b81af72c860694e87542220b8cdad020a1c45dda5aa071db6a8448"
+    },
+    {
+      "bytes": 24181,
+      "path": "media/Precalculus_Graphing_13.png",
+      "sha256": "db1607698efebcf22e2880102ae5230016410ccd421ad74924d9de3adb329ed8"
+    },
+    {
+      "bytes": 19329,
+      "path": "media/Precalculus_Graphing_15.png",
+      "sha256": "cfe79a7ad49958bfbcd20d70100b52aba4d882ed26907323ec0be11a6bb0c267"
+    }
+  ],
+  "assigned_modules": [
+    "m49386",
+    "m49387",
+    "m49389",
+    "m49390",
+    "m49392",
+    "m49393",
+    "m49395",
+    "m49396",
+    "m49397",
+    "m49398",
+    "m49399"
+  ],
+  "assigned_source_orders": [
+    38,
+    48
+  ],
+  "commit": "789b54099106b071d1d32bfcee454fed72eb4768",
+  "external_module_dependencies": [
+    {
+      "from_module": "m49387",
+      "reference": "m49369"
+    },
+    {
+      "from_module": "m49387",
+      "reference": "m49387"
+    },
+    {
+      "from_module": "m49390",
+      "reference": "m49387"
+    },
+    {
+      "from_module": "m49390",
+      "reference": "m49389"
+    },
+    {
+      "from_module": "m49390",
+      "reference": "m49390"
+    },
+    {
+      "from_module": "m49395",
+      "reference": "m49384"
+    },
+    {
+      "from_module": "m49395",
+      "reference": "m49393"
+    },
+    {
+      "from_module": "m49398",
+      "reference": "m49395"
+    },
+    {
+      "from_module": "m49399",
+      "reference": "m49387"
+    },
+    {
+      "from_module": "m49399",
+      "reference": "m49393"
+    },
+    {
+      "from_module": "m49399",
+      "reference": "m49395"
+    },
+    {
+      "from_module": "m49399",
+      "reference": "m49396"
+    },
+    {
+      "from_module": "m49399",
+      "reference": "m49397"
+    },
+    {
+      "from_module": "m49399",
+      "reference": "m49398"
+    },
+    {
+      "from_module": "m49399",
+      "reference": "m49399"
+    }
+  ],
+  "modules": [
+    {
+      "active_assets": [
+        "media/CNX_Precalc2e_Figure_06_00_001.jpg"
+      ],
+      "bytes": 2789,
+      "module_id": "m49386",
+      "path": "source/modules/m49386/index.cnxml",
+      "sha256": "bbb96d1832d83256e4cd90631f514dbe9bbf142d52f8f1dd7d2431de603befe5",
+      "source_order": 38,
+      "title": "Introduction to Periodic Functions"
+    },
+    {
+      "active_assets": [
+        "media/CNX_Precalc_Figure_06_01_001.jpg",
+        "media/CNX_Precalc_Figure_06_01_002.jpg",
+        "media/CNX_Precalc_Figure_06_01_003.jpg",
+        "media/CNX_Precalc_Figure_06_01_004.jpg",
+        "media/CNX_Precalc_Figure_06_01_005.jpg",
+        "media/CNX_Precalc_Figure_06_01_006.jpg",
+        "media/CNX_Precalc_Figure_06_01_007.jpg",
+        "media/CNX_Precalc_Figure_06_01_008.jpg",
+        "media/CNX_Precalc_Figure_06_01_009.jpg",
+        "media/CNX_Precalc_Figure_06_01_010.jpg",
+        "media/CNX_Precalc_Figure_06_01_011.jpg",
+        "media/CNX_Precalc_Figure_06_01_012.jpg",
+        "media/CNX_Precalc_Figure_06_01_013.jpg",
+        "media/CNX_Precalc_Figure_06_01_014.jpg",
+        "media/CNX_Precalc_Figure_06_01_015.jpg",
+        "media/CNX_Precalc_Figure_06_01_016.jpg",
+        "media/CNX_Precalc_Figure_06_01_017.jpg",
+        "media/CNX_Precalc_Figure_06_01_018n-0a72.jpg",
+        "media/CNX_Precalc_Figure_06_01_019.jpg",
+        "media/CNX_Precalc_Figure_06_01_020.jpg",
+        "media/CNX_Precalc_Figure_06_01_021.jpg",
+        "media/CNX_Precalc_Figure_06_01_022.jpg",
+        "media/CNX_Precalc_Figure_06_01_023.jpg",
+        "media/CNX_Precalc_Figure_06_01_024.jpg",
+        "media/CNX_Precalc_Figure_06_01_025.jpg",
+        "media/CNX_Precalc_Figure_06_01_026.jpg",
+        "media/CNX_Precalc_Figure_06_01_027.jpg",
+        "media/CNX_Precalc_Figure_06_01_028.jpg",
+        "media/CNX_Precalc_Figure_06_01_029.jpg",
+        "media/CNX_Precalc_Figure_06_01_202.jpg",
+        "media/CNX_Precalc_Figure_06_01_204.jpg",
+        "media/CNX_Precalc_Figure_06_01_206.jpg",
+        "media/CNX_Precalc_Figure_06_01_208.jpg",
+        "media/CNX_Precalc_Figure_06_01_210.jpg",
+        "media/CNX_Precalc_Figure_06_01_212.jpg",
+        "media/CNX_Precalc_Figure_06_01_214.jpg",
+        "media/CNX_Precalc_Figure_06_01_216.jpg",
+        "media/CNX_Precalc_Figure_06_01_218.jpg",
+        "media/CNX_Precalc_Figure_06_01_219.jpg",
+        "media/CNX_Precalc_Figure_06_01_220.jpg",
+        "media/CNX_Precalc_Figure_06_01_221.jpg",
+        "media/CNX_Precalc_Figure_06_01_222.jpg",
+        "media/CNX_Precalc_Figure_06_01_223.jpg",
+        "media/CNX_Precalc_Figure_06_01_224.jpg",
+        "media/CNX_Precalc_Figure_06_01_225.jpg",
+        "media/CNX_Precalc_Figure_06_01_226.jpg",
+        "media/CNX_Precalc_Figure_06_01_228.jpg",
+        "media/CNX_Precalc_Figure_06_01_230.jpg"
+      ],
+      "bytes": 160667,
+      "module_id": "m49387",
+      "path": "source/modules/m49387/index.cnxml",
+      "sha256": "b5b272b9da0e191a539f578c6b20cceba669d48fffc9c9e7078d0d90cd15dc3d",
+      "source_order": 39,
+      "title": "Graphs of the Sine and Cosine Functions"
+    },
+    {
+      "active_assets": [
+        "media/CNX_Precalc_Figure_06_02_001.jpg",
+        "media/CNX_Precalc_Figure_06_02_002.jpg",
+        "media/CNX_Precalc_Figure_06_02_003.jpg",
+        "media/CNX_Precalc_Figure_06_02_004.jpg",
+        "media/CNX_Precalc_Figure_06_02_005.jpg",
+        "media/CNX_Precalc_Figure_06_02_006.jpg",
+        "media/CNX_Precalc_Figure_06_02_007.jpg",
+        "media/CNX_Precalc_Figure_06_02_008.jpg",
+        "media/CNX_Precalc_Figure_06_02_009.jpg",
+        "media/CNX_Precalc_Figure_06_02_010.jpg",
+        "media/CNX_Precalc_Figure_06_02_011.jpg",
+        "media/CNX_Precalc_Figure_06_02_012.jpg",
+        "media/CNX_Precalc_Figure_06_02_013.jpg",
+        "media/CNX_Precalc_Figure_06_02_014F.jpg",
+        "media/CNX_Precalc_Figure_06_02_015.jpg",
+        "media/CNX_Precalc_Figure_06_02_016.jpg",
+        "media/CNX_Precalc_Figure_06_02_017.jpg",
+        "media/CNX_Precalc_Figure_06_02_019.jpg",
+        "media/CNX_Precalc_Figure_06_02_020.jpg",
+        "media/CNX_Precalc_Figure_06_02_021n.jpg",
+        "media/CNX_Precalc_Figure_06_02_022.jpg",
+        "media/CNX_Precalc_Figure_06_02_023.jpg",
+        "media/CNX_Precalc_Figure_06_02_023b.jpg",
+        "media/CNX_Precalc_Figure_06_02_201combined.jpg",
+        "media/CNX_Precalc_Figure_06_02_202.jpg",
+        "media/CNX_Precalc_Figure_06_02_204.jpg",
+        "media/CNX_Precalc_Figure_06_02_206.jpg",
+        "media/CNX_Precalc_Figure_06_02_208.jpg",
+        "media/CNX_Precalc_Figure_06_02_210.jpg",
+        "media/CNX_Precalc_Figure_06_02_212.jpg",
+        "media/CNX_Precalc_Figure_06_02_214.jpg",
+        "media/CNX_Precalc_Figure_06_02_216.jpg",
+        "media/CNX_Precalc_Figure_06_02_218.jpg",
+        "media/CNX_Precalc_Figure_06_02_220.jpg",
+        "media/CNX_Precalc_Figure_06_02_222.jpg",
+        "media/CNX_Precalc_Figure_06_02_223.jpg",
+        "media/CNX_Precalc_Figure_06_02_224.jpg",
+        "media/CNX_Precalc_Figure_06_02_225.jpg",
+        "media/CNX_Precalc_Figure_06_02_226.jpg",
+        "media/CNX_Precalc_Figure_06_02_227.jpg",
+        "media/CNX_Precalc_Figure_06_02_228.jpg",
+        "media/CNX_Precalc_Figure_06_02_230.jpg",
+        "media/CNX_Precalc_Figure_06_02_232.jpg",
+        "media/CNX_Precalc_Figure_06_02_234.jpg",
+        "media/CNX_Precalc_Figure_06_02_237.jpg",
+        "media/CNX_Precalc_Figure_06_02_238.jpg",
+        "media/CNX_Precalc_Figure_06_02_240.jpg",
+        "media/CNX_Precalc_Figure_06_02_241.jpg"
+      ],
+      "bytes": 197841,
+      "module_id": "m49389",
+      "path": "source/modules/m49389/index.cnxml",
+      "sha256": "c1d1bda6c7e893c2c32668406eafa62b5ed2a62a40cfd5f6bd00ac474d6dd72f",
+      "source_order": 40,
+      "title": "Graphs of the Other Trigonometric Functions"
+    },
+    {
+      "active_assets": [
+        "media/CNX_Precalc_Figure_06_03_001.jpg",
+        "media/CNX_Precalc_Figure_06_03_003.jpg",
+        "media/CNX_Precalc_Figure_06_03_004n.jpg",
+        "media/CNX_Precalc_Figure_06_03_005n.jpg",
+        "media/CNX_Precalc_Figure_06_03_006n.jpg",
+        "media/CNX_Precalc_Figure_06_03_007.jpg",
+        "media/CNX_Precalc_Figure_06_03_008.jpg",
+        "media/CNX_Precalc_Figure_06_03_009.jpg",
+        "media/CNX_Precalc_Figure_06_03_010.jpg",
+        "media/CNX_Precalc_Figure_06_03_011n.jpg",
+        "media/CNX_Precalc_Figure_06_03_012.jpg",
+        "media/CNX_Precalc_Figure_06_03_013.jpg",
+        "media/CNX_Precalc_Figure_06_03_201.jpg",
+        "media/CNX_Precalc_Figure_06_03_202.jpg",
+        "media/CNX_Precalc_Figure_06_03_204.jpg",
+        "media/CNX_Precalc_Figure_06_03_206.jpg",
+        "media/CNX_Precalc_Figure_06_03_208.jpg",
+        "media/CNX_Precalc_Figure_06_03_210.jpg",
+        "media/CNX_Precalc_Figure_06_03_212.jpg",
+        "media/CNX_Precalc_Figure_06_03_214.jpg",
+        "media/CNX_Precalc_Figure_06_03_216.jpg",
+        "media/CNX_Precalc_Figure_06_03_218.jpg",
+        "media/CNX_Precalc_Figure_06_03_220.jpg",
+        "media/CNX_Precalc_Figure_06_03_222.jpg",
+        "media/CNX_Precalc_Figure_06_03_225.jpg",
+        "media/CNX_Precalc_Figure_06_03_226.jpg",
+        "media/CNX_Precalc_Figure_06_03_228.jpg",
+        "media/CNX_Precalc_Figure_06_03_229.jpg",
+        "media/CNX_Precalc_Figure_06_03_231.jpg",
+        "media/CNX_Precalc_Figure_06_03_233.jpg",
+        "media/CNX_Precalc_Figure_06_03_235.jpg",
+        "media/CNX_Precalc_Figure_06_03_237.jpg",
+        "media/CNX_Precalc_Figure_06_03_239.jpg",
+        "media/CNX_Precalc_Figure_06_03_241.jpg",
+        "media/CNX_Precalc_Figure_06_03_242.jpg",
+        "media/CNX_Precalc_Figure_06_03_243.jpg",
+        "media/CNX_Precalc_Figure_06_03_244.jpg",
+        "media/CNX_Precalc_Figure_06_03_246.jpg",
+        "media/CNX_Precalc_Figure_06_03_248.jpg",
+        "media/CNX_Precalc_Figure_06_03_251.jpg",
+        "media/CNX_Precalc_Figure_06_03_254.jpg",
+        "media/CNX_Precalc_Figure_06_03_255.jpg"
+      ],
+      "bytes": 239182,
+      "module_id": "m49390",
+      "path": "source/modules/m49390/index.cnxml",
+      "sha256": "97c66042d3d978a570d83efdfdadffeafc00cd9e4145f29c54c87124aa724d53",
+      "source_order": 41,
+      "title": "Inverse Trigonometric Functions"
+    },
+    {
+      "active_assets": [
+        "media/CNX_Precalc_Figure_07_00_001.jpg"
+      ],
+      "bytes": 1892,
+      "module_id": "m49392",
+      "path": "source/modules/m49392/index.cnxml",
+      "sha256": "1c3527fb75112c456fe58f605d68bee71bc99a922caece28fd695ba9c57ee739",
+      "source_order": 42,
+      "title": "Introduction to Trigonometric Identities and Equations"
+    },
+    {
+      "active_assets": [
+        "media/CNX_Precalc_Figure_07_01_002-a36c.jpg",
+        "media/CNX_Precalc_Figure_07_01_003.jpg",
+        "media/CNX_Precalc_Figure_07_01_006.jpg",
+        "media/CNX_Precalc_Figure_07_01_007.jpg"
+      ],
+      "bytes": 141573,
+      "module_id": "m49393",
+      "path": "source/modules/m49393/index.cnxml",
+      "sha256": "127998ee2cb1b1aa44beb4df1bee6aab9b593dddaf3e7e919e1e047d2ef59747",
+      "source_order": 43,
+      "title": "Simplifying and Verifying Trigonometric Identities"
+    },
+    {
+      "active_assets": [
+        "media/CNX_Precalc_Figure_07_01_004-93aa.jpg",
+        "media/CNX_Precalc_Figure_07_02_001.jpg",
+        "media/CNX_Precalc_Figure_07_02_002.jpg",
+        "media/CNX_Precalc_Figure_07_02_003-e4a8.jpg",
+        "media/CNX_Precalc_Figure_07_02_004-e86a.jpg",
+        "media/CNX_Precalc_Figure_07_02_005.jpg",
+        "media/CNX_Precalc_Figure_07_02_006.jpg",
+        "media/CNX_Precalc_Figure_07_02_007.jpg",
+        "media/CNX_Precalc_Figure_07_02_201-c02d.jpg",
+        "media/CNX_Precalc_Figure_07_02_203-d60a.jpg",
+        "media/CNX_Precalc_Figure_07_02_205.jpg",
+        "media/CNX_Precalc_Figure_07_02_207.jpg"
+      ],
+      "bytes": 242661,
+      "module_id": "m49395",
+      "path": "source/modules/m49395/index.cnxml",
+      "sha256": "b1d667f198a070590ded5a2a4ffdbb32c5c86d9b4cad8f3e3b0b1922fb19c64e",
+      "source_order": 44,
+      "title": "Sum and Difference Identities"
+    },
+    {
+      "active_assets": [
+        "media/CNX_Precalc_Figure_07_03_001.jpg",
+        "media/CNX_Precalc_Figure_07_03_002.jpg",
+        "media/CNX_Precalc_Figure_07_03_003.jpg",
+        "media/CNX_Precalc_Figure_07_03_004.jpg",
+        "media/CNX_Precalc_Figure_07_03_201-50f9.jpg"
+      ],
+      "bytes": 230612,
+      "module_id": "m49396",
+      "path": "source/modules/m49396/index.cnxml",
+      "sha256": "3ac803d81877dc0fb60f4a94ec5c17ec3b2df7b4eb033effd6845aed28d1b13e",
+      "source_order": 45,
+      "title": "Double-Angle, Half-Angle, and Reduction Formulas"
+    },
+    {
+      "active_assets": [
+        "media/CNX_Precalc_Figure_07_04_001.jpg",
+        "media/CNX_Precalc_Figure_07_04_002-5139.jpg"
+      ],
+      "bytes": 161828,
+      "module_id": "m49397",
+      "path": "source/modules/m49397/index.cnxml",
+      "sha256": "518e82cad5d41cb19f9a3e5389d70d54c2c80817461c8be92df6d9178b1d2899",
+      "source_order": 46,
+      "title": "Sum-to-Product and Product-to-Sum Formulas"
+    },
+    {
+      "active_assets": [
+        "media/CNX_Precalc_Figure_07_05_001.jpg",
+        "media/CNX_Precalc_Figure_07_05_002.jpg",
+        "media/CNX_Precalc_Figure_07_05_003.jpg",
+        "media/CNX_Precalc_Figure_07_05_004.jpg",
+        "media/CNX_Precalc_Figure_07_05_005.jpg"
+      ],
+      "bytes": 184807,
+      "module_id": "m49398",
+      "path": "source/modules/m49398/index.cnxml",
+      "sha256": "bea40de87c9c0beb6555d8d6a29b59b133ee8f6836e324cf4f954ba2af1502b1",
+      "source_order": 47,
+      "title": "Solving Trigonometric Equations"
+    },
+    {
+      "active_assets": [
+        "media/CNX_Precalc_Figure_07_06_001.jpg",
+        "media/CNX_Precalc_Figure_07_06_002.jpg",
+        "media/CNX_Precalc_Figure_07_06_003.jpg",
+        "media/CNX_Precalc_Figure_07_06_004.jpg",
+        "media/CNX_Precalc_Figure_07_06_010.jpg",
+        "media/CNX_Precalc_Figure_07_06_011.jpg",
+        "media/CNX_Precalc_Figure_07_06_013.jpg",
+        "media/CNX_Precalc_Figure_07_06_015.jpg",
+        "media/CNX_Precalc_Figure_07_06_016.jpg",
+        "media/CNX_Precalc_Figure_07_06_017.jpg",
+        "media/CNX_Precalc_Figure_07_06_018.jpg",
+        "media/CNX_Precalc_Figure_07_07_002.jpg",
+        "media/CNX_Precalc_Figure_07_07_003.jpg",
+        "media/CNX_Precalc_Figure_07_07_004.jpg",
+        "media/CNX_Precalc_Figure_07_07_006.jpg",
+        "media/CNX_Precalc_Figure_07_07_007.jpg",
+        "media/CNX_Precalc_Figure_07_07_008.jpg",
+        "media/CNX_Precalc_Figure_07_07_009.jpg",
+        "media/CNX_Precalc_Figure_07_07_010.jpg",
+        "media/CNX_Precalc_Figure_07_07_011.jpg",
+        "media/CNX_Precalc_Figure_07_07_012.jpg",
+        "media/CNX_Precalc_Figure_07_07_013.jpg",
+        "media/CNX_Precalc_Figure_07_07_014.jpg",
+        "media/CNX_Precalc_Figure_07_07_015.jpg",
+        "media/CNX_Precalc_Figure_07_07_016.jpg",
+        "media/CNX_Precalc_Figure_07_07_201.jpg",
+        "media/Precalculus_Graphing_13.png",
+        "media/Precalculus_Graphing_15.png"
+      ],
+      "bytes": 283293,
+      "module_id": "m49399",
+      "path": "source/modules/m49399/index.cnxml",
+      "sha256": "9211168fa400315837f46b8b9b9d0ead5ea3a9e1fff631b3858523c897229e67",
+      "source_order": 48,
+      "title": "Modeling with Trigonometric Functions"
+    }
+  ],
+  "packet_id": "HP-A30-003",
+  "repository": "openstax/osbooks-college-algebra-bundle",
+  "schema_id": "hp-a30-source-manifest-v1",
+  "tree": "05b39123f698772482c0c33a43fa2d2d4ea562ae"
+}

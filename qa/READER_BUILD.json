@@ -1,0 +1,17 @@
+{
+  "html": {
+    "bytes": 1772673,
+    "path": "preview/HP-A30-003_Bab_6-7_Bahasa_Indonesia.html",
+    "sha256": "35074e92b70f721e4c1282614cd9ef22dec35d610ccacbf881ce7f624f5c6d8a"
+  },
+  "layout": "A4 reflow, 15 mm side margins, centered responsive figures and tables, page header/footer",
+  "pages": 238,
+  "pdf": {
+    "bytes": 27328004,
+    "path": "preview/HP-A30-003_Bab_6-7_Bahasa_Indonesia.pdf",
+    "sha256": "24609911e645e6d9f1b4e956403d2b4a0323e37ad145fe39521ba3abd2eda8ae"
+  },
+  "renderer": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+  "schema_id": "hp-a30-003-reader-build-v1",
+  "status": "PASS"
+}

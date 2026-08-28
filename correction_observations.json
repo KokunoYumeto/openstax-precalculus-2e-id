@@ -1,0 +1,473 @@
+{
+  "schema_id": "hp-a30-003-source-correction-observations-v1",
+  "packet_id": "HP-A30-003",
+  "authority_note": "Observations only; frozen source and translated CNXML bytes were not modified by this consolidation.",
+  "source_revision": {
+    "repository": "openstax/osbooks-college-algebra-bundle",
+    "commit": "789b54099106b071d1d32bfcee454fed72eb4768",
+    "tree": "05b39123f698772482c0c33a43fa2d2d4ea562ae"
+  },
+  "field_order": [
+    "module",
+    "slot",
+    "locator",
+    "source",
+    "correction",
+    "disposition",
+    "confidence"
+  ],
+  "observation_count": 50,
+  "all_high_confidence": true,
+  "records": [
+    {
+      "module": "m49386",
+      "slot": "4",
+      "locator": "/document[1]/content[1]/figure[1]/caption[1]/text()",
+      "source": "bordering tha Masai Mara",
+      "correction": "bordering the Masai Mara",
+      "disposition": "correct upstream prose; translate the intended meaning; frozen source bytes remain unchanged",
+      "confidence": "high"
+    },
+    {
+      "module": "m49386",
+      "slot": "6",
+      "locator": "/document[1]/content[1]/para[2]/text()",
+      "source": "most most prominent",
+      "correction": "most prominent",
+      "disposition": "correct upstream prose; translate the intended meaning; frozen source bytes remain unchanged",
+      "confidence": "high"
+    },
+    {
+      "module": "m49387",
+      "slot": "44",
+      "locator": "/document[1]/content[1]/section[1]/para[5]/text()",
+      "source": "we can plots points",
+      "correction": "we can plot points",
+      "disposition": "correct upstream prose; translate the intended meaning; frozen source bytes remain unchanged",
+      "confidence": "high"
+    },
+    {
+      "module": "m49387",
+      "slot": "72",
+      "locator": "/document[1]/content[1]/section[1]/para[8]/link[2]/text()",
+      "source": "document=\"m49387\">The Other Trigonometric Functions",
+      "correction": "document=\"m49384\">The Other Trigonometric Functions",
+      "disposition": "correct the collection xref upstream; helper xref bytes remain unchanged",
+      "confidence": "high"
+    },
+    {
+      "module": "m49387",
+      "slot": "418",
+      "locator": "/document[1]/content[1]/section[4]/note[2]/exercise[1]/solution[1]/media[1]/@alt",
+      "source": "compared to it's parent function",
+      "correction": "compared to its parent function",
+      "disposition": "correct upstream accessibility text; translate the intended meaning; frozen source bytes remain unchanged",
+      "confidence": "high"
+    },
+    {
+      "module": "m49387",
+      "slot": "453",
+      "locator": "/document[1]/content[1]/section[4]/example[2]/exercise[1]/solution[1]/list[1]/item[5]/figure[1]/media[1]/@alt",
+      "source": "3sin(*(pi/4)x-pi/4)",
+      "correction": "3sin((pi/4)x-pi/4)",
+      "disposition": "correct upstream accessibility text; translate the intended meaning; frozen source bytes remain unchanged",
+      "confidence": "high"
+    },
+    {
+      "module": "m49387",
+      "slot": "530",
+      "locator": "/document[1]/content[1]/section[5]/example[2]/exercise[1]/solution[1]/figure[1]/media[1]/@alt",
+      "source": "-3cox(x)+4",
+      "correction": "-3cos(x)+4",
+      "disposition": "correct upstream accessibility text; translate the intended meaning; frozen source bytes remain unchanged",
+      "confidence": "high"
+    },
+    {
+      "module": "m49387",
+      "slot": "548",
+      "locator": "/document[1]/content[1]/section[5]/note[2]/exercise[1]/solution[1]/media[1]/@alt",
+      "source": "range [-1,-7]",
+      "correction": "range [-7,-1]",
+      "disposition": "correct upstream accessibility text; translate the intended meaning; frozen source bytes remain unchanged",
+      "confidence": "high"
+    },
+    {
+      "module": "m49387",
+      "slot": "671",
+      "locator": "/document[1]/content[1]/section[8]/section[2]/exercise[8]/solution[1]/media[1]/@alt",
+      "source": "Grpah has amplitude",
+      "correction": "Graph has amplitude",
+      "disposition": "correct upstream accessibility text; translate the intended meaning; frozen source bytes remain unchanged",
+      "confidence": "high"
+    },
+    {
+      "module": "m49395",
+      "slot": "131",
+      "locator": "/document[1]/content[1]/section[3]/para[2]/text()",
+      "source": "involves taking quotient",
+      "correction": "involves taking the quotient",
+      "disposition": "correct upstream prose; translate the intended meaning; frozen source bytes remain unchanged",
+      "confidence": "high"
+    },
+    {
+      "module": "m49395",
+      "slot": "230",
+      "locator": "/document[1]/content[1]/section[4]/note[1]/table[1]/@summary",
+      "source": "Three rows, two columns/",
+      "correction": "Three rows, two columns.",
+      "disposition": "correct upstream accessibility text; translate the intended meaning; frozen source bytes remain unchanged",
+      "confidence": "high"
+    },
+    {
+      "module": "m49395",
+      "slot": "305",
+      "locator": "/document[1]/content[1]/section[6]/table[1]/@summary",
+      "source": "..",
+      "correction": "Seven rows and two columns. The table lists the sum and difference formulas for cosine, sine, and tangent, followed by the cofunction identities.",
+      "disposition": "replace the placeholder summary upstream and during owner integration; frozen source bytes remain unchanged",
+      "confidence": "high"
+    },
+    {
+      "module": "m49395",
+      "slot": "383",
+      "locator": "/document[1]/content[1]/section[8]/section[3]/exercise[11]/solution[1]/para[1]/text()",
+      "source": "They are the different, try ",
+      "correction": "They are different; try ",
+      "disposition": "correct upstream prose; translate the intended meaning; frozen source bytes remain unchanged",
+      "confidence": "high"
+    },
+    {
+      "module": "m49395",
+      "slot": "389",
+      "locator": "/document[1]/content[1]/section[8]/section[3]/exercise[15]/solution[1]/para[1]/text()",
+      "source": "They are the different, try ",
+      "correction": "They are different; try ",
+      "disposition": "correct upstream prose; translate the intended meaning; frozen source bytes remain unchanged",
+      "confidence": "high"
+    },
+    {
+      "module": "m49389",
+      "slot": "47",
+      "locator": "/document[1]/content[1]/section[1]/table[2]/@summary",
+      "source": "Th table",
+      "correction": "The table",
+      "disposition": "correct upstream accessibility text; translate the intended meaning; frozen source bytes remain unchanged",
+      "confidence": "high"
+    },
+    {
+      "module": "m49389",
+      "slot": "61",
+      "locator": "/document[1]/content[1]/section[1]/table[3]/@summary",
+      "source": "Th table",
+      "correction": "The table",
+      "disposition": "correct upstream accessibility text; translate the intended meaning; frozen source bytes remain unchanged",
+      "confidence": "high"
+    },
+    {
+      "module": "m49389",
+      "slot": "279",
+      "locator": "/document[1]/content[1]/section[3]/title[1]/emphasis[3]/tail()",
+      "source": "rendered heading: y = cscx",
+      "correction": "rendered heading: y = csc x",
+      "disposition": "add typographic spacing upstream; frozen source bytes remain unchanged",
+      "confidence": "high"
+    },
+    {
+      "module": "m49389",
+      "slot": "441",
+      "locator": "/document[1]/content[1]/section[4]/example[1]/exercise[1]/solution[1]/list[1]/item[5]/emphasis[1]/tail()",
+      "source": "draw the cosecant function",
+      "correction": "draw the secant function",
+      "disposition": "correct the mathematical function name upstream; Indonesian target renders the intended secant instruction",
+      "confidence": "high"
+    },
+    {
+      "module": "m49389",
+      "slot": "448",
+      "locator": "/document[1]/content[1]/section[4]/example[1]/exercise[1]/solution[1]/list[1]/item[6]/figure[1]/media[1]/@alt",
+      "source": "prarbola",
+      "correction": "parabola",
+      "disposition": "correct upstream accessibility text; translate the intended meaning; frozen source bytes remain unchanged",
+      "confidence": "high"
+    },
+    {
+      "module": "m49389",
+      "slot": "453",
+      "locator": "/document[1]/content[1]/section[4]/note[4]/exercise[1]/solution[1]/media[1]/@alt",
+      "source": "prarbola",
+      "correction": "parabola",
+      "disposition": "correct upstream accessibility text; translate the intended meaning; frozen source bytes remain unchanged",
+      "confidence": "high"
+    },
+    {
+      "module": "m49389",
+      "slot": "542",
+      "locator": "/document[1]/content[1]/section[4]/note[10]/exercise[1]/solution[1]/media[1]/@alt",
+      "source": "prarbola",
+      "correction": "parabola",
+      "disposition": "correct upstream accessibility text; translate the intended meaning; frozen source bytes remain unchanged",
+      "confidence": "high"
+    },
+    {
+      "module": "m49389",
+      "slot": "587",
+      "locator": "/document[1]/content[1]/section[4]/note[12]/exercise[1]/solution[1]/media[1]/@alt",
+      "source": "consine",
+      "correction": "cosine",
+      "disposition": "correct upstream accessibility text; translate the intended meaning; frozen source bytes remain unchanged",
+      "confidence": "high"
+    },
+    {
+      "module": "m49389",
+      "slot": "587",
+      "locator": "/document[1]/content[1]/section[4]/note[12]/exercise[1]/solution[1]/media[1]/@alt",
+      "source": "Grpah",
+      "correction": "Graph",
+      "disposition": "correct upstream accessibility text; translate the intended meaning; frozen source bytes remain unchanged",
+      "confidence": "high"
+    },
+    {
+      "module": "m49389",
+      "slot": "786",
+      "locator": "/document[1]/content[1]/section[9]/list[1]/item[6]/math[1]/tail()",
+      "source": "and the function is decreasing at each point in its range",
+      "correction": "and the function is decreasing on each continuity interval in its domain",
+      "disposition": "correct the mathematical domain/continuity description upstream; helper target preserves the reported source claim",
+      "confidence": "high"
+    },
+    {
+      "module": "m49390",
+      "slot": "16",
+      "locator": "/document[1]/content[1]/section[1]/figure[1]/media[1]/@alt",
+      "source": "Trig Functinos",
+      "correction": "Trig Functions",
+      "disposition": "correct upstream accessibility text; translate the intended meaning; frozen source bytes remain unchanged",
+      "confidence": "high"
+    },
+    {
+      "module": "m49390",
+      "slot": "509",
+      "locator": "/document[1]/content[1]/section[6]/section[1]/exercise[7]/solution[1]/para[1]/math[12]/tail()",
+      "source": "- ",
+      "correction": "",
+      "disposition": "remove the unexplained trailing hyphen upstream; helper target preserves the source punctuation",
+      "confidence": "high"
+    },
+    {
+      "module": "m49390",
+      "slot": "585",
+      "locator": "/document[1]/content[1]/section[7]/section[1]/exercise[1]/solution[1]/media[1]/@alt",
+      "source": "Maximums as -pi and pi",
+      "correction": "Maximums at -pi and pi",
+      "disposition": "correct upstream accessibility text; translate the intended meaning; frozen source bytes remain unchanged",
+      "confidence": "high"
+    },
+    {
+      "module": "m49390",
+      "slot": "646",
+      "locator": "/document[1]/content[1]/section[7]/section[2]/exercise[16]/problem[1]/figure[1]/media[1]/@alt",
+      "source": "consine",
+      "correction": "cosine",
+      "disposition": "correct upstream accessibility text; translate the intended meaning; frozen source bytes remain unchanged",
+      "confidence": "high"
+    },
+    {
+      "module": "m49390",
+      "slot": "738",
+      "locator": "/document[1]/content[1]/section[8]/exercise[27]/solution[1]/media[1]/@alt",
+      "source": "sinusodial",
+      "correction": "sinusoidal",
+      "disposition": "correct upstream accessibility text; translate the intended meaning; frozen source bytes remain unchanged",
+      "confidence": "high"
+    },
+    {
+      "module": "m49393",
+      "slot": "18",
+      "locator": "/document[1]/content[1]/section[1]/para[3]/link[1]/tail()",
+      "source": "the first of these identifies",
+      "correction": "the first of these identities",
+      "disposition": "correct upstream prose; translate the intended meaning; frozen source bytes remain unchanged",
+      "confidence": "high"
+    },
+    {
+      "module": "m49393",
+      "slot": "233",
+      "locator": "/document[1]/content[1]/section[3]/table[1]/@summary",
+      "source": "..",
+      "correction": "Four rows and two columns. The table lists Pythagorean, even-odd, reciprocal, and quotient identities with their equations.",
+      "disposition": "replace the placeholder summary upstream and during owner integration; frozen source bytes remain unchanged",
+      "confidence": "high"
+    },
+    {
+      "module": "m49396",
+      "slot": "58",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/list[1]/item[1]/para[1]/text()",
+      "source": "We see that we to need to find",
+      "correction": "We see that we need to find",
+      "disposition": "correct upstream prose; translate the intended meaning; frozen source bytes remain unchanged",
+      "confidence": "high"
+    },
+    {
+      "module": "m49396",
+      "slot": "101",
+      "locator": "/document[1]/content[1]/section[2]/example[2]/exercise[1]/commentary[1]/para[1]/text()",
+      "source": "if we had chosen the left side to rewrite",
+      "correction": "if we had chosen the right side to rewrite",
+      "disposition": "correct the internal left/right contradiction upstream; translate the intended reasoning",
+      "confidence": "high"
+    },
+    {
+      "module": "m49396",
+      "slot": "165",
+      "locator": "/document[1]/content[1]/section[4]/example[1]/exercise[1]/commentary[1]/para[1]/math[1]/mrow[1]/msup[1]/mtext[1]/text()",
+      "source": "o",
+      "correction": "°",
+      "disposition": "replace the letter o used as a degree mark in source MathML mtext; helper target preserves the reported source token",
+      "confidence": "high"
+    },
+    {
+      "module": "m49396",
+      "slot": "220",
+      "locator": "/document[1]/content[1]/section[4]/example[3]/exercise[1]/solution[1]/figure[1]/media[1]/@alt",
+      "source": "rad34. Rad 34",
+      "correction": "sqrt(34). The square root of 34",
+      "disposition": "correct upstream accessibility text; translate the intended meaning; frozen source bytes remain unchanged",
+      "confidence": "high"
+    },
+    {
+      "module": "m49396",
+      "slot": "233",
+      "locator": "/document[1]/content[1]/section[5]/table[1]/@summary",
+      "source": "..",
+      "correction": "Three rows and two columns. The table lists double-angle, power-reducing, and half-angle formulas with their equations.",
+      "disposition": "replace the placeholder summary upstream and during owner integration; frozen source bytes remain unchanged",
+      "confidence": "high"
+    },
+    {
+      "module": "m49397",
+      "slot": "102",
+      "locator": "/document[1]/content[1]/section[3]/table[1]/@summary",
+      "source": "..",
+      "correction": "Two rows and two columns. The table lists product-to-sum and sum-to-product formulas with their equations.",
+      "disposition": "replace the placeholder summary upstream and during owner integration; frozen source bytes remain unchanged",
+      "confidence": "high"
+    },
+    {
+      "module": "m49397",
+      "slot": "70",
+      "locator": "/document[1]/content[1]/section[2]/equation[2]/math[1]/mrow[1]/mtable[1]/mtr[2]/mtd[3]/mrow[1]/mtext[1]/text()",
+      "source": "Substitute for",
+      "correction": "Substitute u for",
+      "disposition": "complete the missing substitution variable in source MathML mtext; helper target preserves the reported source equation annotation",
+      "confidence": "high"
+    },
+    {
+      "module": "m49397",
+      "slot": "71",
+      "locator": "/document[1]/content[1]/section[2]/equation[2]/math[1]/mrow[1]/mtable[1]/mtr[2]/mtd[3]/mrow[1]/mtext[2]/text()",
+      "source": " and ",
+      "correction": " and v for ",
+      "disposition": "complete the second missing substitution variable in source MathML mtext; helper target preserves the reported source equation annotation",
+      "confidence": "high"
+    },
+    {
+      "module": "m49397",
+      "slot": "112",
+      "locator": "/document[1]/content[1]/section[4]/list[1]/item[4]/text()",
+      "source": "or products sine and cosine",
+      "correction": "as products of sines and cosines",
+      "disposition": "correct upstream prose; translate the intended meaning; frozen source bytes remain unchanged",
+      "confidence": "high"
+    },
+    {
+      "module": "m49397",
+      "slot": "145",
+      "locator": "/document[1]/content[1]/section[5]/section[4]/exercise[2]/solution[1]/para[1]/text()",
+      "source": "It is and identity.",
+      "correction": "It is an identity.",
+      "disposition": "correct upstream prose; translate the intended meaning; frozen source bytes remain unchanged",
+      "confidence": "high"
+    },
+    {
+      "module": "m49398",
+      "slot": "16",
+      "locator": "/document[1]/content[1]/para[2]/text()",
+      "source": "such as the finding the dimensions",
+      "correction": "such as finding the dimensions",
+      "disposition": "correct upstream prose; translate the intended meaning; frozen source bytes remain unchanged",
+      "confidence": "high"
+    },
+    {
+      "module": "m49398",
+      "slot": "102",
+      "locator": "/document[1]/content[1]/section[3]/para[1]/text()",
+      "source": "Not all functions can be solved exactly",
+      "correction": "Not all equations can be solved exactly",
+      "disposition": "correct the mathematical object upstream; Indonesian target renders the intended equation meaning",
+      "confidence": "high"
+    },
+    {
+      "module": "m49398",
+      "slot": "294",
+      "locator": "/document[1]/content[1]/section[7]/example[1]/exercise[1]/problem[1]/figure[1]/media[1]/@alt",
+      "source": "23 feet",
+      "correction": "23 meters",
+      "disposition": "correct upstream accessibility text and during owner integration; current helper target preserves the reported source value",
+      "confidence": "high"
+    },
+    {
+      "module": "m49399",
+      "slot": "50",
+      "locator": "/document[1]/content[1]/section[1]/example[1]/exercise[1]/solution[1]/figure[1]/media[1]/@alt",
+      "source": "shifted it on the x-axis by pi/2",
+      "correction": "shifted it on the x-axis by pi/8",
+      "disposition": "correct upstream accessibility text and during owner integration; current helper target preserves the reported source value",
+      "confidence": "high"
+    },
+    {
+      "module": "m49399",
+      "slot": "122",
+      "locator": "/document[1]/content[1]/section[2]/table[1]/@summary",
+      "source": "(i/2, 0)",
+      "correction": "(pi/2, 0)",
+      "disposition": "correct upstream accessibility text and during owner integration; current helper target preserves the reported source value",
+      "confidence": "high"
+    },
+    {
+      "module": "m49399",
+      "slot": "211",
+      "locator": "/document[1]/content[1]/section[3]/example[2]/exercise[1]/solution[1]/table[1]/@summary",
+      "source": "(6 PM, 78 in, (6,8))",
+      "correction": "(6 PM, 78 in, (6,78))",
+      "disposition": "correct upstream accessibility text and during owner integration; current helper target preserves the reported source value",
+      "confidence": "high"
+    },
+    {
+      "module": "m49399",
+      "slot": "284",
+      "locator": "/document[1]/content[1]/section[4]/section[1]/para[1]/term[1]/tail()",
+      "source": "spring, When",
+      "correction": "spring. When",
+      "disposition": "correct upstream prose; translate the intended meaning; frozen source bytes remain unchanged",
+      "confidence": "high"
+    },
+    {
+      "module": "m49399",
+      "slot": "459",
+      "locator": "/document[1]/content[1]/section[4]/section[3]/example[1]/exercise[1]/solution[1]/figure[2]/media[1]/@alt",
+      "source": "bonding function",
+      "correction": "bounding function",
+      "disposition": "correct upstream accessibility text; translate the intended meaning; frozen source bytes remain unchanged",
+      "confidence": "high"
+    },
+    {
+      "module": "m49399",
+      "slot": "471",
+      "locator": "/document[1]/content[1]/section[5]/table[1]/@summary",
+      "source": "..",
+      "correction": "Three rows and two columns. The table lists the standard sinusoidal equation, simple harmonic motion equations, and damped harmonic motion equations.",
+      "disposition": "replace the placeholder summary upstream and during owner integration; frozen source bytes remain unchanged",
+      "confidence": "high"
+    }
+  ]
+}

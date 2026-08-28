@@ -1,0 +1,103 @@
+{
+  "counts": {
+    "assets": 196,
+    "backend_records": 7218,
+    "correction_observations": 50,
+    "issues": 50,
+    "modules": 11,
+    "reader_pages": 238,
+    "reader_slots": 5118,
+    "terminology_proposals": 65
+  },
+  "evidence": {
+    "backend_manifest": {
+      "bytes": 1054,
+      "path": "backend/BACKEND_MANIFEST.json",
+      "sha256": "e77ebeffc24c3af5ac87c7db629ec61e8b3435858c34875fe72fb4789eb489ae"
+    },
+    "closure_manifest": {
+      "bytes": 82938,
+      "path": "closure_manifest.json",
+      "sha256": "ad924f10b36dd09506abe4f3fb8b73dcf70c994756bb2602c6f190c0b84590a9"
+    },
+    "independent_reviews": [
+      {
+        "bytes": 4233,
+        "path": "qa/independent_m49398_review.json",
+        "sha256": "e18af507c4dbef5249a4032b0551a37d7049658ac682bab327bc25b0a4c1015c"
+      },
+      {
+        "bytes": 7410,
+        "path": "qa/independent_m49399_review.json",
+        "sha256": "5b178060c8f26311cbf26d12b2aae8bedbd31a01d30941c71d9dfa579c546334"
+      },
+      {
+        "bytes": 52082,
+        "path": "qa/independent_chapter6_review.json",
+        "sha256": "22e3727a047e3d585811cf59907c800150289f69d6e0c15b55475483cde42330"
+      },
+      {
+        "bytes": 15929,
+        "path": "qa/independent_chapter7_core_review.json",
+        "sha256": "0541f65d2c4a8812ebd46e6fdd7b14fb200b27afbdbbfd692585de944e0923b0"
+      }
+    ],
+    "issues": {
+      "bytes": 20276,
+      "path": "issues.csv",
+      "sha256": "89f348482123078626dd0b6e1c692c5dc2d7518ebdd64adf4c7abcefbc3e7f37"
+    },
+    "packet_qa": {
+      "bytes": 3947,
+      "path": "qa/PACKET_QA.json",
+      "sha256": "2eb1135e46b95d53614066ecb5d0ae8d026d2c12e9ab7dac26db2d5a37d41140"
+    },
+    "reader_qa": {
+      "bytes": 1714,
+      "path": "qa/READER_QA.json",
+      "sha256": "4d0bda1dc1aade9976609c7ed6134aafcb8d3416cb5fed7cdb9239f29278f424"
+    },
+    "rights_qa": {
+      "bytes": 1202,
+      "path": "qa/RIGHTS_QA.json",
+      "sha256": "f00d14edf5cbe7c83fc434aa1c76d52954f396464672e29d5b1d5918ea231c19"
+    }
+  },
+  "gates": {
+    "accessibility_language_and_asset_closure": "PASS",
+    "backend_schema_csv_roundtrip_repeat_build": "PASS",
+    "exact_translation_coverage": "PASS",
+    "helper_only_write_boundary": "PASS",
+    "independent_semantic_review": "PASS",
+    "license_and_attribution": "PASS",
+    "non_mtext_mathml_and_numeric_fidelity": "PASS",
+    "reader_repeat_build_and_visual_review": "PASS",
+    "source_and_contract_freeze": "PASS",
+    "terminology_reference_comparison": "PASS",
+    "xml_topology_ids_xrefs_comments": "PASS"
+  },
+  "packet_id": "HP-A30-003",
+  "schema_id": "hp-a30-003-final-preseal-qa-v1",
+  "scope": {
+    "module_ids": [
+      "m49386",
+      "m49387",
+      "m49389",
+      "m49390",
+      "m49392",
+      "m49393",
+      "m49395",
+      "m49396",
+      "m49397",
+      "m49398",
+      "m49399"
+    ],
+    "neighboring_ranges_touched": false,
+    "source_orders": [
+      38,
+      48
+    ]
+  },
+  "signed_by": "Codex on instructions of the user",
+  "status": "PASS"
+}

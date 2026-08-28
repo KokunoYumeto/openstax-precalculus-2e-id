@@ -1,0 +1,233 @@
+{
+  "schema_id": "hp-a30-independent-module-review-v1",
+  "packet_id": "HP-A30-003",
+  "module_id": "m49399",
+  "reviewer": "Codex on instructions of the user",
+  "review_date": "2026-08-28",
+  "status": "PASS",
+  "scope": {
+    "source_title": "Modeling with Trigonometric Functions",
+    "source_slots": "work/m49399_source_slots.json",
+    "translation_overlay": "work/m49399_translation_overlay.json",
+    "source_cnxml": "source/modules/m49399/index.cnxml",
+    "translated_cnxml": "translated/modules/m49399/index.cnxml",
+    "reviewed_slot_interval": [
+      1,
+      840
+    ],
+    "reviewed_slot_count": 840,
+    "write_boundary": "work/m49399_translation_overlay.json, translated/modules/m49399/index.cnxml, and qa/independent_m49399_review.json"
+  },
+  "input_artifacts": [
+    {
+      "path": "work/m49399_source_slots.json",
+      "bytes": 200490,
+      "sha256": "f005eb7d84ae50e45acd4150e4b6e5f33d1f37df9e25725e85ebb7dbfc994938"
+    },
+    {
+      "path": "work/m49399_translation_overlay.json",
+      "bytes": 87760,
+      "sha256": "48a18b8a7b6f1dfb1ea8f73dd1b266f28602a6cb3bcb731b62123d7ca98cd4b7"
+    },
+    {
+      "path": "source/modules/m49399/index.cnxml",
+      "bytes": 283293,
+      "sha256": "9211168fa400315837f46b8b9b9d0ead5ea3a9e1fff631b3858523c897229e67"
+    },
+    {
+      "path": "translated/modules/m49399/index.cnxml",
+      "bytes": 284801,
+      "sha256": "b2185e569982efffaab0e79115d82d020490db0a32a6cadb39ce5dd126092f2b"
+    }
+  ],
+  "implemented_corrections": {
+    "slot_count": 57,
+    "slot_indices": [
+      53,
+      139,
+      211,
+      214,
+      216,
+      218,
+      220,
+      222,
+      242,
+      276,
+      278,
+      329,
+      409,
+      417,
+      469,
+      505,
+      509,
+      510,
+      511,
+      512,
+      513,
+      514,
+      515,
+      516,
+      547,
+      582,
+      598,
+      599,
+      600,
+      601,
+      602,
+      603,
+      604,
+      605,
+      606,
+      607,
+      608,
+      609,
+      635,
+      636,
+      637,
+      640,
+      649,
+      658,
+      669,
+      678,
+      704,
+      709,
+      733,
+      734,
+      735,
+      740,
+      751,
+      753,
+      763,
+      772,
+      813
+    ],
+    "all_exact_against_failed_review": true,
+    "all_methods": "codex_semantic_postedit",
+    "resolved_classes": [
+      "corrupted sine terminology",
+      "cosine and harmonic-motion terminology consistency",
+      "untranslated PM, a.m., inch, and bearing strings",
+      "machine-like table accessibility summaries",
+      "cross-node sentence naturalness",
+      "interval phrasing and instructional-register consistency"
+    ]
+  },
+  "checks": {
+    "source_slot_manifest_matches_source_cnxml": {
+      "status": "PASS",
+      "slot_count": 840,
+      "locator_kind_and_source_text_exact": true
+    },
+    "overlay_key_coverage": {
+      "status": "PASS",
+      "expected_keys": "all integers 1 through 840",
+      "actual_key_count": 840
+    },
+    "correction_set_recheck": {
+      "status": "PASS",
+      "checked_slot_count": 57,
+      "failed_slot_indices": []
+    },
+    "overlay_to_built_cnxml_identity": {
+      "status": "PASS",
+      "method": "fresh in-memory application of the current 840-slot overlay to the frozen source followed by deterministic ElementTree serialization",
+      "byte_identical": true,
+      "rebuilt_bytes": 284801,
+      "rebuilt_sha256": "b2185e569982efffaab0e79115d82d020490db0a32a6cadb39ce5dd126092f2b"
+    },
+    "repeat_pipeline_build": {
+      "status": "PASS",
+      "first_sha256": "b2185e569982efffaab0e79115d82d020490db0a32a6cadb39ce5dd126092f2b",
+      "second_sha256": "b2185e569982efffaab0e79115d82d020490db0a32a6cadb39ce5dd126092f2b",
+      "byte_identical": true
+    },
+    "xml_topology_identifiers_xrefs_and_mathml": {
+      "status": "PASS",
+      "elements": 8981,
+      "ids": 937,
+      "mathml_elements": 7120,
+      "images": 28,
+      "xrefs": 53,
+      "comments": 30,
+      "protected_attributes_exact": true,
+      "non_mtext_mathml_exact": true,
+      "id_sequence_exact_and_unique": true
+    },
+    "numeric_and_formula_fidelity": {
+      "status": "PASS",
+      "formula_damage_found": false,
+      "numeric_value_change_found": false,
+      "accepted_representation_changes": [
+        "12-hour clock labels localized to 24-hour Indonesian notation",
+        "decimal commas and thousands separators localized in prose",
+        "the numeral 1 rendered as the word satu where required by grammar",
+        "coordinate whitespace normalized without changing values"
+      ]
+    },
+    "asset_resolution": {
+      "status": "PASS",
+      "active_image_reference_count": 28,
+      "resolved_image_count": 28,
+      "missing_image_count": 0,
+      "referenced_asset_bytes": 1907678
+    },
+    "accessibility_text": {
+      "status": "PASS",
+      "alt_slot_count": 28,
+      "summary_slot_count": 23,
+      "all_present": true,
+      "all_reviewed": true,
+      "untranslated_clock_or_inch_strings": 0,
+      "machine_like_table_summary_phrases": 0
+    },
+    "complete_and_natural_indonesian": {
+      "status": "PASS",
+      "all_840_slots_reviewed": true,
+      "remaining_required_corrections": 0,
+      "residue_scans": {
+        "sinususus": 0,
+        "bearing": 0,
+        "English_AM_PM_or_a_m_p_m_time_labels": 0,
+        "English_inch_notation": 0,
+        "cosinus_spelling": 0,
+        "Gerakan_Harmonik_heading": 0,
+        "machine_like_table_summary_phrase": 0,
+        "unidiomatic_interval_phrase": 0,
+        "Temukan_semua_solusi_instruction": 0
+      }
+    },
+    "dropped_clause_audit": {
+      "status": "PASS",
+      "all_840_source_target_pairs_reviewed": true,
+      "dropped_clause_count": 0,
+      "accepted_cross_slot_transposition": {
+        "slots": [
+          821,
+          822,
+          823
+        ],
+        "explanation": "English ordinal suffix slot 822 ('th') is intentionally empty because Indonesian ordinality is expressed as 'ke-15' in slot 821. The rendered sentence is complete; the empty sup element preserves topology and does not drop meaning."
+      }
+    }
+  },
+  "source_correction_observations": [
+    {
+      "slot": 50,
+      "observation": "The frozen accessibility prose says y=2sin(4x-pi/2) is shifted horizontally by pi/2, whereas the phase shift implied by the formula is pi/8. The Indonesian target preserves the assigned source statement and protected formula; this remains a source correction observation."
+    },
+    {
+      "slot": 122,
+      "observation": "The frozen source table summary contains (i/2, 0), while the standard cosine key point is (pi/2, 0). The target preserves the assigned source text; this remains a source correction observation."
+    },
+    {
+      "slot": 211,
+      "observation": "The frozen source accessibility summary contains (6,8) although the same row says 78 inches and the visible table point is (6,78). The localized target deliberately preserves (6,8); this remains a source correction observation."
+    },
+    {
+      "slot": 471,
+      "observation": "The frozen Key Equations table summary is the placeholder '..'. The target preserves it exactly; this remains a source correction observation."
+    }
+  ],
+  "remaining_corrections": [],
+  "result": "m49399 passes independent structural, formula, numeric, identifier, xref, asset, accessibility, clause-completeness, terminology, natural-language, and repeat-build review on the listed current bytes."
+}

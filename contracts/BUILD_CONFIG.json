@@ -1,0 +1,49 @@
+{
+  "schema": "openstax-precalculus-2e-backend-build-config",
+  "schema_version": "0.1.0",
+  "provenance": {
+    "translation_localization_assistance": "OpenAI Codex gpt-5.6-sol, Ultra",
+    "requested_by": "the user",
+    "role": "tool/process disclosure; not authorship"
+  },
+  "build_timestamp": "2026-08-26T02:45:00Z",
+  "source_modules_for_segment_import": [
+    "m50919",
+    "m49299",
+    "m49301",
+    "m49304",
+    "m49306",
+    "m49308",
+    "m49312",
+    "m49314",
+    "m49320",
+    "m49321",
+    "m49324",
+    "m50389",
+    "m49326",
+    "m49327",
+    "m49334",
+    "m49335",
+    "m49337",
+    "m49346",
+    "m49347",
+    "m49348",
+    "m49349",
+    "m49351",
+    "m49352",
+    "m49353",
+    "m49356",
+    "m49361",
+    "m49362",
+    "m49363",
+    "m49364",
+    "m49365",
+    "m49366",
+    "m49367"
+  ],
+  "canonical_json": "UTF-8, LF, no BOM, sorted keys, separators comma-colon",
+  "record_sort": [
+    "entity",
+    "id"
+  ]
+}

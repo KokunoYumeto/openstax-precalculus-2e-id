@@ -1,0 +1,66 @@
+{
+  "schema": "openstax-precalculus-2e-modular-backend",
+  "schema_version": "0.1.0",
+  "status": "first_boundary_generated_pending_independent_qa",
+  "locale": "id-ID",
+  "interoperability_envelope": {
+    "name": "Modular Translation Backend — Interoperability Envelope v0",
+    "path": "../../../../outputs/01a01ec1-e685-70d0-b022-211396334723/curriculum_logbook/05_MODULAR_BACKEND_INTEROPERABILITY_V0.md",
+    "bytes": 5204,
+    "sha256": "fdb6c8fa87ea88d8fcb6ddf40415d8a6a6da315025b9b18eb917190f508b1c5"
+  },
+  "canonical_serialization": "deterministic UTF-8 JSON/JSONL with LF line endings",
+  "exchange_projections": [
+    "CSV"
+  ],
+  "required_entity_classes": [
+    "program",
+    "course",
+    "resource",
+    "edition",
+    "unit",
+    "concept",
+    "segment",
+    "term",
+    "asset",
+    "relation",
+    "rights",
+    "qa_event",
+    "artifact",
+    "correction"
+  ],
+  "stable_id_rule": "Use explicit locale-neutral program/course/resource/edition prefixes plus immutable upstream UUID/content-id/xml-id where present; never derive identity only from translated titles or pages.",
+  "translation_state_interchange_mapping": {
+    "source_frozen": "source_frozen",
+    "queued": "queued",
+    "draft": "draft",
+    "translated": "translated",
+    "structurally_verified": "structurally_verified",
+    "mathematically_reviewed": "mathematically_reviewed",
+    "language_reviewed": "language_reviewed",
+    "built": "built",
+    "visually_checked": "visually_checked",
+    "published": "published",
+    "blocked": "blocked",
+    "superseded": "superseded"
+  },
+  "progressive_coverage": {
+    "whole_work": "authority, module order, assets, component rights, and cross-document dependencies",
+    "semantic_units_and_segments": "expanded contiguously with translation; first boundary contains m50919, m49299, and m49301",
+    "completion_rule": "all 87 modules must have full semantic-unit and segment coverage before the backend may be called corpus-complete"
+  },
+  "planned_exports": [
+    "authority",
+    "unit_hierarchy_order",
+    "relations_and_concepts",
+    "segments_and_locale_mappings",
+    "terminology",
+    "exercise_hint_answer_solution_links",
+    "assets",
+    "rights",
+    "corrections",
+    "qa_and_build_events",
+    "artifact_manifests"
+  ],
+  "round_trip_gate": "Every JSONL entity set must parse, preserve record order or explicit order fields, project to CSV deterministically, and regenerate byte-identical canonical JSONL from the projection where the projection is lossless."
+}

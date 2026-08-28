@@ -1,0 +1,6091 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+
+<title>Menyelesaikan Persamaan Trigonometri</title>
+<metadata>
+  <md:content-id>m49398</md:content-id>
+  <md:title>Menyelesaikan Persamaan Trigonometri</md:title>
+  <md:abstract><para id="para-00001">Di bagian ini, Anda akan:</para>
+<list id="list-00001">
+<item>Menyelesaikan persamaan trigonometri linear dalam sinus dan kosinus.</item>
+<item>Menyelesaikan persamaan yang melibatkan satu fungsi trigonometri.</item>
+<item>Menyelesaikan persamaan trigonometri dengan kalkulator.</item>
+<item>Menyelesaikan persamaan trigonometri yang berbentuk kuadrat.</item>
+<item>Menyelesaikan persamaan trigonometri dengan identitas dasar.</item>
+<item>Menyelesaikan persamaan trigonometri dengan sudut kelipatan. </item>
+<item>Menyelesaikan masalah segitiga siku-siku.</item>
+</list></md:abstract>
+  <md:uuid>69e57171-120c-4f0e-9e17-a6274a61e474</md:uuid>
+</metadata>
+
+<content>
+<figure id="Figure_07_05_001"><media id="fs-id2249164" alt="Foto piramida Mesir dekat kota modern.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_07_05_001.jpg" />
+</media>
+
+<caption>Piramida-piramida Mesir berdiri di dekat sebuah kota modern. (kredit: Oisin Mulvihill)</caption></figure><para id="fs-id2261754">Thales dari Miletus (sekitar 625–547 SM) dikenal sebagai pendiri geometri. Menurut legenda, ia menghitung tinggi Piramida Agung Giza di Mesir dengan menggunakan teori <emphasis effect="italics">segitiga-segitiga sebangun</emphasis>, yang ia kembangkan dengan mengukur bayangan tongkatnya. Berdasarkan perbandingan, teori ini diterapkan dalam berbagai bidang, termasuk geometri fraktal, rekayasa, dan arsitektur. Sudut elevasi dan sudut depresi sering ditentukan dengan menggunakan segitiga-segitiga sebangun.</para>
+<para id="fs-id2612701">Pada bagian-bagian sebelumnya dalam bab ini, kita mempelajari identitas trigonometri. Identitas berlaku untuk semua nilai dalam domain variabelnya. Pada bagian ini, kita mulai mempelajari persamaan trigonometri untuk mengkaji situasi dunia nyata, seperti menentukan ukuran piramida.</para>
+
+<section id="fs-id2123717">
+<title>Menyelesaikan Persamaan Trigonometri Linear dalam Sinus dan Kosinus</title>
+<para id="fs-id2123619">Sesuai namanya, persamaan trigonometri adalah persamaan yang melibatkan fungsi trigonometri. Seperti ketika menyelesaikan persamaan polinomial atau persamaan rasional, hanya nilai-nilai tertentu dari variabel yang menjadi solusi, jika solusi memang ada. Kita sering menyelesaikan persamaan trigonometri pada suatu interval tertentu. Namun, kita juga kerap diminta menentukan semua solusi yang mungkin; karena fungsi trigonometri bersifat periodik, solusi berulang pada setiap periode. Dengan kata lain, suatu persamaan trigonometri dapat memiliki tak hingga banyak solusi. Selain itu, seperti pada persamaan rasional, domain fungsi harus diperhatikan sebelum suatu kandidat dianggap sebagai solusi yang valid. Periode <term class="no-emphasis" id="term-00001">periode</term> dari fungsi sinus maupun fungsi kosinus adalah <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>π</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Dengan kata lain, setiap <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>π</m:mi>
+ </m:mrow>
+</m:math> satuan, nilai <emphasis effect="italics">y-</emphasis>berulang. Jika kita perlu menentukan semua solusi yang mungkin, kita harus menambahkan <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>π</m:mi><m:mi>k</m:mi><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> di mana <m:math>
+ <m:mrow>
+  <m:mi>k</m:mi>
+ </m:mrow>
+</m:math> adalah bilangan bulat, pada solusi awal. Ingat kembali aturan yang memberikan bentuk untuk menyatakan semua solusi yang mungkin bagi fungsi dengan periode <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>π</m:mi><m:mo>:</m:mo>
+ </m:mrow>
+</m:math>
+</para>
+<equation id="fs-id2152442" class="unnumbered"><label /> <m:math>
+ <m:mrow>
+  <m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>θ</m:mi><m:mo>±</m:mo><m:mn>2</m:mn><m:mi>k</m:mi><m:mi>π</m:mi><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math>
+</equation><para id="fs-id1783046">Terdapat aturan serupa untuk menyatakan semua solusi yang mungkin bagi fungsi trigonometri lainnya. Penyelesaian persamaan trigonometri memerlukan teknik yang sama seperti penyelesaian persamaan aljabar. Kita membaca persamaan dari kiri ke kanan secara horizontal, seperti sebuah kalimat. Kita mencari pola yang dikenal, melakukan pemfaktoran, menentukan penyebut bersama, dan menyubstitusi ekspresi tertentu dengan sebuah variabel agar proses penyelesaian lebih langsung. Namun, pada persamaan trigonometri kita juga dapat memanfaatkan identitas yang dikembangkan pada bagian-bagian sebelumnya.</para>
+
+<example id="Example_07_05_01">
+<exercise id="fs-id2059781">
+<problem id="fs-id2103256">
+<title>Menyelesaikan Persamaan Trigonometri Linear yang Melibatkan Fungsi Kosinus</title>
+<para id="fs-id1618310">Tentukan semua solusi eksak yang mungkin untuk persamaan <m:math>
+ <m:mrow>
+  <m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1754047">
+<para id="fs-id1130359">Dari <term class="no-emphasis" id="term-00002">lingkaran satuan</term>, kita mengetahui bahwa</para>
+<equation id="fs-id2168355" class="unnumbered"><label /> <m:math display="block">
+ <m:mrow>
+  <m:mtable columnalign="left">
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>     </m:mtext><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac>
+       <m:mi>π</m:mi>
+       <m:mn>3</m:mn>
+      </m:mfrac>
+      <m:mo>,</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mn>5</m:mn><m:mi>π</m:mi>
+       </m:mrow>
+       <m:mn>3</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation><para id="fs-id2823310">Inilah solusi-solusi pada interval <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>[</m:mo> <m:mrow>
+   <m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mi>π</m:mi>
+  </m:mrow> <m:mo>]</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Semua solusi yang mungkin diberikan oleh</para>
+<equation id="fs-id1137041" class="unnumbered"><label /> <m:math display="block">
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mo>±</m:mo><m:mn>2</m:mn><m:mi>k</m:mi><m:mi>π</m:mi><m:mtext>  dan  </m:mtext><m:mfrac>
+   <m:mrow>
+    <m:mn>5</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mo>±</m:mo><m:mn>2</m:mn><m:mi>k</m:mi><m:mi>π</m:mi>
+ </m:mrow>
+</m:math>
+</equation><para id="fs-id1346657">di mana <m:math>
+ <m:mrow>
+  <m:mi>k</m:mi>
+ </m:mrow>
+</m:math> adalah bilangan bulat.</para>
+</solution>
+</exercise>
+</example>
+
+<example id="Example_07_05_02">
+<exercise id="fs-id2449058">
+<problem id="fs-id1327858">
+<title>Menyelesaikan Persamaan Linear yang Melibatkan Fungsi Sinus</title>
+<para id="fs-id1984971">Tentukan semua solusi eksak yang mungkin untuk persamaan <m:math>
+ <m:mrow>
+  <m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1617496">
+
+<para id="fs-id2109893">Menentukan semua nilai yang mungkin dari <emphasis effect="italics">t</emphasis> berarti bahwa solusi mencakup sudut-sudut di luar periode <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>π</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Dari <link document="m49395" target-id="Figure_07_02_008" />, kita dapat melihat bahwa solusinya adalah <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> dan <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>5</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Namun, soal meminta semua nilai yang mungkin yang memenuhi persamaan. Oleh karena itu, jawabannya adalah</para>
+<equation id="fs-id2234866" class="unnumbered"><label /> <m:math display="block">
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+  <m:mo>±</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>k</m:mi><m:mtext>  dan  </m:mtext><m:mfrac>
+   <m:mrow>
+    <m:mn>5</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+  <m:mo>±</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>k</m:mi>
+ </m:mrow>
+</m:math>
+</equation><para id="fs-id1972612">di mana <m:math>
+ <m:mrow>
+  <m:mi>k</m:mi>
+ </m:mrow>
+</m:math> adalah bilangan bulat.</para>
+</solution>
+</exercise>
+</example>
+
+<note id="fs-id1588467" class="how-to-notitle">
+<label>Cara</label>
+<para id="fs-id1335125"><emphasis>Diberikan sebuah persamaan trigonometri, selesaikan dengan aljabar</emphasis>.</para><list id="fs-id1753734" list-type="enumerated" number-style="arabic">
+<item>Carilah pola yang menunjukkan suatu sifat aljabar, seperti selisih kuadrat atau kemungkinan pemfaktoran.</item>
+<item>Substitusikan ekspresi trigonometri dengan satu variabel, misalnya <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi>
+ </m:mrow>
+</m:math> atau <m:math>
+ <m:mrow>
+  <m:mi>u</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</item>
+<item>Selesaikan persamaan tersebut dengan cara yang sama seperti menyelesaikan persamaan aljabar.</item>
+<item>Substitusikan kembali ekspresi trigonometri untuk menggantikan variabel pada ekspresi yang dihasilkan.</item>
+<item>Tentukan sudutnya.</item>
+</list></note>
+
+
+<example id="Example_07_05_03">
+<exercise id="fs-id1936439">
+<problem id="fs-id1419992">
+<title>Menyelesaikan Persamaan Trigonometri dalam Bentuk Linear</title>
+<para id="fs-id2754158">Selesaikan persamaan berikut secara eksak: <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mspace width="0.5em" /><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>θ</m:mi><m:mo>&lt;</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id2023140">
+
+<para id="fs-id2617859">Gunakan teknik aljabar untuk menyelesaikan persamaan.</para>
+<equation id="fs-id1350790" class="unnumbered"><label /> <m:math display="block">
+ <m:mrow>
+  <m:mtable columnalign="left">
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>2</m:mn><m:mspace width="0.5em" /><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>5</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>       </m:mtext><m:mn>2</m:mn><m:mspace width="0.5em" /><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>         </m:mtext><m:mspace width="0.5em" /><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>1</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>              </m:mtext><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>π</m:mi>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation></solution>
+</exercise>
+</example>
+<note id="fs-id1332935" class="precalculus try">
+<label>Cobalah</label>
+<exercise id="ti_07_05_01">
+<problem id="fs-id1440965"><para id="fs-id1936123">Selesaikan persamaan linear berikut secara eksak pada interval <m:math>
+ <m:mrow>
+  <m:mo stretchy="false">[</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo stretchy="false">)</m:mo><m:mo>:</m:mo><m:mspace width="0.5em" /><m:mn>2</m:mn><m:mspace width="0.5em" /><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0.</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1691784">
+<para id="fs-id1597318"> <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>7</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>11</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+</note>
+
+</section>
+<section id="fs-id2257766">
+<title>Menyelesaikan Persamaan yang Melibatkan Satu Fungsi Trigonometri</title>
+<para id="fs-id2244514">Ketika diberikan persamaan yang hanya melibatkan satu dari enam fungsi trigonometri, kita menyelesaikannya dengan teknik aljabar dan lingkaran satuan (lihat <link document="m49395" target-id="Figure_07_02_008" />). Beberapa hal perlu diperhatikan ketika persamaan melibatkan fungsi trigonometri selain sinus dan kosinus. Soal yang melibatkan fungsi resiprokal dari fungsi trigonometri utama perlu dipandang secara aljabar. Dengan kata lain, kita menuliskan fungsi resiprokalnya, lalu menyelesaikan sudut dengan fungsi tersebut. Persamaan yang melibatkan fungsi tangen juga sedikit berbeda dari persamaan yang memuat fungsi sinus atau kosinus. Pertama, sebagaimana diketahui, periode tangen adalah <m:math>
+ <m:mrow>
+<m:mi>π</m:mi><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> bukan <m:math>
+ <m:mrow><m:mn>2</m:mn><m:mi>π</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Selanjutnya, domain tangen adalah semua bilangan real kecuali kelipatan bilangan bulat ganjil dari <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo>
+ </m:mrow>
+</m:math> kecuali, tentu saja, jika soal menetapkan pembatasan domainnya sendiri.</para><example id="Example_07_05_04">
+<exercise id="fs-id1081089">
+<problem id="fs-id1290420">
+<title>Menyelesaikan Masalah yang Melibatkan Satu Fungsi Trigonometri</title>
+<para id="fs-id1354845">Selesaikan soal berikut secara eksak: <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mspace width="0.5em" /><m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>θ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>θ</m:mi><m:mo>&lt;</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1552358">
+
+<para id="fs-id1631304">Karena masalah ini tidak mudah difaktorkan, kita akan menyelesaikannya menggunakan sifat akar kuadrat. Pertama, kita menggunakan aljabar untuk mengisolasi <m:math>
+ <m:mrow>
+  <m:mi>sin</m:mi><m:mi>θ</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Kemudian kita akan menentukan sudut-sudutnya.</para>
+<equation id="fs-id1368172" class="unnumbered"><label /> <m:math display="block">
+ <m:mrow>
+  <m:mtable columnalign="left">
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>2</m:mn><m:mspace width="0.5em" /><m:msup>
+       <m:mrow>
+        <m:mi>sin</m:mi>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mi>θ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>      </m:mtext><m:mn>2</m:mn><m:mspace width="0.5em" /><m:msup>
+       <m:mrow>
+        <m:mi>sin</m:mi>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>1</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>        </m:mtext><m:msup>
+       <m:mrow>
+        <m:mi>sin</m:mi>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>      </m:mtext><m:msqrt>
+       <m:mrow>
+        <m:msup>
+         <m:mrow>
+          <m:mi>sin</m:mi>
+         </m:mrow>
+         <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>θ</m:mi>
+       </m:mrow>
+      </m:msqrt>
+      <m:mo>=</m:mo><m:mo>±</m:mo><m:msqrt>
+       <m:mrow>
+        <m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mn>2</m:mn>
+        </m:mfrac>
+
+       </m:mrow>
+      </m:msqrt>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>          </m:mtext><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo>±</m:mo><m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mrow>
+        <m:msqrt>
+         <m:mn>2</m:mn>
+        </m:msqrt>
+
+       </m:mrow>
+      </m:mfrac>
+      <m:mo>=</m:mo><m:mo>±</m:mo><m:mfrac>
+       <m:mrow>
+        <m:msqrt>
+         <m:mn>2</m:mn>
+        </m:msqrt>
+
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>               </m:mtext><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac>
+       <m:mi>π</m:mi>
+       <m:mn>4</m:mn>
+      </m:mfrac>
+      <m:mo>,</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mn>3</m:mn><m:mi>π</m:mi>
+       </m:mrow>
+       <m:mn>4</m:mn>
+      </m:mfrac>
+      <m:mo>,</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mn>5</m:mn><m:mi>π</m:mi>
+       </m:mrow>
+       <m:mn>4</m:mn>
+      </m:mfrac>
+      <m:mo>,</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mn>7</m:mn><m:mi>π</m:mi>
+       </m:mrow>
+       <m:mn>4</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation></solution>
+</exercise>
+</example>
+
+ <example id="Example_07_05_05">
+<exercise id="fs-id1161963">
+<problem id="fs-id1267566">
+<title>Menyelesaikan Persamaan Trigonometri yang Melibatkan Kosekan</title>
+<para id="fs-id1256970">Selesaikan persamaan berikut secara eksak: <m:math>
+ <m:mrow>
+  <m:mi>csc</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>θ</m:mi><m:mo>&lt;</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1056498">
+
+
+<para id="fs-id1114095">Kita mencari semua nilai <m:math>
+ <m:mrow>
+  <m:mi>θ</m:mi>
+ </m:mrow>
+</m:math> yang memenuhi <m:math>
+ <m:mrow>
+  <m:mi>csc</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn>
+ </m:mrow>
+</m:math> pada interval <m:math>
+ <m:mrow>
+  <m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>θ</m:mi><m:mo>&lt;</m:mo><m:mn>4</m:mn><m:mi>π</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para>
+<equation id="fs-id730511" class="unnumbered"><label /> <m:math display="block">
+ <m:mrow>
+  <m:mtable columnalign="left">
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mi>csc</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mrow>
+        <m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi>
+       </m:mrow>
+      </m:mfrac>
+      <m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mspace width="0.5em" /><m:mtext>     </m:mtext><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mn>7</m:mn><m:mi>π</m:mi>
+       </m:mrow>
+       <m:mn>6</m:mn>
+      </m:mfrac>
+      <m:mo>,</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mn>11</m:mn><m:mi>π</m:mi>
+       </m:mrow>
+       <m:mn>6</m:mn>
+      </m:mfrac>
+      <m:mo>,</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mn>19</m:mn><m:mi>π</m:mi>
+       </m:mrow>
+       <m:mn>6</m:mn>
+      </m:mfrac>
+      <m:mo>,</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mn>23</m:mn><m:mi>π</m:mi>
+       </m:mrow>
+       <m:mn>6</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation></solution>
+  <commentary id="fs-id1246169">
+<title>Analisis </title>
+
+
+<para id="fs-id1210585">Karena <m:math>
+ <m:mrow>
+  <m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo>
+ </m:mrow>
+</m:math> perhatikan bahwa keempat solusi berada di kuadran III dan IV.</para></commentary>
+</exercise>
+</example>
+<example id="Example_07_05_06">
+<exercise id="fs-id1495254">
+<problem id="fs-id1304871">
+<title>Menyelesaikan Persamaan yang Melibatkan Tangen</title>
+<para id="fs-id2252191">Selesaikan persamaan berikut secara eksak: <m:math>
+ <m:mrow>
+  <m:mi>tan</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>θ</m:mi><m:mo>−</m:mo><m:mfrac>
+     <m:mi>π</m:mi>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>θ</m:mi><m:mo>&lt;</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para>
+</problem>
+<solution id="fs-id2239854">
+
+
+<para id="fs-id1326580">Ingat bahwa fungsi tangen memiliki periode <m:math>
+ <m:mrow>
+  <m:mi>π</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Pada interval <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>[</m:mo> <m:mrow>
+   <m:mn>0</m:mn><m:mo>,</m:mo><m:mi>π</m:mi>
+  </m:mrow> <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> dan pada sudut <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>4</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo>
+ </m:mrow>
+</m:math> tangen bernilai 1. Namun, sudut yang kita inginkan adalah <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>θ</m:mi><m:mo>−</m:mo><m:mfrac>
+     <m:mi>π</m:mi>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Dengan demikian, jika <m:math>
+ <m:mrow>
+  <m:mi>tan</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mi>π</m:mi>
+     <m:mn>4</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> maka</para>
+<equation id="fs-id2141246" class="unnumbered"><label /> <m:math>
+ <m:mrow>
+  <m:mtable>
+   <m:mtr>
+    <m:mtd>
+     <m:mrow>
+      <m:mi>θ</m:mi><m:mo>−</m:mo><m:mfrac>
+       <m:mi>π</m:mi>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+      <m:mo>=</m:mo><m:mfrac>
+       <m:mi>π</m:mi>
+       <m:mn>4</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd>
+     <m:mrow>
+      <m:mspace width="0.5em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mn>3</m:mn><m:mi>π</m:mi>
+       </m:mrow>
+       <m:mn>4</m:mn>
+      </m:mfrac>
+      <m:mo>±</m:mo><m:mi>k</m:mi><m:mi>π</m:mi>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation><para id="fs-id1079211">Pada interval <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>[</m:mo> <m:mrow>
+   <m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mi>π</m:mi>
+  </m:mrow> <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> kita memperoleh dua solusi:</para>
+<equation id="fs-id3684964" class="unnumbered"><label /> <m:math>
+ <m:mrow>
+ <m:mfrac>
+   <m:mrow>
+    <m:mn>3</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>4</m:mn>
+  </m:mfrac>
+  <m:mtext>  dan </m:mtext><m:mfrac>
+   <m:mrow>
+    <m:mn>3</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>4</m:mn>
+  </m:mfrac>
+  <m:mo>+</m:mo><m:mi>π</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>7</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>4</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</equation></solution>
+</exercise>
+</example>
+
+<note id="fs-id761316" class="precalculus try">
+<label>Cobalah</label>
+<exercise id="ti_07_05_02">
+<problem id="fs-id1337984"><para id="fs-id2886407">Tentukan semua solusi untuk <m:math>
+ <m:mrow>
+  <m:mi>tan</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>=</m:mo><m:msqrt>
+   <m:mn>3</m:mn>
+  </m:msqrt>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1376410"><para id="fs-id1232529"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mo>±</m:mo><m:mi>π</m:mi><m:mi>k</m:mi>
+ </m:mrow>
+</m:math>
+</para></solution>
+</exercise>
+</note>
+
+<example id="Example_07_05_07">
+<exercise id="fs-id1784033">
+<problem id="fs-id2464356">
+<title>Mengidentifikasi Semua Solusi Persamaan yang Melibatkan Tangen</title>
+<para id="fs-id2031213">Identifikasi semua solusi eksak untuk persamaan <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>tan</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>+</m:mo><m:mi>tan</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1916214">
+
+
+<para id="fs-id708547">Kita dapat menyelesaikan persamaan ini hanya dengan aljabar. Isolasikan ekspresi <m:math>
+ <m:mrow>
+  <m:mi>tan</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi>
+ </m:mrow>
+</m:math> di ruas kiri tanda sama dengan.</para>
+
+<equation id="fs-id2587807" class="unnumbered"><label /> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr>
+    <m:mtd columnalign="right">
+      <m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mi>tan</m:mi><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo>
+</m:mtd><m:mtd columnalign="left">
+<m:mo>=</m:mo><m:mn>5</m:mn><m:mo>+</m:mo><m:mi>tan</m:mi><m:mi>x</m:mi>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right">
+    <m:mn>2</m:mn><m:mi>tan</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn>
+</m:mtd><m:mtd columnalign="left">
+<m:mo>=</m:mo><m:mn>5</m:mn><m:mo>+</m:mo><m:mi>tan</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right">
+      <m:mtext>  </m:mtext><m:mn>2</m:mn><m:mi>tan</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>tan</m:mi><m:mi>x</m:mi>
+</m:mtd><m:mtd columnalign="left">
+<m:mo>=</m:mo><m:mn>5</m:mn><m:mo>−</m:mo><m:mn>6</m:mn>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="right"><m:mi>tan</m:mi><m:mi>x</m:mi>
+</m:mtd><m:mtd columnalign="left">
+<m:mo>=</m:mo><m:mo>−</m:mo><m:mn>1</m:mn>
+    </m:mtd>
+   </m:mtr>
+  </m:mtable>
+ </m:mrow>
+</m:math> </equation><para id="fs-id1517904">Pada lingkaran satuan terdapat dua sudut yang memiliki nilai tangen <m:math>
+ <m:mrow>
+  <m:mn>−1</m:mn><m:mo>:</m:mo><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>3</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>4</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> dan <m:math>
+ <m:mrow>
+  <m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>7</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>4</m:mn>
+  </m:mfrac>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para></solution>
+</exercise>
+</example>
+
+</section>
+
+  <section id="fs-id2352803">
+<title>Menyelesaikan Persamaan Trigonometri dengan Kalkulator</title>
+<para id="fs-id1925665">Tidak semua persamaan dapat diselesaikan secara eksak hanya dengan lingkaran satuan. Jika suatu persamaan melibatkan sudut selain sudut-sudut istimewa, kita perlu menggunakan kalkulator. Pastikan kalkulator berada pada mode yang tepat, derajat atau radian, sesuai ketentuan soal.</para>
+
+<example id="Example_07_05_08">
+<exercise id="fs-id1366869">
+<problem id="fs-id1805763">
+<title>Menggunakan Kalkulator untuk Menyelesaikan Persamaan Trigonometri yang Melibatkan Sinus</title>
+<para id="fs-id2764602">Gunakan kalkulator untuk menyelesaikan persamaan <m:math>
+ <m:mrow>
+  <m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0.8</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> di mana <m:math>
+ <m:mrow>
+  <m:mi>θ</m:mi>
+ </m:mrow>
+</m:math> dinyatakan dalam radian.</para></problem>
+<solution id="fs-id1133260">
+
+
+<para id="fs-id2644555">Pastikan mode kalkulator diatur ke radian. Untuk menentukan <m:math>
+ <m:mrow>
+  <m:mi>θ</m:mi><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> gunakan fungsi sinus invers. Pada kebanyakan kalkulator, Anda perlu menekan tombol 2<sup>ND</sup> lalu tombol SIN untuk menampilkan fungsi <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  </m:msup>
+
+ </m:mrow>
+</m:math>. Layar menampilkan <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mo stretchy="false">(</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> . Kalkulator siap menerima masukan di dalam tanda kurung. Untuk soal ini, kita masukkan <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>0.8</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> lalu tekan ENTER. Dengan demikian, hingga empat tempat desimal,</para>
+<equation id="fs-id2031037" class="unnumbered"><label /> <m:math display="block">
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mo stretchy="false">(</m:mo><m:mn>0.8</m:mn><m:mo stretchy="false">)</m:mo><m:mo>≈</m:mo><m:mn>0.9273</m:mn>
+ </m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1112311">Solusinya adalah</para>
+<equation id="fs-id2177508" class="unnumbered"><label /> <m:math display="block">
+ <m:mrow>
+  <m:mn>0.9273</m:mn><m:mo>±</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>k</m:mi>
+ </m:mrow>
+</m:math>
+</equation><para id="fs-id2780464">Ukuran sudut dalam derajat adalah</para>
+<equation id="fs-id2067729" class="unnumbered"><label /> <m:math display="block">
+ <m:mrow>
+  <m:mtable columnalign="left">
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mtable columnalign="left">
+      <m:mtr>
+       <m:mtd>
+        <m:mrow />
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd>
+        <m:mi>θ</m:mi><m:mo>≈</m:mo><m:msup>
+         <m:mn>53.1</m:mn>
+         <m:mo>∘</m:mo>
+        </m:msup>
+
+       </m:mtd>
+      </m:mtr>
+     </m:mtable>
+
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mi>θ</m:mi><m:mo>≈</m:mo><m:msup>
+       <m:mrow>
+        <m:mn>180</m:mn>
+       </m:mrow>
+       <m:mo>∘</m:mo>
+      </m:msup>
+      <m:mo>−</m:mo><m:msup>
+       <m:mrow>
+        <m:mn>53.1</m:mn>
+       </m:mrow>
+       <m:mo>∘</m:mo>
+      </m:msup>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>  </m:mtext><m:mo>≈</m:mo><m:msup>
+       <m:mrow>
+        <m:mn>126.9</m:mn>
+       </m:mrow>
+       <m:mo>∘</m:mo>
+      </m:msup>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation></solution>
+<commentary id="fs-id1354896">
+<title>Analisis </title>
+
+
+
+<para id="fs-id1093114">Perhatikan bahwa untuk fungsi sinus, kalkulator hanya mengembalikan sudut di kuadran I atau IV karena itulah range fungsi sinus invers. Sudut lainnya diperoleh dengan menggunakan <m:math>
+ <m:mrow>
+  <m:mi>π</m:mi><m:mo>−</m:mo><m:mi>θ</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para>
+</commentary>
+</exercise>
+</example>
+
+<example id="Example_07_05_09">
+<exercise id="fs-id2105271"><problem id="fs-id1622846">
+<title>Menggunakan Kalkulator untuk Menyelesaikan Persamaan Trigonometri yang Melibatkan Sekan</title>
+<para id="fs-id1359705">Gunakan kalkulator untuk menyelesaikan persamaan <m:math>
+ <m:mrow>
+  <m:mi>sec</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>−4</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> dan nyatakan jawaban dalam radian.</para></problem>
+<solution id="fs-id1862382">
+<para id="fs-id1625296">Kita dapat memulai dengan langkah-langkah aljabar.</para>
+<equation id="fs-id2713214" class="unnumbered"><label /> <m:math display="block">
+ <m:mrow>
+  <m:mtable>
+   <m:mtr>
+    <m:mtd>
+     <m:mrow>
+      <m:mi>sec</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd>
+     <m:mrow>
+      <m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mrow>
+        <m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi>
+       </m:mrow>
+      </m:mfrac>
+      <m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd>
+     <m:mrow>
+      <m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mn>4</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation>
+
+<para id="fs-id2176861">Pastikan MODE diatur ke radian. Sekarang gunakan fungsi kosinus invers.</para>
+<equation id="fs-id1350281" class="unnumbered"><label /> <m:math display="block">
+ <m:mrow>
+  <m:mtable columnalign="left">
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:msup>
+       <m:mrow>
+        <m:mi>cos</m:mi>
+       </m:mrow>
+       <m:mrow>
+        <m:mo>−</m:mo><m:mn>1</m:mn>
+       </m:mrow>
+      </m:msup>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mo>−</m:mo><m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mn>4</m:mn>
+        </m:mfrac>
+
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mo>≈</m:mo><m:mn>1.8235</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>                 </m:mtext><m:mi>θ</m:mi><m:mo>≈</m:mo><m:mn>1.8235</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>k</m:mi>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1471997">Karena <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>≈</m:mo><m:mn>1.57</m:mn>
+ </m:mrow>
+</m:math> dan <m:math>
+ <m:mrow>
+  <m:mi>π</m:mi><m:mo>≈</m:mo><m:mn>3.14</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> 1,8235 berada di antara kedua bilangan tersebut, maka <m:math>
+ <m:mrow>
+  <m:mi>θ</m:mi><m:mo>≈</m:mo><m:mtext>1</m:mtext><m:mtext>.8235</m:mtext>
+ </m:mrow>
+</m:math> berada di kuadran II. Kosinus juga bernilai negatif di kuadran III. Perhatikan bahwa kalkulator hanya mengembalikan sudut di kuadran I atau II untuk fungsi kosinus karena itulah range fungsi kosinus invers. Lihat <link target-id="Figure_07_05_005" />.</para>
+
+<figure id="Figure_07_05_005" class="medium"><media id="fs-id2343074" alt="Grafik sudut theta ≈ 1,8235, theta aksen ≈ pi − 1,8235 ≈ 1,3181, lalu theta aksen = pi + 1,3181 ≈ 4,4597">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_07_05_005.jpg" />
+</media>
+</figure>
+
+<para id="fs-id1631910">Jadi, kita juga perlu menentukan ukuran sudut di kuadran III. Di kuadran III, sudut acuannya adalah <m:math>
+ <m:mrow>
+  <m:mi>θ</m:mi><m:mi> </m:mi><m:mo>'</m:mo><m:mo>≈</m:mo><m:mi>π</m:mi><m:mo>−</m:mo><m:mtext>1</m:mtext><m:mtext>.8235</m:mtext><m:mo>≈</m:mo><m:mtext>1</m:mtext><m:mtext>.3181</m:mtext><m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math> Solusi lainnya di kuadran III adalah <m:math>
+ <m:mrow>
+  <m:mi>π</m:mi><m:mo>+</m:mo><m:mtext>1</m:mtext><m:mtext>.3181</m:mtext><m:mo>≈</m:mo><m:mtext>4</m:mtext><m:mtext>.4597</m:mtext><m:mtext>.</m:mtext>
+ </m:mrow>
+</m:math>
+</para><para id="fs-id1327393">Solusinya adalah <m:math>
+ <m:mrow>
+  <m:mn>1.8235</m:mn><m:mo>±</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>k</m:mi>
+ </m:mrow>
+</m:math> dan <m:math>
+ <m:mrow>
+  <m:mn>4.4597</m:mn><m:mo>±</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>k</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para></solution>
+</exercise></example>
+
+<note id="fs-id2168685" class="precalculus try">
+<label>Cobalah</label>
+<exercise id="ti_07_05_03">
+<problem id="fs-id1868122"><para id="fs-id2142937">Selesaikan <m:math>
+ <m:mrow>
+  <m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>0.2.</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1562435"><para id="fs-id1334489"> <m:math>
+ <m:mrow>
+  <m:mi>θ</m:mi><m:mo>≈</m:mo><m:mn>1.7722</m:mn><m:mo>±</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>k</m:mi>
+ </m:mrow>
+</m:math> dan <m:math>
+ <m:mrow>
+  <m:mi>θ</m:mi><m:mo>≈</m:mo><m:mn>4.5110</m:mn><m:mo>±</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>k</m:mi>
+ </m:mrow>
+</m:math>
+</para></solution>
+</exercise>
+</note>
+</section>
+
+<section id="fs-id2461424">
+<title>Menyelesaikan Persamaan Trigonometri dalam Bentuk Kuadrat</title>
+<para id="fs-id2590665">Menyelesaikan suatu <term class="no-emphasis" id="term-00003">persamaan kuadrat</term> dapat lebih rumit, tetapi sekali lagi kita dapat menggunakan aljabar seperti pada persamaan kuadrat lainnya. Perhatikan pola persamaannya. Apakah persamaan memuat lebih dari satu fungsi trigonometri atau hanya satu? Fungsi trigonometri manakah yang dikuadratkan? Jika hanya satu fungsi yang muncul dan salah satu sukunya dikuadratkan, pikirkan bentuk standar persamaan kuadrat. Gantilah fungsi trigonometri itu dengan variabel seperti <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi>
+ </m:mrow>
+</m:math> atau <m:math>
+ <m:mrow>
+  <m:mi>u</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Jika substitusi membuat persamaan tampak seperti persamaan kuadrat, kita dapat menggunakan metode penyelesaian persamaan kuadrat yang sama untuk menyelesaikan persamaan trigonometri tersebut.</para>
+
+<example id="Example_07_05_10">
+<exercise id="fs-id1335579">
+<problem id="fs-id1897958">
+<title>Menyelesaikan Persamaan Trigonometri dalam Bentuk Kuadrat</title>
+<para id="fs-id2201479">Selesaikan persamaan berikut secara eksak: <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mi>cos</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mspace width="0.5em" /><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>θ</m:mi><m:mo>&lt;</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id761598">
+
+
+<para id="fs-id1378461">Kita mulai dengan substitusi, yaitu mengganti cos <m:math>
+ <m:mrow>
+  <m:mi>θ</m:mi>
+ </m:mrow>
+</m:math> dengan <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Substitusi tidak wajib digunakan, tetapi dapat membuat soal lebih mudah dipahami secara visual. Misalkan <m:math>
+ <m:mrow>
+  <m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Kita memperoleh</para>
+
+<equation id="fs-id1875852" class="unnumbered"><label /> <m:math display="block">
+ <m:mrow>
+  <m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1356287">Persamaan tidak dapat difaktorkan, jadi kita akan menggunakan <term class="no-emphasis" id="term-00004">rumus kuadrat</term> <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mi>b</m:mi><m:mo>±</m:mo><m:msqrt>
+     <m:mrow>
+      <m:msup>
+       <m:mi>b</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi>
+     </m:mrow>
+    </m:msqrt>
+
+   </m:mrow>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>a</m:mi>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para>
+<equation id="fs-id2294578" class="unnumbered"><label /> <m:math display="block">
+ <m:mrow>
+  <m:mtable columnalign="left">
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mo>−</m:mo><m:mn>3</m:mn><m:mo>±</m:mo><m:msqrt>
+         <m:mrow>
+          <m:msup>
+           <m:mrow>
+            <m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo>
+           </m:mrow>
+           <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+         </m:mrow>
+        </m:msqrt>
+
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>  </m:mtext><m:mo>=</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mo>−</m:mo><m:mn>3</m:mn><m:mo>±</m:mo><m:msqrt>
+         <m:mrow>
+          <m:mn>13</m:mn>
+         </m:mrow>
+        </m:msqrt>
+
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation><para id="fs-id926524">Ganti <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi>
+ </m:mrow>
+</m:math> dengan <m:math>
+ <m:mrow>
+  <m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> lalu selesaikan. Dengan demikian,</para>
+
+<equation id="fs-id1408206" class="unnumbered"><label /> <m:math display="block">
+ <m:mrow>
+  <m:mtable columnalign="left">
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mo>−</m:mo><m:mn>3</m:mn><m:mo>±</m:mo><m:msqrt>
+         <m:mrow>
+          <m:mn>13</m:mn>
+         </m:mrow>
+        </m:msqrt>
+
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>     </m:mtext><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup>
+       <m:mrow>
+        <m:mi>cos</m:mi>
+       </m:mrow>
+       <m:mrow>
+        <m:mo>−</m:mo><m:mn>1</m:mn>
+       </m:mrow>
+      </m:msup>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mfrac>
+         <m:mrow>
+          <m:mo>−</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:msqrt>
+           <m:mrow>
+            <m:mn>13</m:mn>
+           </m:mrow>
+          </m:msqrt>
+
+         </m:mrow>
+         <m:mn>2</m:mn>
+        </m:mfrac>
+
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation><para id="fs-id1355539">Perhatikan bahwa hanya tanda + yang digunakan. Hal ini karena kalkulator menghasilkan galat ketika kita menyelesaikan <m:math>
+ <m:mrow>
+  <m:mi>θ</m:mi><m:mo>=</m:mo><m:msup>
+   <m:mrow>
+    <m:mi>cos</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mo>−</m:mo><m:mn>3</m:mn><m:mo>−</m:mo><m:msqrt>
+       <m:mrow>
+        <m:mn>13</m:mn>
+       </m:mrow>
+      </m:msqrt>
+
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> pada kalkulator karena domain fungsi kosinus invers adalah <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>[</m:mo> <m:mrow>
+   <m:mo>−</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn>
+  </m:mrow> <m:mo>]</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Namun, ada solusi kedua:</para>
+<equation id="fs-id1236551" class="unnumbered"><label /> <m:math display="block">
+ <m:mrow>
+  <m:mtable columnalign="left">
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:msup>
+       <m:mrow>
+        <m:mi>cos</m:mi>
+       </m:mrow>
+       <m:mrow>
+        <m:mo>−</m:mo><m:mn>1</m:mn>
+       </m:mrow>
+      </m:msup>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mfrac>
+         <m:mrow>
+          <m:mo>−</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:msqrt>
+           <m:mrow>
+            <m:mn>13</m:mn>
+           </m:mrow>
+          </m:msqrt>
+
+         </m:mrow>
+         <m:mn>2</m:mn>
+        </m:mfrac>
+
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>  </m:mtext><m:mo>≈</m:mo><m:mn>1.26</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation><para id="fs-id1298252">Sisi terminal sudut ini terletak di kuadran I. Karena kosinus juga positif di kuadran IV, solusi keduanya adalah</para>
+<equation id="fs-id2160568" class="unnumbered"><label /> <m:math display="block">
+ <m:mrow>
+  <m:mtable columnalign="left">
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>2</m:mn><m:mi>π</m:mi><m:mo>−</m:mo><m:msup>
+       <m:mrow>
+        <m:mi>cos</m:mi>
+       </m:mrow>
+       <m:mrow>
+        <m:mo>−</m:mo><m:mn>1</m:mn>
+       </m:mrow>
+      </m:msup>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mfrac>
+         <m:mrow>
+          <m:mo>−</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:msqrt>
+           <m:mrow>
+            <m:mn>13</m:mn>
+           </m:mrow>
+          </m:msqrt>
+
+         </m:mrow>
+         <m:mn>2</m:mn>
+        </m:mfrac>
+
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>  </m:mtext><m:mo>≈</m:mo><m:mn>5.02</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation></solution>
+</exercise>
+</example>
+
+<example id="Example_07_05_11">
+<exercise id="fs-id1343020">
+<problem id="fs-id1334881">
+<title>Menyelesaikan Persamaan Trigonometri dalam Bentuk Kuadrat dengan Pemfaktoran</title>
+<para id="fs-id1403865">Selesaikan persamaan berikut secara eksak: <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mspace width="0.5em" /><m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>θ</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mspace width="0.5em" /><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>θ</m:mi><m:mo>≤</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1218136">
+
+
+
+<para id="fs-id2286251">Dengan pengelompokan, bentuk kuadrat ini dapat difaktorkan. Anda dapat melakukan substitusi secara eksplisit, <m:math>
+ <m:mrow>
+  <m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>u</m:mi><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> atau sekadar membayangkannya saat melakukan pemfaktoran:</para>
+
+<equation id="fs-id2676123" class="unnumbered"><label /> <m:math display="block">
+ <m:mrow>
+  <m:mtable columnalign="left">
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>   </m:mtext><m:mn>2</m:mn><m:mspace width="0.5em" /><m:msup>
+       <m:mrow>
+        <m:mi>sin</m:mi>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mi>θ</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mspace width="0.5em" /><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mspace width="0.5em" /><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation><para id="fs-id1235701">Sekarang tetapkan setiap faktor sama dengan nol.</para>
+<equation id="fs-id1634817" class="unnumbered"><label /> <m:math display="block">
+ <m:mrow>
+  <m:mtable columnalign="left">
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>2</m:mn><m:mspace width="0.5em" /><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>       </m:mtext><m:mn>2</m:mn><m:mspace width="0.5em" /><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>3</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mspace width="0.5em" /><m:mtext>         </m:mtext><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac>
+       <m:mn>3</m:mn>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow />
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow />
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>  </m:mtext><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>         </m:mtext><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>1</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1352656">Selanjutnya, selesaikan untuk <m:math>
+ <m:mrow>
+  <m:mi>θ</m:mi><m:mo>:</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>≠</m:mo><m:mfrac>
+   <m:mn>3</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo>
+ </m:mrow>
+</m:math> karena range fungsi sinus adalah <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>[</m:mo> <m:mrow>
+   <m:mn>−1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn>
+  </m:mrow> <m:mo>]</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Namun, <m:math>
+ <m:mrow>
+  <m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> memberikan solusi <m:math>
+ <m:mrow>
+   <m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para></solution>
+  <commentary id="fs-id1220222">
+<title>Analisis </title>
+
+
+<para id="fs-id1161788">Pastikan semua solusi diperiksa pada domain yang diberikan karena beberapa faktor tidak menghasilkan solusi.</para>
+</commentary>
+</exercise>
+</example>
+
+<note id="fs-id1094265" class="precalculus try">
+<label>Cobalah</label>
+<exercise id="ti_07_05_04">
+<problem id="fs-id1213671"><para id="fs-id1213672">Selesaikan <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.5em" /><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>θ</m:mi><m:mo>≤</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> [Petunjuk: Lakukan substitusi agar persamaan hanya dinyatakan dalam kosinus.]</para></problem>
+<solution id="fs-id1333795"><para id="fs-id2262028"> <m:math>
+ <m:mrow>
+  <m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mspace width="0.5em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>π</m:mi>
+ </m:mrow>
+</m:math>
+</para></solution>
+</exercise>
+</note>
+
+<example id="Example_07_05_12">
+<exercise id="fs-id1145666"><problem id="fs-id1137947">
+<title>Menyelesaikan Persamaan Trigonometri Menggunakan Aljabar</title>
+<para id="fs-id1692291">Selesaikan secara eksak:</para>
+<equation id="fs-id1469870" class="unnumbered"><label /> <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mspace width="0.5em" /><m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>;</m:mo><m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>θ</m:mi><m:mo>&lt;</m:mo><m:mn>2</m:mn><m:mi>π</m:mi>
+ </m:mrow>
+</m:math>
+</equation></problem>
+<solution id="fs-id1344665">
+
+
+<para id="fs-id3291905">Soal ini seharusnya terasa familier karena bentuknya mirip persamaan kuadrat. Misalkan <m:math>
+ <m:mrow>
+  <m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Persamaan menjadi <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:msup>
+   <m:mi>x</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0.</m:mn>
+ </m:mrow>
+</m:math> Kita mulai dengan melakukan pemfaktoran:</para>
+
+<equation id="fs-id1137525" class="unnumbered"><label /> <m:math display="block">
+ <m:mrow>
+  <m:mtable columnalign="left">
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>   </m:mtext><m:mn>2</m:mn><m:msup>
+       <m:mi>x</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>+</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation>
+
+<para id="fs-id1764865">Tetapkan setiap faktor sama dengan nol.</para>
+<equation id="fs-id1577636" class="unnumbered"><label /> <m:math display="block">
+ <m:mrow>
+  <m:mtable columnalign="left">
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>           </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mtext>  </m:mtext>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>           </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation>
+
+<para id="fs-id1577605">Kemudian substitusikan kembali ekspresi asal <m:math>
+ <m:mrow>
+  <m:mi>sin</m:mi><m:mi>θ</m:mi>
+ </m:mrow>
+</m:math> untuk <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Oleh karena itu,</para>
+	<equation id="fs-id1118862" class="unnumbered"><label /> <m:math display="block">
+ <m:mrow>
+  <m:mtable columnalign="left">
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>     </m:mtext><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>π</m:mi>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow />
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>     </m:mtext><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mn>7</m:mn><m:mi>π</m:mi>
+       </m:mrow>
+       <m:mn>6</m:mn>
+      </m:mfrac>
+      <m:mo>,</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mn>11</m:mn><m:mi>π</m:mi>
+       </m:mrow>
+       <m:mn>6</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation><para id="fs-id1933215">Solusi dalam domain <m:math>
+ <m:mrow>
+  <m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>θ</m:mi><m:mo>&lt;</m:mo><m:mn>2</m:mn><m:mi>π</m:mi>
+ </m:mrow>
+</m:math> adalah <m:math>
+ <m:mrow>
+  <m:mn> 0</m:mn><m:mo>,</m:mo><m:mi>π</m:mi><m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>7</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>11</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para><para id="fs-id1347182">Jika memilih untuk tidak melakukan substitusi, kita dapat menyelesaikan persamaan dengan mengikuti pola yang sama: memfaktorkan dan menetapkan setiap faktor sama dengan nol.</para>
+<equation id="fs-id1348761" class="unnumbered"><label /> <m:math display="block">
+ <m:mrow>
+  <m:mtable columnalign="left">
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>  </m:mtext><m:mn>2</m:mn><m:mspace width="0.5em" /><m:msup>
+       <m:mrow>
+        <m:mi>sin</m:mi>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>                  </m:mtext><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>                       </m:mtext><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>π</m:mi>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow />
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>         </m:mtext><m:mn>2</m:mn><m:mspace width="0.5em" /><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>                </m:mtext><m:mn>2</m:mn><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>1</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>                  </m:mtext><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>                       </m:mtext><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mn>7</m:mn><m:mi>π</m:mi>
+       </m:mrow>
+       <m:mn>6</m:mn>
+      </m:mfrac>
+      <m:mo>,</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mn>11</m:mn><m:mi>π</m:mi>
+       </m:mrow>
+       <m:mn>6</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation></solution>
+  <commentary id="fs-id2204025">
+<title>Analisis</title>
+
+
+<para id="fs-id2602112">Kita dapat melihat solusi-solusi tersebut pada grafik dalam <link target-id="Figure_07_05_004" />. Pada interval <m:math>
+ <m:mrow>
+  <m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>θ</m:mi><m:mo>&lt;</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> grafik melintasi sumbu <emphasis effect="italics">x</emphasis> sebanyak empat kali, tepat pada solusi-solusi yang telah disebutkan. Perhatikan bahwa persamaan trigonometri berbentuk kuadrat dapat menghasilkan hingga empat solusi, bukan dua solusi yang biasanya diperoleh dari persamaan kuadrat. Dalam contoh ini, setiap solusi (sudut) yang bersesuaian dengan nilai sinus positif menghasilkan dua sudut yang memberikan nilai tersebut.</para><figure id="Figure_07_05_004" class="medium"><media id="fs-id1859724" alt="Grafik 2*(sin(theta))^2 + sin(theta) dari 0 hingga 2pi. Titik-titik nolnya berada pada 0, pi, 7pi/6, dan 11pi/6.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_07_05_004.jpg" />
+</media>
+</figure><para id="fs-id1836123">Kita bisa memverifikasi solusi pada lingkaran satuan di <link document="m49395" target-id="Figure_07_02_008" /> juga.</para></commentary>
+</exercise></example>
+
+<example id="Example_07_05_13">
+<exercise id="fs-id1352751">
+<problem id="fs-id1807178">
+<title>Menyelesaikan Persamaan Trigonometri Berbentuk Kuadrat</title>
+<para id="fs-id1365104">Selesaikan secara eksak persamaan yang berbentuk kuadrat berikut: <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mspace width="0.5em" /><m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>θ</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>θ</m:mi><m:mo>&lt;</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id2748877">
+
+
+<para id="fs-id1676751">Kita dapat memfaktorkan dengan pengelompokan. Nilai-nilai solusi untuk <m:math>
+ <m:mrow>
+  <m:mi>θ</m:mi>
+ </m:mrow>
+</m:math> dapat ditemukan pada lingkaran satuan:</para>
+<equation id="fs-id3654429" class="unnumbered"><label /> <m:math display="block">
+ <m:mrow>
+  <m:mtable columnalign="left">
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mspace width="0.5em" /><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>                  </m:mtext><m:mn>2</m:mn><m:mspace width="0.5em" /><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>                           </m:mtext><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>                                </m:mtext><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac>
+       <m:mi>π</m:mi>
+       <m:mn>6</m:mn>
+      </m:mfrac>
+      <m:mo>,</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mn>5</m:mn><m:mi>π</m:mi>
+       </m:mrow>
+       <m:mn>6</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow />
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>                           </m:mtext><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>1</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>                                </m:mtext><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac>
+       <m:mi>π</m:mi>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation></solution>
+</exercise>
+</example>
+
+<note id="fs-id1892509" class="precalculus try">
+<label>Cobalah</label>
+<exercise id="ti_07_05_05">
+<problem id="fs-id2737020"><para id="fs-id1743088">Selesaikan persamaan kuadrat <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mspace width="0.5em" /><m:msup>
+   <m:mrow>
+    <m:mi>cos</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>θ</m:mi><m:mo>+</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0.</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id3549256"><para id="fs-id3549257"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>4</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>3</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</para></solution>
+</exercise>
+</note>
+
+</section>
+
+<section id="fs-id1597424">
+<title>Menyelesaikan Persamaan Trigonometri dengan Identitas Dasar</title>
+<para id="fs-id1396319">Meskipun aljabar dapat digunakan untuk menyelesaikan sejumlah persamaan trigonometri, kita juga dapat menggunakan identitas dasar karena identitas tersebut menyederhanakan penyelesaian. Ingat bahwa teknik untuk menyelesaikan persamaan tidak sama dengan teknik untuk memverifikasi identitas. Di sini berlaku aturan dasar aljabar, bukan menulis ulang satu ruas identitas agar sama dengan ruas lainnya. Pada contoh berikut, kita menggunakan dua identitas untuk menyederhanakan persamaan.</para>
+
+<example id="Example_07_05_14">
+<exercise id="fs-id2017029">
+<problem id="fs-id2017031">
+<title>Gunakan Identitas untuk Menyelesaikan Persamaan</title>
+<para id="fs-id2031219">Gunakan identitas untuk menyelesaikan secara eksak persamaan trigonometri pada interval <m:math>
+ <m:mrow>
+  <m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para>
+<equation id="fs-id3523452" class="unnumbered"><label /> <m:math display="block">
+ <m:mrow>
+  <m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mspace width="0.3em" /><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mspace width="0.3em" /><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msqrt>
+     <m:mn>3</m:mn>
+    </m:msqrt>
+
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</equation></problem>
+<solution id="fs-id2045157">
+
+
+<para id="fs-id2045159">Perhatikan bahwa ruas kiri persamaan merupakan rumus selisih untuk kosinus.</para>
+<equation id="fs-id2045162" class="unnumbered"><label /> <m:math display="block">
+ <m:mrow>
+  <m:mtable columnalign="left">
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow />
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow />
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mspace width="0.3em" /><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mspace width="0.3em" /><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+       <m:mrow>
+        <m:msqrt>
+         <m:mn>3</m:mn>
+        </m:msqrt>
+
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow />
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>                       </m:mtext><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+       <m:mrow>
+        <m:msqrt>
+         <m:mn>3</m:mn>
+        </m:msqrt>
+
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+      <m:mtable>
+       <m:mtr>
+        <m:mtd>
+         <m:mrow />
+        </m:mtd>
+        <m:mtd>
+         <m:mrow />
+        </m:mtd>
+        <m:mtd>
+         <m:mrow />
+        </m:mtd>
+        <m:mtd>
+         <m:mrow />
+        </m:mtd>
+       </m:mtr>
+
+      </m:mtable>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>Rumus selisih untuk kosinus</m:mtext>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>                           </m:mtext><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mi>−</m:mi><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac>
+       <m:mrow>
+        <m:msqrt>
+         <m:mn>3</m:mn>
+        </m:msqrt>
+
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>Gunakan identitas sudut negatif</m:mtext><m:mo>.</m:mo>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow><m:mtext>                                  </m:mtext><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+       <m:mrow>
+        <m:msqrt>
+         <m:mn>3</m:mn>
+        </m:msqrt>
+
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow />
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation><para id="fs-id1186086">Dari lingkaran satuan di <link document="m49395" target-id="Figure_07_02_008" />, kita melihat bahwa <m:math>
+ <m:mrow><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msqrt>
+     <m:mn>3</m:mn>
+    </m:msqrt>
+
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+ </m:mrow>
+</m:math> saat <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>11</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para></solution>
+</exercise>
+</example>
+
+<example id="Example_07_05_15">
+<exercise id="fs-id1916902">
+<problem id="fs-id1916904">
+<title>Menyelesaikan Persamaan dengan Rumus Sudut Ganda</title>
+<para id="fs-id1916909">Selesaikan persamaan berikut secara eksak dengan rumus sudut ganda: <m:math>
+ <m:mrow>
+  <m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mspace width="0.5em" /><m:mi>θ</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id697866">
+
+
+<para id="fs-id697868">Kita memiliki tiga pilihan ekspresi untuk mengganti sudut ganda kosinus. Karena lebih sederhana menyelesaikan satu fungsi trigonometri pada satu waktu, kita memilih identitas sudut ganda yang hanya melibatkan kosinus:</para>
+<equation id="fs-id2070377" class="unnumbered"><label /> <m:math display="block">
+ <m:mrow>
+  <m:mtable columnalign="left">
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>                       </m:mtext><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>                 </m:mtext><m:mn>2</m:mn><m:msup>
+       <m:mrow>
+        <m:mi>cos</m:mi>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mi>θ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>     </m:mtext><m:mn>2</m:mn><m:mspace width="0.5em" /><m:msup>
+       <m:mrow>
+        <m:mi>cos</m:mi>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mi>θ</m:mi><m:mo>−</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mspace width="0.5em" /><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>                   </m:mtext><m:mn>2</m:mn><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>                            </m:mtext><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow />
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>                     </m:mtext><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>                            </m:mtext><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>1</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation><para id="fs-id2052787">Jadi, jika <m:math>
+ <m:mrow>
+  <m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo>
+ </m:mrow>
+</m:math> maka <m:math>
+ <m:mrow>
+  <m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mo>±</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>k</m:mi>
+ </m:mrow>
+</m:math> dan <m:math>
+ <m:mrow>
+  <m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>4</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mo>±</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>k</m:mi><m:mo>;</m:mo>
+ </m:mrow>
+</m:math> jika <m:math>
+ <m:mrow>
+  <m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> maka <m:math>
+ <m:mrow>
+  <m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>±</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>k</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para></solution>
+</exercise>
+</example>
+
+<example id="Example_07_05_16">
+<exercise id="fs-id2123696">
+<problem id="fs-id2123698">
+<title>Menyelesaikan Persamaan dengan Identitas</title>
+<para id="fs-id2123703">Selesaikan persamaan berikut secara eksak dengan identitas: <m:math>
+ <m:mrow>
+  <m:mn>3</m:mn><m:mspace width="0.5em" /><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace width="0.5em" /><m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>θ</m:mi><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>θ</m:mi><m:mo>&lt;</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id2131508">
+
+<para id="fs-id2131510">Jika ruas kanan ditulis ulang, kita dapat menyatakan persamaan dalam kosinus:</para>
+<equation id="fs-id3026861" class="unnumbered"><label /> <m:math display="block">
+    <m:mtable>
+     <m:mtr>
+      <m:mtd columnalign="right"><m:mn>3 cos</m:mn><m:mspace width="0.5em" /><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mtd>
+<m:mtd columnalign="left"><m:mo>=</m:mo><m:msup>          <m:mn>2 sin</m:mn>         <m:mn>2</m:mn></m:msup><m:mi>θ</m:mi></m:mtd>
+     </m:mtr>
+     <m:mtr>
+      <m:mtd columnalign="right"><m:mn>3 cos</m:mn><m:mspace width="0.5em" /><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mtd>
+<m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:msup><m:mtext>cos</m:mtext><m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo>
+      </m:mtd>
+     </m:mtr>
+     <m:mtr>
+      <m:mtd columnalign="right"><m:mn>3 cos</m:mn><m:mspace width="0.5em" /><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mtd>
+<m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:msup><m:mi>cos</m:mi><m:mn>2</m:mn></m:msup>       <m:mi>θ</m:mi>      </m:mtd>
+     </m:mtr>
+     <m:mtr>
+      <m:mtd columnalign="right"><m:mn>2</m:mn><m:mspace width="0.5em" /><m:msup><m:mi>cos</m:mi><m:mn>2</m:mn></m:msup><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>3 cos</m:mn><m:mspace width="0.5em" /><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mtd>
+<m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>0</m:mn>
+      </m:mtd>
+     </m:mtr>
+     <m:mtr>
+      <m:mtd columnalign="right">
+        <m:mo stretchy="false">(</m:mo><m:mn>2 cos</m:mn><m:mspace width="0.5em" /><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mtd>
+<m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>0</m:mn>
+      </m:mtd>
+     </m:mtr>
+     <m:mtr>
+      <m:mtd columnalign="right"><m:mn>2 cos</m:mn><m:mspace width="0.5em" /><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mtd>
+<m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>0</m:mn>
+      </m:mtd>
+     </m:mtr>
+     <m:mtr>
+      <m:mtd columnalign="right"><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi></m:mtd>
+<m:mtd columnalign="left"><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac> <m:mn>1</m:mn> <m:mn>2</m:mn> </m:mfrac>      </m:mtd>
+     </m:mtr>
+     <m:mtr>
+      <m:mtd columnalign="right"><m:mi>θ</m:mi></m:mtd>
+<m:mtd columnalign="left"><m:mo>=</m:mo><m:mfrac>
+         <m:mrow>
+          <m:mn>2</m:mn><m:mi>π</m:mi>
+         </m:mrow>
+         <m:mn>3</m:mn>
+        </m:mfrac>
+        <m:mo>,</m:mo><m:mfrac>
+         <m:mrow>
+          <m:mn>4</m:mn><m:mi>π</m:mi>
+         </m:mrow>
+         <m:mn>3</m:mn>
+        </m:mfrac>      </m:mtd>
+     </m:mtr>
+     <m:mtr>
+      <m:mtd columnalign="right"><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mtd>
+<m:mtd columnalign="left"><m:mo>=</m:mo><m:mn>0</m:mn>      </m:mtd>
+     </m:mtr>
+     <m:mtr>
+      <m:mtd columnalign="right">
+      <m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi></m:mtd>
+<m:mtd columnalign="left"><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>1</m:mn>      </m:mtd>
+     </m:mtr>
+     <m:mtr>
+      <m:mtd columnalign="right">
+       <m:mi>θ</m:mi></m:mtd>
+<m:mtd columnalign="left"><m:mo>=</m:mo><m:mi>π</m:mi> </m:mtd>
+     </m:mtr>
+    </m:mtable></m:math> </equation><para id="fs-id3483085">Solusi-solusi kita adalah <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>4</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mi>π</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para></solution>
+
+</exercise>
+</example>
+
+</section>
+
+<section id="fs-id1518803">
+<title>Menyelesaikan Persamaan Trigonometri dengan Sudut Kelipatan</title>
+<para id="fs-id1518808">Kadang-kadang persamaan trigonometri yang memuat sudut kelipatan tidak dapat diselesaikan dengan identitas, misalnya <m:math>
+ <m:mrow>
+  <m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>x</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> atau <m:math>
+ <m:mrow>
+  <m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>3</m:mn><m:mi>x</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Ketika menghadapi persamaan seperti ini, ingat bahwa <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>x</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math> adalah <term class="no-emphasis" id="term-00005">pemampatan horizontal</term> dengan faktor 2 terhadap fungsi <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Pada interval <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>π</m:mi><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> kita dapat menggambar dua periode dari <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>x</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> dibandingkan dengan satu siklus dari <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Pemampatan grafik ini menunjukkan bahwa mungkin terdapat dua kali lebih banyak <emphasis effect="italics">titik potong sumbu x</emphasis> atau solusi untuk <m:math>
+ <m:mrow>
+  <m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>x</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math> dibandingkan dengan <m:math>
+ <m:mrow>
+  <m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0.</m:mn>
+ </m:mrow>
+</m:math> Informasi ini akan membantu kita memecahkan persamaan.</para><example id="Example_07_05_17">
+<exercise id="fs-id2223187">
+<problem id="fs-id2223189">
+<title>Menyelesaikan Persamaan Trigonometri Sudut Kelipatan</title>
+<para id="fs-id2223194">Selesaikan secara eksak: <m:math>
+ <m:mrow>
+  <m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>x</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> pada <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>[</m:mo> <m:mrow>
+   <m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mi>π</m:mi>
+  </m:mrow> <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para>
+</problem>
+<solution id="fs-id2740923">
+
+<para id="fs-id2740926">Kita dapat melihat bahwa ini adalah persamaan standar yang memuat kelipatan sudut. Jika <m:math>
+ <m:mrow>
+  <m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>α</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo>
+ </m:mrow>
+</m:math> kita mengetahui bahwa <m:math>
+ <m:mrow>
+  <m:mi>α</m:mi>
+ </m:mrow>
+</m:math> berada di kuadran I dan IV. Sementara <m:math>
+ <m:mrow>
+  <m:mi>θ</m:mi><m:mo>=</m:mo><m:msup>
+   <m:mrow>
+    <m:mi>cos</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> hanya menghasilkan solusi di kuadran I dan II, sedangkan kita mengetahui bahwa solusi persamaan <m:math>
+ <m:mrow>
+  <m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> akan berada di kuadran I dan IV.</para><para id="fs-id3162261">Oleh karena itu, sudut-sudut yang mungkin adalah <m:math>
+ <m:mrow>
+  <m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> dan <m:math>
+ <m:mrow>
+  <m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>5</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Jadi, <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> atau <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>5</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo>
+ </m:mrow>
+</m:math> yang berarti bahwa <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> atau <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>5</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Apakah hasil ini masuk akal? Ya, karena <m:math>
+ <m:mrow>
+  <m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mfrac>
+       <m:mi>π</m:mi>
+       <m:mn>6</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mi>π</m:mi>
+     <m:mn>3</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para><para id="fs-id1966562">Adakah jawaban lain yang mungkin? Mari kembali ke langkah pertama.</para>
+<para id="fs-id1966566">Di kuadran I, <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo>
+ </m:mrow>
+</m:math> sehingga <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> seperti telah dicatat. Mari kita berputar sekali lagi mengelilingi lingkaran:</para>
+<equation id="fs-id1893406" class="unnumbered"><label /> <m:math>
+ <m:mrow>
+  <m:mtable columnalign="left">
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow />
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>2</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+       <m:mi>π</m:mi>
+       <m:mn>3</m:mn>
+      </m:mfrac>
+      <m:mo>+</m:mo><m:mn>2</m:mn><m:mi>π</m:mi>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>    </m:mtext><m:mo>=</m:mo><m:mfrac>
+       <m:mi>π</m:mi>
+       <m:mn>3</m:mn>
+      </m:mfrac>
+      <m:mo>+</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mn>6</m:mn><m:mi>π</m:mi>
+       </m:mrow>
+       <m:mn>3</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>    </m:mtext><m:mo>=</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mn>7</m:mn><m:mi>π</m:mi>
+       </m:mrow>
+       <m:mn>3</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation><para id="fs-id3511391">Jadi <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>7</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para>
+<para id="fs-id1805664">Satu putaran lagi menghasilkan</para>
+<equation id="fs-id1805667" class="unnumbered"><label /> <m:math>
+ <m:mrow>
+  <m:mtable columnalign="left">
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mtable columnalign="left">
+      <m:mtr>
+       <m:mtd>
+        <m:mrow />
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd>
+        <m:mn>2</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+         <m:mi>π</m:mi>
+         <m:mn>3</m:mn>
+        </m:mfrac>
+        <m:mo>+</m:mo><m:mn>4</m:mn><m:mi>π</m:mi>
+       </m:mtd>
+      </m:mtr>
+     </m:mtable>
+
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>    </m:mtext><m:mo>=</m:mo><m:mfrac>
+       <m:mi>π</m:mi>
+       <m:mn>3</m:mn>
+      </m:mfrac>
+      <m:mo>+</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mn>12</m:mn><m:mi>π</m:mi>
+       </m:mrow>
+       <m:mn>3</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>    </m:mtext><m:mo>=</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mn>13</m:mn><m:mi>π</m:mi>
+       </m:mrow>
+       <m:mn>3</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation><para id="fs-id3654355"> <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>13</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+  <m:mo>&gt;</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> sehingga nilai <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi>
+ </m:mrow>
+</m:math> ini lebih besar dari <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>π</m:mi><m:mo>,</m:mo>
+ </m:mrow>
+</m:math>, sehingga bukan solusi pada <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>[</m:mo> <m:mrow>
+   <m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mi>π</m:mi>
+  </m:mrow> <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para><para id="fs-id2748825">Di kuadran IV, <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>5</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo>
+ </m:mrow>
+</m:math> sehingga <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>5</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> seperti telah dicatat. Mari kita berputar sekali lagi mengelilingi lingkaran:</para>
+<equation id="fs-id1154337" class="unnumbered"><label /> <m:math>
+ <m:mrow>
+  <m:mtable columnalign="left">
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>2</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mn>5</m:mn><m:mi>π</m:mi>
+       </m:mrow>
+       <m:mn>3</m:mn>
+      </m:mfrac>
+      <m:mo>+</m:mo><m:mn>2</m:mn><m:mi>π</m:mi>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>    </m:mtext><m:mo>=</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mn>5</m:mn><m:mi>π</m:mi>
+       </m:mrow>
+       <m:mn>3</m:mn>
+      </m:mfrac>
+      <m:mo>+</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mn>6</m:mn><m:mi>π</m:mi>
+       </m:mrow>
+       <m:mn>3</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>    </m:mtext><m:mo>=</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mn>11</m:mn><m:mi>π</m:mi>
+       </m:mrow>
+       <m:mn>3</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation>
+<para id="fs-id2123784">Jadi <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>11</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para>
+<para id="fs-id2123818">Satu putaran lagi menghasilkan</para>
+<equation id="fs-id2123822" class="unnumbered"><label /> <m:math>
+ <m:mrow>
+  <m:mtable columnalign="left">
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mn>2</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mn>5</m:mn><m:mi>π</m:mi>
+       </m:mrow>
+       <m:mn>3</m:mn>
+      </m:mfrac>
+      <m:mo>+</m:mo><m:mn>4</m:mn><m:mi>π</m:mi>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>    </m:mtext><m:mo>=</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mn>5</m:mn><m:mi>π</m:mi>
+       </m:mrow>
+       <m:mn>3</m:mn>
+      </m:mfrac>
+      <m:mo>+</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mn>12</m:mn><m:mi>π</m:mi>
+       </m:mrow>
+       <m:mn>3</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>    </m:mtext><m:mo>=</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mn>17</m:mn><m:mi>π</m:mi>
+       </m:mrow>
+       <m:mn>3</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation><para id="fs-id1217412"> <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>17</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+  <m:mo>&gt;</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> sehingga nilai <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi>
+ </m:mrow>
+</m:math> ini lebih besar dari <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>π</m:mi><m:mo>,</m:mo>
+ </m:mrow>
+</m:math>, sehingga bukan solusi pada <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>[</m:mo> <m:mrow>
+   <m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mi>π</m:mi>
+  </m:mrow> <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para><para id="fs-id1676669">Solusi-solusi kita adalah <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>5</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>7</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mtext>dan </m:mtext><m:mfrac>
+   <m:mrow>
+    <m:mn>11</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+  <m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Perhatikan bahwa setiap kali menyelesaikan soal berbentuk <m:math>
+ <m:mrow>
+  <m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>n</m:mi><m:mi>x</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>c</m:mi><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> kita harus mengelilingi lingkaran satuan <m:math>
+ <m:mrow>
+  <m:mi>n</m:mi>
+ </m:mrow>
+</m:math> kali.</para></solution>
+
+</exercise>
+</example>
+
+</section>
+
+<section id="fs-id1401253">
+<title>Menyelesaikan Masalah Segitiga Siku-Siku</title>
+<para id="fs-id1401258">Sekarang kita dapat menggunakan semua metode yang telah dipelajari untuk menyelesaikan masalah yang menerapkan sifat-sifat segitiga siku-siku dan <term class="no-emphasis" id="term-00006">Teorema Pythagoras</term>. Kita mulai dengan Teorema Pythagoras yang telah dikenal, <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mi>a</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>+</m:mo><m:msup>
+   <m:mi>b</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>=</m:mo><m:msup>
+   <m:mi>c</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>,</m:mo>
+ </m:mrow>
+</m:math> dan membentuk persamaan yang sesuai dengan situasi tersebut.</para><example id="Example_07_05_18"><exercise id="fs-id2638947">
+<problem id="fs-id2638949">
+<title>Menggunakan Teorema Pythagoras untuk Memodelkan Persamaan</title>
+<para id="fs-id2638954">Gunakan Teorema Pythagoras dan sifat-sifat segitiga siku-siku untuk membentuk persamaan yang sesuai dengan soal.</para>
+<para id="fs-id2638958">Salah satu kabel yang menambatkan pusat bianglala London Eye ke tanah harus diganti. Pusat bianglala berada 69,5 meter di atas tanah, dan titik jangkar kedua di tanah berjarak 23 meter dari kaki bianglala. Kira-kira berapa panjang kabel tersebut, dan berapa sudut elevasinya (dari tanah menuju pusat bianglala)? Lihat <link target-id="Figure_07_05_002" />.</para>
+
+<figure id="Figure_07_05_002" class="small"><media id="fs-id1187455" alt="Diagram dasar sebuah bianglala (lingkaran) dan kabel-kabel penyangganya (membentuk segitiga siku-siku). Satu kabel membentang dari pusat lingkaran ke tanah (di luar lingkaran), tegak lurus terhadap tanah, dan panjangnya 69,5. Kabel lain yang panjangnya belum diketahui (hipotenusa) membentang dari pusat lingkaran ke tanah, 23 kaki dari kabel pertama, dan membentuk sudut theta terhadap tanah. Jadi, terbentuk segitiga siku-siku dengan alas 23, tinggi 69,5, hipotenusa belum diketahui, serta sudut theta antara alas dan hipotenusa.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_07_05_002.jpg" />
+</media>
+</figure></problem>
+<solution id="fs-id1187466">
+
+
+<para id="fs-id1187468">Dengan informasi yang diberikan, kita dapat menggambar segitiga siku-siku. Panjang kabel dapat ditentukan dengan Teorema Pythagoras.</para>
+<equation id="fs-id1187472" class="unnumbered"><label /> <m:math display="block">
+ <m:mrow>
+  <m:mtable columnalign="left">
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow />
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtable columnalign="left">
+       <m:mtr columnalign="left">
+        <m:mtd columnalign="left">
+         <m:mrow>
+          <m:mtable columnalign="left">
+           <m:mtr columnalign="left">
+            <m:mtd columnalign="left">
+             <m:mrow />
+            </m:mtd>
+           </m:mtr>
+           <m:mtr columnalign="left">
+            <m:mtd columnalign="left">
+             <m:mrow>
+              <m:mtext>            </m:mtext><m:msup>
+               <m:mi>a</m:mi>
+               <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo><m:msup>
+               <m:mi>b</m:mi>
+               <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>=</m:mo><m:msup>
+               <m:mi>c</m:mi>
+               <m:mn>2</m:mn>
+              </m:msup>
+
+             </m:mrow>
+            </m:mtd>
+           </m:mtr>
+
+          </m:mtable>
+         </m:mrow>
+        </m:mtd>
+       </m:mtr>
+       <m:mtr columnalign="left">
+        <m:mtd columnalign="left">
+         <m:mrow>
+          <m:msup>
+           <m:mrow>
+            <m:mo stretchy="false">(</m:mo><m:mn>23</m:mn><m:mo stretchy="false">)</m:mo>
+           </m:mrow>
+           <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo><m:msup>
+           <m:mrow>
+            <m:mo stretchy="false">(</m:mo><m:mn>69.5</m:mn><m:mo stretchy="false">)</m:mo>
+           </m:mrow>
+           <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>≈</m:mo><m:mn>5359</m:mn>
+         </m:mrow>
+        </m:mtd>
+       </m:mtr>
+       <m:mtr columnalign="left">
+        <m:mtd columnalign="left">
+         <m:mrow>
+          <m:mtext>               </m:mtext><m:msqrt>
+           <m:mrow>
+            <m:mn>5359</m:mn>
+           </m:mrow>
+          </m:msqrt>
+          <m:mo>≈</m:mo><m:mn>73.2</m:mn><m:mtext> m</m:mtext>
+         </m:mrow>
+        </m:mtd>
+       </m:mtr>
+
+      </m:mtable>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation><para id="fs-id1112183">Sudut elevasinya adalah <m:math>
+ <m:mrow>
+  <m:mi>θ</m:mi><m:mo>,</m:mo>
+ </m:mrow>
+</m:math> yang dibentuk oleh titik jangkar kedua di tanah dan kabel yang menuju pusat bianglala. Kita dapat menggunakan fungsi tangen untuk menentukan ukurannya. Bulatkan hingga dua tempat desimal.</para>
+<equation id="fs-id1112201" class="unnumbered"><label /> <m:math display="block">
+ <m:mrow>
+  <m:mtable columnalign="left">
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow />
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>              </m:mtext><m:mi>tan</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mn>69.5</m:mn>
+       </m:mrow>
+       <m:mrow>
+        <m:mn>23</m:mn>
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow />
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow />
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:msup>
+       <m:mrow>
+        <m:mi>tan</m:mi>
+       </m:mrow>
+       <m:mrow>
+        <m:mo>−</m:mo><m:mn>1</m:mn>
+       </m:mrow>
+      </m:msup>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mfrac>
+         <m:mrow>
+          <m:mn>69.5</m:mn>
+         </m:mrow>
+         <m:mrow>
+          <m:mn>23</m:mn>
+         </m:mrow>
+        </m:mfrac>
+
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mo>≈</m:mo><m:mn>1.2522</m:mn>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>                    </m:mtext><m:mo>≈</m:mo><m:msup>
+       <m:mrow>
+        <m:mn>71.69</m:mn>
+       </m:mrow>
+       <m:mo>∘</m:mo>
+      </m:msup>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation><para id="fs-id1185825">Sudut elevasinya kira-kira <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mn>71.7</m:mn>
+   </m:mrow>
+   <m:mo>∘</m:mo>
+  </m:msup>
+  <m:mo>,</m:mo>
+ </m:mrow>
+</m:math> dan panjang kabel adalah 73,2 meter.</para></solution>
+</exercise>
+</example><example id="Example_07_05_19"><exercise id="fs-id1739568">
+<problem id="fs-id1739570">
+<title>Menggunakan Teorema Pythagoras untuk Memodelkan Masalah Abstrak</title>
+<para id="fs-id1739575">Peraturan keselamatan OSHA mengharuskan kaki tangga ditempatkan 1 kaki dari dinding untuk setiap 4 kaki panjang tangga. Tentukan sudut yang dibentuk tangga dengan tanah, berapa pun panjang tangga itu, serta tinggi titik tempat tangga menyentuh dinding.</para>
+</problem>
+<solution id="fs-id1739582">
+
+<para id="fs-id1739584">Untuk tangga dengan panjang berapa pun, jarak kaki tangga dari dinding harus sama dengan seperempat panjang tangga. Dengan kata lain, jika kaki tangga berjarak “<emphasis effect="italics">a”</emphasis> kaki dari dinding, panjang tangga adalah 4<emphasis effect="italics">a</emphasis> kaki. Lihat <link target-id="Figure_07_05_003" />.</para>
+
+<figure id="Figure_07_05_003" class="small"><media id="fs-id1739605" alt="Diagram segitiga siku-siku dengan panjang alas a, tinggi b, dan panjang hipotenusa 4a. Di hadapan sisi tegak terdapat sudut theta, sedangkan di hadapan hipotenusa terdapat sudut 90 derajat.">
+<image mime-type="image/jpg" src="../../media/CNX_Precalc_Figure_07_05_003.jpg" />
+</media>
+</figure><para id="fs-id1739615">Sisi yang berdekatan dengan <m:math>
+ <m:mrow>
+  <m:mi>θ</m:mi>
+ </m:mrow>
+</m:math> adalah <emphasis effect="italics">a </emphasis>dan hipotenusa adalah <m:math>
+ <m:mrow>
+  <m:mn>4</m:mn><m:mi>a</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Oleh karena itu,</para>
+<equation id="fs-id2846620" class="unnumbered"><label /> <m:math display="block">
+ <m:mrow>
+  <m:mtable columnalign="left">
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>        </m:mtext><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac>
+       <m:mi>a</m:mi>
+       <m:mrow>
+        <m:mn>4</m:mn><m:mi>a</m:mi>
+       </m:mrow>
+      </m:mfrac>
+      <m:mo>=</m:mo><m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mn>4</m:mn>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:msup>
+       <m:mrow>
+        <m:mi>cos</m:mi>
+       </m:mrow>
+       <m:mrow>
+        <m:mo>−</m:mo><m:mn>1</m:mn>
+       </m:mrow>
+      </m:msup>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mn>4</m:mn>
+        </m:mfrac>
+
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mo>≈</m:mo><m:msup>
+       <m:mrow>
+        <m:mn>75.5</m:mn>
+       </m:mrow>
+       <m:mo>∘</m:mo>
+      </m:msup>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation>
+<para id="fs-id3523522">Kemiringan tangga membentuk sudut <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mn>75.5</m:mn>
+   </m:mrow>
+   <m:mo>∘</m:mo>
+  </m:msup>
+
+ </m:mrow>
+</m:math> terhadap tanah. Tinggi titik tempat tangga menyentuh dinding dapat ditentukan dengan Teorema Pythagoras:</para>
+<equation id="fs-id1789882" class="unnumbered"><label /> <m:math display="block">
+ <m:mrow>
+  <m:mtable columnalign="left">
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:msup>
+       <m:mi>a</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>+</m:mo><m:msup>
+       <m:mi>b</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>=</m:mo><m:msup>
+       <m:mrow>
+        <m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mo stretchy="false">)</m:mo>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>        </m:mtext><m:msup>
+       <m:mi>b</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>=</m:mo><m:msup>
+       <m:mrow>
+        <m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mo stretchy="false">)</m:mo>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>−</m:mo><m:msup>
+       <m:mi>a</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>        </m:mtext><m:msup>
+       <m:mi>b</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>=</m:mo><m:mn>16</m:mn><m:msup>
+       <m:mi>a</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>−</m:mo><m:msup>
+       <m:mi>a</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>        </m:mtext><m:msup>
+       <m:mi>b</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>=</m:mo><m:mn>15</m:mn><m:msup>
+       <m:mi>a</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr columnalign="left">
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>          </m:mtext><m:mi>b</m:mi><m:mo>=</m:mo><m:msqrt>
+       <m:mrow>
+        <m:mn>15</m:mn>
+       </m:mrow>
+      </m:msqrt>
+      <m:mi>a</m:mi>
+     </m:mrow>
+    </m:mtd>
+   </m:mtr>
+
+  </m:mtable>
+ </m:mrow>
+</m:math>
+</equation><para id="fs-id3704663">Dengan demikian, tangga menyentuh dinding pada ketinggian <m:math>
+ <m:mrow>
+  <m:msqrt>
+   <m:mrow>
+    <m:mn>15</m:mn>
+   </m:mrow>
+  </m:msqrt>
+  <m:mi>a</m:mi>
+ </m:mrow>
+</m:math> kaki dari tanah.</para>
+</solution>
+
+</exercise>
+</example><note id="fs-id2267036" class="precalculus media media-notitle">
+<label>Media</label>
+<para id="fs-id2267042">Akses sumber daya daring berikut untuk memperoleh penjelasan dan latihan tambahan tentang penyelesaian persamaan trigonometri.</para>
+
+<list id="fs-id2267047" list-type="bulleted"><item><link url="https://openstax.org/l/solvetrigeqI">Menyelesaikan Persamaan Trigonometri I</link></item>
+<item><link url="https://openstax.org/l/solvetrigeqII">Menyelesaikan Persamaan Trigonometri II</link></item>
+<item><link url="https://openstax.org/l/solvetrigeqIII">Menyelesaikan Persamaan Trigonometri III</link></item>
+<item><link url="https://openstax.org/l/solvetrigeqIV">Menyelesaikan Persamaan Trigonometri IV</link></item>
+<item><link url="https://openstax.org/l/solvetrigeqV">Menyelesaikan Persamaan Trigonometri V</link></item>
+<item><link url="https://openstax.org/l/solvetrigeqVI">Menyelesaikan Persamaan Trigonometri VI</link></item>
+</list></note>
+</section>
+<section id="fs-id2267085" class="key-concepts">
+<title>Konsep-Konsep Utama</title>
+<list id="fs-id2267091" list-type="bulleted">
+<item>Ketika menyelesaikan persamaan trigonometri linear, kita dapat menggunakan teknik aljabar seperti ketika menyelesaikan persamaan aljabar. Carilah pola seperti selisih kuadrat, bentuk kuadrat, atau ekspresi yang sesuai untuk substitusi. Lihat <link target-id="Example_07_05_01" />, <link target-id="Example_07_05_02" />, dan <link target-id="Example_07_05_03" />.</item>
+<item>Persamaan yang melibatkan satu fungsi trigonometri dapat diselesaikan atau diverifikasi dengan lingkaran satuan. Lihat <link target-id="Example_07_05_04" />, <link target-id="Example_07_05_05" />, dan <link target-id="Example_07_05_06" />, dan <link target-id="Example_07_05_07" />.</item>
+<item>Kita juga dapat menyelesaikan persamaan trigonometri dengan kalkulator grafik. Lihat <link target-id="Example_07_05_08" /> dan <link target-id="Example_07_05_09" />.</item>
+<item>Banyak persamaan tampak berbentuk kuadrat. Kita dapat menggunakan substitusi agar persamaan tampak lebih sederhana, lalu menggunakan teknik yang sama seperti ketika menyelesaikan persamaan kuadrat aljabar: pemfaktoran, rumus kuadrat, dan sebagainya. Lihat <link target-id="Example_07_05_10" />, <link target-id="Example_07_05_11" />, <link target-id="Example_07_05_12" />, dan <link target-id="Example_07_05_13" />.</item>
+<item>Kita juga dapat menggunakan identitas untuk menyelesaikan persamaan trigonometri. Lihat <link target-id="Example_07_05_14" />, <link target-id="Example_07_05_15" />, dan <link target-id="Example_07_05_16" />.</item>
+<item>Kita dapat menggunakan substitusi untuk menyelesaikan persamaan trigonometri sudut kelipatan, yang merupakan pemampatan fungsi trigonometri standar. Pemampatan tersebut harus diperhitungkan dan kita perlu memverifikasi bahwa semua solusi pada interval yang diberikan telah ditemukan. Lihat <link target-id="Example_07_05_17" />.</item>
+<item>Skenario dunia nyata dapat dimodelkan dan diselesaikan menggunakan Teorema Pythagoras dan fungsi trigonometri. Lihat <link target-id="Example_07_05_18" />.</item>
+</list>
+</section>
+
+<section id="fs-id1869641" class="section-exercises">
+<title>Latihan Bagian</title>
+<section id="fs-id1869645">
+<title>Verbal</title>
+<exercise id="fs-id2188996"><problem id="fs-id2188997"><para id="fs-id2188998">Apakah persamaan fungsi trigonometri selalu memiliki solusi? Jika tidak, berikan contoh persamaan yang tidak memiliki solusi. Jelaskan alasannya.</para></problem>
+<solution id="fs-id2189002"><para id="fs-id2189003">Tidak akan selalu ada solusi untuk persamaan fungsi trigonometri. Sebagai contoh dasar, <m:math>
+ <m:mrow>
+  <m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>−5.</m:mn>
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id2189033"><problem id="fs-id2189034"><para id="fs-id2189035">Ketika menyelesaikan persamaan trigonometri yang melibatkan lebih dari satu fungsi trigonometri, apakah kita harus selalu mencoba menulis ulang persamaan agar dinyatakan dalam satu fungsi trigonometri? Mengapa atau mengapa tidak?</para></problem></exercise>
+<exercise id="fs-id2189040"><problem id="fs-id2189042"><para id="fs-id2189043">Ketika menyelesaikan persamaan trigonometri linear yang hanya memuat sinus atau kosinus, bagaimana kita mengetahui apakah persamaan tersebut memiliki solusi?</para></problem>
+<solution id="fs-id2189047"><para id="fs-id2189048">Jika fungsi sinus atau kosinus memiliki koefisien satu, isolasikan suku itu pada salah satu ruas tanda sama dengan. Jika nilai mutlak bilangan pada ruas lainnya kurang dari atau sama dengan satu, persamaan memiliki solusi; jika tidak, persamaan tidak memiliki solusi. Jika koefisien sinus atau kosinus tidak sama dengan satu, tetap isolasikan sukunya lalu bagi kedua ruas persamaan dengan koefisien tersebut. Kemudian, jika nilai mutlak bilangan pada ruas lainnya lebih besar dari satu, persamaan tidak memiliki solusi.</para></solution></exercise>
+
+</section>
+<section id="fs-id2189057">
+<title>Aljabar</title>
+<para id="fs-id2189062">Untuk latihan berikut, tentukan semua solusi secara eksak pada interval <m:math>
+ <m:mrow>
+  <m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>θ</m:mi><m:mo>&lt;</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para>
+<exercise id="fs-id1956710"><problem id="fs-id1956711"><para id="fs-id1956712"> <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>−</m:mn><m:msqrt>
+   <m:mn>2</m:mn>
+  </m:msqrt>
+
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id1956737"><problem id="fs-id1956738"><para id="fs-id1956740"> <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:msqrt>
+   <m:mn>3</m:mn>
+  </m:msqrt>
+
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1956763"><para id="fs-id1956764"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id1581304"><problem id="fs-id1581305"><para id="fs-id1581306"> <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>1</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id1581326"><problem id="fs-id1581327"><para id="fs-id1581328"> <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>−</m:mn><m:msqrt>
+   <m:mn>2</m:mn>
+  </m:msqrt>
+
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1581354"><para id="fs-id1581355"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>3</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>4</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>5</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>4</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id1757348"><problem id="fs-id1757349"><para id="fs-id1757350"> <m:math>
+ <m:mrow>
+  <m:mi>tan</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id1757370"><problem id="fs-id1757371"><para id="fs-id1757372"> <m:math>
+ <m:mrow>
+  <m:mi>tan</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1757391"><para id="fs-id1757392"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>4</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>5</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>4</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id1478153"><problem id="fs-id1478154"><para id="fs-id1478155"> <m:math>
+ <m:mrow>
+  <m:mi>cot</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id1478178"><problem id="fs-id1478179"><para id="fs-id1478180"> <m:math>
+ <m:mrow>
+  <m:mn>4</m:mn><m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1478215"><para id="fs-id1478216"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>4</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>3</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>4</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>5</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>4</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>7</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>4</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id2338975"><problem id="fs-id2338976"><para id="fs-id2338977"> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mi>csc</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+
+<para id="fs-id1977608">Untuk latihan berikut, selesaikan secara eksak pada <m:math>
+ <m:mrow>
+  <m:mo stretchy="false">[</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para>
+<exercise id="fs-id1977637"><problem id="fs-id1977638"><para id="fs-id1977640"> <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:msqrt>
+   <m:mn>2</m:mn>
+  </m:msqrt>
+
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1977664"><para id="fs-id1977665"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>4</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>7</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>4</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id1977700"><problem id="fs-id1977701"><para id="fs-id1977702"> <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id1478021"><problem id="fs-id1478022"><para id="fs-id1478024"> <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>−1</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1478046"><para id="fs-id1478047"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>7</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>11</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id1478088"><problem id="fs-id1478089"><para id="fs-id1478090"> <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>−</m:mn><m:msqrt>
+   <m:mn>3</m:mn>
+  </m:msqrt>
+
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id1794563"><problem id="fs-id1794564"><para id="fs-id1794565"> <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>3</m:mn><m:mi>θ</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1794598"><para id="fs-id1794599"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mrow>
+    <m:mn>18</m:mn>
+   </m:mrow>
+  </m:mfrac>
+</m:mrow></m:math>, <m:math><m:mfrac>
+   <m:mrow>
+    <m:mn>5</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>18</m:mn>
+   </m:mrow>
+  </m:mfrac>
+</m:math>, <m:math><m:mfrac>
+   <m:mrow>
+    <m:mn>13</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>18</m:mn>
+   </m:mrow>
+ </m:mfrac></m:math>, <m:math><m:mfrac>
+   <m:mrow>
+    <m:mn>17</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>18</m:mn>
+   </m:mrow>
+  </m:mfrac>
+</m:math>, <m:math><m:mfrac>
+   <m:mrow>
+    <m:mn>25</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>18</m:mn>
+   </m:mrow>
+  </m:mfrac>
+</m:math>, <m:math><m:mfrac>
+   <m:mrow>
+    <m:mn>29</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>18</m:mn>
+   </m:mrow>
+  </m:mfrac>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id3490890"><problem id="fs-id3490891"><para id="fs-id3490892"> <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>θ</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt>
+   <m:mn>3</m:mn>
+  </m:msqrt>
+
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id1860552"><problem id="fs-id1860553"><para id="fs-id1860554"> <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>3</m:mn><m:mi>θ</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>−</m:mo><m:msqrt>
+   <m:mn>2</m:mn>
+  </m:msqrt>
+
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1860592"><para id="fs-id1860593"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>3</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>12</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>5</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>12</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>11</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>12</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>13</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>12</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>19</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>12</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>21</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>12</m:mn>
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math> </para></solution>
+</exercise>
+<exercise id="fs-id2253557"><problem id="fs-id2253558"><para id="fs-id2253559"> <m:math>
+ <m:mrow>
+  <m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>θ</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+   <m:mrow>
+    <m:msqrt>
+     <m:mn>3</m:mn>
+    </m:msqrt>
+
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id2271373"><problem id="fs-id2271374"><para id="fs-id2271375"> <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>π</m:mi><m:mi>θ</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id2271408"><para id="fs-id2271410"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mn>5</m:mn>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>13</m:mn>
+   </m:mrow>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>17</m:mn>
+   </m:mrow>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>25</m:mn>
+   </m:mrow>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>29</m:mn>
+   </m:mrow>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>37</m:mn>
+   </m:mrow>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id1880680"><problem id="fs-id1880681"><para id="fs-id1880682"> <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mspace width="0.5em" /><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mi>π</m:mi>
+     <m:mn>5</m:mn>
+    </m:mfrac>
+    <m:mi>θ</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msqrt>
+   <m:mn>3</m:mn>
+  </m:msqrt>
+
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+
+<para id="fs-id1477710">Untuk latihan berikut, carilah semua solusi eksak pada <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>[</m:mo> <m:mrow>
+   <m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mi>π</m:mi>
+  </m:mrow> <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para>
+<exercise id="fs-id1477744"><problem id="fs-id1477745"><para id="fs-id1477746"> <m:math>
+ <m:mrow>
+  <m:mi>sec</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mspace width="0.5em" /><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id3627009"><para id="fs-id3627010"> <m:math>
+ <m:mrow>
+  <m:mn>0</m:mn><m:mo>,</m:mo><m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mi>π</m:mi><m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>5</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id3627055"><problem id="fs-id3627056"><para id="fs-id3627057"> <m:math>
+ <m:mrow>
+  <m:mi>tan</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mspace width="0.5em" /><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>tan</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id2505431"><problem id="fs-id2505432"><para id="fs-id2505433"> <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mspace width="0.5em" /><m:msup>
+   <m:mrow>
+    <m:mi>cos</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>t</m:mi><m:mo>+</m:mo><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mi>t</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id2505478"><para id="fs-id2505479"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mi>π</m:mi><m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>5</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id2505519" class="material-set-2"><problem id="fs-id2505520"><para id="fs-id2505521"> <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mspace width="0.5em" /><m:msup>
+   <m:mrow>
+    <m:mi>tan</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn><m:mspace width="0.5em" /><m:mi>sec</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id1477862" class="material-set-2"><problem id="fs-id1477863"><para id="fs-id1477864"> <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mspace width="0.5em" /><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>2</m:mn><m:mspace width="0.5em" /><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1961630"><para id="fs-id1961631"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>3</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>5</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id1961683"><problem id="fs-id1961684"><para id="fs-id1961685"> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mi>cos</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>θ</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id1961721"><problem id="fs-id1961722"><para id="fs-id1961723"> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mi>sec</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id2894453"><para id="fs-id2894454"> <m:math>
+ <m:mrow>
+  <m:mn>0</m:mn><m:mo>,</m:mo><m:mi>π</m:mi>
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id2894470"><problem id="fs-id2894471"><para id="fs-id2894472"> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mi>tan</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mi>x</m:mi>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mspace width="0.5em" /><m:mi>tan</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mi>x</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id2894532"><problem id="fs-id2894533"><para id="fs-id2894534"> <m:math>
+ <m:mrow>
+  <m:mn>8</m:mn><m:mspace width="0.5em" /><m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>6</m:mn><m:mspace width="0.5em" /><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id2047166"><para id="fs-id2047167"> <m:math>
+ <m:mrow>
+  <m:mi>π</m:mi><m:mo>−</m:mo><m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>4</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>7</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>11</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo>+</m:mo><m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>4</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id1598831"><problem id="fs-id1598832"><para id="fs-id1598834"> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mi>tan</m:mi>
+   </m:mrow>
+   <m:mn>5</m:mn>
+  </m:msup>
+  <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>tan</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+
+<para id="fs-id2259162">Untuk latihan berikut, gunakan metode-metode yang ditunjukkan dalam bagian ini untuk menyelesaikan secara eksak pada interval <m:math>
+ <m:mrow>
+  <m:mo stretchy="false">[</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para>
+<exercise id="fs-id2259191" class="material-set-2"><problem id="fs-id2259192"><para id="fs-id2259194"> <m:math>
+ <m:mrow>
+  <m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>−0.9</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id2880279"><para id="fs-id2880280"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msup>
+     <m:mrow>
+      <m:mi>sin</m:mi>
+     </m:mrow>
+     <m:mrow>
+      <m:mo>−</m:mo><m:mn>1</m:mn>
+     </m:mrow>
+    </m:msup>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mfrac>
+       <m:mn>9</m:mn>
+       <m:mrow>
+        <m:mn>10</m:mn>
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo>
+</m:mrow></m:math>
+
+<m:math><m:mrow>
+<m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mo>−</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msup>
+     <m:mrow>
+      <m:mi>sin</m:mi>
+     </m:mrow>
+     <m:mrow>
+      <m:mo>−</m:mo><m:mn>1</m:mn>
+     </m:mrow>
+    </m:msup>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mfrac>
+       <m:mn>9</m:mn>
+       <m:mrow>
+        <m:mn>10</m:mn>
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo>
+</m:mrow></m:math>
+
+<m:math><m:mrow>
+<m:mfrac>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mo>+</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msup>
+     <m:mrow>
+      <m:mi>sin</m:mi>
+     </m:mrow>
+     <m:mrow>
+      <m:mo>−</m:mo><m:mn>1</m:mn>
+     </m:mrow>
+    </m:msup>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mfrac>
+       <m:mn>9</m:mn>
+       <m:mrow>
+        <m:mn>10</m:mn>
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo>
+</m:mrow></m:math>
+<m:math><m:mrow>
+<m:mi>π</m:mi><m:mo>−</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msup>
+     <m:mrow>
+      <m:mi>sin</m:mi>
+     </m:mrow>
+     <m:mrow>
+      <m:mo>−</m:mo><m:mn>1</m:mn>
+     </m:mrow>
+    </m:msup>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mfrac>
+       <m:mn>9</m:mn>
+       <m:mrow>
+        <m:mn>10</m:mn>
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo>
+</m:mrow></m:math>
+
+<m:math><m:mrow>
+<m:mfrac>
+   <m:mrow>
+    <m:mn>4</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mo>+</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msup>
+     <m:mrow>
+      <m:mi>sin</m:mi>
+     </m:mrow>
+     <m:mrow>
+      <m:mo>−</m:mo><m:mn>1</m:mn>
+     </m:mrow>
+    </m:msup>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mfrac>
+       <m:mn>9</m:mn>
+       <m:mrow>
+        <m:mn>10</m:mn>
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo>
+</m:mrow></m:math>
+
+<m:math><m:mrow>
+<m:mfrac>
+   <m:mrow>
+    <m:mn>5</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mo>−</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:msup>
+     <m:mrow>
+      <m:mi>sin</m:mi>
+     </m:mrow>
+     <m:mrow>
+      <m:mo>−</m:mo><m:mn>1</m:mn>
+     </m:mrow>
+    </m:msup>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mfrac>
+       <m:mn>9</m:mn>
+       <m:mrow>
+        <m:mn>10</m:mn>
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id1434673" class="material-set-2"><problem id="fs-id1434674"><para id="fs-id1434675"> <m:math>
+ <m:mrow>
+  <m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>11</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>sin</m:mi><m:mo stretchy="false">(</m:mo><m:mn>11</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>−0.1</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id2575418" class="material-set-2"><problem id="fs-id2575419"><para id="fs-id2575420"> <m:math>
+ <m:mrow>
+  <m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>x</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>x</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id2575479"><para id="fs-id2575480"> <m:math>
+ <m:mn>0</m:mn>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id2575488" class="material-set-2"><problem id="fs-id2575489"><para id="fs-id2575490"> <m:math>
+ <m:mrow>
+  <m:mn>6</m:mn><m:mspace width="0.3em" /><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>t</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>9</m:mn><m:mspace width="0.5em" /><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math> </para></problem></exercise>
+
+<exercise id="fs-id1973210"><problem id="fs-id1973211"><para id="fs-id1973212"> <m:math>
+ <m:mrow>
+  <m:mn>9</m:mn><m:mspace width="0.3em" /><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>θ</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>9</m:mn><m:mspace width="0.5em" /><m:msup>
+   <m:mrow>
+    <m:mi>cos</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>θ</m:mi><m:mo>−</m:mo><m:mn>4</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1973264"><para id="fs-id1973265"> <m:math><m:mi>θ</m:mi><m:mo>=</m:mo><m:msup><m:mi>sin</m:mi><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mfenced><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mfenced><m:mo>,</m:mo></m:math>
+
+<m:math><m:mi mathvariant="normal">π</m:mi><m:mo>-</m:mo><m:msup><m:mi>sin</m:mi><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mfenced><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mfenced><m:mo>,</m:mo></m:math>
+
+<m:math><m:mi mathvariant="normal">π</m:mi><m:mo>+</m:mo><m:msup><m:mi>sin</m:mi><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mfenced><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mfenced><m:mo>,</m:mo></m:math>
+
+<m:math><m:mn>2</m:mn><m:mi mathvariant="normal">π</m:mi><m:mo>-</m:mo><m:msup><m:mi>sin</m:mi><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mfenced><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mfenced></m:math>
+</para></solution></exercise>
+<exercise id="fs-id3522511"><problem id="fs-id3522512"><para id="fs-id3522514"> <m:math>
+ <m:mrow>
+  <m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>t</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>t</m:mi>
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id3522547"><problem id="fs-id3522548"><para id="fs-id3522549"> <m:math>
+ <m:mrow>
+  <m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>t</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>t</m:mi>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id3522582"><para id="fs-id3522583"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>3</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>5</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id1810183"><problem id="fs-id1810184"><para id="fs-id1810185"> <m:math>
+ <m:mrow>
+  <m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+
+<para id="fs-id1810227">Untuk latihan berikut, selesaikan secara eksak pada interval <m:math>
+ <m:mrow>
+  <m:mrow><m:mo>[</m:mo> <m:mrow>
+   <m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mi>π</m:mi>
+  </m:mrow> <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Gunakan rumus kuadrat jika persamaan tidak dapat difaktorkan.</para>
+<exercise id="fs-id2042636"><problem id="fs-id2042637"><para id="fs-id2042638"> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mi>tan</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>−</m:mo><m:msqrt>
+   <m:mn>3</m:mn>
+  </m:msqrt>
+  <m:mspace width="0.5em" /><m:mi>tan</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id2042679"><para id="fs-id2042680"> <m:math>
+ <m:mrow>
+  <m:mn>0</m:mn><m:mo>,</m:mo><m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mi>π</m:mi><m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>4</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id2042724"><problem id="fs-id2042725"><para id="fs-id1969530"> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>+</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id1969569"><problem id="fs-id1969570"><para id="fs-id1969571"> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mspace width="0.5em" /><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1969613"><para id="fs-id1969614">Tidak ada solusi.</para></solution></exercise><exercise id="fs-id1969617"><problem id="fs-id1969618"><para id="fs-id1969619"> <m:math>
+ <m:mrow>
+  <m:mn>5</m:mn><m:mspace width="0.5em" /><m:msup>
+   <m:mrow>
+    <m:mi>cos</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mspace width="0.5em" /><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id2237019"><problem id="fs-id2237020"><para id="fs-id2237021"> <m:math>
+ <m:mrow>
+  <m:mn>3</m:mn><m:mspace width="0.5em" /><m:msup>
+   <m:mrow>
+    <m:mi>cos</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mspace width="0.5em" /><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id2237064"><para id="fs-id2237066"> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mi>cos</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>1</m:mn><m:mo>−</m:mo><m:msqrt>
+       <m:mn>7</m:mn>
+      </m:msqrt>
+
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo>−</m:mo><m:msup>
+   <m:mrow>
+    <m:mi>cos</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>1</m:mn><m:mo>−</m:mo><m:msqrt>
+       <m:mn>7</m:mn>
+      </m:msqrt>
+
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id1742842"><problem id="fs-id1742843"><para id="fs-id1742844"> <m:math>
+ <m:mrow>
+  <m:mn>5</m:mn><m:mspace width="0.5em" /><m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mspace width="0.5em" /><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id2765422"><problem id="fs-id2765423"><para id="fs-id2765424"> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mi>tan</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>tan</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id2765466"><para id="fs-id2765467"> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mi>tan</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:msqrt>
+       <m:mrow>
+        <m:mn>29</m:mn>
+       </m:mrow>
+      </m:msqrt>
+      <m:mo>−</m:mo><m:mn>5</m:mn>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mi>π</m:mi><m:mo>+</m:mo><m:msup>
+   <m:mrow>
+    <m:mi>tan</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mo>−</m:mo><m:msqrt>
+       <m:mrow>
+        <m:mn>29</m:mn>
+       </m:mrow>
+      </m:msqrt>
+      <m:mo>−</m:mo><m:mn>5</m:mn>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mi>π</m:mi><m:mo>+</m:mo><m:msup>
+   <m:mrow>
+    <m:mi>tan</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:msqrt>
+       <m:mrow>
+        <m:mn>29</m:mn>
+       </m:mrow>
+      </m:msqrt>
+      <m:mo>−</m:mo><m:mn>5</m:mn>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo>+</m:mo><m:msup>
+   <m:mrow>
+    <m:mi>tan</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mo>−</m:mo><m:msqrt>
+       <m:mrow>
+        <m:mn>29</m:mn>
+       </m:mrow>
+      </m:msqrt>
+      <m:mo>−</m:mo><m:mn>5</m:mn>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id2772991"><problem id="fs-id2772992"><para id="fs-id2772994"> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mi>cot</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>cot</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi>
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id2773027"><problem id="fs-id2773028"><para id="fs-id2773029"> <m:math>
+ <m:mrow>
+  <m:mo>−</m:mo><m:msup>
+   <m:mrow>
+    <m:mi>tan</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>−</m:mo><m:mi>tan</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id2773070"><para id="fs-id2773071">Tidak ada solusi.</para></solution></exercise>
+
+<para id="fs-id2773075">Untuk latihan berikut, carilah solusi eksak pada interval <m:math>
+ <m:mrow>
+  <m:mo stretchy="false">[</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Carilah cara untuk menggunakan identitas trigonometri.</para>
+<exercise id="fs-id2089483"><problem id="fs-id2089484"><para id="fs-id2089485"> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>−</m:mo><m:msup>
+   <m:mrow>
+    <m:mi>cos</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>−</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id2089537"><problem id="fs-id2089538"><para id="fs-id2089540"> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>+</m:mo><m:msup>
+   <m:mrow>
+    <m:mi>cos</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id3639884"><para id="fs-id3639885">Tidak ada solusi.</para></solution></exercise>
+<exercise id="fs-id3639888"><problem id="fs-id3639889"><para id="fs-id3639890"> <m:math>
+ <m:mrow>
+  <m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>x</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id3639928"><problem id="fs-id3639929"><para id="fs-id3639930"> <m:math>
+ <m:mrow>
+  <m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>x</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id3639967"><para id="fs-id3639968"> <m:math>
+ <m:mrow>
+  <m:mn>0</m:mn><m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>4</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id3575425"><problem id="fs-id3575426"><para id="fs-id3575427"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mspace width="0.5em" /><m:mi>tan</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mo>−</m:mo><m:msup>
+     <m:mrow>
+      <m:mi>sec</m:mi>
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>−</m:mo><m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:msup>
+   <m:mrow>
+    <m:mi>cos</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi>
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id3575510"><problem id="fs-id3575511"><para id="fs-id1187258"> <m:math>
+ <m:mrow>
+  <m:mn>1</m:mn><m:mo>−</m:mo><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mi>cos</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1187304"><para id="fs-id1187305"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>4</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>3</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>4</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>5</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>4</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>7</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>4</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id3275800"><problem id="fs-id3275801"><para id="fs-id3275802"> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mi>sec</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>7</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id3275831"><problem id="fs-id3275832"><para id="fs-id3275833"> <m:math>
+ <m:mrow>
+  <m:mn>10</m:mn><m:mspace width="0.5em" /><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mspace width="0.3em" /><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>6</m:mn><m:mspace width="0.5em" /><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id3275862"><para id="fs-id3275863"> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>3</m:mn>
+     <m:mn>5</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mi>π</m:mi><m:mo>−</m:mo><m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>3</m:mn>
+     <m:mn>5</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>3</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id2266943"><problem id="fs-id2266944"><para id="fs-id2266945"> <m:math>
+ <m:mrow>
+  <m:mn>−3</m:mn><m:mspace width="0.5em" /><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>15</m:mn><m:mspace width="0.5em" /><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>t</m:mi><m:mspace width="0.3em" /><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>t</m:mi>
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id2266976"><problem id="fs-id2266977"><para id="fs-id2266978"> <m:math>
+ <m:mrow>
+  <m:mn>4</m:mn><m:mspace width="0.5em" /><m:msup>
+   <m:mrow>
+    <m:mi>cos</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>15</m:mn><m:mspace width="0.5em" /><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id3649416"><para id="fs-id3649417"> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mi>cos</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>4</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow></m:math>, <m:math><m:mn>2</m:mn><m:mi>π</m:mi><m:mo>−</m:mo><m:msup>
+   <m:mrow>
+    <m:mi>cos</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>4</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id2301415"><problem id="fs-id2301416"><para id="fs-id2301417"> <m:math>
+ <m:mrow>
+  <m:mn>8</m:mn><m:mspace width="0.5em" /><m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mspace width="0.5em" /><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id2301460"><problem id="fs-id2301462"><para id="fs-id2301463"> <m:math>
+ <m:mrow>
+  <m:mn>8</m:mn><m:mspace width="0.5em" /><m:msup>
+   <m:mrow>
+    <m:mi>cos</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>θ</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mspace width="0.5em" /><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>θ</m:mi>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id2301502"><para id="fs-id2301503"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:msup>
+   <m:mrow>
+    <m:mi>cos</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mfrac>
+     <m:mn>3</m:mn>
+     <m:mn>4</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo>−</m:mo><m:msup>
+   <m:mrow>
+    <m:mi>cos</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mfrac>
+     <m:mn>3</m:mn>
+     <m:mn>4</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>5</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id1541337"><problem id="fs-id1541338"><para id="fs-id1541340"> <m:math>
+ <m:mrow>
+  <m:mn>6</m:mn><m:mspace width="0.5em" /><m:msup>
+   <m:mrow>
+    <m:mi>cos</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mspace width="0.5em" /><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id2819462"><problem id="fs-id2819463"><para id="fs-id2819464"> <m:math>
+ <m:mrow>
+  <m:mn>12</m:mn><m:mspace width="0.5em" /><m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>t</m:mi><m:mo>+</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id2819506"><para id="fs-id2819507"> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mi>cos</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>3</m:mn>
+     <m:mn>4</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:msup>
+   <m:mrow>
+    <m:mi>cos</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mfrac>
+     <m:mn>2</m:mn>
+     <m:mn>3</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo>−</m:mo><m:msup>
+   <m:mrow>
+    <m:mi>cos</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mfrac>
+     <m:mn>2</m:mn>
+     <m:mn>3</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow></m:math>, <m:math><m:mn>2</m:mn><m:mi>π</m:mi><m:mo>−</m:mo><m:msup>
+   <m:mrow>
+    <m:mi>cos</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>3</m:mn>
+     <m:mn>4</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id2575077"><problem id="fs-id2575078"><para id="fs-id2575079"> <m:math>
+ <m:mrow>
+  <m:mi>tan</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mspace width="0.5em" /><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi>
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id2575102"><problem id="fs-id2575103"><para id="fs-id2575104"> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mi>cos</m:mi>
+   </m:mrow>
+   <m:mn>3</m:mn>
+  </m:msup>
+  <m:mi>t</m:mi><m:mo>=</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>t</m:mi>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id2575135"><para id="fs-id2575136"> <m:math>
+ <m:mrow>
+  <m:mn>0</m:mn><m:mo>,</m:mo><m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mi>π</m:mi><m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>3</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+
+</section>
+<section id="fs-id2575181">
+<title>Grafis</title>
+<para id="fs-id2575186">Untuk latihan berikut, tentukan semua solusi persamaan trigonometri secara aljabar dan eksak, lalu verifikasi hasilnya dengan menggambar grafik persamaan serta menentukan titik-titik nolnya. Gunakan interval <m:math><m:mo>[</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo>)</m:mo></m:math>.</para>
+<exercise id="fs-id1872347" class="material-set-2"><problem id="fs-id1872348"><para id="fs-id1872349"> <m:math>
+ <m:mrow>
+  <m:mn>6</m:mn><m:mspace width="0.5em" /><m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mspace width="0.5em" /><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id1872393" class="material-set-2"><problem id="fs-id1872394"><para id="fs-id1872395"> <m:math>
+ <m:mrow>
+  <m:mn>8</m:mn><m:mspace width="0.5em" /><m:msup>
+   <m:mrow>
+    <m:mi>cos</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mspace width="0.5em" /><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1872439"><para id="fs-id1872440"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:msup>
+   <m:mrow>
+    <m:mi>cos</m:mi>
+   </m:mrow>
+   <m:mrow>
+<m:mn>−1</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>4</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo>−</m:mo><m:msup>
+   <m:mrow>
+    <m:mi>cos</m:mi>
+   </m:mrow>
+   <m:mrow>
+<m:mn>−1</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>4</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>5</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>3</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id1804381" class="material-set-2"><problem id="fs-id1804382"><para id="fs-id1804383"> <m:math>
+ <m:mrow>
+  <m:mn>100</m:mn><m:mspace width="0.5em" /><m:msup>
+   <m:mrow>
+    <m:mi>tan</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>20</m:mn><m:mspace width="0.5em" /><m:mi>tan</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id3684248" class="material-set-2"><problem id="fs-id3684249"><para id="fs-id3684250"> <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mspace width="0.5em" /><m:msup>
+   <m:mrow>
+    <m:mi>cos</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>−</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>15</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id3684291"><para id="fs-id3684292">Tidak ada solusi.</para></solution></exercise>
+<exercise id="fs-id3684296" class="material-set-2"><problem id="fs-id3684297"><para id="fs-id3684298"> <m:math>
+ <m:mrow>
+  <m:mn>20</m:mn><m:mspace width="0.5em" /><m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>27</m:mn><m:mspace width="0.5em" /><m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id3684342" class="material-set-2"><problem id="fs-id3684343"><para id="fs-id3684344"> <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mspace width="0.5em" /><m:msup>
+   <m:mrow>
+    <m:mi>tan</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mspace width="0.5em" /><m:mi>tan</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id2438512"><para id="fs-id2438513"> 
+  <m:math>
+ <m:mrow>
+  <m:mi>π</m:mi><m:mo>+</m:mo><m:msup>
+   <m:mrow>
+    <m:mi>tan</m:mi>
+   </m:mrow>
+   <m:mrow>
+<m:mn>−1</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+<m:mn>−2</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow></m:math>, 
+  
+  <m:math><m:mi>π</m:mi><m:mo>+</m:mo><m:msup>
+   <m:mrow>
+    <m:mi>tan</m:mi>
+   </m:mrow>
+   <m:mrow>
+<m:mn>−1</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+     <m:mn>3</m:mn>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:math>
+
+  <m:math>
+  <m:mn>2</m:mn><m:mi>π</m:mi><m:mo>+</m:mo><m:msup>
+   <m:mrow>
+    <m:mi>tan</m:mi>
+   </m:mrow>
+   <m:mrow>
+<m:mn>−1</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+<m:mn>−2</m:mn>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo></m:math>
+ <m:math>
+ <m:mrow> 
+  <m:mn>2</m:mn><m:mi>π</m:mi><m:mo>+</m:mo>
+  <m:msup>
+    <m:mi>tan</m:mi>
+<m:mn>−1</m:mn>
+  </m:msup>
+  <m:mo>(</m:mo>
+   <m:mrow>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+     <m:mn>3</m:mn>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+   </m:mrow>
+  <m:mo>)</m:mo>
+
+</m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id1840080"><problem id="fs-id1840082"><para id="fs-id1840083"> <m:math>
+ <m:mrow>
+  <m:mn>130</m:mn><m:mspace width="0.5em" /><m:msup>
+   <m:mrow>
+    <m:mi>tan</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>69</m:mn><m:mspace width="0.5em" /><m:mi>tan</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>130</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+
+</section>
+<section id="fs-id1728260">
+<title>Teknologi</title>
+<para id="fs-id1728266">Untuk latihan berikut, gunakan kalkulator untuk menentukan semua solusi hingga empat tempat desimal.</para>
+<exercise id="fs-id1728269"><problem id="fs-id1728270"><para id="fs-id1728271"> <m:math>
+ <m:mrow>
+  <m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0.27</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id1728289"><para id="fs-id1728290"> <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>π</m:mi><m:mi>k</m:mi><m:mo>+</m:mo><m:mn>0.2734</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mi>k</m:mi><m:mo>+</m:mo><m:mn>2.8682</m:mn>
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id1728323"><problem id="fs-id1728324"><para id="fs-id1728326"> <m:math>
+ <m:mrow>
+  <m:mi>sin</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−0.55</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id1728346"><problem id="fs-id1728347"><para id="fs-id1728348"> <m:math>
+ <m:mrow>
+  <m:mi>tan</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−0.34</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id2793486"><para id="fs-id2793488"> <m:math>
+ <m:mrow>
+  <m:mi>π</m:mi><m:mi>k</m:mi><m:mo>−</m:mo><m:mn>0.3277</m:mn>
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id2793506"><problem id="fs-id2793507"><para id="fs-id2793508"> <m:math>
+ <m:mrow>
+  <m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0.71</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+
+<para id="fs-id2793526">Untuk latihan berikut, selesaikan persamaan secara aljabar, lalu gunakan kalkulator untuk menentukan nilainya pada interval <m:math>
+ <m:mrow>
+  <m:mo stretchy="false">[</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math> Bulatkan hingga empat tempat desimal.</para>
+<exercise id="fs-id2793559"><problem id="fs-id2793560"><para id="fs-id2793561"> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mi>tan</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mspace width="0.5em" /><m:mi>tan</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id2462145"><para id="fs-id2462146"> <m:math>
+ <m:mrow>
+  <m:mn>0.6694</m:mn><m:mo>,</m:mo><m:mn>1.8287</m:mn><m:mo>,</m:mo><m:mn>3.8110</m:mn><m:mo>,</m:mo><m:mn>4.9703</m:mn>
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id2462170"><problem id="fs-id2462171"><para id="fs-id2462172"> <m:math>
+ <m:mrow>
+  <m:mn>6</m:mn><m:mspace width="0.5em" /><m:msup>
+   <m:mrow>
+    <m:mi>tan</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>13</m:mn><m:mspace width="0.5em" /><m:mi>tan</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>−6</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id2462214"><problem id="fs-id2462215"><para id="fs-id2462216"> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mi>tan</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>−</m:mo><m:mi>sec</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id2462251"><para id="fs-id2462252"> <m:math>
+ <m:mrow>
+  <m:mn>1.0472</m:mn><m:mo>,</m:mo><m:mn>3.1416</m:mn><m:mo>,</m:mo><m:mn>5.2360</m:mn>
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id2618056" class="material-set-2"><problem id="fs-id2618057"><para id="fs-id2618058"> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mspace width="0.5em" /><m:msup>
+   <m:mrow>
+    <m:mi>cos</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id2618106" class="material-set-2"><problem id="fs-id2618107"><para id="fs-id2618108"> <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mspace width="0.5em" /><m:msup>
+   <m:mrow>
+    <m:mi>tan</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>9</m:mn><m:mspace width="0.5em" /><m:mi>tan</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id2618152"><para id="fs-id2618153"> <m:math>
+ <m:mrow>
+  <m:mn>0.5326</m:mn><m:mo>,</m:mo><m:mn>1.7648</m:mn><m:mo>,</m:mo><m:mn>3.6742</m:mn><m:mo>,</m:mo><m:mn>4.9064</m:mn>
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id2763905" class="material-set-2"><problem id="fs-id2763906"><para id="fs-id2763907"> <m:math>
+ <m:mrow>
+  <m:mn>4</m:mn><m:mspace width="0.5em" /><m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>+</m:mo><m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>x</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mi>sec</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+
+</section>
+<section id="fs-id2763967">
+<title>Ekstensi</title>
+<para id="fs-id2763972">Untuk latihan berikut, tentukan semua solusi eksak persamaan pada interval <m:math>
+ <m:mrow>
+  <m:mo stretchy="false">[</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mi>π</m:mi><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+ </m:mrow>
+</m:math>
+</para>
+<exercise id="fs-id2764002" class="material-set-2"><problem id="fs-id2764003"><para id="fs-id2764004"> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mi>csc</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mspace width="0.5em" /><m:mi>csc</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math> </para></problem>
+<solution id="fs-id1697743"><para id="fs-id1697744"> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>4</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mi>π</m:mi><m:mo>−</m:mo><m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>1</m:mn>
+   </m:mrow>
+  </m:msup>
+  <m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>4</m:mn>
+    </m:mfrac>
+
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>3</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id2593798" class="material-set-2"><problem id="fs-id2593800"><para id="fs-id2593801"> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>−</m:mo><m:msup>
+   <m:mrow>
+    <m:mi>cos</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id2593851" class="material-set-2"><problem id="fs-id2593852"><para id="fs-id2593853"> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>1</m:mn><m:mo>−</m:mo><m:msup>
+     <m:mrow>
+      <m:mi>sin</m:mi>
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:msup>
+   <m:mrow>
+    <m:mi>cos</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>1</m:mn><m:mo>−</m:mo><m:msup>
+     <m:mrow>
+      <m:mi>sin</m:mi>
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id2052633"><para id="fs-id2052634"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>3</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id2052669" class="material-set-2"><problem id="fs-id2052670"><para id="fs-id2052672"> <m:math>
+ <m:mrow>
+  <m:mn>3</m:mn><m:mspace width="0.5em" /><m:msup>
+   <m:mrow>
+    <m:mi>sec</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>−</m:mo><m:msup>
+   <m:mrow>
+    <m:mi>tan</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>+</m:mo><m:msup>
+   <m:mrow>
+    <m:mi>cos</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id2173695" class="material-set-2"><problem id="fs-id2173696"><para id="fs-id2173697"> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mspace width="0.5em" /><m:mi>cos</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>2</m:mn><m:mi>x</m:mi>
+   </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:msup>
+   <m:mrow>
+    <m:mi>cos</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id2173768"><para id="fs-id2173769">Tidak ada solusi.</para></solution></exercise>
+<exercise id="fs-id2173773" class="material-set-2"><problem id="fs-id2173774"><para id="fs-id2173775"> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mi>tan</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:msup>
+   <m:mrow>
+    <m:mi>sec</m:mi>
+   </m:mrow>
+   <m:mn>3</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mspace width="0.3em" /><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id2431728" class="material-set-2"><problem id="fs-id2431729"><para id="fs-id2431730"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>2</m:mn><m:mi>x</m:mi>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+   <m:mrow>
+    <m:msup>
+     <m:mrow>
+      <m:mi>sec</m:mi>
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id2431787"><para id="fs-id2431788"> <m:math>
+ <m:mrow>
+  <m:mn>0</m:mn><m:mo>,</m:mo><m:mfrac>
+   <m:mi>π</m:mi>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>,</m:mo><m:mi>π</m:mi><m:mo>,</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>3</m:mn><m:mi>π</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id1777474" class="material-set-2"><problem id="fs-id1777475"><para id="fs-id1777476"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mi>sin</m:mi><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>2</m:mn><m:mi>x</m:mi>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>2</m:mn><m:msup>
+     <m:mrow>
+      <m:mi>csc</m:mi>
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id1777536" class="material-set-2"><problem id="fs-id1777537"><para id="fs-id1777538"> <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mspace width="0.5em" /><m:msup>
+   <m:mrow>
+    <m:mi>cos</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>−</m:mo><m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>−</m:mo><m:mi>cos</m:mi><m:mspace width="0.3em" /><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem>
+<solution id="fs-id2796208"><para id="fs-id2796209">Tidak ada solusi.</para></solution></exercise>
+<exercise id="fs-id2796212" class="material-set-2"><problem id="fs-id2796213"><para id="fs-id2796214"> <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:msup>
+     <m:mrow>
+      <m:mi>sec</m:mi>
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>+</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:msup>
+   <m:mrow>
+    <m:mi>sin</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mspace width="0.5em" /><m:msup>
+   <m:mrow>
+    <m:mi>cos</m:mi>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn>
+ </m:mrow>
+</m:math>
+</para></problem></exercise>
+
+</section>
+<section id="fs-id2796297">
+<title>Aplikasi Dunia Nyata</title>
+<exercise id="fs-id2796302">
+<problem id="fs-id2796303"><para id="fs-id2796304">Sebuah pesawat hanya memiliki bahan bakar yang cukup untuk terbang ke sebuah kota yang berjarak 200 mil di sebelah timur laut posisinya saat ini. Jika pilot mengetahui bahwa kota itu berada 25 mil ke utara, berapa derajat ke utara dari arah timur pesawat harus terbang?</para></problem>
+<solution id="fs-id2796309"><para id="fs-id2796310"> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mn>7.2</m:mn>
+   </m:mrow>
+   <m:mo>∘</m:mo>
+  </m:msup>
+
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id3461883"><problem id="fs-id3461884"><para id="fs-id3461886">Sebuah ramp pemuatan ditempatkan di samping truk pada ketinggian 4 kaki. Jika ramp itu panjangnya 15 kaki, berapa sudut yang dibentuk ramp dengan tanah?</para></problem></exercise>
+<exercise id="fs-id3461890"><problem id="fs-id3461891"><para id="fs-id3461892">Sebuah ramp pemuatan ditempatkan di samping truk pada ketinggian 2 kaki. Jika ramp itu panjangnya 20 kaki, berapa sudut yang dibentuk ramp dengan tanah?</para></problem>
+<solution id="fs-id3461897"><para id="fs-id3461898"> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mn>5.7</m:mn>
+   </m:mrow>
+   <m:mo>∘</m:mo>
+  </m:msup>
+
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id3461919"><problem id="fs-id3461920"><para id="fs-id3461921">Seorang perempuan mengamati roket yang telah diluncurkan dan kini berada pada ketinggian 11 mil. Jika ia berdiri 4 mil dari landasan peluncuran, pada sudut berapa ia memandang ke atas dari garis horizontal?</para></problem></exercise>
+<exercise id="fs-id3461926"><problem id="fs-id3461927"><para id="fs-id3461928">Seorang astronaut berada di dalam roket yang telah diluncurkan dan kini berada pada ketinggian 15 mil. Jika seorang laki-laki berdiri 2 mil dari landasan peluncuran, pada sudut berapa astronaut itu memandang ke bawah dari garis horizontal? (Petunjuk: sudut ini disebut sudut depresi.)</para></problem>
+<solution id="fs-id3461933"><para id="fs-id3461934"> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mn>82.4</m:mn>
+   </m:mrow>
+   <m:mo>∘</m:mo>
+  </m:msup>
+
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id3461956"><problem id="fs-id3461957"><para id="fs-id3461958">Seorang perempuan berdiri 8 meter dari sebuah gedung setinggi 10 meter. Pada sudut berapa ia memandang puncak gedung?</para></problem></exercise>
+<exercise id="fs-id3461962"><problem id="fs-id3461963"><para id="fs-id3461964">Seorang laki-laki berdiri 10 meter dari sebuah gedung setinggi 6 meter. Seseorang di puncak gedung memandang ke bawah ke arahnya. Pada sudut berapa orang tersebut memandangnya?</para></problem>
+<solution id="fs-id3461969"><para id="fs-id3461970"> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mn>31.0</m:mn>
+   </m:mrow>
+   <m:mo>∘</m:mo>
+  </m:msup>
+
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id3461991"><problem id="fs-id3461992"><para id="fs-id3461994">Sebuah gedung setinggi 20 kaki memiliki bayangan sepanjang 55 kaki. Berapa sudut elevasi matahari?</para></problem></exercise>
+ <exercise id="fs-id1468071"><problem id="fs-id1468072"><para id="fs-id1468073">Sebuah gedung setinggi 90 kaki memiliki bayangan sepanjang 2 kaki. Berapa sudut elevasi matahari?</para></problem>
+<solution id="fs-id1468076"><para id="fs-id1468077"> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mn>88.7</m:mn>
+   </m:mrow>
+   <m:mo>∘</m:mo>
+  </m:msup>
+
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id1468098" class="material-set-2"><problem id="fs-id1468099"><para id="fs-id1468100">Sebuah lampu sorot di tanah, 3 meter dari seorang laki-laki setinggi 2 meter, menghasilkan bayangan setinggi 6 meter pada dinding yang berjarak 6 meter dari laki-laki tersebut. Berapa sudut berkas cahayanya?</para></problem></exercise>
+<exercise id="fs-id1468105" class="material-set-2"><problem id="fs-id1468106"><para id="fs-id1468107">Sebuah lampu sorot di tanah, 3 kaki dari seorang perempuan setinggi 5 kaki, menghasilkan bayangan setinggi 15 kaki pada dinding yang berjarak 6 kaki dari perempuan tersebut. Berapa sudut berkas cahayanya?</para></problem>
+<solution id="fs-id1468112"><para id="fs-id1468113"> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mn>59.0</m:mn>
+   </m:mrow>
+   <m:mo>∘</m:mo>
+  </m:msup>
+
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+
+<para id="fs-id1468134">Untuk latihan berikut, tentukan solusi soal cerita secara aljabar. Kemudian gunakan kalkulator untuk memverifikasi hasilnya. Bulatkan jawaban hingga sepersepuluh derajat terdekat.</para><exercise id="fs-id1468139"><problem id="fs-id1468140"><para id="fs-id1468141">Seseorang melakukan handstand dengan kaki menyentuh dinding dan tangan berjarak 1,5 kaki dari dinding. Jika tinggi orang tersebut 6 kaki, berapa sudut yang dibentuk kakinya dengan dinding?</para></problem></exercise>
+<exercise id="fs-id1468146"><problem id="fs-id1468147"><para id="fs-id1468148">Seseorang melakukan handstand dengan kaki menyentuh dinding dan tangan berjarak 3 kaki dari dinding. Jika tinggi orang tersebut 5 kaki, berapa sudut yang dibentuk kakinya dengan dinding? </para></problem>
+<solution id="fs-id1468153"><para id="fs-id1468154"> <m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mrow>
+    <m:mn>36.9</m:mn>
+   </m:mrow>
+   <m:mo>∘</m:mo>
+  </m:msup>
+
+ </m:mrow>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id1468175"><problem id="fs-id1468176"><para id="fs-id1468177">Sebuah tangga sepanjang 23 kaki disandarkan pada sebuah rumah. Jika tangga tergelincir ketika kaki tangga berjarak 7 kaki dari rumah akibat daya cengkeram yang tidak memadai, berapa sudut yang harus dibentuk tangga dengan tanah agar tidak tergelincir?</para></problem></exercise>
+</section>
+</section></content>
+</document>
