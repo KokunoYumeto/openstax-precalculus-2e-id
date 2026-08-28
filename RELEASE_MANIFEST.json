@@ -1,21 +1,21 @@
 {
   "archives": [
     {
-      "bytes": 38272627,
-      "entry_count": 823,
-      "filename": "precalculus-2e-id-ID-0.1.0-alpha.32-reader.1-source-core.zip",
-      "member_inventory_sha256": "1899e0fc69fc4f9ca72d5e9877612efc9994c4606af583238a092d83c27381d4",
-      "sha256": "cd17855eac6cb0d208165b641ed77708470db3ad018bef53896566a20186e67b",
-      "uncompressed_bytes": 65059099,
+      "bytes": 39662876,
+      "entry_count": 893,
+      "filename": "precalculus-2e-id-ID-0.1.0-alpha.33-reader.1-source-core.zip",
+      "member_inventory_sha256": "644083f4f7a1b8f4104614ca83a9a908afb3e9a521111bebd518688f735aa39a",
+      "sha256": "d703fc8ae10686a88884a8fc4b0eb7283c2158d76c5b8b06d406e6cb13fae080",
+      "uncompressed_bytes": 68145068,
       "verification": "zip_open_crc_inventory_member_bytes_pass"
     },
     {
-      "bytes": 39349015,
-      "entry_count": 31,
-      "filename": "precalculus-2e-id-ID-0.1.0-alpha.32-reader.1-backend-core.zip",
-      "member_inventory_sha256": "3981d21133a03e0b2e56773bdd8e27f604acd4206e27fdea0b1842dd8c0ff9b5",
-      "sha256": "fb5ae21f8436c0c53c8bb9722b719aaa2fca0df24a852a497b0aa2e94fa12c8e",
-      "uncompressed_bytes": 434927269,
+      "bytes": 42144025,
+      "entry_count": 32,
+      "filename": "precalculus-2e-id-ID-0.1.0-alpha.33-reader.1-backend-core.zip",
+      "member_inventory_sha256": "f6f792ff0b990a384c15966c5a8c1c408d0e93aa87d2cf72488433836f9a9dec",
+      "sha256": "3099c3324e98c9ed4a1c9ed08d9599fde428a25c6150ef6e8d8097ad03b5f0a7",
+      "uncompressed_bytes": 465546280,
       "verification": "zip_open_crc_inventory_member_bytes_pass"
     }
   ],
@@ -34,29 +34,29 @@
   },
   "files": [
     {
-      "bytes": 107019966,
-      "filename": "OpenStax-Precalculus-2e-id-ID-0.1.0-alpha.32-reader.pdf",
-      "sha256": "a50644d6e14bea0a9bc18ce52f4052deb2830397bc78e98dc03a75dacb0dc788"
+      "bytes": 110463224,
+      "filename": "OpenStax-Precalculus-2e-id-ID-0.1.0-alpha.33-reader.pdf",
+      "sha256": "ac7fc4aacba2f793139930c910c912dec84ea7039f86834e7686a4c0a8cb9479"
     },
     {
-      "bytes": 38272627,
-      "filename": "precalculus-2e-id-ID-0.1.0-alpha.32-reader.1-source-core.zip",
-      "sha256": "cd17855eac6cb0d208165b641ed77708470db3ad018bef53896566a20186e67b"
+      "bytes": 39662876,
+      "filename": "precalculus-2e-id-ID-0.1.0-alpha.33-reader.1-source-core.zip",
+      "sha256": "d703fc8ae10686a88884a8fc4b0eb7283c2158d76c5b8b06d406e6cb13fae080"
     },
     {
-      "bytes": 39349015,
-      "filename": "precalculus-2e-id-ID-0.1.0-alpha.32-reader.1-backend-core.zip",
-      "sha256": "fb5ae21f8436c0c53c8bb9722b719aaa2fca0df24a852a497b0aa2e94fa12c8e"
+      "bytes": 42144025,
+      "filename": "precalculus-2e-id-ID-0.1.0-alpha.33-reader.1-backend-core.zip",
+      "sha256": "3099c3324e98c9ed4a1c9ed08d9599fde428a25c6150ef6e8d8097ad03b5f0a7"
     },
     {
-      "bytes": 1728,
+      "bytes": 1731,
       "filename": "LICENSE.txt",
-      "sha256": "f1eb81e461f32c30ebfab703c9af608b2ebd2f0ea7e06e10ae7b07edcae448dd"
+      "sha256": "7033cb0808cd4a03c87c64d056ca94dcc5ebd9ce42ed0a4998010e19beed0e5d"
     },
     {
-      "bytes": 1358,
+      "bytes": 1361,
       "filename": "README.txt",
-      "sha256": "8464e2696f2f3d9006388fa436d2a6da744c0163948f9389aa6fae1bb50911e6"
+      "sha256": "f7ce1729800395b1121dae5c20f0f24eeac04fd4c3271135b5edff7a55b9d333"
     }
   ],
   "license": {
@@ -64,15 +64,15 @@
     "quarantined_assets_omitted": 16,
     "work": "CC BY-NC-SA 4.0"
   },
-  "observed_at": "2026-08-26T06:35:00+02:00",
+  "observed_at": "2026-08-28T22:32:00+02:00",
   "progress": {
-    "contiguous_through": "m49367",
-    "contiguous_title": "Model Eksponensial dan Logaritma",
-    "next_module": "m49368",
-    "next_source_title": "Fitting Exponential Models to Data",
-    "next_title": "Mencocokkan Model Eksponensial dengan Data",
+    "contiguous_through": "m49368",
+    "contiguous_title": "Mencocokkan Model Eksponensial dengan Data",
+    "next_module": "m49369",
+    "next_source_title": "Introduction to Trigonometric Functions",
+    "next_title": "Pengantar Fungsi Trigonometri",
     "total_modules": 87,
-    "translated_modules": 32
+    "translated_modules": 33
   },
   "provenance": {
     "requested_by": "the user",
@@ -80,8 +80,8 @@
     "translation_localization_assistance": "OpenAI Codex gpt-5.6-sol, Ultra"
   },
   "reader": {
-    "filename": "OpenStax-Precalculus-2e-id-ID-0.1.0-alpha.32-reader.pdf",
-    "pages": 947,
+    "filename": "OpenStax-Precalculus-2e-id-ID-0.1.0-alpha.33-reader.pdf",
+    "pages": 1063,
     "primary_visible_file": true,
     "quarantined_binary_treatment": "clear omission placeholders"
   },
@@ -93,5 +93,5 @@
     "crc_inventory_member_bytes": "pass",
     "task_payload_limit_bytes": 500000000
   },
-  "version": "0.1.0-alpha.32-reader.1"
+  "version": "0.1.0-alpha.33-reader.1"
 }
