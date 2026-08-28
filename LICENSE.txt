@@ -1,10 +1,10 @@
 OpenStax Precalculus 2e - edisi parsial Bahasa Indonesia
 
 STATUS
-Edisi ini belum lengkap. Cakupan saat ini adalah 32 dari 87
-modul dalam urutan sumber, melalui m49367 (Model Eksponensial dan Logaritma).
-Modul berikutnya adalah m49368 (Mencocokkan Model Eksponensial dengan Data; Fitting Exponential Models to Data). Pembaca PDF
-ini berjumlah 947 halaman A4.
+Edisi ini belum lengkap. Cakupan saat ini adalah 33 dari 87
+modul dalam urutan sumber, melalui m49368 (Mencocokkan Model Eksponensial dengan Data).
+Modul berikutnya adalah m49369 (Pengantar Fungsi Trigonometri; Introduction to Trigonometric Functions). Pembaca PDF
+ini berjumlah 1063 halaman A4.
 
 LISENSI KARYA DAN ADAPTASI
 Teks buku sumber dan adaptasi/terjemahan ini dilisensikan berdasarkan Creative
