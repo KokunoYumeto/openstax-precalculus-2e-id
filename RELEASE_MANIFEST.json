@@ -1,22 +1,22 @@
 {
   "archives": [
     {
-      "bytes": 54641166,
-      "entry_count": 1246,
-      "filename": "precalculus-2e-id-ID-0.1.0-alpha.49-reader.1-source-core.zip",
-      "member_inventory_sha256": "6d51295de9235749e4d5ce56b3bdce892690510bced7d7a725f9a4c87be53833",
-      "sha256": "b6abbf4463dd6d72fae59e1f4664653e1ea8d0c9487af33a4465cea3d389e7e0",
-      "uncompressed_bytes": 95255224,
-      "verification": "zip_open_crc_inventory_member_bytes_pass"
+      "bytes": 69355910,
+      "entry_count": 1494,
+      "filename": "precalculus-2e-id-ID-0.1.0-alpha.58-reader.1-source-core.zip",
+      "member_inventory_sha256": "3e386bb0b245169eefd67229a1326280e824c84a2afb03f00a99d6071115dae9",
+      "sha256": "9f8ba5e44bd4d4794c559de85a5449f3b4bd279d153801b94f3d39a471f5a0ca",
+      "uncompressed_bytes": 126459783,
+      "verification": "zip_open_crc_inventory_member_size_sha256_pass"
     },
     {
-      "bytes": 57423746,
-      "entry_count": 32,
-      "filename": "precalculus-2e-id-ID-0.1.0-alpha.49-reader.1-backend-core.zip",
-      "member_inventory_sha256": "3fe18f52104555879a4a4a87049fe871c691f8d7d6dfc043300374b492f746c5",
-      "sha256": "798f7b91e48346a561de282872479c3594bb9842f7339288efb1c01eac7e2228",
-      "uncompressed_bytes": 620554270,
-      "verification": "zip_open_crc_inventory_member_bytes_pass"
+      "bytes": 66512598,
+      "entry_count": 39,
+      "filename": "precalculus-2e-id-ID-0.1.0-alpha.58-reader.1-backend-core.zip",
+      "member_inventory_sha256": "554f018f3eaed621e46950e3be0f0d5ee45549c2c9f000d78cbab6f18b46eeca",
+      "sha256": "a35ad1736b2c5705cee7f0e16604196af92b310ad44c32b584fcd7c709a180e9",
+      "uncompressed_bytes": 713315390,
+      "verification": "zip_open_crc_inventory_member_size_sha256_pass"
     }
   ],
   "authority": {
@@ -26,53 +26,52 @@
   },
   "complete_edition": false,
   "distribution": {
-    "figshare_file_hosting_gate": "requires_exact_CC_BY_NC_SA_4_0_item_license",
-    "figshare_metadata_item_id": null,
-    "figshare_metadata_item_status": "deleted_absent",
-    "figshare_prior_deleted_item_id": 33314805,
+    "figshare_collection_doi": "10.6084/m9.figshare.c.8668413.v1",
+    "github_repository": "https://github.com/KokunoYumeto/openstax-precalculus-2e-id",
+    "transaction_receipts": "published separately after anonymous byte readback",
     "zenodo_concept_doi": "10.5281/zenodo.22059757"
   },
   "files": [
     {
-      "bytes": 156488110,
-      "filename": "OpenStax-Precalculus-2e-id-ID-0.1.0-alpha.49-reader.pdf",
-      "sha256": "573f308fde20e170534ad7faa6d3fd4ce57a60f3af3b9c7929bae37140bc3698"
+      "bytes": 189153135,
+      "filename": "OpenStax-Precalculus-2e-id-ID-0.1.0-alpha.58-reader.pdf",
+      "sha256": "7230e258fd7779c1073383fa1a66c5e89cb4df5fd82c6d8d50d2399bc5e616ed"
     },
     {
-      "bytes": 54641166,
-      "filename": "precalculus-2e-id-ID-0.1.0-alpha.49-reader.1-source-core.zip",
-      "sha256": "b6abbf4463dd6d72fae59e1f4664653e1ea8d0c9487af33a4465cea3d389e7e0"
+      "bytes": 69355910,
+      "filename": "precalculus-2e-id-ID-0.1.0-alpha.58-reader.1-source-core.zip",
+      "sha256": "9f8ba5e44bd4d4794c559de85a5449f3b4bd279d153801b94f3d39a471f5a0ca"
     },
     {
-      "bytes": 57423746,
-      "filename": "precalculus-2e-id-ID-0.1.0-alpha.49-reader.1-backend-core.zip",
-      "sha256": "798f7b91e48346a561de282872479c3594bb9842f7339288efb1c01eac7e2228"
+      "bytes": 66512598,
+      "filename": "precalculus-2e-id-ID-0.1.0-alpha.58-reader.1-backend-core.zip",
+      "sha256": "a35ad1736b2c5705cee7f0e16604196af92b310ad44c32b584fcd7c709a180e9"
     },
     {
-      "bytes": 1750,
+      "bytes": 1725,
       "filename": "LICENSE.txt",
-      "sha256": "4b19572ab2f57f93de6e2af52504fd6a991b5aea322f9a50a24ed042cefb30a0"
+      "sha256": "b8d4823d420283ad4e9e303f49eebdbf64fbc1d9a2e2fee97030a95ab2a243a3"
     },
     {
-      "bytes": 1380,
+      "bytes": 1355,
       "filename": "README.txt",
-      "sha256": "f660b15ce886e8bde8b65319a42a0929591a6b9df0bfd66afd0abc399a8318c3"
+      "sha256": "efe1fc6ac3b99775288e3eaeb697840f819b0472c281fe65c167d96bac72cbd1"
     }
   ],
   "license": {
     "component_rights": "composite; exact inventories included",
-    "quarantined_assets_omitted": 25,
+    "quarantined_assets_omitted": 28,
     "work": "CC BY-NC-SA 4.0"
   },
-  "observed_at": "2026-08-29T16:30:00+02:00",
+  "observed_at": "2026-08-29T22:30:00Z",
   "progress": {
-    "contiguous_through": "m49399",
-    "contiguous_title": "Pemodelan dengan Fungsi Trigonometri",
-    "next_module": "m49402",
-    "next_source_title": "Introduction to Further Applications of Trigonometry",
-    "next_title": "Pengantar Penerapan Lanjutan Trigonometri",
+    "contiguous_through": "m49412",
+    "contiguous_title": "Vektor",
+    "next_module": "m49418",
+    "next_source_title": "Introduction to Systems of Equations and Inequalities",
+    "next_title": "Pengantar Sistem Persamaan dan Pertidaksamaan",
     "total_modules": 87,
-    "translated_modules": 49
+    "translated_modules": 58
   },
   "provenance": {
     "requested_by": "the user",
@@ -80,18 +79,18 @@
     "translation_localization_assistance": "OpenAI Codex gpt-5.6-sol, Ultra"
   },
   "reader": {
-    "filename": "OpenStax-Precalculus-2e-id-ID-0.1.0-alpha.49-reader.pdf",
-    "pages": 1501,
+    "filename": "OpenStax-Precalculus-2e-id-ID-0.1.0-alpha.58-reader.pdf",
+    "pages": 1779,
     "primary_visible_file": true,
     "quarantined_binary_treatment": "clear omission placeholders"
   },
   "schema": "openstax-precalculus-2e-reader-release",
   "schema_version": "0.1.0",
-  "status": "partial_public_active",
+  "status": "partial_checkpoint_58_of_87",
   "verification": {
     "archives_reopened": true,
     "crc_inventory_member_bytes": "pass",
     "task_payload_limit_bytes": 500000000
   },
-  "version": "0.1.0-alpha.49-reader.1"
+  "version": "0.1.0-alpha.58-reader.1"
 }
