@@ -22,12 +22,12 @@ are excluded from the target/publication.
 ## Current state
 
 <!-- CURRENT_RELEASE_BEGIN -->
-- Version: `0.1.0-alpha.49-reader.1`
-- Coverage: **49 of 87 modules**
-- Canonical prefix ends at: `m49399`
-- Next source module: `m49402`
-- Reader: **1,501 A4 pages**
-- Zenodo version: <https://zenodo.org/records/22163371>
+- Version: `0.1.0-alpha.58-reader.1`
+- Coverage: **58 of 87 modules**
+- Canonical prefix ends at: `m49412`
+- Next source module: `m49418`
+- Reader: **1,779 A4 pages**
+- Zenodo version: <https://zenodo.org/records/22167151>
 <!-- CURRENT_RELEASE_END -->
 
 The source closure and component-rights inventory are frozen, and an exact copy
@@ -36,61 +36,55 @@ rights gate passes for noncommercial translation under CC BY-NC-SA 4.0. Of the
 1,873 media assets, 1,835 are admitted and 38 remain quarantined until replaced,
 excluded, or independently cleared.
 
-The first 49 of 87 modules are translated contiguously and structurally verified,
-from the front matter (`m50919`) through Pemodelan dengan Fungsi Trigonometri
-(`m49399`). One hundred forty-five baked-English, generated-data, or
-source-defective assets have deterministic Indonesian SVG derivatives. The modular
-backend contains 135,714 records and 36 deterministic exports; two consecutive
-builds were byte-identical. `m49402` is the next source-order module. No upstream
-author has been contacted. The current public checkpoint reader ends at `m49399`;
-it is 1,501 A4 pages and passed two byte-identical builds, complete logical PDF
-checks, restoration checks for all 34 root glossaries and 174 definitions, a
-refined-range visual sweep, targeted original-detail review, and an independent
-P1/P2/P3-zero audit. It renders 1,054 admitted media references and uses clear
-omission placeholders for 25 quarantined binary references.
+The first 58 of 87 modules are translated contiguously and structurally verified,
+from the front matter (`m50919`) through Vektor (`m49412`). The modular backend
+contains 156,371 records and 36 deterministic exports; two consecutive builds
+were byte-identical. `m49418` is the next source-order module. No upstream author
+has been contacted. The current public checkpoint reader is 1,779 A4 pages and
+passed two byte-identical builds, logical-link and text checks, targeted visual
+review through every Chapter 8 transition, and independent semantic/structural
+review with zero residual P1/P2/P3 findings. It packages 1,334 admitted or
+localized assets and uses clear omission placeholders for 28 quarantined assets
+referenced by the translated prefix.
 
 Translation and localization were produced with tool/process assistance on the
 user's request. Model identification: OpenAI Codex gpt-5.6-sol, Ultra. This is
 a process disclosure, not an authorship credit; Jay Abramson, OpenStax, and the
 source's human contributors retain their existing credits.
 
-The recorded field-terminology policy is applied through `m49399`. Its QA inspected two downloaded arXiv source
+The recorded field-terminology policy is applied through `m49412`. Its QA inspected two downloaded arXiv source
 packages and rejected both because their actual TeX bodies are English. The
 edition therefore uses an Indonesian Universitas Jember calculus textbook and
 the official 2024 Kemdikbudristek advanced-mathematics textbook as its recorded
 fallback witnesses. Their evidence supports `fungsi logaritma`, `fungsi
 sesepenggal`, and `perilaku ujung`; the exact identities, hashes, comparison,
 and propagation receipt are under `evidence/terminology/m49361/` and
-`qa/TERMINOLOGY_QA_20260824.json`, with the module-specific logarithm review in
-`qa/m49365/TERMINOLOGY_QA.json` and the final three-slot refinement recorded in
-`qa/m49368/TERMINOLOGY_REFINEMENT_ALPHA33_QA.json`; Chapter 5 language, asset,
-structural, reader, and independent evidence is bound by the alpha.49 QA receipts.
+`qa/TERMINOLOGY_QA_20260824.json`. Chapter 8 admission, source-correction,
+independent semantic, backend-replay, reader-build, and visual evidence are bound
+by the alpha.58 release manifest and QA receipts.
 
 ## Preservation
 
 The current rights-gated reader checkpoint is version
-`0.1.0-alpha.49-reader.1`, preserved at <https://doi.org/10.5281/zenodo.22163371>.
-It has the 1,501-page PDF as its primary artifact and
+`0.1.0-alpha.58-reader.1`, preserved at <https://doi.org/10.5281/zenodo.22167151>.
+It has the 1,779-page PDF as its primary artifact and
 compact resumable CNXML source and modular backend packages alongside it. The
-release is explicitly incomplete. Twenty-five quarantined binary references in
+release is explicitly incomplete. Twenty-eight quarantined assets referenced by
 the translated prefix are omitted and identified by path and hash. All reader
 versions remain on Zenodo concept DOI <https://doi.org/10.5281/zenodo.22059757>;
 the exact version DOI and anonymous byte-readback are recorded in
-`qa/ZENODO_READER_0.1.0-alpha.49-reader.1_20260829T234500+0200.json` and the
+`qa/ZENODO_READER_0.1.0-alpha.58-reader.1_20260830T013900+0200.json` and the
 public release metadata. The identical seven-file payload is also preserved as
 GitHub prerelease
-<https://github.com/KokunoYumeto/openstax-precalculus-2e-id/releases/tag/v0.1.0-alpha.49-reader.1>;
+<https://github.com/KokunoYumeto/openstax-precalculus-2e-id/releases/tag/v0.1.0-alpha.58-reader.1>;
 its anonymous byte-readback is recorded in
-`qa/GITHUB_READER_0.1.0-alpha.49-reader.1_20260830T000000+0200.json`.
+`qa/GITHUB_READER_0.1.0-alpha.58-reader.1_20260830T014500+0200.json`.
 
 The intended Figshare metadata/link lineage is the requested public project
 <https://figshare.com/projects/Open_and_Share-Alike_Educational_Materials_Translations/280296>.
-The former article 33314805 is absent, the requested project has no active
-work-level replacement, and the authenticated API reports `InactiveAccount`.
-The bounded alpha.31 attempt stopped before mutation, so this release does not
-create a duplicate item or substitute a false license. The exact adverse-state
-receipt is `qa/FIGSHARE_METADATA_0.1.0-alpha.31-reader.1_20260825T172805+0200_BLOCKED.json`.
-Zenodo remains the canonical public file host.
+Figshare is a secondary preservation route only when an exact compatible item
+license and public-byte readback are available; no false substitute license is
+used. Zenodo remains the canonical public file host.
 
 The corpus-specific public repository is
 <https://github.com/KokunoYumeto/openstax-precalculus-2e-id>. Reader checkpoints
