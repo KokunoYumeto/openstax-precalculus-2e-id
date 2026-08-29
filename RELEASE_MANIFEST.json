@@ -1,21 +1,21 @@
 {
   "archives": [
     {
-      "bytes": 39662876,
-      "entry_count": 893,
-      "filename": "precalculus-2e-id-ID-0.1.0-alpha.33-reader.1-source-core.zip",
-      "member_inventory_sha256": "644083f4f7a1b8f4104614ca83a9a908afb3e9a521111bebd518688f735aa39a",
-      "sha256": "d703fc8ae10686a88884a8fc4b0eb7283c2158d76c5b8b06d406e6cb13fae080",
-      "uncompressed_bytes": 68145068,
+      "bytes": 44456049,
+      "entry_count": 1034,
+      "filename": "precalculus-2e-id-ID-0.1.0-alpha.38-reader.1-source-core.zip",
+      "member_inventory_sha256": "ec8e5481d76fcfd32fe230c15f18bf13f4d6a546b8eee375eced609e8d79244f",
+      "sha256": "6308e05bb21baf34a30c422b72eced19ff25e792df4d5ae6b6b2e1934b6789da",
+      "uncompressed_bytes": 77745182,
       "verification": "zip_open_crc_inventory_member_bytes_pass"
     },
     {
-      "bytes": 42144025,
+      "bytes": 47235855,
       "entry_count": 32,
-      "filename": "precalculus-2e-id-ID-0.1.0-alpha.33-reader.1-backend-core.zip",
-      "member_inventory_sha256": "f6f792ff0b990a384c15966c5a8c1c408d0e93aa87d2cf72488433836f9a9dec",
-      "sha256": "3099c3324e98c9ed4a1c9ed08d9599fde428a25c6150ef6e8d8097ad03b5f0a7",
-      "uncompressed_bytes": 465546280,
+      "filename": "precalculus-2e-id-ID-0.1.0-alpha.38-reader.1-backend-core.zip",
+      "member_inventory_sha256": "0211275e7e002c6ed4e00d7e5429b219dae9365eaab87a931c4bb9d97bf33fca",
+      "sha256": "3eae7419a458e684d301d8a0a7813a145ce3fe3ebd793e8cbd1106b111535ef2",
+      "uncompressed_bytes": 517938858,
       "verification": "zip_open_crc_inventory_member_bytes_pass"
     }
   ],
@@ -34,45 +34,45 @@
   },
   "files": [
     {
-      "bytes": 110463224,
-      "filename": "OpenStax-Precalculus-2e-id-ID-0.1.0-alpha.33-reader.pdf",
-      "sha256": "ac7fc4aacba2f793139930c910c912dec84ea7039f86834e7686a4c0a8cb9479"
+      "bytes": 125792877,
+      "filename": "OpenStax-Precalculus-2e-id-ID-0.1.0-alpha.38-reader.pdf",
+      "sha256": "f99785ef6f1b5d1b14dbddb5d76d6630c12e6c6c10ba2df7f0637ca1a24a7948"
     },
     {
-      "bytes": 39662876,
-      "filename": "precalculus-2e-id-ID-0.1.0-alpha.33-reader.1-source-core.zip",
-      "sha256": "d703fc8ae10686a88884a8fc4b0eb7283c2158d76c5b8b06d406e6cb13fae080"
+      "bytes": 44456049,
+      "filename": "precalculus-2e-id-ID-0.1.0-alpha.38-reader.1-source-core.zip",
+      "sha256": "6308e05bb21baf34a30c422b72eced19ff25e792df4d5ae6b6b2e1934b6789da"
     },
     {
-      "bytes": 42144025,
-      "filename": "precalculus-2e-id-ID-0.1.0-alpha.33-reader.1-backend-core.zip",
-      "sha256": "3099c3324e98c9ed4a1c9ed08d9599fde428a25c6150ef6e8d8097ad03b5f0a7"
+      "bytes": 47235855,
+      "filename": "precalculus-2e-id-ID-0.1.0-alpha.38-reader.1-backend-core.zip",
+      "sha256": "3eae7419a458e684d301d8a0a7813a145ce3fe3ebd793e8cbd1106b111535ef2"
     },
     {
-      "bytes": 1731,
+      "bytes": 1711,
       "filename": "LICENSE.txt",
-      "sha256": "7033cb0808cd4a03c87c64d056ca94dcc5ebd9ce42ed0a4998010e19beed0e5d"
+      "sha256": "440e2911ada9db79f9a3f20821d7a5c748c3290669afed4c787288bd8028e4fc"
     },
     {
-      "bytes": 1361,
+      "bytes": 1341,
       "filename": "README.txt",
-      "sha256": "f7ce1729800395b1121dae5c20f0f24eeac04fd4c3271135b5edff7a55b9d333"
+      "sha256": "79cf1a7eacf2e9801cde900535f3b4defb626b80249a99da22a5bcee92c682ed"
     }
   ],
   "license": {
     "component_rights": "composite; exact inventories included",
-    "quarantined_assets_omitted": 16,
+    "quarantined_assets_omitted": 18,
     "work": "CC BY-NC-SA 4.0"
   },
-  "observed_at": "2026-08-28T22:32:00+02:00",
+  "observed_at": "2026-08-29T13:15:00+02:00",
   "progress": {
-    "contiguous_through": "m49368",
-    "contiguous_title": "Mencocokkan Model Eksponensial dengan Data",
-    "next_module": "m49369",
-    "next_source_title": "Introduction to Trigonometric Functions",
-    "next_title": "Pengantar Fungsi Trigonometri",
+    "contiguous_through": "m49384",
+    "contiguous_title": "Trigonometri Segitiga Siku-Siku",
+    "next_module": "m49386",
+    "next_source_title": "Introduction to Periodic Functions",
+    "next_title": "Pengantar Fungsi Periodik",
     "total_modules": 87,
-    "translated_modules": 33
+    "translated_modules": 38
   },
   "provenance": {
     "requested_by": "the user",
@@ -80,8 +80,8 @@
     "translation_localization_assistance": "OpenAI Codex gpt-5.6-sol, Ultra"
   },
   "reader": {
-    "filename": "OpenStax-Precalculus-2e-id-ID-0.1.0-alpha.33-reader.pdf",
-    "pages": 1063,
+    "filename": "OpenStax-Precalculus-2e-id-ID-0.1.0-alpha.38-reader.pdf",
+    "pages": 1215,
     "primary_visible_file": true,
     "quarantined_binary_treatment": "clear omission placeholders"
   },
@@ -93,5 +93,5 @@
     "crc_inventory_member_bytes": "pass",
     "task_payload_limit_bytes": 500000000
   },
-  "version": "0.1.0-alpha.33-reader.1"
+  "version": "0.1.0-alpha.38-reader.1"
 }
