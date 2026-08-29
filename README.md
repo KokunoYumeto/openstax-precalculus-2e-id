@@ -22,12 +22,12 @@ are excluded from the target/publication.
 ## Current state
 
 <!-- CURRENT_RELEASE_BEGIN -->
-- Version: `0.1.0-alpha.38-reader.1`
-- Coverage: **38 of 87 modules**
-- Canonical prefix ends at: `m49384`
-- Next source module: `m49386`
-- Reader: **1,215 A4 pages**
-- Zenodo version: <https://zenodo.org/records/22160769>
+- Version: `0.1.0-alpha.49-reader.1`
+- Coverage: **49 of 87 modules**
+- Canonical prefix ends at: `m49399`
+- Next source module: `m49402`
+- Reader: **1,501 A4 pages**
+- Zenodo version: <https://zenodo.org/records/22163371>
 <!-- CURRENT_RELEASE_END -->
 
 The source closure and component-rights inventory are frozen, and an exact copy
@@ -36,25 +36,25 @@ rights gate passes for noncommercial translation under CC BY-NC-SA 4.0. Of the
 1,873 media assets, 1,835 are admitted and 38 remain quarantined until replaced,
 excluded, or independently cleared.
 
-The first 38 of 87 modules are translated contiguously and structurally verified,
-from the front matter (`m50919`) through Trigonometri Segitiga Siku-Siku
-(`m49384`). One hundred thirty-six baked-English, generated-data, or
+The first 49 of 87 modules are translated contiguously and structurally verified,
+from the front matter (`m50919`) through Pemodelan dengan Fungsi Trigonometri
+(`m49399`). One hundred forty-five baked-English, generated-data, or
 source-defective assets have deterministic Indonesian SVG derivatives. The modular
-backend contains 112,618 records and 36 deterministic exports; two consecutive
-builds were byte-identical. `m49386` is the next source-order module. No upstream
-author has been contacted. The current public checkpoint reader ends at `m49384`;
-it is 1,215 A4 pages and passed two byte-identical builds, complete logical PDF
-checks, restoration checks for all 28 root glossaries and 152 definitions, a
-complete 150-page Chapter 5 visual sweep, targeted original-detail review, and an
-independent P1/P2/P3-zero audit. It renders 865 admitted media references and
-explicit replacement panels for eighteen quarantined binaries.
+backend contains 135,714 records and 36 deterministic exports; two consecutive
+builds were byte-identical. `m49402` is the next source-order module. No upstream
+author has been contacted. The current public checkpoint reader ends at `m49399`;
+it is 1,501 A4 pages and passed two byte-identical builds, complete logical PDF
+checks, restoration checks for all 34 root glossaries and 174 definitions, a
+refined-range visual sweep, targeted original-detail review, and an independent
+P1/P2/P3-zero audit. It renders 1,054 admitted media references and uses clear
+omission placeholders for 25 quarantined binary references.
 
 Translation and localization were produced with tool/process assistance on the
 user's request. Model identification: OpenAI Codex gpt-5.6-sol, Ultra. This is
 a process disclosure, not an authorship credit; Jay Abramson, OpenStax, and the
 source's human contributors retain their existing credits.
 
-The recorded field-terminology policy is applied through `m49384`. Its QA inspected two downloaded arXiv source
+The recorded field-terminology policy is applied through `m49399`. Its QA inspected two downloaded arXiv source
 packages and rejected both because their actual TeX bodies are English. The
 edition therefore uses an Indonesian Universitas Jember calculus textbook and
 the official 2024 Kemdikbudristek advanced-mathematics textbook as its recorded
@@ -64,24 +64,24 @@ and propagation receipt are under `evidence/terminology/m49361/` and
 `qa/TERMINOLOGY_QA_20260824.json`, with the module-specific logarithm review in
 `qa/m49365/TERMINOLOGY_QA.json` and the final three-slot refinement recorded in
 `qa/m49368/TERMINOLOGY_REFINEMENT_ALPHA33_QA.json`; Chapter 5 language, asset,
-structural, reader, and independent evidence is bound by the alpha.38 QA receipts.
+structural, reader, and independent evidence is bound by the alpha.49 QA receipts.
 
 ## Preservation
 
 The current rights-gated reader checkpoint is version
-`0.1.0-alpha.38-reader.1`, preserved at <https://doi.org/10.5281/zenodo.22160769>.
-It has the 1,215-page PDF as its primary artifact and
+`0.1.0-alpha.49-reader.1`, preserved at <https://doi.org/10.5281/zenodo.22163371>.
+It has the 1,501-page PDF as its primary artifact and
 compact resumable CNXML source and modular backend packages alongside it. The
-release is explicitly incomplete. Eighteen quarantined binaries referenced inside
+release is explicitly incomplete. Twenty-five quarantined binary references in
 the translated prefix are omitted and identified by path and hash. All reader
 versions remain on Zenodo concept DOI <https://doi.org/10.5281/zenodo.22059757>;
 the exact version DOI and anonymous byte-readback are recorded in
-`qa/ZENODO_READER_0.1.0-alpha.38-reader.1_20260829T132000+0200.json` and the
+`qa/ZENODO_READER_0.1.0-alpha.49-reader.1_20260829T234500+0200.json` and the
 public release metadata. The identical seven-file payload is also preserved as
 GitHub prerelease
-<https://github.com/KokunoYumeto/openstax-precalculus-2e-id/releases/tag/v0.1.0-alpha.38-reader.1>;
+<https://github.com/KokunoYumeto/openstax-precalculus-2e-id/releases/tag/v0.1.0-alpha.49-reader.1>;
 its anonymous byte-readback is recorded in
-`qa/GITHUB_READER_0.1.0-alpha.38-reader.1_20260829T133000+0200.json`.
+`qa/GITHUB_READER_0.1.0-alpha.49-reader.1_20260830T000000+0200.json`.
 
 The intended Figshare metadata/link lineage is the requested public project
 <https://figshare.com/projects/Open_and_Share-Alike_Educational_Materials_Translations/280296>.
