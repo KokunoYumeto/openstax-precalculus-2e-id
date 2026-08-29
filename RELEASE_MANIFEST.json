@@ -1,21 +1,21 @@
 {
   "archives": [
     {
-      "bytes": 44456049,
-      "entry_count": 1034,
-      "filename": "precalculus-2e-id-ID-0.1.0-alpha.38-reader.1-source-core.zip",
-      "member_inventory_sha256": "ec8e5481d76fcfd32fe230c15f18bf13f4d6a546b8eee375eced609e8d79244f",
-      "sha256": "6308e05bb21baf34a30c422b72eced19ff25e792df4d5ae6b6b2e1934b6789da",
-      "uncompressed_bytes": 77745182,
+      "bytes": 54641166,
+      "entry_count": 1246,
+      "filename": "precalculus-2e-id-ID-0.1.0-alpha.49-reader.1-source-core.zip",
+      "member_inventory_sha256": "6d51295de9235749e4d5ce56b3bdce892690510bced7d7a725f9a4c87be53833",
+      "sha256": "b6abbf4463dd6d72fae59e1f4664653e1ea8d0c9487af33a4465cea3d389e7e0",
+      "uncompressed_bytes": 95255224,
       "verification": "zip_open_crc_inventory_member_bytes_pass"
     },
     {
-      "bytes": 47235855,
+      "bytes": 57423746,
       "entry_count": 32,
-      "filename": "precalculus-2e-id-ID-0.1.0-alpha.38-reader.1-backend-core.zip",
-      "member_inventory_sha256": "0211275e7e002c6ed4e00d7e5429b219dae9365eaab87a931c4bb9d97bf33fca",
-      "sha256": "3eae7419a458e684d301d8a0a7813a145ce3fe3ebd793e8cbd1106b111535ef2",
-      "uncompressed_bytes": 517938858,
+      "filename": "precalculus-2e-id-ID-0.1.0-alpha.49-reader.1-backend-core.zip",
+      "member_inventory_sha256": "3fe18f52104555879a4a4a87049fe871c691f8d7d6dfc043300374b492f746c5",
+      "sha256": "798f7b91e48346a561de282872479c3594bb9842f7339288efb1c01eac7e2228",
+      "uncompressed_bytes": 620554270,
       "verification": "zip_open_crc_inventory_member_bytes_pass"
     }
   ],
@@ -34,45 +34,45 @@
   },
   "files": [
     {
-      "bytes": 125792877,
-      "filename": "OpenStax-Precalculus-2e-id-ID-0.1.0-alpha.38-reader.pdf",
-      "sha256": "f99785ef6f1b5d1b14dbddb5d76d6630c12e6c6c10ba2df7f0637ca1a24a7948"
+      "bytes": 156488110,
+      "filename": "OpenStax-Precalculus-2e-id-ID-0.1.0-alpha.49-reader.pdf",
+      "sha256": "573f308fde20e170534ad7faa6d3fd4ce57a60f3af3b9c7929bae37140bc3698"
     },
     {
-      "bytes": 44456049,
-      "filename": "precalculus-2e-id-ID-0.1.0-alpha.38-reader.1-source-core.zip",
-      "sha256": "6308e05bb21baf34a30c422b72eced19ff25e792df4d5ae6b6b2e1934b6789da"
+      "bytes": 54641166,
+      "filename": "precalculus-2e-id-ID-0.1.0-alpha.49-reader.1-source-core.zip",
+      "sha256": "b6abbf4463dd6d72fae59e1f4664653e1ea8d0c9487af33a4465cea3d389e7e0"
     },
     {
-      "bytes": 47235855,
-      "filename": "precalculus-2e-id-ID-0.1.0-alpha.38-reader.1-backend-core.zip",
-      "sha256": "3eae7419a458e684d301d8a0a7813a145ce3fe3ebd793e8cbd1106b111535ef2"
+      "bytes": 57423746,
+      "filename": "precalculus-2e-id-ID-0.1.0-alpha.49-reader.1-backend-core.zip",
+      "sha256": "798f7b91e48346a561de282872479c3594bb9842f7339288efb1c01eac7e2228"
     },
     {
-      "bytes": 1711,
+      "bytes": 1750,
       "filename": "LICENSE.txt",
-      "sha256": "440e2911ada9db79f9a3f20821d7a5c748c3290669afed4c787288bd8028e4fc"
+      "sha256": "4b19572ab2f57f93de6e2af52504fd6a991b5aea322f9a50a24ed042cefb30a0"
     },
     {
-      "bytes": 1341,
+      "bytes": 1380,
       "filename": "README.txt",
-      "sha256": "79cf1a7eacf2e9801cde900535f3b4defb626b80249a99da22a5bcee92c682ed"
+      "sha256": "f660b15ce886e8bde8b65319a42a0929591a6b9df0bfd66afd0abc399a8318c3"
     }
   ],
   "license": {
     "component_rights": "composite; exact inventories included",
-    "quarantined_assets_omitted": 18,
+    "quarantined_assets_omitted": 25,
     "work": "CC BY-NC-SA 4.0"
   },
-  "observed_at": "2026-08-29T13:15:00+02:00",
+  "observed_at": "2026-08-29T16:30:00+02:00",
   "progress": {
-    "contiguous_through": "m49384",
-    "contiguous_title": "Trigonometri Segitiga Siku-Siku",
-    "next_module": "m49386",
-    "next_source_title": "Introduction to Periodic Functions",
-    "next_title": "Pengantar Fungsi Periodik",
+    "contiguous_through": "m49399",
+    "contiguous_title": "Pemodelan dengan Fungsi Trigonometri",
+    "next_module": "m49402",
+    "next_source_title": "Introduction to Further Applications of Trigonometry",
+    "next_title": "Pengantar Penerapan Lanjutan Trigonometri",
     "total_modules": 87,
-    "translated_modules": 38
+    "translated_modules": 49
   },
   "provenance": {
     "requested_by": "the user",
@@ -80,8 +80,8 @@
     "translation_localization_assistance": "OpenAI Codex gpt-5.6-sol, Ultra"
   },
   "reader": {
-    "filename": "OpenStax-Precalculus-2e-id-ID-0.1.0-alpha.38-reader.pdf",
-    "pages": 1215,
+    "filename": "OpenStax-Precalculus-2e-id-ID-0.1.0-alpha.49-reader.pdf",
+    "pages": 1501,
     "primary_visible_file": true,
     "quarantined_binary_treatment": "clear omission placeholders"
   },
@@ -93,5 +93,5 @@
     "crc_inventory_member_bytes": "pass",
     "task_payload_limit_bytes": 500000000
   },
-  "version": "0.1.0-alpha.38-reader.1"
+  "version": "0.1.0-alpha.49-reader.1"
 }
