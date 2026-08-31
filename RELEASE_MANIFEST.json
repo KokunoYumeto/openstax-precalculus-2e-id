@@ -1,21 +1,21 @@
 {
   "archives": [
     {
-      "bytes": 69355910,
-      "entry_count": 1494,
-      "filename": "precalculus-2e-id-ID-0.1.0-alpha.58-reader.1-source-core.zip",
-      "member_inventory_sha256": "3e386bb0b245169eefd67229a1326280e824c84a2afb03f00a99d6071115dae9",
-      "sha256": "9f8ba5e44bd4d4794c559de85a5449f3b4bd279d153801b94f3d39a471f5a0ca",
-      "uncompressed_bytes": 126459783,
+      "bytes": 74521202,
+      "entry_count": 1657,
+      "filename": "precalculus-2e-id-ID-0.1.0-alpha.67-reader.1-source-core.zip",
+      "member_inventory_sha256": "14d3119f5bb4f1e851ba7f7f13a5dd484cee499fbf2ae429e7ca1a670f681d3b",
+      "sha256": "0ed4c1997c0347ed17fa0ebf36f90a2f7eb321ead608b86285076e9f32334845",
+      "uncompressed_bytes": 137669143,
       "verification": "zip_open_crc_inventory_member_size_sha256_pass"
     },
     {
-      "bytes": 66512598,
-      "entry_count": 39,
-      "filename": "precalculus-2e-id-ID-0.1.0-alpha.58-reader.1-backend-core.zip",
-      "member_inventory_sha256": "554f018f3eaed621e46950e3be0f0d5ee45549c2c9f000d78cbab6f18b46eeca",
-      "sha256": "a35ad1736b2c5705cee7f0e16604196af92b310ad44c32b584fcd7c709a180e9",
-      "uncompressed_bytes": 713315390,
+      "bytes": 75074717,
+      "entry_count": 47,
+      "filename": "precalculus-2e-id-ID-0.1.0-alpha.67-reader.1-backend-core.zip",
+      "member_inventory_sha256": "a9ad6a895c1cc0a9d9af3e35faa00150ff11f0d3fd96d9d98c14dc172f87506f",
+      "sha256": "d109ee3a1fac0868f000fd86a4f3aea4d77f414f4697f9ca7c2855c5b13e4e4f",
+      "uncompressed_bytes": 795276467,
       "verification": "zip_open_crc_inventory_member_size_sha256_pass"
     }
   ],
@@ -33,29 +33,29 @@
   },
   "files": [
     {
-      "bytes": 189153135,
-      "filename": "OpenStax-Precalculus-2e-id-ID-0.1.0-alpha.58-reader.pdf",
-      "sha256": "7230e258fd7779c1073383fa1a66c5e89cb4df5fd82c6d8d50d2399bc5e616ed"
+      "bytes": 208753713,
+      "filename": "OpenStax-Precalculus-2e-id-ID-0.1.0-alpha.67-reader.pdf",
+      "sha256": "afbf64d4acd37e70cc1d468fcb6b79ee10fd6ff367b9fa79a9862fb5ec7c2dff"
     },
     {
-      "bytes": 69355910,
-      "filename": "precalculus-2e-id-ID-0.1.0-alpha.58-reader.1-source-core.zip",
-      "sha256": "9f8ba5e44bd4d4794c559de85a5449f3b4bd279d153801b94f3d39a471f5a0ca"
+      "bytes": 74521202,
+      "filename": "precalculus-2e-id-ID-0.1.0-alpha.67-reader.1-source-core.zip",
+      "sha256": "0ed4c1997c0347ed17fa0ebf36f90a2f7eb321ead608b86285076e9f32334845"
     },
     {
-      "bytes": 66512598,
-      "filename": "precalculus-2e-id-ID-0.1.0-alpha.58-reader.1-backend-core.zip",
-      "sha256": "a35ad1736b2c5705cee7f0e16604196af92b310ad44c32b584fcd7c709a180e9"
+      "bytes": 75074717,
+      "filename": "precalculus-2e-id-ID-0.1.0-alpha.67-reader.1-backend-core.zip",
+      "sha256": "d109ee3a1fac0868f000fd86a4f3aea4d77f414f4697f9ca7c2855c5b13e4e4f"
     },
     {
-      "bytes": 1725,
+      "bytes": 1722,
       "filename": "LICENSE.txt",
-      "sha256": "b8d4823d420283ad4e9e303f49eebdbf64fbc1d9a2e2fee97030a95ab2a243a3"
+      "sha256": "643136a7e960af864c63515cae2d405731a79a202a4c3681d56a422bb9b4ac2c"
     },
     {
-      "bytes": 1355,
+      "bytes": 1352,
       "filename": "README.txt",
-      "sha256": "efe1fc6ac3b99775288e3eaeb697840f819b0472c281fe65c167d96bac72cbd1"
+      "sha256": "fbee01941f9c28c77c5e44e310f007987ef83590cbf6e2b9db0bd4dfd5e42e19"
     }
   ],
   "license": {
@@ -63,15 +63,15 @@
     "quarantined_assets_omitted": 28,
     "work": "CC BY-NC-SA 4.0"
   },
-  "observed_at": "2026-08-29T22:30:00Z",
+  "observed_at": "2026-08-31T02:33:57Z",
   "progress": {
-    "contiguous_through": "m49412",
-    "contiguous_title": "Vektor",
-    "next_module": "m49418",
-    "next_source_title": "Introduction to Systems of Equations and Inequalities",
-    "next_title": "Pengantar Sistem Persamaan dan Pertidaksamaan",
+    "contiguous_through": "m49436",
+    "contiguous_title": "Menyelesaikan Sistem dengan Aturan Cramer",
+    "next_module": "m49437",
+    "next_source_title": "Introduction to Analytic Geometry",
+    "next_title": "Pengantar Geometri Analitik",
     "total_modules": 87,
-    "translated_modules": 58
+    "translated_modules": 67
   },
   "provenance": {
     "requested_by": "the user",
@@ -79,18 +79,18 @@
     "translation_localization_assistance": "OpenAI Codex gpt-5.6-sol, Ultra"
   },
   "reader": {
-    "filename": "OpenStax-Precalculus-2e-id-ID-0.1.0-alpha.58-reader.pdf",
-    "pages": 1779,
+    "filename": "OpenStax-Precalculus-2e-id-ID-0.1.0-alpha.67-reader.pdf",
+    "pages": 2031,
     "primary_visible_file": true,
     "quarantined_binary_treatment": "clear omission placeholders"
   },
   "schema": "openstax-precalculus-2e-reader-release",
   "schema_version": "0.1.0",
-  "status": "partial_checkpoint_58_of_87",
+  "status": "partial_checkpoint_67_of_87",
   "verification": {
     "archives_reopened": true,
     "crc_inventory_member_bytes": "pass",
     "task_payload_limit_bytes": 500000000
   },
-  "version": "0.1.0-alpha.58-reader.1"
+  "version": "0.1.0-alpha.67-reader.1"
 }
