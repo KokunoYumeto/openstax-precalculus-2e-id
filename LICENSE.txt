@@ -1,10 +1,10 @@
 OpenStax Precalculus 2e - edisi parsial Bahasa Indonesia
 
 STATUS
-Edisi ini belum lengkap. Cakupan saat ini adalah 58 dari 87
-modul dalam urutan sumber, melalui m49412 (Vektor).
-Modul berikutnya adalah m49418 (Pengantar Sistem Persamaan dan Pertidaksamaan; Introduction to Systems of Equations and Inequalities). Pembaca PDF
-ini berjumlah 1779 halaman A4.
+Edisi ini belum lengkap. Cakupan saat ini adalah 67 dari 87
+modul dalam urutan sumber, melalui m49436 (Menyelesaikan Sistem dengan Aturan Cramer).
+Modul berikutnya adalah m49437 (Pengantar Geometri Analitik; Introduction to Analytic Geometry). Pembaca PDF
+ini berjumlah 2031 halaman A4.
 
 LISENSI KARYA DAN ADAPTASI
 Teks buku sumber dan adaptasi/terjemahan ini dilisensikan berdasarkan Creative
