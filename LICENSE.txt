@@ -1,10 +1,7 @@
-OpenStax Precalculus 2e - edisi parsial Bahasa Indonesia
+OpenStax Precalculus 2e - edisi lengkap Bahasa Indonesia
 
 STATUS
-Edisi ini belum lengkap. Cakupan saat ini adalah 67 dari 87
-modul dalam urutan sumber, melalui m49436 (Menyelesaikan Sistem dengan Aturan Cramer).
-Modul berikutnya adalah m49437 (Pengantar Geometri Analitik; Introduction to Analytic Geometry). Pembaca PDF
-ini berjumlah 2031 halaman A4.
+Edisi ini lengkap: seluruh 87 modul dalam urutan sumber, melalui m50414. Pembaca PDF ini berjumlah 3165 halaman A4.
 
 LISENSI KARYA DAN ADAPTASI
 Teks buku sumber dan adaptasi/terjemahan ini dilisensikan berdasarkan Creative
@@ -16,7 +13,7 @@ Sumber: OpenStax, Precalculus 2e, oleh Jay Abramson.
 https://openstax.org/details/books/precalculus-2e
 
 Perubahan: terjemahan ke Bahasa Indonesia, pelokalan aksesibilitas dan gambar,
-penyusunan ulang teknis untuk pembaca parsial, serta koreksi terbatas yang
+penyusunan ulang teknis untuk pembaca lengkap, serta koreksi terbatas yang
 dicatat. Adaptasi tidak resmi ini dibuat dengan bantuan OpenAI Codex gpt-5.6-sol, Ultra,
 sebagai alat dalam proses atas permintaan pengguna. Ini adalah
 pengungkapan alat/proses, bukan kredit kepengarangan; kredit Jay Abramson,
