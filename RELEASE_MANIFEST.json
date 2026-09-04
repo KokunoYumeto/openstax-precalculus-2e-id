@@ -1,21 +1,34 @@
 {
   "archives": [
     {
-      "bytes": 74521202,
-      "entry_count": 1657,
-      "filename": "precalculus-2e-id-ID-0.1.0-alpha.67-reader.1-source-core.zip",
-      "member_inventory_sha256": "14d3119f5bb4f1e851ba7f7f13a5dd484cee499fbf2ae429e7ca1a670f681d3b",
-      "sha256": "0ed4c1997c0347ed17fa0ebf36f90a2f7eb321ead608b86285076e9f32334845",
-      "uncompressed_bytes": 137669143,
+      "bytes": 96797004,
+      "compaction": {
+        "authority_module_witnesses_externalized": 87,
+        "canonical_media": 1846,
+        "canonical_modules": 87,
+        "schema": "openstax-precalculus-2e-id-final-source-compaction/v1"
+      },
+      "entry_count": 2089,
+      "filename": "precalculus-2e-id-ID-1.0.0-source-core.zip",
+      "member_inventory_sha256": "6da533d100ebac5bc8af5c41e7db3a7d4965d9bc91b9bbae139e3b8f3f3f75a3",
+      "sha256": "04d364ad89005a13999ea27c1398e043ac56886af88d9a7add70aee3ae0d6126",
+      "uncompressed_bytes": 193466861,
       "verification": "zip_open_crc_inventory_member_size_sha256_pass"
     },
     {
-      "bytes": 75074717,
-      "entry_count": 47,
-      "filename": "precalculus-2e-id-ID-0.1.0-alpha.67-reader.1-backend-core.zip",
-      "member_inventory_sha256": "a9ad6a895c1cc0a9d9af3e35faa00150ff11f0d3fd96d9d98c14dc172f87506f",
-      "sha256": "d109ee3a1fac0868f000fd86a4f3aea4d77f414f4697f9ca7c2855c5b13e4e4f",
-      "uncompressed_bytes": 795276467,
+      "bytes": 97424500,
+      "compaction": {
+        "duplicate_members_omitted": 140,
+        "duplicate_uncompressed_bytes_omitted": 21772257,
+        "replay_bound_backend_outputs_retained": 14,
+        "schema": "openstax-precalculus-2e-id-final-source-compaction/v1",
+        "source_companion_required": true
+      },
+      "entry_count": 15,
+      "filename": "precalculus-2e-id-ID-1.0.0-backend-core.zip",
+      "member_inventory_sha256": "8aa2edcd89092afd14f78aa98870dbe34eda1236cd6d85daceaf42f5d4f76901",
+      "sha256": "7c0d63a13a0cd3246fdb58a5faabd3f4f75e2f37a005581ff8ff97d14329fa91",
+      "uncompressed_bytes": 1014685637,
       "verification": "zip_open_crc_inventory_member_size_sha256_pass"
     }
   ],
@@ -24,38 +37,37 @@
     "commit": "789b54099106b071d1d32bfcee454fed72eb4768",
     "tree": "05b39123f698772482c0c33a43fa2d2d4ea562ae"
   },
-  "complete_edition": false,
+  "complete_edition": true,
   "distribution": {
-    "figshare_collection_doi": "10.6084/m9.figshare.c.8668413.v1",
     "github_repository": "https://github.com/KokunoYumeto/openstax-precalculus-2e-id",
     "transaction_receipts": "published separately after anonymous byte readback",
     "zenodo_concept_doi": "10.5281/zenodo.22059757"
   },
   "files": [
     {
-      "bytes": 208753713,
-      "filename": "OpenStax-Precalculus-2e-id-ID-0.1.0-alpha.67-reader.pdf",
-      "sha256": "afbf64d4acd37e70cc1d468fcb6b79ee10fd6ff367b9fa79a9862fb5ec7c2dff"
+      "bytes": 305654938,
+      "filename": "OpenStax-Precalculus-2e-id-ID-1.0.0-reader.pdf",
+      "sha256": "3cfd5294b91252cc766992f158b6601e80aa31b719b0b8bf69e1ff6d08a4fa3e"
     },
     {
-      "bytes": 74521202,
-      "filename": "precalculus-2e-id-ID-0.1.0-alpha.67-reader.1-source-core.zip",
-      "sha256": "0ed4c1997c0347ed17fa0ebf36f90a2f7eb321ead608b86285076e9f32334845"
+      "bytes": 96797004,
+      "filename": "precalculus-2e-id-ID-1.0.0-source-core.zip",
+      "sha256": "04d364ad89005a13999ea27c1398e043ac56886af88d9a7add70aee3ae0d6126"
     },
     {
-      "bytes": 75074717,
-      "filename": "precalculus-2e-id-ID-0.1.0-alpha.67-reader.1-backend-core.zip",
-      "sha256": "d109ee3a1fac0868f000fd86a4f3aea4d77f414f4697f9ca7c2855c5b13e4e4f"
+      "bytes": 97424500,
+      "filename": "precalculus-2e-id-ID-1.0.0-backend-core.zip",
+      "sha256": "7c0d63a13a0cd3246fdb58a5faabd3f4f75e2f37a005581ff8ff97d14329fa91"
     },
     {
-      "bytes": 1722,
+      "bytes": 1551,
       "filename": "LICENSE.txt",
-      "sha256": "643136a7e960af864c63515cae2d405731a79a202a4c3681d56a422bb9b4ac2c"
+      "sha256": "8d7c3c9767995f187c79022c4463686f4b7f5a27c0d3d187e5f3f4de5256654a"
     },
     {
-      "bytes": 1352,
+      "bytes": 1833,
       "filename": "README.txt",
-      "sha256": "fbee01941f9c28c77c5e44e310f007987ef83590cbf6e2b9db0bd4dfd5e42e19"
+      "sha256": "7e76cc9e36a66b336d84c4ea3a458a289612b946fb688c45b8bee2d52a015b87"
     }
   ],
   "license": {
@@ -63,15 +75,12 @@
     "quarantined_assets_omitted": 28,
     "work": "CC BY-NC-SA 4.0"
   },
-  "observed_at": "2026-08-31T02:33:57Z",
+  "observed_at": "2026-09-04T01:18:10Z",
   "progress": {
-    "contiguous_through": "m49436",
-    "contiguous_title": "Menyelesaikan Sistem dengan Aturan Cramer",
-    "next_module": "m49437",
-    "next_source_title": "Introduction to Analytic Geometry",
-    "next_title": "Pengantar Geometri Analitik",
+    "contiguous_through": "m50414",
+    "next_module": null,
     "total_modules": 87,
-    "translated_modules": 67
+    "translated_modules": 87
   },
   "provenance": {
     "requested_by": "the user",
@@ -79,18 +88,30 @@
     "translation_localization_assistance": "OpenAI Codex gpt-5.6-sol, Ultra"
   },
   "reader": {
-    "filename": "OpenStax-Precalculus-2e-id-ID-0.1.0-alpha.67-reader.pdf",
-    "pages": 2031,
+    "filename": "OpenStax-Precalculus-2e-id-ID-1.0.0-reader.pdf",
+    "pages": 3165,
     "primary_visible_file": true,
     "quarantined_binary_treatment": "clear omission placeholders"
   },
   "schema": "openstax-precalculus-2e-reader-release",
-  "schema_version": "0.1.0",
-  "status": "partial_checkpoint_67_of_87",
+  "schema_version": "0.2.0",
+  "status": "complete",
   "verification": {
     "archives_reopened": true,
+    "backend_archive_safety": {
+      "archive_members": 155,
+      "credential_or_private_path_hits": 0,
+      "text_members_checked": 146
+    },
     "crc_inventory_member_bytes": "pass",
+    "external_backend_witnesses_required": 2275,
+    "source_archive_safety": {
+      "archive_members": 2089,
+      "credential_or_private_path_hits": 0,
+      "text_members_checked": 523
+    },
+    "standalone_full_raw_backend_replay_claimed": false,
     "task_payload_limit_bytes": 500000000
   },
-  "version": "0.1.0-alpha.67-reader.1"
+  "version": "1.0.0"
 }
